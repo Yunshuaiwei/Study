@@ -19,7 +19,12 @@ import java.util.Date;
  * 二、集合框架
  *     Collection接口：单列集合，用来存储一个一个的对象
  *           list接口：存储有序的、可重复的数据
- *                    ArrayList、LinkedList、Vector
+ *              三个具体实现类：
+ *                    ArrayList：作为List接口的主要实现类，线程不安全的，效率高，底层使用Object[]数组存储
+ *                    LinkedList：对于频繁插入、删除操作，使用此类效率比ArrayList高，底层使用双向链表存储，
+ *                    Vector：作为List接口的古老实现类，效率高；底层使用Object[]数组存储
+ *                    相同点：三个类都实现了List接口，存储数据特点相同
+ *                    不同点：
  *            Set接口：存储有序的、不可重复的数据
  *                    HashSet、LinkedHashSet、TreeSet
  *            Map接口：双列集合，用来存储一对（key----value）一对数据
@@ -58,7 +63,7 @@ public class Set {
         System.out.println(coll.contains("Tom"));
         //Collection接口的实现类的对象中添加数据obj时，要求obj所在类要重写equals（）。
         System.out.println(coll.contains(new Person("Ysw",18)));
-        System.out.println("***********************************");
+        System.out.println("--------------------------------------------");
         //containsAll(Collection coll1):判断形参coll1中的所有元素是否都存在于当前集合当中
         System.out.println(coll.containsAll(coll1));
         Collection coll2=Arrays.asList(123,3456);
@@ -87,13 +92,13 @@ public class Set {
         //retainAll(Collection coll2):交集：获取当前集合和coll集合的交集，并且返回给当前集合
         coll.retainAll(coll2);
         System.out.println(coll);
-        System.out.println("-----------------------------------");
+        System.out.println("----------------------------------------");
         //equals(Object obj):判断当前集合和形参集合元素是否相同；
         Collection coll3=Arrays.asList(123,456,78);
         System.out.println(coll2.equals(coll3));
         //hashCode():返回当前对象的哈希值
         System.out.println(coll.hashCode());
-        System.out.println("-----------------------------------");
+        System.out.println("----------------------------------------");
         //集合转换为数组   toArray()
         Object[] arr = coll3.toArray();
         for (int i = 0; i <arr.length ; i++) {
