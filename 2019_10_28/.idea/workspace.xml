@@ -43,11 +43,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IteratorTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IteratorTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IteratorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+            <state relative-caret-position="266">
+              <caret line="66" column="49" lean-forward="true" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="39" column="40" lean-forward="true" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,6 +86,7 @@
         <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/Set.java" />
         <option value="$PROJECT_DIR$/src/IteratorTest.java" />
+        <option value="$PROJECT_DIR$/src/ListTest.java" />
       </list>
     </option>
   </component>
@@ -87,10 +100,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1358" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="886" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -154,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IteratorTest.test2">
+  <component name="RunManager" selected="JUnit.ListTest.test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -192,14 +205,14 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Set" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="2019_10_28" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Set" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="ListTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -282,19 +295,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Set" />
       <item itemvalue="JUnit.Set.test" />
       <item itemvalue="JUnit.Set.test2" />
       <item itemvalue="JUnit.IteratorTest.test1" />
       <item itemvalue="JUnit.IteratorTest.test2" />
+      <item itemvalue="JUnit.ListTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ListTest.test" />
         <item itemvalue="JUnit.IteratorTest.test2" />
         <item itemvalue="JUnit.IteratorTest.test1" />
         <item itemvalue="JUnit.Set.test2" />
         <item itemvalue="JUnit.Set.test" />
-        <item itemvalue="JUnit.Set" />
       </list>
     </recent_temporary>
   </component>
@@ -308,29 +321,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572243736162</updated>
-      <workItem from="1572243739173" duration="18395000" />
+      <workItem from="1572243739173" duration="20564000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IteratorTest_test1 - 2019.10.28 at 16h 45m 24s.xml">
-      <configuration name="IteratorTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IteratorTest_test1 - 2019.10.28 at 16h 47m 31s.xml">
-      <configuration name="IteratorTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IteratorTest_test1 - 2019.10.28 at 16h 51m 47s.xml">
-      <configuration name="IteratorTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IteratorTest_test1 - 2019.10.28 at 16h 52m 56s.xml">
-      <configuration name="IteratorTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IteratorTest_test2 - 2019.10.28 at 17h 59m 22s.xml">
-      <configuration name="IteratorTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IteratorTest_test2 - 2019.10.28 at 18h 01m 48s.xml">
-      <configuration name="IteratorTest.test2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="IteratorTest_test2 - 2019.10.28 at 18h 02m 28s.xml">
       <configuration name="IteratorTest.test2" configurationId="JUnit" />
     </history-entry>
@@ -343,12 +338,30 @@
     <history-entry file="IteratorTest_test2 - 2019.10.28 at 18h 07m 48s.xml">
       <configuration name="IteratorTest.test2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ListTest_test - 2019.10.28 at 20h 49m 51s.xml">
+      <configuration name="ListTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ListTest_test - 2019.10.28 at 20h 53m 45s.xml">
+      <configuration name="ListTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ListTest_test - 2019.10.28 at 20h 55m 40s.xml">
+      <configuration name="ListTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ListTest_test - 2019.10.28 at 20h 55m 50s.xml">
+      <configuration name="ListTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ListTest_test - 2019.10.28 at 20h 56m 18s.xml">
+      <configuration name="ListTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ListTest_test - 2019.10.28 at 20h 58m 36s.xml">
+      <configuration name="ListTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18395000" />
+    <option name="totallyTimeSpent" value="20564000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1456" height="886" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -360,7 +373,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
@@ -421,6 +434,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="104" column="39" lean-forward="true" selection-start-line="104" selection-start-column="39" selection-end-line="104" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1256">
@@ -438,20 +461,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Set.java">
+    <entry file="file://$PROJECT_DIR$/src/IteratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="104" column="39" lean-forward="true" selection-start-line="104" selection-start-column="39" selection-end-line="104" selection-end-column="39" />
+        <state relative-caret-position="266">
+          <caret line="66" column="49" lean-forward="true" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IteratorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/ListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        <state relative-caret-position="243">
+          <caret line="39" column="40" lean-forward="true" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
