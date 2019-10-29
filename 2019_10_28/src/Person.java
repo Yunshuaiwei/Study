@@ -8,7 +8,7 @@ import java.util.Objects;
  * @Date 2019/10/28 15:41
  * @Version 1.0
  **/
-public class Person {
+public class Person implements Comparable{
     String name;
     int age;
 
@@ -45,9 +45,25 @@ public class Person {
                 Objects.equals(name, person.name);
     }
 
-//    @Override
-//    public int hashCode() {
-//
-//        return Objects.hash(name, age);
-//    }
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(name, age);
+    }
+    //按照姓名从大到小排列，年龄从小到大
+    @Override
+    public int compareTo(Object o) {
+        if(o instanceof Person){
+            Person person=(Person) o;
+//            return -this.name.compareTo(person.name);
+            int compare=-this.name.compareTo(person.name);
+            if(compare!=0){
+                return compare;
+            }else{
+                return Integer.compare(this.age,person.age);
+            }
+        }else{
+            throw new RuntimeException("输入的类型不匹配！");
+        }
+    }
 }
