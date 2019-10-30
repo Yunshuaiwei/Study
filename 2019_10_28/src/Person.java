@@ -24,8 +24,8 @@ public class Person implements Comparable{
         return name;
     }
 
-    public void setNaem(String naem) {
-        this.name = naem;
+    public void setNaem(String name) {
+        this.name = name;
     }
 
     public int getAge() {

@@ -13,23 +13,6 @@ import java.util.Date;
  * @Auther YunSW
  * @Date 2019/10/28 14:51
  * @Version 1.0
- * 一、集合框架概述
- *     集合、数组都是对多个数据进行存储操作的结构，简称Java容器
- *     说明：此时的存储，主要指的是内存层面的存储，不涉及到持久化的存储（.txt,.jpg,数据库中）
- * 二、集合框架
- *     Collection接口：单列集合，用来存储一个一个的对象
- *           list接口：存储有序的、可重复的数据
- *              三个具体实现类：
- *                    ArrayList：作为List接口的主要实现类，线程不安全的，效率高，底层使用Object[]数组存储
- *                    LinkedList：对于频繁插入、删除操作，使用此类效率比ArrayList高，底层使用双向链表存储，
- *                    Vector：作为List接口的古老实现类，效率高；底层使用Object[]数组存储
- *                    相同点：三个类都实现了List接口，存储数据特点相同
- *                    不同点：
- *            Set接口：存储有序的、不可重复的数据
- *                    HashSet、LinkedHashSet、TreeSet
- *            Map接口：双列集合，用来存储一对（key----value）一对数据
- *                    HashMap、LinkedHashMap、TreeMap、HashTable、Properties
- *
  **/
 public class Set {
     @Test
