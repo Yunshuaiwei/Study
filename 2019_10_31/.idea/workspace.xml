@@ -15,11 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FileReaderWriterTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/IOTest/FileReaderWriterTest.java">
+      <file leaf-file-name="BufferedTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IOTest/BufferedTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="120" column="17" selection-start-line="120" selection-start-column="17" selection-end-line="120" selection-end-column="17" />
+            <state relative-caret-position="-2010">
+              <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileInputOutputStreamTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/IOTest/FileInputOutputStreamTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,8 +53,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/IOTest/Hello" />
         <option value="$PROJECT_DIR$/src/IOTest/helloworld" />
+        <option value="$PROJECT_DIR$/src/FileInputOutputStreamTest.java" />
         <option value="$PROJECT_DIR$/hello" />
         <option value="$PROJECT_DIR$/src/IOTest/FileReaderWriterTest.java" />
+        <option value="$PROJECT_DIR$/src/IOTest/FileInputOutputStreamTest.java" />
+        <option value="$PROJECT_DIR$/src/IOTest/BufferedTest.java" />
       </list>
     </option>
   </component>
@@ -65,7 +80,33 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="2019_10_31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019_10_31" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019_10_31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019_10_31" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019_10_31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019_10_31" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="IOTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -74,6 +115,12 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\JavaCodeIDEA\Study\2019_10_31" />
+      <recent name="F:\JavaCodeIDEA\Study\2019_10_31\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -87,22 +134,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FileReaderWriterTest.testFileReaderWriter">
-    <configuration name="FileReaderWriterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IOTest.FileReaderWriterTest" />
-      <module name="2019_10_31" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="IOTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.BufferedTest.testBufferedReaderBufferedWriter2">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="FileReaderWriterTest.testFileReader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BufferedTest.BufferedStreamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="2019_10_31" />
       <extension name="coverage">
         <pattern>
@@ -113,8 +149,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="IOTest" />
-      <option name="MAIN_CLASS_NAME" value="IOTest.FileReaderWriterTest" />
-      <option name="METHOD_NAME" value="testFileReader" />
+      <option name="MAIN_CLASS_NAME" value="IOTest.BufferedTest" />
+      <option name="METHOD_NAME" value="BufferedStreamTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -125,7 +161,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FileReaderWriterTest.testFileReader1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BufferedTest.testBufferedReaderBufferedWriter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="2019_10_31" />
       <extension name="coverage">
         <pattern>
@@ -136,8 +172,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="IOTest" />
-      <option name="MAIN_CLASS_NAME" value="IOTest.FileReaderWriterTest" />
-      <option name="METHOD_NAME" value="testFileReader1" />
+      <option name="MAIN_CLASS_NAME" value="IOTest.BufferedTest" />
+      <option name="METHOD_NAME" value="testBufferedReaderBufferedWriter" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -148,7 +184,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FileReaderWriterTest.testFileReaderWriter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BufferedTest.testBufferedReaderBufferedWriter2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="2019_10_31" />
       <extension name="coverage">
         <pattern>
@@ -159,8 +195,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="IOTest" />
-      <option name="MAIN_CLASS_NAME" value="IOTest.FileReaderWriterTest" />
-      <option name="METHOD_NAME" value="testFileReaderWriter" />
+      <option name="MAIN_CLASS_NAME" value="IOTest.BufferedTest" />
+      <option name="METHOD_NAME" value="testBufferedReaderBufferedWriter2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -171,7 +207,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FileReaderWriterTest.testFileWriter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FileInputOutputStreamTest.teatFileInputStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="2019_10_31" />
       <extension name="coverage">
         <pattern>
@@ -182,8 +218,31 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="IOTest" />
-      <option name="MAIN_CLASS_NAME" value="IOTest.FileReaderWriterTest" />
-      <option name="METHOD_NAME" value="testFileWriter" />
+      <option name="MAIN_CLASS_NAME" value="IOTest.FileInputOutputStreamTest" />
+      <option name="METHOD_NAME" value="teatFileInputStream" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="FileInputOutputStreamTest.testFileInputOutputStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2019_10_31" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IOTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="IOTest" />
+      <option name="MAIN_CLASS_NAME" value="IOTest.FileInputOutputStreamTest" />
+      <option name="METHOD_NAME" value="testFileInputOutputStream" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -233,19 +292,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.FileReaderWriterTest" />
-      <item itemvalue="JUnit.FileReaderWriterTest.testFileReader" />
-      <item itemvalue="JUnit.FileReaderWriterTest.testFileReader1" />
-      <item itemvalue="JUnit.FileReaderWriterTest.testFileWriter" />
-      <item itemvalue="JUnit.FileReaderWriterTest.testFileReaderWriter" />
+      <item itemvalue="JUnit.FileInputOutputStreamTest.teatFileInputStream" />
+      <item itemvalue="JUnit.FileInputOutputStreamTest.testFileInputOutputStream" />
+      <item itemvalue="JUnit.BufferedTest.BufferedStreamTest" />
+      <item itemvalue="JUnit.BufferedTest.testBufferedReaderBufferedWriter" />
+      <item itemvalue="JUnit.BufferedTest.testBufferedReaderBufferedWriter2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FileReaderWriterTest.testFileReaderWriter" />
-        <item itemvalue="JUnit.FileReaderWriterTest.testFileWriter" />
-        <item itemvalue="JUnit.FileReaderWriterTest.testFileReader1" />
-        <item itemvalue="JUnit.FileReaderWriterTest.testFileReader" />
-        <item itemvalue="Application.FileReaderWriterTest" />
+        <item itemvalue="JUnit.BufferedTest.testBufferedReaderBufferedWriter2" />
+        <item itemvalue="JUnit.BufferedTest.testBufferedReaderBufferedWriter" />
+        <item itemvalue="JUnit.BufferedTest.BufferedStreamTest" />
+        <item itemvalue="JUnit.FileInputOutputStreamTest.testFileInputOutputStream" />
+        <item itemvalue="JUnit.FileInputOutputStreamTest.teatFileInputStream" />
       </list>
     </recent_temporary>
   </component>
@@ -263,50 +322,51 @@
       <workItem from="1572494631243" duration="2988000" />
       <workItem from="1572508942018" duration="6573000" />
       <workItem from="1572515577755" duration="10000" />
+      <workItem from="1572575919678" duration="11817000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FileReaderWriterTest_testFileReader1 - 2019.10.31 at 16h 28m 07s.xml">
-      <configuration name="FileReaderWriterTest.testFileReader1" configurationId="JUnit" />
+    <history-entry file="FileInputOutputStreamTest_testFileInputOutputStream - 2019.11.01 at 11h 22m 00s.xml">
+      <configuration name="FileInputOutputStreamTest.testFileInputOutputStream" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FileReaderWriterTest_testFileReader1 - 2019.10.31 at 16h 32m 13s.xml">
-      <configuration name="FileReaderWriterTest.testFileReader1" configurationId="JUnit" />
+    <history-entry file="FileInputOutputStreamTest_testFileInputOutputStream - 2019.11.01 at 11h 22m 34s.xml">
+      <configuration name="FileInputOutputStreamTest.testFileInputOutputStream" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FileReaderWriterTest_testFileReader1 - 2019.10.31 at 16h 32m 26s.xml">
-      <configuration name="FileReaderWriterTest.testFileReader1" configurationId="JUnit" />
+    <history-entry file="FileInputOutputStreamTest_testFileInputOutputStream - 2019.11.01 at 11h 31m 48s.xml">
+      <configuration name="FileInputOutputStreamTest.testFileInputOutputStream" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FileReaderWriterTest_testFileReader1 - 2019.10.31 at 16h 33m 27s.xml">
-      <configuration name="FileReaderWriterTest.testFileReader1" configurationId="JUnit" />
+    <history-entry file="BufferedTest_BufferedStreamTest - 2019.11.01 at 13h 17m 00s.xml">
+      <configuration name="BufferedTest.BufferedStreamTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FileReaderWriterTest_testFileWriter - 2019.10.31 at 16h 55m 01s.xml">
-      <configuration name="FileReaderWriterTest.testFileWriter" configurationId="JUnit" />
+    <history-entry file="BufferedTest_BufferedStreamTest - 2019.11.01 at 13h 21m 34s.xml">
+      <configuration name="BufferedTest.BufferedStreamTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FileReaderWriterTest_testFileWriter - 2019.10.31 at 16h 55m 37s.xml">
-      <configuration name="FileReaderWriterTest.testFileWriter" configurationId="JUnit" />
+    <history-entry file="BufferedTest_BufferedStreamTest - 2019.11.01 at 13h 21m 59s.xml">
+      <configuration name="BufferedTest.BufferedStreamTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FileReaderWriterTest_testFileReaderWriter - 2019.10.31 at 17h 39m 24s.xml">
-      <configuration name="FileReaderWriterTest.testFileReaderWriter" configurationId="JUnit" />
+    <history-entry file="BufferedTest_BufferedStreamTest - 2019.11.01 at 13h 22m 33s.xml">
+      <configuration name="BufferedTest.BufferedStreamTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FileReaderWriterTest_testFileReaderWriter - 2019.10.31 at 17h 39m 58s.xml">
-      <configuration name="FileReaderWriterTest.testFileReaderWriter" configurationId="JUnit" />
+    <history-entry file="BufferedTest_testBufferedReaderBufferedWriter - 2019.11.01 at 13h 53m 53s.xml">
+      <configuration name="BufferedTest.testBufferedReaderBufferedWriter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FileReaderWriterTest_testFileReaderWriter - 2019.10.31 at 17h 41m 10s.xml">
-      <configuration name="FileReaderWriterTest.testFileReaderWriter" configurationId="JUnit" />
+    <history-entry file="BufferedTest_testBufferedReaderBufferedWriter - 2019.11.01 at 13h 54m 14s.xml">
+      <configuration name="BufferedTest.testBufferedReaderBufferedWriter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FileReaderWriterTest_testFileReaderWriter - 2019.10.31 at 17h 42m 03s.xml">
-      <configuration name="FileReaderWriterTest.testFileReaderWriter" configurationId="JUnit" />
+    <history-entry file="BufferedTest_testBufferedReaderBufferedWriter2 - 2019.11.01 at 13h 59m 38s.xml">
+      <configuration name="BufferedTest.testBufferedReaderBufferedWriter2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11764000" />
+    <option name="totallyTimeSpent" value="23581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32954547" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -318,8 +378,9 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878934" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.25340393" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
       <window_info id="Structure" order="1" sideWeight="0.50121063" side_tool="true" weight="0.24962178" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -331,8 +392,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32954547" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,6 +401,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/IOTest/FileReaderWriterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3600">
+          <caret line="120" column="17" selection-start-line="120" selection-start-column="17" selection-end-line="120" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/IOTest/FileReaderWriterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3600">
@@ -406,15 +475,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/helloworld" />
+    <entry file="file://$PROJECT_DIR$/src/1000610.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/2019_10_31.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/1000610.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/helloworld">
       <provider selected="true" editor-type-id="text-editor">
@@ -426,10 +500,43 @@
     <entry file="file://$PROJECT_DIR$/hello1">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/hello">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello2">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/IOTest/FileReaderWriterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="120" column="17" selection-start-line="120" selection-start-column="17" selection-end-line="120" selection-end-column="17" />
+        <state relative-caret-position="446">
+          <caret line="148" column="29" lean-forward="true" selection-start-line="148" selection-start-column="29" selection-end-line="148" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello3">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IOTest/BufferedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2010">
+          <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IOTest/FileInputOutputStreamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
