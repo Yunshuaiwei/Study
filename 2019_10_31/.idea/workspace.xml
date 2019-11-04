@@ -15,25 +15,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BufferedTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IOTest/BufferedTest.java">
+      <file leaf-file-name="OtherSreamTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/IOTest/OtherSreamTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2010">
-              <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+            <state relative-caret-position="-4">
+              <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileInputOutputStreamTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/IOTest/FileInputOutputStreamTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,6 +48,9 @@
         <option value="$PROJECT_DIR$/src/IOTest/FileReaderWriterTest.java" />
         <option value="$PROJECT_DIR$/src/IOTest/FileInputOutputStreamTest.java" />
         <option value="$PROJECT_DIR$/src/IOTest/BufferedTest.java" />
+        <option value="$PROJECT_DIR$/src/IOTest/InputStreamReader.java" />
+        <option value="$PROJECT_DIR$/src/IOTest/InputStreamReaderTest.java" />
+        <option value="$PROJECT_DIR$/src/IOTest/OtherSreamTest.java" />
       </list>
     </option>
   </component>
@@ -81,9 +74,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,6 +96,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -134,55 +127,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BufferedTest.testBufferedReaderBufferedWriter2">
+  <component name="RunManager" selected="Application.OtherSreamTest">
+    <configuration name="OtherSreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IOTest.OtherSreamTest" />
+      <module name="2019_10_31" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IOTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="BufferedTest.BufferedStreamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="2019_10_31" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="IOTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="IOTest" />
-      <option name="MAIN_CLASS_NAME" value="IOTest.BufferedTest" />
-      <option name="METHOD_NAME" value="BufferedStreamTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="BufferedTest.testBufferedReaderBufferedWriter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="2019_10_31" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="IOTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="IOTest" />
-      <option name="MAIN_CLASS_NAME" value="IOTest.BufferedTest" />
-      <option name="METHOD_NAME" value="testBufferedReaderBufferedWriter" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="BufferedTest.testBufferedReaderBufferedWriter2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="2019_10_31" />
@@ -207,7 +165,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FileInputOutputStreamTest.teatFileInputStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InputStreamReaderTest.teat2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="2019_10_31" />
       <extension name="coverage">
         <pattern>
@@ -218,8 +176,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="IOTest" />
-      <option name="MAIN_CLASS_NAME" value="IOTest.FileInputOutputStreamTest" />
-      <option name="METHOD_NAME" value="teatFileInputStream" />
+      <option name="MAIN_CLASS_NAME" value="IOTest.InputStreamReaderTest" />
+      <option name="METHOD_NAME" value="teat2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -230,7 +188,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FileInputOutputStreamTest.testFileInputOutputStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InputStreamReaderTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="2019_10_31" />
       <extension name="coverage">
         <pattern>
@@ -241,8 +199,31 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="IOTest" />
-      <option name="MAIN_CLASS_NAME" value="IOTest.FileInputOutputStreamTest" />
-      <option name="METHOD_NAME" value="testFileInputOutputStream" />
+      <option name="MAIN_CLASS_NAME" value="IOTest.InputStreamReaderTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="OtherSreamTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2019_10_31" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IOTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="IOTest" />
+      <option name="MAIN_CLASS_NAME" value="IOTest.OtherSreamTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -292,19 +273,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.FileInputOutputStreamTest.teatFileInputStream" />
-      <item itemvalue="JUnit.FileInputOutputStreamTest.testFileInputOutputStream" />
-      <item itemvalue="JUnit.BufferedTest.BufferedStreamTest" />
-      <item itemvalue="JUnit.BufferedTest.testBufferedReaderBufferedWriter" />
       <item itemvalue="JUnit.BufferedTest.testBufferedReaderBufferedWriter2" />
+      <item itemvalue="JUnit.InputStreamReaderTest.test1" />
+      <item itemvalue="JUnit.InputStreamReaderTest.teat2" />
+      <item itemvalue="JUnit.OtherSreamTest.test1" />
+      <item itemvalue="Application.OtherSreamTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OtherSreamTest" />
+        <item itemvalue="JUnit.OtherSreamTest.test1" />
+        <item itemvalue="JUnit.InputStreamReaderTest.teat2" />
+        <item itemvalue="JUnit.InputStreamReaderTest.test1" />
         <item itemvalue="JUnit.BufferedTest.testBufferedReaderBufferedWriter2" />
-        <item itemvalue="JUnit.BufferedTest.testBufferedReaderBufferedWriter" />
-        <item itemvalue="JUnit.BufferedTest.BufferedStreamTest" />
-        <item itemvalue="JUnit.FileInputOutputStreamTest.testFileInputOutputStream" />
-        <item itemvalue="JUnit.FileInputOutputStreamTest.teatFileInputStream" />
       </list>
     </recent_temporary>
   </component>
@@ -323,28 +304,11 @@
       <workItem from="1572508942018" duration="6573000" />
       <workItem from="1572515577755" duration="10000" />
       <workItem from="1572575919678" duration="11817000" />
+      <workItem from="1572833654071" duration="6379000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FileInputOutputStreamTest_testFileInputOutputStream - 2019.11.01 at 11h 22m 00s.xml">
-      <configuration name="FileInputOutputStreamTest.testFileInputOutputStream" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FileInputOutputStreamTest_testFileInputOutputStream - 2019.11.01 at 11h 22m 34s.xml">
-      <configuration name="FileInputOutputStreamTest.testFileInputOutputStream" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FileInputOutputStreamTest_testFileInputOutputStream - 2019.11.01 at 11h 31m 48s.xml">
-      <configuration name="FileInputOutputStreamTest.testFileInputOutputStream" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BufferedTest_BufferedStreamTest - 2019.11.01 at 13h 17m 00s.xml">
-      <configuration name="BufferedTest.BufferedStreamTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BufferedTest_BufferedStreamTest - 2019.11.01 at 13h 21m 34s.xml">
-      <configuration name="BufferedTest.BufferedStreamTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BufferedTest_BufferedStreamTest - 2019.11.01 at 13h 21m 59s.xml">
-      <configuration name="BufferedTest.BufferedStreamTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BufferedTest_BufferedStreamTest - 2019.11.01 at 13h 22m 33s.xml">
       <configuration name="BufferedTest.BufferedStreamTest" configurationId="JUnit" />
     </history-entry>
@@ -357,9 +321,27 @@
     <history-entry file="BufferedTest_testBufferedReaderBufferedWriter2 - 2019.11.01 at 13h 59m 38s.xml">
       <configuration name="BufferedTest.testBufferedReaderBufferedWriter2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="InputStreamReaderTest_test1 - 2019.11.04 at 10h 35m 42s.xml">
+      <configuration name="InputStreamReaderTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InputStreamReaderTest_test1 - 2019.11.04 at 10h 36m 18s.xml">
+      <configuration name="InputStreamReaderTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InputStreamReaderTest_test1 - 2019.11.04 at 10h 37m 45s.xml">
+      <configuration name="InputStreamReaderTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InputStreamReaderTest_test1 - 2019.11.04 at 10h 39m 49s.xml">
+      <configuration name="InputStreamReaderTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InputStreamReaderTest_teat2 - 2019.11.04 at 10h 53m 02s.xml">
+      <configuration name="InputStreamReaderTest.teat2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OtherSreamTest_test1 - 2019.11.04 at 11h 46m 11s.xml">
+      <configuration name="OtherSreamTest.test1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23581000" />
+    <option name="totallyTimeSpent" value="29960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -373,26 +355,56 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32954547" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.24583964" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
       <window_info id="Structure" order="1" sideWeight="0.50121063" side_tool="true" weight="0.24962178" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" sideWeight="0.50121063" side_tool="true" weight="0.24962178" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" sideWeight="0.50121063" side_tool="true" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32954547" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.25718608" />
+      <window_info id="Structure" order="1" sideWeight="0.50121063" side_tool="true" weight="0.24962178" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32954547" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info id="Favorites" order="6" sideWeight="0.50121063" side_tool="true" weight="0.24962178" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -401,6 +413,26 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/IOTest/BufferedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IOTest/FileInputOutputStreamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/IOTest/FileReaderWriterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3600">
@@ -475,15 +507,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/helloworld" />
-    <entry file="file://$PROJECT_DIR$/src/1000610.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/1000610.jpg" />
     <entry file="file://$PROJECT_DIR$/2019_10_31.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/1000610.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/1000610.jpg" />
     <entry file="file://$PROJECT_DIR$/3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -497,19 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello1">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello2">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IOTest/FileReaderWriterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
@@ -520,13 +535,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello3">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IOTest/BufferedTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2010">
-          <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+        <state relative-caret-position="1350">
+          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -535,10 +547,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IOTest/FileInputOutputStreamTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+        <state relative-caret-position="-214">
+          <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello3">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello2">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello1">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello_gbk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IOTest/InputStreamReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IOTest/OtherSreamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
           </folding>
         </state>
       </provider>
