@@ -15,7 +15,7 @@ import java.sql.SQLOutput;
  * @Date 2019/11/4 11:27
  * @Version 1.0
  **/
-public class OtherSreamTest {
+public class OtherStreamTest {
     /**
      * 1、标准的输入、输出流
      * System.in：标准的输入流，默认从键盘输入
