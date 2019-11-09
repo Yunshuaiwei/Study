@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/2019_10_28/2019_10_28.iml" filepath="$PROJECT_DIR$/2019_10_28/2019_10_28.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019_10_31/2019_10_31.iml" filepath="$PROJECT_DIR$/2019_10_31/2019_10_31.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019_11_5/2019_11_5.iml" filepath="$PROJECT_DIR$/2019_11_5/2019_11_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019_11_7/2019_11_7.iml" filepath="$PROJECT_DIR$/2019_11_7/2019_11_7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019_11_8/2019_11_8.iml" filepath="$PROJECT_DIR$/2019_11_8/2019_11_8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project01/Project01.iml" filepath="$PROJECT_DIR$/Project01/Project01.iml" />
       <module fileurl="file://$PROJECT_DIR$/Study.iml" filepath="$PROJECT_DIR$/Study.iml" />
     </modules>
   </component>
