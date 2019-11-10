@@ -53,12 +53,6 @@ public class SetTest {
          * 2、两种排序方式：自然排序   定制排序
          */
         TreeSet set=new TreeSet();
-//        set.add(123);
-//        set.add(123);
-//        set.add(3);
-//        set.add(4);
-//        set.add(7);
-
         set.add(new Person("Tom",18));
         set.add(new Person("Jack",16));
         set.add(new Person("Jim",20));

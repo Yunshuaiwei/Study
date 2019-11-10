@@ -45,5 +45,4 @@ public class ListTest {
             System.out.println(iterator.next());
         }
     }
-
 }
