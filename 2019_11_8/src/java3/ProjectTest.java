@@ -19,8 +19,12 @@ public class ProjectTest {
 
         Consumer con = new Consumer(c1);
         con.setName("消费者1");
+
+        Consumer con2=new Consumer(c1);
+        con2.setName("消费者2");
         p1.start();
         con.start();
+        con2.start();
     }
 }
 class Clerk{
@@ -30,8 +34,17 @@ class Clerk{
         if(productCount<20){
             productCount++;
             System.out.println(Thread.currentThread().getName()+":开始生产第"+productCount+"个产品！");
-        }else{
 
+            //notify()
+            notify();
+        }else{
+            try {
+
+                //阻塞
+                wait();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
     }
     //消费产品
@@ -39,8 +52,17 @@ class Clerk{
         if(productCount>0){
             System.out.println(Thread.currentThread().getName()+"：开始消费第"+productCount+"个产品！");
             productCount--;
-        }else{
 
+            //notify()
+            notify();
+        }else{
+            try {
+
+                //阻塞
+                wait();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
     }
 }
