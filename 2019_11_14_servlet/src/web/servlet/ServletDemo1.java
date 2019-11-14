@@ -1,6 +1,7 @@
 package web.servlet;
 
 import javax.servlet.*;
+import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
 
 /**
@@ -11,6 +12,7 @@ import java.io.IOException;
  * @Date 2019/11/14 10:47
  * @Version 1.0
  **/
+@WebServlet("/demo1")
 public class ServletDemo1 implements Servlet {
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
@@ -24,7 +26,7 @@ public class ServletDemo1 implements Servlet {
 
     @Override
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
-
+        System.out.println("....");
     }
 
     @Override
