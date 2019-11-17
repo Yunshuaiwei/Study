@@ -8,8 +8,12 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.BufferedReader;
 import java.io.IOException;
 
+/**
+ * @author DELL 
+ */
 @WebServlet("/requestDemo3")
 public class RequestDemo3 extends HttpServlet {
+    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //获取请求消息体
 
@@ -21,6 +25,7 @@ public class RequestDemo3 extends HttpServlet {
             System.out.println(line);
         }
     }
+    @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     }
 }
