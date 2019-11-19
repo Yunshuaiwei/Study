@@ -1,6 +1,4 @@
-package web.servletcontext;
-
-import com.sun.media.sound.SoftTuning;
+package servletcontext;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
