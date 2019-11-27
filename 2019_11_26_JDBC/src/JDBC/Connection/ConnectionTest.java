@@ -1,7 +1,9 @@
 package JDBC.Connection;
 
+import com.sun.media.sound.SoftTuning;
 import org.junit.jupiter.api.Test;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.Connection;
@@ -90,9 +92,9 @@ public class ConnectionTest {
     @Test
     public void testConnection5() throws ClassNotFoundException, SQLException, IOException {
         //1、读取配置文件中的基本信息
-        InputStream is = ConnectionTest.class.getClassLoader().getResourceAsStream("jdbc.properties");
+        FileInputStream fs = new FileInputStream("jdbc.properties");
         Properties ps = new Properties();
-        ps.load(is);
+        ps.load(fs);
         String user = ps.getProperty("user");
         String password = ps.getProperty("password");
         String url = ps.getProperty("url");
