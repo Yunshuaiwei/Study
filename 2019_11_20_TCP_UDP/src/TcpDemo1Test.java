@@ -7,12 +7,11 @@ import java.io.OutputStream;
 import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
-
 /**
- * @Auther
+ * @author DELL
  * @Date 2019/11/20 19:55
  **/
-public class TCPDemo1 {
+public class TcpDemo1Test {
     /**
      * 客户端
      */

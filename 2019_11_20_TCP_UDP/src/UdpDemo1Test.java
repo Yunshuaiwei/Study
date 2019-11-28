@@ -4,10 +4,9 @@ import java.io.IOException;
 import java.net.*;
 
 /**
- * @Auther
- * @Date 2019/11/21 17:52
- **/
-public class UDPDemo1 {
+ * @author DELL
+ */
+public class UdpDemo1Test {
     /**
      * 发送端
      */

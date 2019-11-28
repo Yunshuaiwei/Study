@@ -6,10 +6,10 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 /**
- * @Auther
+ * @author DELL
  * @Date 2019/11/21 10:09
  **/
-public class TCPDemo2 {
+public class TcpDemo2Test {
     @Test
     public void client() {
         Socket socket = null;
@@ -33,10 +33,10 @@ public class TCPDemo2 {
             //5、接受来自服务端的数据，并显示在控制台
             InputStream is = socket.getInputStream();
             ByteArrayOutputStream bs = new ByteArrayOutputStream();
-            byte[] bufferr=new byte[5];
+            byte[] buff=new byte[5];
             int len1;
-            while((len1=is.read(bufferr))!=-1){
-                bs.write(bufferr,0,len1);
+            while((len1=is.read(buff))!=-1){
+                bs.write(buff,0,len1);
             }
             System.out.println(bs.toString());
         } catch (IOException e) {
