@@ -8,7 +8,7 @@ import java.util.Stack;
  **/
 public class PolandNotation {
     public static void main(String[] args) {
-        String exception="30 4 + 5 x 6 -";
+        String exception="30 4 + 5 * 6 -";
         List<String> list = getListString(exception);
         int res = calculator(list);
         System.out.println("计算结果为："+res);
@@ -47,7 +47,7 @@ public class PolandNotation {
                     case "-":
                         res=num1-num2;
                         break;
-                    case "x":
+                    case "*":
                         res=num1*num2;
                         break;
                     case "/":
