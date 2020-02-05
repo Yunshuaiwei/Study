@@ -7,20 +7,21 @@ import java.util.Scanner;
 public class HashTableTest {
     public static void main(String[] args) {
         HashTable hashTable = new HashTable(10);
-        String key="";
+        String key = "";
         Scanner scanner = new Scanner(System.in);
-        while(true){
+        while (true) {
             System.out.println("add: 添加雇员");
-            System.out.println("dis: 显式雇员");
+            System.out.println("dis: 显示雇员");
+            System.out.println("del: 删除雇员");
             System.out.println("find: 查找雇员");
             System.out.println("exit:退出");
-            key=scanner.next();
-            switch (key){
+            key = scanner.next();
+            switch (key) {
                 case "add":
                     System.out.println("输入id");
-                    int id=scanner.nextInt();
+                    int id = scanner.nextInt();
                     System.out.println("输入姓名");
-                    String name=scanner.next();
+                    String name = scanner.next();
                     Employee emp = new Employee(id, name);
                     hashTable.add(emp);
                     break;
@@ -29,8 +30,13 @@ public class HashTableTest {
                     break;
                 case "find":
                     System.out.println("请输入查找的id");
-                    int i=scanner.nextInt();
+                    int i = scanner.nextInt();
                     hashTable.findEmployee(i);
+                    break;
+                case "del":
+                    System.out.println("请输入员工id：");
+                    int n = scanner.nextInt();
+                    hashTable.deleteEmployee(n);
                     break;
                 case "exit":
                     scanner.close();

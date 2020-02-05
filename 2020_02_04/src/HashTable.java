@@ -46,15 +46,31 @@ public class HashTable {
 
     /**
      * 根据id查找雇员
+     *
      * @param id
      */
-    public void findEmployee(int id){
+    public void findEmployee(int id) {
         int i = hashFun(id);
         Employee employee = employeeLinkedArray[i].findEmployee(id);
-        if(employee==null){
+        if (employee == null) {
             System.out.println("没有找到！");
-        }else{
+        } else {
             System.out.println(employee.toString());
+        }
+    }
+
+    /**
+     * 根据id删除雇员
+     *
+     * @param id
+     */
+    public void deleteEmployee(int id) {
+        int i = hashFun(id);
+        boolean delete = employeeLinkedArray[i].delete(id);
+        if (delete) {
+            System.out.println("删除成功！");
+        } else {
+            System.out.println("没有此员工！");
         }
     }
 }
