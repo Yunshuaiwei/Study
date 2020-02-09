@@ -5,6 +5,8 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.ThreadPoolExecutor;
 
+import static java.util.concurrent.Executors.*;
+
 /**
  * @ProjectName Study
  * @ClassName ThreadPool
@@ -16,12 +18,13 @@ import java.util.concurrent.ThreadPoolExecutor;
 public class ThreadPool {
     public static void main(String[] args) {
         //1、提供指定线程数量的线程池
-        ScheduledExecutorService service = Executors.newScheduledThreadPool(10);
+        ScheduledExecutorService service = newScheduledThreadPool(10);
         //2、执行指定的线程的操作。需要提供实现Runnable接口或Callable接口实现类的对象
 //        ThreadPoolExecutor service1= (ThreadPoolExecutor) service;
 //        service1.setCorePoolSize(15);
 //        service1.setKeepAliveTime();
-        service.execute(new NumberThread());//适合Runnable
+        //适合Runnable
+        service.execute(new NumberThread());
         service.execute(new NumberThread1());
 //        service.submit(new NumberThread());//适合适用于Callable
         //关闭线程池

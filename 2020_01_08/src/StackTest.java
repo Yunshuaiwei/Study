@@ -51,9 +51,6 @@ class MyStack{
         head=head.next;
     }
     public boolean empty(){
-        if(head==null){
-            return true;
-        }
-        return false;
+        return head==null;
     }
 }

@@ -9,10 +9,13 @@ import java.io.IOException;
 
 @WebServlet("/requestDemo1")
 public class RequestDemo1 extends HttpServlet {
+
+    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
     }
 
+    @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //1、获取请方式
         String method = request.getMethod();

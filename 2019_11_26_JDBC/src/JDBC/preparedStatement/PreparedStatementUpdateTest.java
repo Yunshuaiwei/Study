@@ -12,7 +12,7 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 /**
- * @Auther
+ * @author DELL
  * @Date 2019/11/27 12:01
  **/
 public class PreparedStatementUpdateTest {
@@ -54,7 +54,6 @@ public class PreparedStatementUpdateTest {
                 if(pps!=null){
                     pps.close();
                 }
-
             } catch (SQLException e) {
                 e.printStackTrace();
             }
@@ -66,6 +65,5 @@ public class PreparedStatementUpdateTest {
                 e.printStackTrace();
             }
         }
-
     }
 }

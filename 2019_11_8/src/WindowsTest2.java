@@ -32,7 +32,10 @@ class Windows2 implements Runnable {
             show();
         }
     }
-    //synchronized修饰方法
+
+    /**
+     * synchronized修饰方法
+     */
     private synchronized void show(){
         if (ticket > 0) {
             try {

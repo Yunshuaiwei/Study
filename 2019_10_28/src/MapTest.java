@@ -114,10 +114,6 @@ public class MapTest {
             System.out.println(obj);
     }
         //遍历所有key-values  entrySet();
-
-
-
-
         Set set1 = map.entrySet();
         Iterator iterator1 = set1.iterator();
         while(iterator1.hasNext()){

@@ -1,37 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="2019_11_20_cookie_session:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="">
+    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="网络编程">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/2019_11_13_servlet_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/2019_11_13_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/2019_11_14_servlet_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/2019_11_18_servlet_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/2019_11_20_cookie_session_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/2019_11_23_jps_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/2019_11_JSP_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/2019_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_35.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2019_11_14_servlet/web/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2019_11_23_JPS/2019_11_23_jps.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/2019_11_12.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java2019_10_26/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019_10_28/src/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/2019_10_28/src/MapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019_10_31/2019_10_31.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019_10_31/2019_10_31.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019_10_31/src/IOTest/BufferedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/2019_10_31/src/IOTest/BufferedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019_10_31/src/IOTest/InputStreamReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/2019_10_31/src/IOTest/InputStreamReaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019_11_14_servlet/src/web/request/RequestDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/2019_11_14_servlet/src/web/request/RequestDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019_11_26_JDBC/src/JDBC/Connection/ConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/2019_11_26_JDBC/src/JDBC/Connection/ConnectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019_11_26_JDBC/src/JDBC/preparedStatement/PreparedStatementUpdateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/2019_11_26_JDBC/src/JDBC/preparedStatement/PreparedStatementUpdateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019_11_26_JDBC/房东的猫1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019_11_8/src/WindowsTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/2019_11_8/src/WindowsTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019_11_8/src/java3/ThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/2019_11_8/src/java3/ThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019_12_30_transaction/src/ConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/2019_12_30_transaction/src/ConnectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_01_08/src/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020_01_08/src/StackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project01/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project01/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project01/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project01/Project01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019_11_5/2019_11_5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project01/src/com/study/team/domain/Architect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project01/src/com/study/team/domain/Designer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project01/src/com/study/team/domain/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project01/src/com/study/team/domain/Equipment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project01/src/com/study/team/domain/NoteBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project01/src/com/study/team/domain/PC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project01/src/com/study/team/domain/Printer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project01/src/com/study/team/domain/Programmer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project01/src/com/study/team/service/Date.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project01/src/com/study/team/service/NameListService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project01/src/com/study/team/service/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project01/src/com/study/team/view/TSUtility.java" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ThreadPool.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2019_11_8/src/java3/ThreadPool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Study" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -39,245 +95,407 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/Java2019_10_26/Test.java" />
-        <option value="$PROJECT_DIR$/2019_10_28/src/IteratorTest.java" />
-        <option value="$PROJECT_DIR$/2019_11_7/src/ThreadTest/ThreadDemo.java" />
-        <option value="$PROJECT_DIR$/2019_11_7/src/ThreadTest.java" />
-        <option value="$PROJECT_DIR$/2019_11_7/src/ThreadMethodTest.java" />
-        <option value="$PROJECT_DIR$/2019_11_7/src/ThreadRunnable.java" />
-        <option value="$PROJECT_DIR$/2019_11_7/src/ThreadTest/WindowsTest.java" />
-        <option value="$PROJECT_DIR$/2019_11_8/src/WindowsTest.java" />
-        <option value="$PROJECT_DIR$/2019_11_8/src/WindowsTest1.java" />
-        <option value="$PROJECT_DIR$/2019_11_8/src/WindowsTest2.java" />
-        <option value="$PROJECT_DIR$/2019_11_8/src/Test.java" />
-        <option value="$PROJECT_DIR$/2019_10_28/src/ListTest.java" />
-        <option value="$PROJECT_DIR$/2019_10_28/src/SetTest.java" />
-        <option value="$PROJECT_DIR$/2019_11_8/src/WindowsTest3.java" />
-        <option value="$PROJECT_DIR$/2019_11_8/src/java1/BankTest.java" />
-        <option value="$PROJECT_DIR$/2019_11_8/src/java1/ThreadTest.java" />
-        <option value="$PROJECT_DIR$/2019_11_8/src/java1/LockTest.java" />
-        <option value="$PROJECT_DIR$/2019_11_8/src/java2/CommunicationTest.java" />
-        <option value="$PROJECT_DIR$/2019_11_8/src/java3/ProjectTest.java" />
-        <option value="$PROJECT_DIR$/2019_11_8/src/java3/NumThread.java" />
-        <option value="$PROJECT_DIR$/2019_11_8/src/java3/ThreadPool.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="JsbtTreeLayoutManager">
     <layout place="tools.popupGrunt">
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
-  </component>
+  <component name="ProjectId" id="1UXopGh4fJOllUTh5ZmVUT0zPCe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Study" type="462c0819:PsiDirectoryNode" />
-              <item name="2019_11_8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Study" type="462c0819:PsiDirectoryNode" />
-              <item name="2019_11_8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Study" type="462c0819:PsiDirectoryNode" />
-              <item name="2019_11_8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java3" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="backg&#9;ACTION&#9;Images.SetBackgroundImage&#10;set back&#9;ACTION&#9;Images.SetBackgroundImage" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Task" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\JavaCodeIDEA\Study\2019_11_8\src" />
+      <recent name="F:\JavaCodeIDEA\Study\2019_12_30_transaction\lib" />
+      <recent name="F:\JavaCodeIDEA\Study\2019_11_26_JDBC" />
+      <recent name="F:\JavaCodeIDEA\Study\2019_11_26_JDBC\lib" />
+      <recent name="F:\JavaCodeIDEA\Study\lib" />
+      <recent name="F:\JavaCodeIDEA\Study\2019_11_20_TCP_UDP" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ThreadBinaryTree" />
+      <recent name="com.session" />
+      <recent name="com.cookie" />
+      <recent name="web.servletcontext" />
+      <recent name="web.response" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\JavaCodeIDEA\Study\2019_11_26_JDBC" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.ThreadPool">
-    <configuration name="CommunicationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java2.CommunicationTest" />
-      <module name="2019_11_8" />
+  <component name="RunManager" selected="Application.HeapSort">
+    <configuration name="ArrayBinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayBinaryTreeDemo" />
+      <module name="2020_02_06" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="LockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java1.LockTest" />
-      <module name="2019_11_8" />
+    <configuration name="BinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryTreeDemo" />
+      <module name="2020_02_06" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="NumThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java3.NumThread" />
-      <module name="2019_11_8" />
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HeapSort" />
+      <module name="2020_02_08" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="ProjectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java3.ProjectTest" />
-      <module name="2019_11_8" />
+    <configuration name="HuffmanTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HuffmanTree" />
+      <module name="2020_02_08" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="ThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java3.ThreadPool" />
-      <module name="2019_11_8" />
+    <configuration name="ThreadBinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadBinaryTree.ThreadBinaryTreeDemo" />
+      <module name="2020_02_06" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java3.*" />
+          <option name="PATTERN" value="ThreadBinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.47" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.47" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/2019_11_20_cookie_session/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="2019_11_20_cookie_session:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/2019_11_20_cookie_session" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_Study" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53382" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="2019_11_20_cookie_session:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.47" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_Study" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53382" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <name>CONTEXT_XML</name>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <name>STAGING</name>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" value="" />
+          <host-id />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61055" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aliTomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" APPLICATION_SERVER_NAME="Tomcat 8.5.47" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="HOST" value="114.55.31.160" />
+      <option name="LOCAL" value="false" />
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="2019_11_20_cookie_session:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/2019_11_20_cookie_session" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="28c231ee-178e-4841-ac2b-516baefae159" />
+                    <id>28c231ee-178e-4841-ac2b-516baefae159</id>
+                  </TransportTarget>
+                </option>
+                <option name="watchedLocalPath" value="" />
+                <watched-path />
+                <name>CONTEXT_XML</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="28c231ee-178e-4841-ac2b-516baefae159" />
+                    <id>28c231ee-178e-4841-ac2b-516baefae159</id>
+                  </TransportTarget>
+                </transport-target>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <option name="stagingRemotePath" value="/root/usr/tomcat/apache-tomcat-8.5.47/webapps" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="c0047dc7-764c-476e-bbd3-479d798a8479" />
+                    <id>c0047dc7-764c-476e-bbd3-479d798a8479</id>
+                  </TransportTarget>
+                </option>
+                <staging-path>/root/usr/tomcat/apache-tomcat-8.5.47/webapps</staging-path>
+                <name>STAGING</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="c0047dc7-764c-476e-bbd3-479d798a8479" />
+                    <id>c0047dc7-764c-476e-bbd3-479d798a8479</id>
+                  </TransportTarget>
+                </transport-target>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" value="de6761aa-51cd-41d3-a386-6656817d0c39" />
+          <host-id>de6761aa-51cd-41d3-a386-6656817d0c39</host-id>
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="1099" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="2019_11_20_cookie_session:war exploded" />
+          <artifact name="2019:war exploded" />
+        </option>
+      </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LockTest" />
-      <item itemvalue="Application.CommunicationTest" />
-      <item itemvalue="Application.ProjectTest" />
-      <item itemvalue="Application.NumThread" />
-      <item itemvalue="Application.ThreadPool" />
+      <item itemvalue="Application.BinaryTreeDemo" />
+      <item itemvalue="Application.ArrayBinaryTreeDemo" />
+      <item itemvalue="Application.ThreadBinaryTreeDemo" />
+      <item itemvalue="Application.HeapSort" />
+      <item itemvalue="Application.HuffmanTree" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.47" />
+      <item itemvalue="Tomcat Server.aliTomcat" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadPool" />
-        <item itemvalue="Application.NumThread" />
-        <item itemvalue="Application.ProjectTest" />
-        <item itemvalue="Application.CommunicationTest" />
-        <item itemvalue="Application.LockTest" />
+        <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.HuffmanTree" />
+        <item itemvalue="Application.ThreadBinaryTreeDemo" />
+        <item itemvalue="Application.ArrayBinaryTreeDemo" />
+        <item itemvalue="Application.BinaryTreeDemo" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -311,118 +529,96 @@
       <workItem from="1573277077053" duration="1305000" />
       <workItem from="1573292464048" duration="1409000" />
       <workItem from="1573368457509" duration="14100000" />
-    </task>
-    <task id="LOCAL-00001" summary="简单项目练习，开发团队调度">
-      <created>1572066523480</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1572066523480</updated>
-    </task>
-    <task id="LOCAL-00002" summary="简单项目练习，开发团队调度">
-      <created>1572071560157</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1572071560157</updated>
-    </task>
-    <task id="LOCAL-00003" summary="集合">
-      <created>1572253070428</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1572253070428</updated>
-    </task>
-    <task id="LOCAL-00004" summary="集合">
-      <created>1572263814572</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1572263814572</updated>
-    </task>
-    <task id="LOCAL-00005" summary="集合">
-      <created>1572267763131</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1572267763131</updated>
-    </task>
-    <task id="LOCAL-00006" summary="集合">
-      <created>1572335231699</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1572335231699</updated>
-    </task>
-    <task id="LOCAL-00007" summary="集合">
-      <created>1572420656685</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1572420656685</updated>
-    </task>
-    <task id="LOCAL-00008" summary="IO流初学">
-      <created>1572515624042</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1572515624042</updated>
-    </task>
-    <task id="LOCAL-00009" summary="IO流初学">
-      <created>1572589790180</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1572589790180</updated>
-    </task>
-    <task id="LOCAL-00010" summary="IO流初学">
-      <created>1572841279624</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1572841279624</updated>
-    </task>
-    <task id="LOCAL-00011" summary="IO流初学">
-      <created>1573025625554</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1573025625554</updated>
-    </task>
-    <task id="LOCAL-00012" summary="多线程">
-      <created>1573105654897</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1573105654897</updated>
-    </task>
-    <task id="LOCAL-00013" summary="多线程">
-      <created>1573125580219</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1573125580220</updated>
-    </task>
-    <task id="LOCAL-00014" summary="多线程">
-      <created>1573182111954</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1573182111954</updated>
-    </task>
-    <task id="LOCAL-00015" summary="多线程">
-      <created>1573188840274</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1573188840274</updated>
-    </task>
-    <task id="LOCAL-00016" summary="集合">
-      <created>1573368485518</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1573368485518</updated>
+      <workItem from="1573546991916" duration="2336000" />
+      <workItem from="1573611138228" duration="4940000" />
+      <workItem from="1573628793762" duration="6000" />
+      <workItem from="1573640296754" duration="723000" />
+      <workItem from="1573694496670" duration="9316000" />
+      <workItem from="1573714658117" duration="246000" />
+      <workItem from="1573717301782" duration="810000" />
+      <workItem from="1573723752711" duration="2043000" />
+      <workItem from="1573733566558" duration="49000" />
+      <workItem from="1573784142259" duration="6597000" />
+      <workItem from="1573971343151" duration="9691000" />
+      <workItem from="1574044764722" duration="2802000" />
+      <workItem from="1574052678127" duration="48000" />
+      <workItem from="1574064004050" duration="3322000" />
+      <workItem from="1574159033518" duration="90000" />
+      <workItem from="1574163188335" duration="2458000" />
+      <workItem from="1574165703329" duration="3212000" />
+      <workItem from="1574229582881" duration="6694000" />
+      <workItem from="1574250848582" duration="4392000" />
+      <workItem from="1574301983802" duration="2984000" />
+      <workItem from="1574329920713" duration="2739000" />
+      <workItem from="1574396667812" duration="5311000" />
+      <workItem from="1574426209547" duration="1905000" />
+      <workItem from="1574472306881" duration="71000" />
+      <workItem from="1574478261366" duration="292000" />
+      <workItem from="1574478576976" duration="6420000" />
+      <workItem from="1574753804743" duration="5380000" />
+      <workItem from="1574822801976" duration="3200000" />
+      <workItem from="1574854873294" duration="15000" />
+      <workItem from="1574905603854" duration="6396000" />
+      <workItem from="1574914067986" duration="312000" />
+      <workItem from="1574920341912" duration="510000" />
+      <workItem from="1574921218318" duration="5125000" />
+      <workItem from="1574996013771" duration="12293000" />
+      <workItem from="1575197952787" duration="153000" />
+      <workItem from="1575252938340" duration="341000" />
+      <workItem from="1575259045882" duration="80000" />
+      <workItem from="1575259151552" duration="506000" />
+      <workItem from="1575259837464" duration="62000" />
+      <workItem from="1575264808984" duration="599000" />
+      <workItem from="1575361883538" duration="3547000" />
+      <workItem from="1575435261690" duration="3326000" />
+      <workItem from="1575512483528" duration="337000" />
+      <workItem from="1575517879929" duration="612000" />
+      <workItem from="1575598263099" duration="127000" />
+      <workItem from="1575619583384" duration="252000" />
+      <workItem from="1576595038803" duration="12000" />
+      <workItem from="1576595080809" duration="392000" />
+      <workItem from="1576598112897" duration="547000" />
+      <workItem from="1576644539989" duration="1677000" />
+      <workItem from="1577079267416" duration="9905000" />
+      <workItem from="1577153905644" duration="1995000" />
+      <workItem from="1577173757648" duration="2686000" />
+      <workItem from="1577255113184" duration="110000" />
+      <workItem from="1577338121214" duration="72000" />
+      <workItem from="1577351850681" duration="12000" />
+      <workItem from="1577686424197" duration="4052000" />
+      <workItem from="1577698976137" duration="9409000" />
+      <workItem from="1577875008340" duration="7436000" />
+      <workItem from="1577934093432" duration="237000" />
+      <workItem from="1578449481076" duration="2023000" />
+      <workItem from="1578467828247" duration="602000" />
+      <workItem from="1578480571042" duration="364000" />
+      <workItem from="1578550266719" duration="113000" />
+      <workItem from="1579155299719" duration="17000" />
+      <workItem from="1579165562528" duration="1769000" />
+      <workItem from="1579170348171" duration="1620000" />
+      <workItem from="1579585271354" duration="3532000" />
+      <workItem from="1580181298729" duration="11185000" />
+      <workItem from="1580204629045" duration="50000" />
+      <workItem from="1580269031817" duration="10887000" />
+      <workItem from="1580369582697" duration="5980000" />
+      <workItem from="1580441883634" duration="4499000" />
+      <workItem from="1580460627927" duration="2018000" />
+      <workItem from="1580463878254" duration="824000" />
+      <workItem from="1580530723844" duration="14517000" />
+      <workItem from="1580641777037" duration="2007000" />
+      <workItem from="1580643854905" duration="2687000" />
+      <workItem from="1580695896207" duration="11928000" />
+      <workItem from="1580779934621" duration="6848000" />
+      <workItem from="1580791275313" duration="10863000" />
+      <workItem from="1580866858442" duration="4416000" />
+      <workItem from="1580883044319" duration="607000" />
+      <workItem from="1580956500886" duration="159000" />
+      <workItem from="1580956860402" duration="11409000" />
+      <workItem from="1580984465349" duration="41000" />
+      <workItem from="1580984540180" duration="786000" />
+      <workItem from="1581041562397" duration="7883000" />
+      <workItem from="1581132281056" duration="10239000" />
+      <workItem from="1581212786308" duration="3667000" />
     </task>
     <task id="LOCAL-00017" summary="多线程">
       <created>1573378795377</created>
@@ -438,22 +634,337 @@
       <option name="project" value="LOCAL" />
       <updated>1573382949048</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Servlet">
+      <created>1573617438771</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1573617438771</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Servlet">
+      <created>1573699706184</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1573699706184</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Servlet">
+      <created>1573699715035</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1573699715035</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Servlet">
+      <created>1573733588481</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1573733588481</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Servlet">
+      <created>1573791054194</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1573791054194</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Servlet">
+      <created>1573977598719</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1573977598719</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Servlet">
+      <created>1573986482351</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1573986482351</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Servlet">
+      <created>1574052697069</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1574052697069</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Servlet">
+      <created>1574068688602</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1574068688602</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Servlet">
+      <created>1574166381610</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1574166381610</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Servlet">
+      <created>1574168662390</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1574168662390</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Cookie">
+      <created>1574241038451</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1574241038451</updated>
+    </task>
+    <task id="LOCAL-00031" summary="网络编程">
+      <created>1574256280959</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1574256280959</updated>
+    </task>
+    <task id="LOCAL-00032" summary="网络编程">
+      <created>1574305049415</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1574305049415</updated>
+    </task>
+    <task id="LOCAL-00033" summary="网络编程">
+      <created>1574335520557</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1574335520557</updated>
+    </task>
+    <task id="LOCAL-00034" summary="会话技术">
+      <created>1574486572307</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1574486572308</updated>
+    </task>
+    <task id="LOCAL-00035" summary="JDBC">
+      <created>1574759234303</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1574759234303</updated>
+    </task>
+    <task id="LOCAL-00036" summary="JDBC">
+      <created>1574827972499</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1574827972499</updated>
+    </task>
+    <task id="LOCAL-00037" summary="JDBC">
+      <created>1574911724686</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1574911724686</updated>
+    </task>
+    <task id="LOCAL-00038" summary="网络编程">
+      <created>1574926746353</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1574926746353</updated>
+    </task>
+    <task id="LOCAL-00039" summary="JDBC">
+      <created>1575007542395</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1575007542395</updated>
+    </task>
+    <task id="LOCAL-00040" summary="单例">
+      <created>1577079330146</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1577079330146</updated>
+    </task>
+    <task id="LOCAL-00041" summary="DataStructure">
+      <created>1577102685472</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1577102685472</updated>
+    </task>
+    <task id="LOCAL-00042" summary="队列">
+      <created>1577155856258</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1577155856258</updated>
+    </task>
+    <task id="LOCAL-00043" summary="数据库">
+      <created>1577875048293</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1577875048293</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Stack">
+      <created>1578451462528</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1578451462528</updated>
+    </task>
+    <task id="LOCAL-00045" summary="练习">
+      <created>1579587785067</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1579587785067</updated>
+    </task>
+    <task id="LOCAL-00046" summary="栈测试">
+      <created>1580188788133</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1580188788133</updated>
+    </task>
+    <task id="LOCAL-00047" summary="栈">
+      <created>1580204329446</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1580204329446</updated>
+    </task>
+    <task id="LOCAL-00048" summary="后缀表达式">
+      <created>1580275414636</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1580275414636</updated>
+    </task>
+    <task id="LOCAL-00049" summary="中缀表达式">
+      <created>1580295248252</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1580295248252</updated>
+    </task>
+    <task id="LOCAL-00050" summary="递归">
+      <created>1580380900832</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1580380900833</updated>
+    </task>
+    <task id="LOCAL-00051" summary="迷宫问题">
+      <created>1580383405029</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1580383405029</updated>
+    </task>
+    <task id="LOCAL-00052" summary="八皇后问题">
+      <created>1580464089075</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1580464089076</updated>
+    </task>
+    <task id="LOCAL-00053" summary="排序算法">
+      <created>1580534676132</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1580534676132</updated>
+    </task>
+    <task id="LOCAL-00054" summary="排序">
+      <created>1580642690080</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1580642690080</updated>
+    </task>
+    <task id="LOCAL-00055" summary="排序">
+      <created>1580646851751</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1580646851754</updated>
+    </task>
+    <task id="LOCAL-00056" summary="排序算法">
+      <created>1580723230469</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1580723230470</updated>
+    </task>
+    <task id="LOCAL-00057" summary="查找算法">
+      <created>1580725349977</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1580725349977</updated>
+    </task>
+    <task id="LOCAL-00058" summary="查找算法">
+      <created>1580810159305</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1580810159305</updated>
+    </task>
+    <task id="LOCAL-00059" summary="hashTable">
+      <created>1580815264564</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1580815264564</updated>
+    </task>
+    <task id="LOCAL-00060" summary="hashTable">
+      <created>1580872877849</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1580872877849</updated>
+    </task>
+    <task id="LOCAL-00061" summary="二叉树">
+      <created>1580967903925</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1580967903926</updated>
+    </task>
+    <task id="LOCAL-00062" summary="顺序存储二叉树">
+      <created>1580986800985</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1580986800987</updated>
+    </task>
+    <task id="LOCAL-00063" summary="树结构">
+      <created>1581051053958</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1581051053959</updated>
+    </task>
+    <task id="LOCAL-00064" summary="堆排序">
+      <created>1581138623949</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1581138623949</updated>
+    </task>
+    <task id="LOCAL-00065" summary="赫夫曼树">
+      <created>1581156988351</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1581156988351</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="ListTest_test - 2019.11.09 at 17h 51m 32s.xml">
-      <configuration name="ListTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ListTest_test - 2019.11.09 at 17h 52m 14s.xml">
-      <configuration name="ListTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ListTest_test - 2019.11.09 at 17h 52m 31s.xml">
-      <configuration name="ListTest.test" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45659000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,414 +975,246 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32994923" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32994923" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3284553" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32980332" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44500846" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21558245" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32994923" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:E:/JavaCodeIDEA/Study/2020_02_08" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="简单项目练习，开发团队调度" />
-    <MESSAGE value="IO流初学" />
-    <MESSAGE value="集合" />
-    <MESSAGE value="多线程" />
-    <option name="LAST_COMMIT_MESSAGE" value="多线程" />
+    <MESSAGE value="会话技术" />
+    <MESSAGE value="网络编程" />
+    <MESSAGE value="JDBC" />
+    <MESSAGE value="单例" />
+    <MESSAGE value="DataStructure" />
+    <MESSAGE value="队列" />
+    <MESSAGE value="数据库" />
+    <MESSAGE value="Stack" />
+    <MESSAGE value="练习" />
+    <MESSAGE value="栈测试" />
+    <MESSAGE value="栈" />
+    <MESSAGE value="后缀表达式" />
+    <MESSAGE value="中缀表达式" />
+    <MESSAGE value="递归" />
+    <MESSAGE value="迷宫问题" />
+    <MESSAGE value="八皇后问题" />
+    <MESSAGE value="排序" />
+    <MESSAGE value="排序算法" />
+    <MESSAGE value="查找算法" />
+    <MESSAGE value="hashTable" />
+    <MESSAGE value="二叉树" />
+    <MESSAGE value="顺序存储二叉树" />
+    <MESSAGE value="树结构" />
+    <MESSAGE value="堆排序" />
+    <MESSAGE value="赫夫曼树" />
+    <option name="LAST_COMMIT_MESSAGE" value="赫夫曼树" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Java2019_10_26/Test.java" />
-    <entry file="file://$PROJECT_DIR$/2019_10_28/src/IteratorTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_10_28/src/Set.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_10_28/src/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java2019_10_26/Test.java" />
-    <entry file="file://$PROJECT_DIR$/2019_10_28/src/IteratorTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_10_28/src/Set.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_10_28/src/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java2019_10_26/Test.java" />
-    <entry file="file://$PROJECT_DIR$/2019_10_28/src/IteratorTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_10_28/src/Set.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_10_28/src/Person.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java2019_10_26/Test.java" />
-    <entry file="file://$PROJECT_DIR$/Study.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project01/src/com/study/team/service/Date.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project01/src/com/study/team/view/TSUtility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project01/src/com/study/team/service/Status.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project01/src/com/study/team/service/NameListService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1625" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project01/src/com/study/team/view/TSUtility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project01/src/com/study/team/service/Date.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_11_7/src/ThreadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="698" column="29" selection-start-line="698" selection-start-column="29" selection-end-line="698" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="997">
-          <caret line="67" column="27" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_11_7/src/ThreadRunnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_11_7/src/ThreadTest/ThreadDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_11_8/2019_11_8.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_11_7/src/ThreadTest/WindowsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_11_7/src/ThreadMethodTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_11_8/src/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/Java2019_10_26/Test.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-292">
-          <caret line="304" column="69" selection-start-line="304" selection-start-column="69" selection-end-line="304" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_10_28/src/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_10_28/src/IteratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="984">
-          <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_10_28/src/MapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="66" column="26" lean-forward="true" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_10_28/src/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_10_28/src/ListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_10_28/src/SetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_11_8/src/WindowsTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-121">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_11_8/src/WindowsTest3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_11_8/src/WindowsTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_11_8/src/java.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_11_8/src/java1/BankTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_11_8/src/java1/ThreadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="51" column="17" lean-forward="true" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_11_8/src/java1/LockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_11_8/src/java2/ProjectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_11_8/src/java2/CommunicationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_11_8/src/java3/ProjectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="853">
-          <caret line="99" column="17" lean-forward="true" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
-          <folding>
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_11_8/src/java3/NumThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="781">
-          <caret line="44" column="34" lean-forward="true" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019_11_8/src/java3/ThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>2019_10_28</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state x="275" y="27" key="#Inspections" timestamp="1580538977213">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="27" key="#Inspections/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1580538977213" />
+    <state x="275" y="27" key="#Project_Structure" timestamp="1577703563967">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="27" key="#Project_Structure/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577688445310" />
+    <state x="275" y="27" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1577703563967" />
+    <state x="439" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577688338533">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="439" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577688338533" />
+    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1581150994871">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1581150994871" />
+    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1578450206051" />
+    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580812173448">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1580812173448" />
+    <state x="262" y="0" key="CommitChangelistDialog2" timestamp="1581156986956">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="262" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.-203.1024.738@0.0.1366.738" timestamp="1580295246604" />
+    <state x="262" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1581156986956" />
+    <state x="262" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580646849430" />
+    <state x="262" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577155854744" />
+    <state x="262" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1579587783207" />
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1581215246079">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.-203.1024.738@0.0.1366.738" timestamp="1580292587969" />
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1581215246079" />
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577688441947" />
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1578450301945" />
+    <state width="1397" height="308" key="GridCell.Tab.0.bottom" timestamp="1581216255526">
+      <screen x="1366" y="-203" width="1440" height="870" />
+    </state>
+    <state width="1323" height="321" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-203.1024.738@0.0.1366.738" timestamp="1580295271390" />
+    <state width="1323" height="217" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1581215214005" />
+    <state width="1397" height="308" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1581216255526" />
+    <state width="1323" height="244" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580646872003" />
+    <state width="1323" height="247" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577696017861" />
+    <state width="1323" height="140" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1579600876856" />
+    <state width="1397" height="308" key="GridCell.Tab.0.center" timestamp="1581216255526">
+      <screen x="1366" y="-203" width="1440" height="870" />
+    </state>
+    <state width="1323" height="321" key="GridCell.Tab.0.center/0.0.1366.738/1366.-203.1024.738@0.0.1366.738" timestamp="1580295271390" />
+    <state width="1323" height="217" key="GridCell.Tab.0.center/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1581215214005" />
+    <state width="1397" height="308" key="GridCell.Tab.0.center/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1581216255526" />
+    <state width="1323" height="244" key="GridCell.Tab.0.center/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580646872003" />
+    <state width="1323" height="247" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577696017860" />
+    <state width="1323" height="140" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1579600876856" />
+    <state width="1397" height="308" key="GridCell.Tab.0.left" timestamp="1581216255526">
+      <screen x="1366" y="-203" width="1440" height="870" />
+    </state>
+    <state width="1323" height="321" key="GridCell.Tab.0.left/0.0.1366.738/1366.-203.1024.738@0.0.1366.738" timestamp="1580295271390" />
+    <state width="1323" height="217" key="GridCell.Tab.0.left/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1581215214004" />
+    <state width="1397" height="308" key="GridCell.Tab.0.left/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1581216255526" />
+    <state width="1323" height="244" key="GridCell.Tab.0.left/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580646872003" />
+    <state width="1323" height="247" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577696017860" />
+    <state width="1323" height="140" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1579600876856" />
+    <state width="1397" height="308" key="GridCell.Tab.0.right" timestamp="1581216255526">
+      <screen x="1366" y="-203" width="1440" height="870" />
+    </state>
+    <state width="1323" height="321" key="GridCell.Tab.0.right/0.0.1366.738/1366.-203.1024.738@0.0.1366.738" timestamp="1580295271390" />
+    <state width="1323" height="217" key="GridCell.Tab.0.right/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1581215214005" />
+    <state width="1397" height="308" key="GridCell.Tab.0.right/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1581216255526" />
+    <state width="1323" height="244" key="GridCell.Tab.0.right/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580646872003" />
+    <state width="1323" height="247" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577696017861" />
+    <state width="1323" height="140" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1579600876856" />
+    <state width="1323" height="217" key="GridCell.Tab.1.bottom" timestamp="1581215214005">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="321" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.-203.1024.738@0.0.1366.738" timestamp="1580295271390" />
+    <state width="1323" height="217" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1581215214005" />
+    <state width="1323" height="184" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580643820638" />
+    <state width="905" height="174" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1575512819943" />
+    <state width="1323" height="321" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1579171968868" />
+    <state width="1323" height="217" key="GridCell.Tab.1.center" timestamp="1581215214005">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="321" key="GridCell.Tab.1.center/0.0.1366.738/1366.-203.1024.738@0.0.1366.738" timestamp="1580295271390" />
+    <state width="1323" height="217" key="GridCell.Tab.1.center/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1581215214005" />
+    <state width="1323" height="184" key="GridCell.Tab.1.center/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580643820638" />
+    <state width="905" height="174" key="GridCell.Tab.1.center/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1575512819943" />
+    <state width="1323" height="321" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1579171968868" />
+    <state width="1323" height="217" key="GridCell.Tab.1.left" timestamp="1581215214005">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="321" key="GridCell.Tab.1.left/0.0.1366.738/1366.-203.1024.738@0.0.1366.738" timestamp="1580295271390" />
+    <state width="1323" height="217" key="GridCell.Tab.1.left/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1581215214005" />
+    <state width="1323" height="184" key="GridCell.Tab.1.left/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580643820637" />
+    <state width="905" height="174" key="GridCell.Tab.1.left/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1575512819943" />
+    <state width="1323" height="321" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1579171968868" />
+    <state width="1323" height="217" key="GridCell.Tab.1.right" timestamp="1581215214005">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="321" key="GridCell.Tab.1.right/0.0.1366.738/1366.-203.1024.738@0.0.1366.738" timestamp="1580295271390" />
+    <state width="1323" height="217" key="GridCell.Tab.1.right/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1581215214005" />
+    <state width="1323" height="184" key="GridCell.Tab.1.right/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580643820638" />
+    <state width="905" height="174" key="GridCell.Tab.1.right/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1575512819943" />
+    <state width="1323" height="321" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1579171968868" />
+    <state width="905" height="174" key="GridCell.Tab.2.bottom" timestamp="1575512819943">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="905" height="174" key="GridCell.Tab.2.bottom/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1575512819943" />
+    <state width="905" height="174" key="GridCell.Tab.2.center" timestamp="1575512819943">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="905" height="174" key="GridCell.Tab.2.center/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1575512819943" />
+    <state width="905" height="174" key="GridCell.Tab.2.left" timestamp="1575512819943">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="905" height="174" key="GridCell.Tab.2.left/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1575512819943" />
+    <state width="905" height="174" key="GridCell.Tab.2.right" timestamp="1575512819943">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="905" height="174" key="GridCell.Tab.2.right/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1575512819943" />
+    <state x="184" y="11" key="SettingsEditor" timestamp="1580791704246">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="11" key="SettingsEditor/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1580791704246" />
+    <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1579155313882" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1581156995092">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-203.1024.738@0.0.1366.738" timestamp="1580295252821" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1581156995092" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580646858665" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577155863659" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1579587797923" />
+    <state x="381" y="262" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1580534736554">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="381" y="262" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1580534736554" />
+    <state x="381" y="262" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577689476007" />
+    <state x="413" y="133" key="extract.method.dialog" timestamp="1575619624942">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="133" key="extract.method.dialog/0.0.1366.738@0.0.1366.738" timestamp="1575619624942" />
+    <state x="392" y="160" key="git4idea.merge.GitPullDialog" timestamp="1579587792569">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="392" y="160" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1579587792569" />
+    <state x="57" y="0" key="new project wizard" timestamp="1581133784409">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="57" y="0" key="new project wizard/0.0.1366.738/1366.-203.1024.738@0.0.1366.738" timestamp="1580269376783" />
+    <state x="57" y="0" key="new project wizard/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1581133784409" />
+    <state x="57" y="0" key="new project wizard/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577688131690" />
+    <state x="57" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1579169145553" />
+    <state x="125" y="43" width="950" height="596" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1581041986857">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="125" y="43" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.738/1366.-203.1024.738@0.0.1366.738" timestamp="1580181377221" />
+    <state x="125" y="43" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1581041986857" />
+    <state x="125" y="43" width="950" height="596" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.738@0.0.1366.738" timestamp="1577703739079" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1580724579770">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738/1366.-203.1024.738@0.0.1366.738" timestamp="1580290255119" />
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1580724579770" />
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577089302717" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1581150776544">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/1366.-203.1024.738@0.0.1366.738" timestamp="1580274323717" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1581150776544" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577154856084" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1579171003794" />
   </component>
 </project>

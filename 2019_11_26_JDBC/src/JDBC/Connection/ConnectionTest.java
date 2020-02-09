@@ -91,7 +91,9 @@ public class ConnectionTest {
      */
     @Test
     public void testConnection5() throws ClassNotFoundException, SQLException, IOException {
-        //1、读取配置文件中的基本信息
+        /**
+         * 1、读取配置文件中的基本信息
+         */
         FileInputStream fs = new FileInputStream("jdbc.properties");
         Properties ps = new Properties();
         ps.load(fs);
