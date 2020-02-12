@@ -7,50 +7,54 @@ import java.util.*;
  **/
 public class HuffmanCodeDemo {
     public static void main(String[] args) {
-        String srcFile="C:\\Users\\DELL\\Pictures\\头像2.jpeg";
-//        String dstFile="C:\\Users\\DELL\\Pictures\\dst.jpeg";
+        String srcFile = "C:\\Users\\DELL\\Pictures\\头像2.jpeg";
+        String dstFile = "C:\\Users\\DELL\\Pictures\\dst.jpeg";
+
 //        zipFile(srcFile,dstFile);
 //        System.out.println("压缩文件Ok!");
+
         /*String str = "i like like like java do you like a java";
         byte[] bytes = str.getBytes();
         byte[] zip = huffmanZip(bytes);
         System.out.println(Arrays.toString(zip));
         byte[] by = deCode(huffmanCode, zip);
         System.out.println(new String(by));*/
-        String zipFile="C:\\Users\\DELL\\Pictures\\dst.jpeg";
-        String dstFile="C:\\Users\\DELL\\Pictures\\头像2.jpeg";
-        unZipFile(zipFile,dstFile);
+
+        String zipFile = "C:\\Users\\DELL\\Pictures\\dst.jpeg";
+        String zipDstFile = "C:\\Users\\DELL\\Pictures\\头像2.jpeg";
+        unZipFile(zipFile, zipDstFile);
         System.out.println("解压成功！");
     }
 
     /**
-     *解压
+     * 解压
+     *
      * @param zipFile 压缩文件
      * @param dstFile 解压后的文件路径
      */
-    public static  void unZipFile(String zipFile,String dstFile){
-        FileInputStream is =null;
-        ObjectInputStream ois=null;
-        FileOutputStream os=null;
+    public static void unZipFile(String zipFile, String dstFile) {
+        FileInputStream is = null;
+        ObjectInputStream ois = null;
+        FileOutputStream os = null;
         try {
             is = new FileInputStream(zipFile);
-            ois=new ObjectInputStream(is);
-            byte[] huffmanBytes=(byte[])ois.readObject();
-            Map<Byte,String> huffmanCode= (Map<Byte,String>)ois.readObject();
+            ois = new ObjectInputStream(is);
+            byte[] huffmanBytes = (byte[]) ois.readObject();
+            Map<Byte, String> huffmanCode = (Map<Byte, String>) ois.readObject();
             byte[] bytes = deCode(huffmanCode, huffmanBytes);
-            os=new FileOutputStream(dstFile);
+            os = new FileOutputStream(dstFile);
             os.write(bytes);
         } catch (Exception e) {
             System.out.println(e.getMessage());
-        }finally {
+        } finally {
             try {
-                if(os!=null){
+                if (os != null) {
                     os.close();
                 }
-                if(ois!=null){
+                if (ois != null) {
                     ois.close();
                 }
-                if(is!=null){
+                if (is != null) {
                     is.close();
                 }
             } catch (IOException e) {
@@ -58,8 +62,10 @@ public class HuffmanCodeDemo {
             }
         }
     }
+
     /**
      * 文件压缩
+     *
      * @param srcFile
      * @param dstFile
      */
