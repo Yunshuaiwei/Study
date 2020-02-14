@@ -55,6 +55,17 @@ class Node {
         this.left=newNode;
     }
 
+    /**
+     * 右旋转
+     */
+    public void rightRotate(){
+        Node newNode = new Node(this.val);
+        newNode.right=this.right;
+        newNode.left=this.left.right;
+        this.val=this.left.val;
+        this.left=this.left.left;
+        this.right=newNode;
+    }
 
     /**
      * 查找需要删除的节点
@@ -129,9 +140,25 @@ class Node {
         //当添加完节点后，如果(左子树的高度-右子树的高度)>1，左旋转
         if(rightHeight()-leftHeight()>1){
             //左旋转
-            leftRotate();
+            //它的右子树的左子树高度大于右子树高度
+            if(this.right !=null&&this.right.leftHeight()>this.right.rightHeight()){
+                //对当前节点的右子节点进行右旋转
+                this.right.rightHeight();
+            }
+            //统一进行左旋转
+            this.leftRotate();
+            return;
         }
-
+        if(leftHeight()-rightHeight()>1){
+            //右旋转
+            //它的左子树的右子树高度大于它的左子树高度
+            if(this.left!=null&&this.left.rightHeight()>this.left.leftHeight()){
+                //对当前节点的左节点进行左旋转
+                this.left.leftRotate();
+            }
+            //最后进行右旋转
+            this.rightRotate();
+        }
     }
 
     /**
