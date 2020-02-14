@@ -84,17 +84,25 @@ class BinarySortTree {
             } else {//删除有一棵子树的节点
                 //删除的节点有左子节点
                 if (targetNode.left != null) {
-                    //如果targetNode是parent的左子节点
-                    if (parent.left.val == val) {
-                        parent.left = targetNode.left;
-                    } else {//targetNode是parent的左子节点
-                        parent.right = targetNode.left;
+                    if (parent != null) {
+                        //如果targetNode是parent的左子节点
+                        if (parent.left.val == val) {
+                            parent.left = targetNode.left;
+                        } else {//targetNode是parent的左子节点
+                            parent.right = targetNode.left;
+                        }
+                    } else {
+                        root = targetNode.left;
                     }
                 } else {//删除的节点有右子节点
-                    if (parent.left.val == val) {//targetNode是parent的左子节点
-                        parent.left = targetNode.right;
-                    } else {//targetNode是parent的右子节点
-                        parent.right = targetNode.right;
+                    if (parent != null) {
+                        if (parent.left.val == val) {//targetNode是parent的左子节点
+                            parent.left = targetNode.right;
+                        } else {//targetNode是parent的右子节点
+                            parent.right = targetNode.right;
+                        }
+                    } else {
+                        root = targetNode.right;
                     }
                 }
             }
