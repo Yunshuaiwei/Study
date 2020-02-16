@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 
 /**
  * @author DELL
@@ -20,8 +21,10 @@ public class GraphDemo {
         graph.insertEdges(1, 4, 1);
 
         graph.showGraph();
-        System.out.println("深度优先遍历：");
-        graph.dfs();
+//        System.out.println("深度优先遍历：");
+//        graph.dfs();
+        System.out.println("广度优先：");
+        graph.bfs();
     }
 }
 
@@ -36,6 +39,47 @@ class Graph {
         vertexList = new ArrayList<>(n);
         numOfEdges = 0;
         isVisited = new boolean[n];
+    }
+
+    /**
+     * 广度优先遍历
+     *
+     * @param isVisited 标记是否访问过
+     * @param i         访问节点的下标
+     */
+    private void bfs(boolean[] isVisited, int i) {
+        int u;//队列头节点对应下标
+        int w;//邻接节点
+        //队列，记录节点访问顺序
+        LinkedList<Integer> queue = new LinkedList();
+        System.out.print(getValueByIndex(i) + "=>");
+        isVisited[i] = true;
+        //将节点加入队列
+        queue.addLast(i);
+        while (!queue.isEmpty()) {
+            //取出队列的头节点下标
+            u = queue.removeFirst();
+            //得到第一个邻接点的下标
+            w = getFirstNeighbor(u);
+            while (w != -1) {//找到了
+                //是否访问过
+                if (!isVisited[w]) {
+                    System.out.print(getValueByIndex(w) + "=>");
+                    isVisited[w] = true;
+                    //入队列
+                    queue.addLast(w);
+                }
+                w = getNextNeighbor(u, w);
+            }
+        }
+    }
+
+    public void bfs() {
+        for (int i = 0; i < getNumOfVertex(); i++) {
+            if (!isVisited[i]) {
+                bfs(isVisited, i);
+            }
+        }
     }
 
     /**
