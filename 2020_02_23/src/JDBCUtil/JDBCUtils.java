@@ -13,13 +13,15 @@ import java.util.Properties;
  **/
 public class JDBCUtils {
     public static Connection getConnection() throws Exception {
-        FileInputStream fs = new FileInputStream("jdbc.properties");
+        //1、读取配置文件
+        FileInputStream fs = new FileInputStream("E:\\JavaCodeIDEA\\Study\\2020_02_23\\jdbc.properties");
         Properties pts = new Properties();
         pts.load(fs);
         String user = pts.getProperty("user");
         String password = pts.getProperty("password");
         String url = pts.getProperty("url");
         String driver = pts.getProperty("driver");
+        //加载驱动
         Class.forName(driver);
         Connection conn = DriverManager.getConnection(url, user, password);
         return conn;
@@ -27,17 +29,17 @@ public class JDBCUtils {
 
     public static void closeResource(Connection conn, PreparedStatement pps) {
         try {
-            if (conn != null) {
-                conn.close();
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        try {
             if (pps != null) {
                 pps.close();
             }
 
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        try {
+            if (conn != null) {
+                conn.close();
+            }
         } catch (SQLException e) {
             e.printStackTrace();
         }
