@@ -59,6 +59,18 @@ class MyBinaryTree {
         this.root = root;
     }
     /**
+     * 求树的深度
+     * @param root 根节点
+     * @return 返回深度
+     */
+    public int maxDepth(Node root) {
+        if(root==null){
+            return 0;
+        }
+        return maxDepth(root.leftNode)>maxDepth(root.rightNode)?
+                maxDepth(root.leftNode)+1:maxDepth(root.rightNode)+1;
+    }
+    /**
      * 查找节点
      *
      * @param root 根节点
@@ -226,6 +238,12 @@ class Node {
         System.out.print(root.val + " ");
     }
 
+    /**
+     * 检查两颗树是否相同
+     * @param p 第一棵树的根
+     * @param q 第二棵树的根
+     * @return 相等返回true，否则返回false
+     */
     public boolean isSameTree(Node p, Node q) {
         if(p==null&&q==null){
             return true;
@@ -236,14 +254,31 @@ class Node {
         if(q==null){
             return false;
         }
-        if(p.val==q.val){
-            return true;
+        if(p.val!=q.val){
+            return false;
         }
         boolean a = isSameTree(p.leftNode, q.leftNode);
         boolean b = isSameTree(p.rightNode, q.rightNode);
-        if(a&&b){
+        return a && b;
+    }
+
+    /**
+     * 另一棵树的子树
+     * @param s 第一棵树的根
+     * @param t 第二棵树的根
+     * @return 第一棵树包含第二棵树返回true，否则返回false
+     */
+    public boolean isSubtree(Node s, Node t) {
+        if(s==null&&t==null){
             return true;
         }
-        return false;
+        if(s==null){
+            return false;
+        }
+        boolean a = isSameTree(s.leftNode, t.leftNode);
+        boolean b = isSameTree(s.rightNode, t.rightNode);
+        return a&&b;
     }
+
+
 }
