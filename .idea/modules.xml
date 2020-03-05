@@ -34,9 +34,13 @@
       <module fileurl="file://$PROJECT_DIR$/2020_02_16/2020_02_16.iml" filepath="$PROJECT_DIR$/2020_02_16/2020_02_16.iml" />
       <module fileurl="file://$PROJECT_DIR$/2020_02_23/2020_02_23.iml" filepath="$PROJECT_DIR$/2020_02_23/2020_02_23.iml" />
       <module fileurl="file://$PROJECT_DIR$/2020_02_25/2020_02_25.iml" filepath="$PROJECT_DIR$/2020_02_25/2020_02_25.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2020_02_28/2020_02_28.iml" filepath="$PROJECT_DIR$/2020_02_28/2020_02_28.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2020_03_03/2020_03_03.iml" filepath="$PROJECT_DIR$/2020_03_03/2020_03_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2020_03_04/2020_03_04.iml" filepath="$PROJECT_DIR$/2020_03_04/2020_03_04.iml" />
       <module fileurl="file://$PROJECT_DIR$/2020_1_16/2020_1_16.iml" filepath="$PROJECT_DIR$/2020_1_16/2020_1_16.iml" />
       <module fileurl="file://$PROJECT_DIR$/2019_12_18_SingletonTest/SingletonTest.iml" filepath="$PROJECT_DIR$/2019_12_18_SingletonTest/SingletonTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/Study.iml" filepath="$PROJECT_DIR$/Study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thread-study/thread-study.iml" filepath="$PROJECT_DIR$/thread-study/thread-study.iml" />
     </modules>
   </component>
 </project>

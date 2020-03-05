@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 /**
  * @author DELL
@@ -5,7 +6,16 @@
  **/
 public class Test {
     public static void main(String[] args) {
-
+        Scanner scan = new Scanner(System.in);
+        int i = scan.nextInt();
+        int n;
+        int m;
+        while(i>0){
+            n=scan.nextInt();
+            m=scan.nextInt();
+            System.out.println((n%(m+1))==0?"Win":"Lose");
+            i--;
+        }
     }
 }
 class Node{

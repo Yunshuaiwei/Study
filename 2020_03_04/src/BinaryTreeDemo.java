@@ -58,6 +58,25 @@ class MyBinaryTree {
     public void setRoot(Node root) {
         this.root = root;
     }
+
+    /**
+     * 判断一棵树是否是平衡二叉树
+     * @param root 根节点
+     * @return 是返回true，否则返回false
+     */
+    public boolean isBalanced(Node root) {
+        if(root==null){
+            return true;
+        }
+        int l = getHeight(root.leftNode);
+        int r = getHeight(root.rightNode);
+        int abs = Math.abs(l - r);
+        if(abs>1){
+            return false;
+        }
+        return true;
+    }
+
     /**
      * 求树的深度
      * @param root 根节点
@@ -67,8 +86,9 @@ class MyBinaryTree {
         if(root==null){
             return 0;
         }
-        return maxDepth(root.leftNode)>maxDepth(root.rightNode)?
-                maxDepth(root.leftNode)+1:maxDepth(root.rightNode)+1;
+        int l = maxDepth(root.leftNode)+1;
+        int r = maxDepth(root.rightNode)+1;
+        return Math.max(l, r);
     }
     /**
      * 查找节点
@@ -279,6 +299,4 @@ class Node {
         boolean b = isSameTree(s.rightNode, t.rightNode);
         return a&&b;
     }
-
-
 }
