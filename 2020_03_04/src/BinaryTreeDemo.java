@@ -1,6 +1,6 @@
-import javax.swing.tree.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 /**
  * @author DELL
@@ -25,6 +25,8 @@ public class BinaryTreeDemo {
         System.out.println("二叉树的高度为：" + height);
         boolean b = tree.find(root, 5);
         System.out.println(b);
+        System.out.println("-----------------------------");
+        tree.noRecursivePreOrder(root);
     }
 
 
@@ -54,6 +56,28 @@ class MyBinaryTree {
         node2.setLeftNode(node4);
         node2.setRightNode(node5);
         return root;
+    }
+
+    /**
+     * 非递归的前序遍历
+     * @param root 根节点
+     */
+    public void noRecursivePreOrder(Node root){
+        if(root==null){
+            return;
+        }
+        Stack<Node> stack = new Stack<>();
+        stack.push(root);
+        while(!stack.empty()){
+            Node pop = stack.pop();
+            System.out.print(pop.val+" ");
+            if(pop.rightNode!=null){
+                stack.push(pop.rightNode);
+            }
+            if(pop.leftNode!=null){
+                stack.push(pop.leftNode);
+            }
+        }
     }
     public void setRoot(Node root) {
         this.root = root;

@@ -10,12 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="学习">
-      <change afterPath="$PROJECT_DIR$/thread-study/src/lesson01/ThreadDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/thread-study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/DELL.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/DELL.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020_02_28/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020_02_28/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2020_03_04/src/BinaryTreeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020_03_04/src/BinaryTreeDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +115,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadDemo1">
+  <component name="RunManager" selected="Application.BinaryTreeDemo">
     <configuration name="BinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryTreeDemo" />
       <module name="2020_03_04" />
@@ -365,78 +360,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="aliTomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" APPLICATION_SERVER_NAME="Tomcat 8.5.47" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="HOST" value="114.55.31.160" />
-      <option name="LOCAL" value="false" />
-      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-      <option name="UPDATING_POLICY" value="hot-swap-classes" />
-      <deployment>
-        <artifact name="2019_11_20_cookie_session:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/2019_11_20_cookie_session" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <data>
-          <option name="targets">
-            <list>
-              <WatchedTargetModelImpl>
-                <option name="name" value="CONTEXT_XML" />
-                <option name="transportStagingTarget">
-                  <TransportTarget>
-                    <option name="id" value="28c231ee-178e-4841-ac2b-516baefae159" />
-                    <id>28c231ee-178e-4841-ac2b-516baefae159</id>
-                  </TransportTarget>
-                </option>
-                <option name="watchedLocalPath" value="" />
-                <watched-path />
-                <name>CONTEXT_XML</name>
-                <transport-target>
-                  <TransportTarget>
-                    <option name="id" value="28c231ee-178e-4841-ac2b-516baefae159" />
-                    <id>28c231ee-178e-4841-ac2b-516baefae159</id>
-                  </TransportTarget>
-                </transport-target>
-              </WatchedTargetModelImpl>
-              <StagingTargetModelImpl>
-                <option name="name" value="STAGING" />
-                <option name="stagingRemotePath" value="/root/usr/tomcat/apache-tomcat-8.5.47/webapps" />
-                <option name="transportStagingTarget">
-                  <TransportTarget>
-                    <option name="id" value="c0047dc7-764c-476e-bbd3-479d798a8479" />
-                    <id>c0047dc7-764c-476e-bbd3-479d798a8479</id>
-                  </TransportTarget>
-                </option>
-                <staging-path>/root/usr/tomcat/apache-tomcat-8.5.47/webapps</staging-path>
-                <name>STAGING</name>
-                <transport-target>
-                  <TransportTarget>
-                    <option name="id" value="c0047dc7-764c-476e-bbd3-479d798a8479" />
-                    <id>c0047dc7-764c-476e-bbd3-479d798a8479</id>
-                  </TransportTarget>
-                </transport-target>
-              </StagingTargetModelImpl>
-            </list>
-          </option>
-          <option name="transportHostId" value="de6761aa-51cd-41d3-a386-6656817d0c39" />
-          <host-id>de6761aa-51cd-41d3-a386-6656817d0c39</host-id>
-        </data>
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="1099" />
-        <option name="LOCAL" value="false" />
-      </RunnerSettings>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="2019_11_20_cookie_session:war exploded" />
-          <artifact name="2019:war exploded" />
-        </option>
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.BinaryTreeDemo" />
       <item itemvalue="Application.ThreadDemo1" />
@@ -444,14 +367,13 @@
       <item itemvalue="JUnit.JsoupTest.test4" />
       <item itemvalue="JUnit.JsoupTest.test5" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.47" />
-      <item itemvalue="Tomcat Server.aliTomcat" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadDemo1" />
         <item itemvalue="Application.BinaryTreeDemo" />
-        <item itemvalue="JUnit.JsoupTest.test5" />
         <item itemvalue="JUnit.JsoupTest.test4" />
+        <item itemvalue="Application.ThreadDemo1" />
+        <item itemvalue="JUnit.JsoupTest.test5" />
         <item itemvalue="JUnit.JsoupTest.test3" />
       </list>
     </recent_temporary>
@@ -623,13 +545,9 @@
       <workItem from="1583301309453" duration="11019000" />
       <workItem from="1583322493154" duration="3812000" />
       <workItem from="1583388127866" duration="2949000" />
-    </task>
-    <task id="LOCAL-00042" summary="队列">
-      <created>1577155856258</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1577155856258</updated>
+      <workItem from="1583409821209" duration="157000" />
+      <workItem from="1583462829780" duration="3077000" />
+      <workItem from="1583490537685" duration="3406000" />
     </task>
     <task id="LOCAL-00043" summary="数据库">
       <created>1577875048293</created>
@@ -967,7 +885,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583312284680</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="学习">
+      <created>1583409851846</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1583409851846</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1047,6 +972,14 @@
     </state>
     <state x="275" y="27" key="#Project_Structure/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577688445310" />
     <state x="275" y="27" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1577703563967" />
+    <state x="275" y="36" key="#Tomcat_Server" timestamp="1583471202438">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="36" key="#Tomcat_Server/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1583471202438" />
+    <state x="137" y="17" width="1092" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583471325421">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="137" y="17" width="1092" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1583471325421" />
     <state x="439" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582439660076">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -1057,59 +990,63 @@
     </state>
     <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1583303408649" />
     <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1578450206051" />
+    <state x="275" y="36" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1583471214796">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="36" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1583471214796" />
     <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580812173448">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1580812173448" />
-    <state x="262" y="0" key="CommitChangelistDialog2" timestamp="1583312283547">
+    <state x="262" y="0" key="CommitChangelistDialog2" timestamp="1583409849594">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="262" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.-203.1024.738@0.0.1366.738" timestamp="1580295246604" />
-    <state x="262" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1583312283547" />
+    <state x="262" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1583409849594" />
     <state x="1642" y="-203" key="CommitChangelistDialog2/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1582896756415" />
     <state x="262" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580646849430" />
     <state x="262" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577155854744" />
     <state x="262" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1581576190443" />
-    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1583230699850">
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1583471200888">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.-203.1024.738@0.0.1366.738" timestamp="1580292587969" />
-    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1583230699850" />
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1583471200888" />
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577688441947" />
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1578450301945" />
-    <state width="1397" height="244" key="GridCell.Tab.0.bottom" timestamp="1583327101145">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1397" height="249" key="GridCell.Tab.0.bottom" timestamp="1583492478956">
+      <screen x="1366" y="-203" width="1440" height="870" />
     </state>
     <state width="1323" height="321" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-203.1024.738@0.0.1366.738" timestamp="1580295271390" />
-    <state width="1397" height="244" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1583327101145" />
-    <state width="1397" height="244" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1583324298673" />
+    <state width="1323" height="200" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1583473013043" />
+    <state width="1397" height="249" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1583492478956" />
     <state width="1323" height="244" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580646872003" />
     <state width="1323" height="247" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577696017861" />
     <state width="1323" height="140" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1579600876856" />
-    <state width="1397" height="244" key="GridCell.Tab.0.center" timestamp="1583327101145">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1397" height="249" key="GridCell.Tab.0.center" timestamp="1583492478955">
+      <screen x="1366" y="-203" width="1440" height="870" />
     </state>
     <state width="1323" height="321" key="GridCell.Tab.0.center/0.0.1366.738/1366.-203.1024.738@0.0.1366.738" timestamp="1580295271390" />
-    <state width="1397" height="244" key="GridCell.Tab.0.center/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1583327101145" />
-    <state width="1397" height="244" key="GridCell.Tab.0.center/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1583324298671" />
+    <state width="1323" height="200" key="GridCell.Tab.0.center/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1583473013043" />
+    <state width="1397" height="249" key="GridCell.Tab.0.center/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1583492478955" />
     <state width="1323" height="244" key="GridCell.Tab.0.center/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580646872003" />
     <state width="1323" height="247" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577696017860" />
     <state width="1323" height="140" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1579600876856" />
-    <state width="1397" height="244" key="GridCell.Tab.0.left" timestamp="1583327101144">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1397" height="249" key="GridCell.Tab.0.left" timestamp="1583492478955">
+      <screen x="1366" y="-203" width="1440" height="870" />
     </state>
     <state width="1323" height="321" key="GridCell.Tab.0.left/0.0.1366.738/1366.-203.1024.738@0.0.1366.738" timestamp="1580295271390" />
-    <state width="1397" height="244" key="GridCell.Tab.0.left/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1583327101144" />
-    <state width="1397" height="244" key="GridCell.Tab.0.left/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1583324298671" />
+    <state width="1323" height="200" key="GridCell.Tab.0.left/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1583473013043" />
+    <state width="1397" height="249" key="GridCell.Tab.0.left/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1583492478955" />
     <state width="1323" height="244" key="GridCell.Tab.0.left/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580646872003" />
     <state width="1323" height="247" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577696017860" />
     <state width="1323" height="140" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1579600876856" />
-    <state width="1397" height="244" key="GridCell.Tab.0.right" timestamp="1583327101145">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1397" height="249" key="GridCell.Tab.0.right" timestamp="1583492478956">
+      <screen x="1366" y="-203" width="1440" height="870" />
     </state>
     <state width="1323" height="321" key="GridCell.Tab.0.right/0.0.1366.738/1366.-203.1024.738@0.0.1366.738" timestamp="1580295271390" />
-    <state width="1397" height="244" key="GridCell.Tab.0.right/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1583327101145" />
-    <state width="1397" height="244" key="GridCell.Tab.0.right/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1583324298672" />
+    <state width="1323" height="200" key="GridCell.Tab.0.right/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1583473013043" />
+    <state width="1397" height="249" key="GridCell.Tab.0.right/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1583492478956" />
     <state width="1323" height="244" key="GridCell.Tab.0.right/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580646872003" />
     <state width="1323" height="247" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577696017861" />
     <state width="1323" height="140" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1579600876856" />
@@ -1171,11 +1108,11 @@
     <state x="184" y="0" key="SettingsEditor/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1583230688505" />
     <state x="1560" y="-203" key="SettingsEditor/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1583322901125" />
     <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1579155313882" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1583312301327">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1583409973947">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-203.1024.738@0.0.1366.738" timestamp="1580295252821" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1583312301327" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1583409973947" />
     <state x="1656" y="-83" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1582896771343" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580646858665" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577155863659" />
