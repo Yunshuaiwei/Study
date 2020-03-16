@@ -27,6 +27,12 @@ public class BinaryTreeDemo {
         System.out.println(b);
         System.out.println("-----------------------------");
         tree.noRecursivePreOrder(root);
+        System.out.println("非递归中序遍历：");
+        tree.noRecursiveInOrder(root);
+        System.out.println("-----------------------------");
+        System.out.println("非递归后序遍历：");
+        tree.noRecursivePostOrder(root);
+
     }
 
 
@@ -40,10 +46,9 @@ class MyBinaryTree {
     }
 
     /**
-     *
      * @return
      */
-    public Node getTree(){
+    public Node getTree() {
         root = new Node(1);
         Node node1 = new Node(3);
         Node node2 = new Node(5);
@@ -57,45 +62,88 @@ class MyBinaryTree {
         node2.setRightNode(node5);
         return root;
     }
+    public void noRecursivePostOrder(Node root){
+        Node cur=root;
+        Stack<Node> nodes = new Stack<>();
+        Node tmp=null;
+        while(cur!=null||!nodes.empty()){
+            while(cur!=null){
+                nodes.push(cur);
+                cur=cur.leftNode;
+            }
+            Node top=nodes.peek();
+            if(top.rightNode==null||top.rightNode==tmp){
+                System.out.print(top.val+" ");
+                tmp=top;
+                nodes.pop();
+            }else{
+                cur=top.rightNode;
+            }
+        }
+
+    }
+    /**
+     * 中序遍历的非递归实现
+     *
+     * @param root 根节点
+     */
+    public void noRecursiveInOrder(Node root) {
+        Node cur = root;
+        Stack<Node> nodes = new Stack<>();
+        while (cur != null || !nodes.empty()) {
+            while (cur!= null) {
+                nodes.push(cur);
+                cur = cur.leftNode;
+            }
+            cur = nodes.pop();
+            System.out.print(cur.val+" ");
+            cur=cur.rightNode;
+        }
+        System.out.println();
+    }
 
     /**
      * 非递归的前序遍历
+     *
      * @param root 根节点
      */
-    public void noRecursivePreOrder(Node root){
-        if(root==null){
+    public void noRecursivePreOrder(Node root) {
+        if (root == null) {
             return;
         }
         Stack<Node> stack = new Stack<>();
         stack.push(root);
-        while(!stack.empty()){
+        while (!stack.empty()) {
             Node pop = stack.pop();
-            System.out.print(pop.val+" ");
-            if(pop.rightNode!=null){
+            System.out.print(pop.val + " ");
+            if (pop.rightNode != null) {
                 stack.push(pop.rightNode);
             }
-            if(pop.leftNode!=null){
+            if (pop.leftNode != null) {
                 stack.push(pop.leftNode);
             }
         }
+        System.out.println();
     }
+
     public void setRoot(Node root) {
         this.root = root;
     }
 
     /**
      * 判断一棵树是否是平衡二叉树
+     *
      * @param root 根节点
      * @return 是返回true，否则返回false
      */
     public boolean isBalanced(Node root) {
-        if(root==null){
+        if (root == null) {
             return true;
         }
         int l = getHeight(root.leftNode);
         int r = getHeight(root.rightNode);
         int abs = Math.abs(l - r);
-        if(abs>1){
+        if (abs > 1) {
             return false;
         }
         return true;
@@ -103,17 +151,19 @@ class MyBinaryTree {
 
     /**
      * 求树的深度
+     *
      * @param root 根节点
      * @return 返回深度
      */
     public int maxDepth(Node root) {
-        if(root==null){
+        if (root == null) {
             return 0;
         }
-        int l = maxDepth(root.leftNode)+1;
-        int r = maxDepth(root.rightNode)+1;
+        int l = maxDepth(root.leftNode) + 1;
+        int r = maxDepth(root.rightNode) + 1;
         return Math.max(l, r);
     }
+
     /**
      * 查找节点
      *
@@ -284,21 +334,22 @@ class Node {
 
     /**
      * 检查两颗树是否相同
+     *
      * @param p 第一棵树的根
      * @param q 第二棵树的根
      * @return 相等返回true，否则返回false
      */
     public boolean isSameTree(Node p, Node q) {
-        if(p==null&&q==null){
+        if (p == null && q == null) {
             return true;
         }
-        if(p==null){
+        if (p == null) {
             return false;
         }
-        if(q==null){
+        if (q == null) {
             return false;
         }
-        if(p.val!=q.val){
+        if (p.val != q.val) {
             return false;
         }
         boolean a = isSameTree(p.leftNode, q.leftNode);
@@ -308,19 +359,20 @@ class Node {
 
     /**
      * 另一棵树的子树
+     *
      * @param s 第一棵树的根
      * @param t 第二棵树的根
      * @return 第一棵树包含第二棵树返回true，否则返回false
      */
     public boolean isSubtree(Node s, Node t) {
-        if(s==null&&t==null){
+        if (s == null && t == null) {
             return true;
         }
-        if(s==null){
+        if (s == null) {
             return false;
         }
         boolean a = isSameTree(s.leftNode, t.leftNode);
         boolean b = isSameTree(s.rightNode, t.rightNode);
-        return a&&b;
+        return a && b;
     }
 }
