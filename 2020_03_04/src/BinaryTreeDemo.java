@@ -1,3 +1,4 @@
+import javax.swing.tree.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
@@ -62,28 +63,59 @@ class MyBinaryTree {
         node2.setRightNode(node5);
         return root;
     }
-    public void noRecursivePostOrder(Node root){
-        Node cur=root;
-        Stack<Node> nodes = new Stack<>();
-        Node tmp=null;
-        while(cur!=null||!nodes.empty()){
-            while(cur!=null){
-                nodes.push(cur);
-                cur=cur.leftNode;
+
+    public List<Integer> postOrderTraversal(Node root) {
+        List<Integer> node = new ArrayList<>();
+        Stack<Node> s = new Stack<>();
+        Node cur = root;
+        Node tmp = null;
+        while (cur != null || !s.empty()) {
+            while (cur != null) {
+                s.push(cur);
+                cur = cur.leftNode;
             }
-            Node top=nodes.peek();
-            if(top.rightNode==null||top.rightNode==tmp){
-                System.out.print(top.val+" ");
-                tmp=top;
+            Node top = s.peek();
+
+            if (top.rightNode == null || top.rightNode == tmp) {
+                node.add(top.val);
+                tmp = top;
+                s.pop();
+            } else {
+                cur = top.rightNode;
+            }
+        }
+        return node;
+
+    }
+
+    /**
+     * 非递归后序遍历
+     *
+     * @param root
+     */
+    public void noRecursivePostOrder(Node root) {
+        Node cur = root;
+        Stack<Node> nodes = new Stack<>();
+        Node tmp = null;
+        while (cur != null || !nodes.empty()) {
+            while (cur != null) {
+                nodes.push(cur);
+                cur = cur.leftNode;
+            }
+            Node top = nodes.peek();
+            if (top.rightNode == null || top.rightNode == tmp) {
+                System.out.print(top.val + " ");
+                tmp = top;
                 nodes.pop();
-            }else{
-                cur=top.rightNode;
+            } else {
+                cur = top.rightNode;
             }
         }
 
     }
+
     /**
-     * 中序遍历的非递归实现
+     * 非递归中序遍历
      *
      * @param root 根节点
      */
@@ -91,13 +123,13 @@ class MyBinaryTree {
         Node cur = root;
         Stack<Node> nodes = new Stack<>();
         while (cur != null || !nodes.empty()) {
-            while (cur!= null) {
+            while (cur != null) {
                 nodes.push(cur);
                 cur = cur.leftNode;
             }
             cur = nodes.pop();
-            System.out.print(cur.val+" ");
-            cur=cur.rightNode;
+            System.out.print(cur.val + " ");
+            cur = cur.rightNode;
         }
         System.out.println();
     }
