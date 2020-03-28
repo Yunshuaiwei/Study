@@ -27,7 +27,7 @@ public class BreadOperator {
             try {
                 for (int i = 0; i < 20; i++) {
                     synchronized (BreadOperator.class) {
-                        while (SUM + 3 > 100) {
+                        while (SUM + 3 > 100) {//释放锁，线程处于等待状态
                             BreadOperator.class.wait();
                         }
                         SUM += 3;//生产面包
@@ -54,7 +54,7 @@ public class BreadOperator {
                         }
                         SUM--;
                         Thread.sleep(100);
-                        //唤醒被wait阻塞的线程(随机唤醒一个线程)
+                        //唤醒被wait阻塞的线程
                         BreadOperator.class.notifyAll();
                         System.out.println(Thread.currentThread().getName()+",消费面包，库存为："+SUM);
                     }
