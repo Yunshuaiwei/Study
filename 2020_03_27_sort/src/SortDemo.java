@@ -9,7 +9,8 @@ public class SortDemo {
         int[] arr = {3, 8, 2, 6, 5, 7, 1, 4, 0, 9};
 //        insertSort(arr);
 //        shellSort(arr);
-        selectSort(arr);
+//        selectSort(arr);
+        quickSort(arr,0,arr.length);
         System.out.println("排序后：" + Arrays.toString(arr));
     }
 
@@ -90,6 +91,49 @@ public class SortDemo {
 
         }
     }
-
+    /**
+     * 快排
+     * @Param [arr, left, right]
+     * @return void
+     **/
+    public static void quickSort(int []arr,int left,int right){
+        if(right-left>1){
+            //找划分的基准值
+            int div=position(arr,left,right);
+            //递归排基准值的左半部分
+            quickSort(arr,left,div);
+            //递归排基准值的右半部分
+            quickSort(arr,div+1,right);
+        }
+    }
+    /**
+     * 找划分区间的基准值
+     * @Param [arr, left, right]
+     * @return int：表示基准值的下标
+     **/
+    private static int position(int [] arr,int left,int right){
+        int l=left;
+        int r=right-1;
+        int div=arr[r];
+        while(l<r){
+            while(l<r&&arr[l]<=div){
+                l++;
+            }
+            while(l<r&&arr[r]>=div){
+                r--;
+            }
+            if(l<r){
+                arr[l]^=arr[r];
+                arr[r]^=arr[l];
+                arr[l]^=arr[r];
+            }
+        }
+        if(l!=right-1){
+            arr[right-1]^=arr[l];
+            arr[l]^=arr[right-1];
+            arr[right-1]^=arr[l];
+        }
+        return l;
+    }
 
 }
