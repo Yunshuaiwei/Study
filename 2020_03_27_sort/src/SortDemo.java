@@ -196,4 +196,17 @@ public class SortDemo {
         int [] temp=new int [arr.length];
         mergeSort(arr,0,arr.length,temp);
     }
+    public static void mergeSortNor(int [] arr){
+        int [] temp=new int[arr.length];
+        int gap=1;
+        while(gap<arr.length){
+            for (int i = 0; i < arr.length; i+=gap*2) {
+                int left=i;
+                int mid=left+gap;
+                int right=mid+gap;
+                mergeData(arr,left,mid,right,temp);
+            }
+            System.arraycopy(temp,0,arr,0,arr.length);
+        }
+    }
 }

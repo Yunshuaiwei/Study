@@ -10,6 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="学习">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_10__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020_04_11_file/2020_04_11_file.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020_04_11_file/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020_04_11_file/lib/junit-4.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020_04_11_file/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2020_04_11_file/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2020_03_27_sort/src/SortDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020_03_27_sort/src/SortDemo.java" afterDir="false" />
     </list>
@@ -77,7 +84,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/2020_04_11_file/lib" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -90,15 +97,15 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\JavaCodeIDEA\Study\thread-study" />
-      <recent name="E:\JavaCodeIDEA\Study\2020_03_03\lib" />
-      <recent name="E:\JavaCodeIDEA\Study\2020_02_25\imag" />
-      <recent name="E:\JavaCodeIDEA\Study\2020_02_23\lib" />
-      <recent name="F:\JavaCodeIDEA\Study\2019_12_30_transaction\lib" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JavaCodeIDEA\Study\thread-study\src" />
+      <recent name="E:\JavaCodeIDEA\Study\2020_02_23" />
+      <recent name="E:\JavaCodeIDEA\Study\2020_02_23\src" />
+      <recent name="E:\JavaCodeIDEA\Study\2020_02_23\src\JDBCUtil" />
+      <recent name="F:\JavaCodeIDEA\Study\2019_11_26_JDBC" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ThreadBinaryTree" />
@@ -107,12 +114,12 @@
       <recent name="web.servletcontext" />
       <recent name="web.response" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\JavaCodeIDEA\Study\thread-study\src" />
-      <recent name="E:\JavaCodeIDEA\Study\2020_02_23" />
-      <recent name="E:\JavaCodeIDEA\Study\2020_02_23\src" />
-      <recent name="E:\JavaCodeIDEA\Study\2020_02_23\src\JDBCUtil" />
-      <recent name="F:\JavaCodeIDEA\Study\2019_11_26_JDBC" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaCodeIDEA\Study\2020_04_11_file\lib" />
+      <recent name="E:\JavaCodeIDEA\Study\thread-study" />
+      <recent name="E:\JavaCodeIDEA\Study\2020_03_03\lib" />
+      <recent name="E:\JavaCodeIDEA\Study\2020_02_25\imag" />
+      <recent name="E:\JavaCodeIDEA\Study\2020_02_23\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -122,15 +129,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SortDemo">
-    <configuration name="BinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryTreeDemo" />
-      <module name="2020_03_04" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Test.test">
     <configuration name="BreadOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson05.BreadOperator" />
       <module name="thread-study" />
@@ -187,12 +186,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2020_04_11_file" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="junit-4.10.jar" type="JarApplication">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/2020_04_11_file/lib/junit-4.10.jar" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
@@ -371,20 +386,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BinaryTreeDemo" />
       <item itemvalue="Application.BreadOperator" />
       <item itemvalue="Application.SortDemo" />
       <item itemvalue="Application.MyBlockingQueue" />
       <item itemvalue="Application.DateTest" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.47" />
+      <item itemvalue="JAR Application.junit-4.10.jar" />
+      <item itemvalue="JUnit.Test.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test.test" />
         <item itemvalue="Application.SortDemo" />
         <item itemvalue="Application.DateTest" />
         <item itemvalue="Application.MyBlockingQueue" />
         <item itemvalue="Application.BreadOperator" />
-        <item itemvalue="Application.BinaryTreeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -579,14 +595,11 @@
       <workItem from="1585906595691" duration="719000" />
       <workItem from="1586093922218" duration="4723000" />
       <workItem from="1586229261697" duration="2118000" />
-      <workItem from="1586314157207" duration="2316000" />
-    </task>
-    <task id="LOCAL-00058" summary="查找算法">
-      <created>1580810159305</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1580810159305</updated>
+      <workItem from="1586314157207" duration="4057000" />
+      <workItem from="1586426373279" duration="1507000" />
+      <workItem from="1586566294949" duration="1225000" />
+      <workItem from="1586568625791" duration="1802000" />
+      <workItem from="1586610398618" duration="1686000" />
     </task>
     <task id="LOCAL-00059" summary="hashTable">
       <created>1580815264564</created>
@@ -924,7 +937,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586098499194</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="学习">
+      <created>1586326686993</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1586326686994</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1003,11 +1023,6 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="27" key="#Notifications/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1586094087304" />
-    <state x="275" y="27" key="#Project_Structure" timestamp="1577703563967">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="275" y="27" key="#Project_Structure/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577688445310" />
-    <state x="275" y="27" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1577703563967" />
     <state x="275" y="36" key="#Tomcat_Server" timestamp="1583471202438">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -1020,7 +1035,6 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="439" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1582439660076" />
-    <state x="439" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577688338533" />
     <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1585364374873">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -1035,7 +1049,11 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1580812173448" />
-    <state x="262" y="0" key="CommitChangelistDialog2" timestamp="1586098497764">
+    <state x="391" y="16" key="#junit-4.10.jar" timestamp="1586611134586">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="391" y="16" key="#junit-4.10.jar/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1586611134586" />
+    <state x="262" y="0" key="CommitChangelistDialog2" timestamp="1586326684998">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="262" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1586098497764" />
@@ -1043,8 +1061,9 @@
     <state x="262" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1585563370880" />
     <state x="1642" y="-203" key="CommitChangelistDialog2/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1583635902994" />
     <state x="262" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580646849430" />
+    <state x="262" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586326684998" />
     <state x="262" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1581576190443" />
-    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1586249153271">
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1586330996422">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1585899878491" />
@@ -1052,9 +1071,9 @@
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1585720785163" />
     <state x="1854" y="-57" key="FileChooserDialogImpl/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1584235821692" />
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1586249153271" />
-    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577688441947" />
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586330996421" />
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1578450301945" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1586326501046">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1586330997883">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1586098650533" />
@@ -1062,10 +1081,10 @@
     <state width="1323" height="221" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1585566768483" />
     <state width="1397" height="242" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1584236428009" />
     <state width="1323" height="244" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580646872003" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586326501046" />
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586330997883" />
     <state width="1323" height="140" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1579600876856" />
     <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.-146.1440.900@0.0.1366.768" timestamp="1586098259651" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1586326501046">
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1586330997883">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.0.center/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1586098650533" />
@@ -1073,10 +1092,10 @@
     <state width="1323" height="221" key="GridCell.Tab.0.center/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1585566768483" />
     <state width="1397" height="242" key="GridCell.Tab.0.center/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1584236428009" />
     <state width="1323" height="244" key="GridCell.Tab.0.center/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580646872003" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586326501046" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586330997883" />
     <state width="1323" height="140" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1579600876856" />
     <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768/1366.-146.1440.900@0.0.1366.768" timestamp="1586098259651" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1586326501045">
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1586330997882">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.0.left/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1586098650533" />
@@ -1084,10 +1103,10 @@
     <state width="1323" height="221" key="GridCell.Tab.0.left/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1585566768483" />
     <state width="1397" height="242" key="GridCell.Tab.0.left/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1584236428009" />
     <state width="1323" height="244" key="GridCell.Tab.0.left/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580646872003" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586326501045" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586330997882" />
     <state width="1323" height="140" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1579600876856" />
     <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768/1366.-146.1440.900@0.0.1366.768" timestamp="1586098259651" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1586326501046">
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1586330997883">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.0.right/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1586098650533" />
@@ -1095,7 +1114,7 @@
     <state width="1323" height="221" key="GridCell.Tab.0.right/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1585566768483" />
     <state width="1397" height="242" key="GridCell.Tab.0.right/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1584236428009" />
     <state width="1323" height="244" key="GridCell.Tab.0.right/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580646872003" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586326501046" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586330997883" />
     <state width="1323" height="140" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1579600876856" />
     <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768/1366.-146.1440.900@0.0.1366.768" timestamp="1586098259651" />
     <state width="1323" height="238" key="GridCell.Tab.1.bottom" timestamp="1586098650534">
@@ -1138,13 +1157,14 @@
     <state width="1323" height="184" key="GridCell.Tab.1.right/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580643820638" />
     <state width="1323" height="321" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1579171968868" />
     <state width="1323" height="238" key="GridCell.Tab.1.right/0.0.1366.768/1366.-146.1440.900@0.0.1366.768" timestamp="1586097354601" />
-    <state x="1560" y="-203" key="SettingsEditor" timestamp="1584235823370">
-      <screen x="1366" y="-203" width="1440" height="870" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1586326815396">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1583230688505" />
     <state x="1560" y="-203" key="SettingsEditor/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1584235823370" />
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586326815396" />
     <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1579155313882" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1586098506535">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1586326985987">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1586098506535" />
@@ -1152,30 +1172,29 @@
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1585563376874" />
     <state x="1656" y="-83" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1583635912390" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580646858665" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586326985987" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1581576200766" />
     <state x="381" y="262" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583225439451">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="381" y="262" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1583225439451" />
-    <state x="381" y="262" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577689476007" />
     <state x="392" y="160" key="git4idea.merge.GitPullDialog" timestamp="1579587792569">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="392" y="160" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1579587792569" />
-    <state x="57" y="0" key="new project wizard" timestamp="1585559496926">
+    <state x="57" y="0" key="new project wizard" timestamp="1586610463319">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="57" y="0" key="new project wizard/0.0.1366.738/1366.-203.1024.738@0.0.1366.738" timestamp="1580269376783" />
     <state x="57" y="0" key="new project wizard/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1585559496926" />
     <state x="1426" y="-203" key="new project wizard/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1583322985458" />
-    <state x="57" y="0" key="new project wizard/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1577688131690" />
+    <state x="57" y="0" key="new project wizard/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1586610463319" />
     <state x="57" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1579169145553" />
     <state x="125" y="43" width="950" height="596" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1581041986857">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="125" y="43" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.738/1366.-203.1024.738@0.0.1366.738" timestamp="1580181377221" />
     <state x="125" y="43" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1581041986857" />
-    <state x="125" y="43" width="950" height="596" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.738@0.0.1366.738" timestamp="1577703739079" />
     <state x="1787" y="-141" key="refactoring.ChangeSignatureDialog" timestamp="1582895916763">
       <screen x="1366" y="-203" width="1440" height="870" />
     </state>
