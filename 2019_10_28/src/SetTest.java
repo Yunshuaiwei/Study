@@ -1,6 +1,5 @@
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import java.awt.print.PrinterGraphics;
 import java.util.*;
 
 /**

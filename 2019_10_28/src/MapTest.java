@@ -1,7 +1,7 @@
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import java.util.*;
 import java.util.Set;
+import java.util.*;
 
 /**
  * @ProjectName 2019_10_28
