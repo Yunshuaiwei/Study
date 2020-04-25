@@ -16,4 +16,12 @@ public class Test {
             System.out.println(line);
         }
     }
+    @org.junit.Test
+    public void writeTest() throws Exception {
+        FileOutputStream fos = new FileOutputStream(new File("data.txt"));
+        BufferedWriter b = new BufferedWriter(new OutputStreamWriter(fos));
+        b.write("1:yushahfdhakjh\n");
+        b.write("1:yushahfdhakjh\n");
+        b.flush();
+    }
 }

@@ -1,5 +1,5 @@
 import JDBCUtil.JDBCUtil;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.sql.Connection;
 
