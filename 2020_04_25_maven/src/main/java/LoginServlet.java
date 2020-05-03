@@ -3,6 +3,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -26,15 +27,23 @@ public class LoginServlet extends HttpServlet {
         resp.setCharacterEncoding("UTF-8");
         resp.setContentType("text/html;charset=UTF-8");
 
+        //获取url的路径：/login，获取项目的部署名：/test
+        System.out.println("servletPath:"+req.getServletPath()+",contextPath:"+req.getContextPath());
         String username = req.getParameter("username");
         String password = req.getParameter("password");
 
         PrintWriter pw = resp.getWriter();
         if("abc".equalsIgnoreCase(username)&&"123".equalsIgnoreCase(password)){
-            pw.println("<p>登录成功！</p>");
+//            pw.println("<p>登录成功！</p>");
+            //如果不能获取session，则创建
+            HttpSession session = req.getSession();
+            resp.sendRedirect(req.getContextPath()+"/main.html");
         }else{
-            pw.println("<p>登录不成功！</p>");
+//            pw.println("<p>登录不成功！</p>");
+            HttpSession s = req.getSession();
+            s.setAttribute("user","username="+username);
+            req.getRequestDispatcher("/error.html").forward(req,resp);
         }
-        pw.flush();
+//        pw.flush();
     }
 }
