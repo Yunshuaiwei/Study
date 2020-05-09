@@ -10,6 +10,8 @@
       <sshConfig authType="PASSWORD" host="114.55.31.160" id="d0f32cab-9aa0-499e-8d8c-8d967f2fb754" port="22" customName="114.55.31.160" nameFormat="CUSTOM" />
       <sshConfig authType="PASSWORD" host="114.55.31.160" id="60c66694-191d-4a52-87eb-217a58b4379f" port="22" customName="114.55.31.160" nameFormat="CUSTOM" />
       <sshConfig authType="PASSWORD" host="114.55.31.160" id="ff072b17-a0e0-4995-ab7e-775cef4b3d80" port="22" customName="114.55.31.160" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="114.55.31.160" id="17bb00df-f65b-4feb-9f0d-b0f0aaa30692" port="22" customName="114.55.31.160" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="114.55.31.160" id="7e1b74bd-b0fb-4ed3-acc0-67012235dc58" port="22" customName="114.55.31.160" nameFormat="CUSTOM" />
     </configs>
   </component>
 </project>
