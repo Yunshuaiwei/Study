@@ -19,790 +19,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="学习">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/blog_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/blog_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_blingblingbang_ueditor_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_web_api_8_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20160212.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2020_04_25_maven/target/classes/META-INF/2020_04_25_maven.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/blog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/db/blog.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/resources/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/jsp/articleDetail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/jsp/articleList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/jsp/main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrap-3.3.7-dist/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/css/bootstrapValidator.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/css/bootstrapValidator.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/bootstrapValidator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/bootstrapValidator.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/ar_MA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/be_FR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/be_NL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/bg_BG.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/cs_CZ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/da_DK.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/de_DE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/en_US.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/es_CL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/es_ES.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/fa_IR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/fr_FR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/gr_EL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/he_IL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/hu_HU.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/id_ID.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/it_IT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/ja_JP.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/nl_NL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/no_NO.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/pl_PL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/pt_BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/pt_PT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/ro_RO.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/ru_RU.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/sq_AL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/sr_RS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/sv_SE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/th_TH.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/tr_TR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/ua_UA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/vi_VN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/zh_CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/bootstrapvalidator/js/language/zh_TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/jquery/jquery-1.12.4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/jquery/jquery-1.12.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/anchor/anchor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/attachment/attachment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/attachment/attachment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/attachment/attachment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/attachment/images/alignicon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/attachment/images/alignicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/attachment/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/attachment/images/file-icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/attachment/images/file-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/attachment/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/attachment/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/attachment/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/attachment/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/attachment/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/attachment/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/background/background.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/background/background.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/background/background.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/background/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/background/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/charts/chart.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/charts/charts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/charts/charts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/charts/charts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/charts/images/charts0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/charts/images/charts1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/charts/images/charts2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/charts/images/charts3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/charts/images/charts4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/charts/images/charts5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/emotion/emotion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/emotion/emotion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/emotion/emotion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/emotion/images/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/emotion/images/bface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/emotion/images/cface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/emotion/images/fface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/emotion/images/jxface2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/emotion/images/tface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/emotion/images/wface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/emotion/images/yface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/gmap/gmap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/help/help.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/help/help.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/help/help.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/image/image.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/image/image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/image/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/image/images/alignicon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/image/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/image/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/image/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/image/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/image/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/image/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/image/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/insertframe/insertframe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/internal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/link/link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/map/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/map/show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/music/music.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/music/music.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/music/music.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/preview/preview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/scrawl/images/addimg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/scrawl/images/brush.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/scrawl/images/delimg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/scrawl/images/delimgH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/scrawl/images/empty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/scrawl/images/emptyH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/scrawl/images/eraser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/scrawl/images/redo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/scrawl/images/redoH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/scrawl/images/scale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/scrawl/images/scaleH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/scrawl/images/size.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/scrawl/images/undo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/scrawl/images/undoH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/scrawl/scrawl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/scrawl/scrawl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/scrawl/scrawl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/searchreplace/searchreplace.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/searchreplace/searchreplace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/snapscreen/snapscreen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/spechars/spechars.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/spechars/spechars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/table/dragicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/table/edittable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/table/edittable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/table/edittable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/table/edittd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/table/edittip.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/template/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/template/images/bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/template/images/pre0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/template/images/pre1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/template/images/pre2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/template/images/pre3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/template/images/pre4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/template/template.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/template/template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/template/template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/video/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/video/images/center_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/video/images/file-icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/video/images/file-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/video/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/video/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/video/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/video/images/left_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/video/images/none_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/video/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/video/images/right_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/video/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/video/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/video/video.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/video/video.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/video/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/webapp/webapp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/wordimage/imageUploader.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/wordimage/tangram.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/wordimage/wordimage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/dialogs/wordimage/wordimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/lang/en/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/lang/en/images/addimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/lang/en/images/alldeletebtnhoverskin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/lang/en/images/alldeletebtnupskin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/lang/en/images/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/lang/en/images/button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/lang/en/images/copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/lang/en/images/deletedisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/lang/en/images/deleteenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/lang/en/images/listbackground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/lang/en/images/localimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/lang/en/images/music.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/lang/en/images/rotateleftdisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/lang/en/images/rotateleftenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/lang/en/images/rotaterightdisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/lang/en/images/rotaterightenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/lang/en/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/lang/zh-cn/images/copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/lang/zh-cn/images/localimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/lang/zh-cn/images/music.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/lang/zh-cn/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/lang/zh-cn/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/css/ueditor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/css/ueditor.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/dialogbase.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/anchor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/arrow_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/arrow_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/button-bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/cancelbutton.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/charts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/cursor_h.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/cursor_h.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/cursor_v.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/cursor_v.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/dialog-title-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/filescan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/highlighted.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/icons-all.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/loaderror.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/lock.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/neweditor-tab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/pagebreak.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/scale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/sortable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/spacer.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/sparator_v.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/table-cell-align.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/tangram-colorpicker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/toolbar_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/unhighlighted.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/videologo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/word.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/default/images/wordpaste.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/themes/iframe.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/SyntaxHighlighter/shCore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/codemirror/codemirror.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/codemirror/codemirror.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/adapters/mootools-adapter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/adapters/prototype-adapter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/adapters/standalone-framework.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/highcharts-more.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/highcharts-more.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/highcharts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/highcharts.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/modules/annotations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/modules/annotations.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/modules/canvas-tools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/modules/canvas-tools.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/modules/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/modules/data.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/modules/drilldown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/modules/drilldown.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/modules/exporting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/modules/exporting.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/modules/funnel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/modules/funnel.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/modules/heatmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/modules/heatmap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/modules/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/modules/map.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/modules/no-data-to-display.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/themes/dark-blue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/themes/dark-green.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/themes/gray.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/themes/grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/highcharts/themes/skies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/jquery-1.10.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/jquery-1.10.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/jquery-1.10.2.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/video-js/font/vjs.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/video-js/font/vjs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/video-js/font/vjs.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/video-js/font/vjs.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/video-js/video-js.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/video-js/video-js.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/video-js/video-js.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/video-js/video.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/video-js/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/webuploader/Uploader.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/webuploader/webuploader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/webuploader/webuploader.custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/webuploader/webuploader.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/webuploader/webuploader.flashonly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/webuploader/webuploader.flashonly.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/webuploader/webuploader.html5only.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/webuploader/webuploader.html5only.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/webuploader/webuploader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/webuploader/webuploader.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/webuploader/webuploader.withoutimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/xss.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/zeroclipboard/ZeroClipboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/ueditor.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/ueditor.all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/ueditor.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/ueditor.parse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/static/ueditor/ueditor.parse.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/classes/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/WEB-INF/classes/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/WEB-INF/lib/commons-codec-1.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/WEB-INF/lib/commons-fileupload-1.3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/WEB-INF/lib/commons-io-2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/WEB-INF/lib/jackson-core-2.8.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/WEB-INF/lib/jackson-databind-2.8.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/WEB-INF/lib/json-20160212.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/WEB-INF/lib/mysql-connector-java-5.1.38.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/WEB-INF/lib/ueditor-1.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/jsp/articleDetail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/jsp/articleList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/jsp/main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrap-3.3.7-dist/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/css/bootstrapValidator.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/css/bootstrapValidator.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/bootstrapValidator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/bootstrapValidator.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/ar_MA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/be_FR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/be_NL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/bg_BG.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/cs_CZ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/da_DK.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/de_DE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/en_US.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/es_CL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/es_ES.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/fa_IR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/fr_FR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/gr_EL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/he_IL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/hu_HU.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/id_ID.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/it_IT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/ja_JP.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/nl_NL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/no_NO.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/pl_PL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/pt_BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/pt_PT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/ro_RO.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/ru_RU.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/sq_AL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/sr_RS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/sv_SE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/th_TH.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/tr_TR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/ua_UA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/vi_VN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/zh_CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/bootstrapvalidator/js/language/zh_TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/jquery/jquery-1.12.4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/jquery/jquery-1.12.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/anchor/anchor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/attachment/attachment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/attachment/attachment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/attachment/attachment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/attachment/images/alignicon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/attachment/images/alignicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/attachment/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/attachment/images/file-icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/attachment/images/file-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/attachment/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/attachment/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/attachment/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/attachment/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/attachment/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/attachment/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/background/background.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/background/background.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/background/background.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/background/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/background/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/charts/chart.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/charts/charts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/charts/charts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/charts/charts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/charts/images/charts0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/charts/images/charts1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/charts/images/charts2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/charts/images/charts3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/charts/images/charts4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/charts/images/charts5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/emotion/emotion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/emotion/emotion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/emotion/emotion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/emotion/images/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/emotion/images/bface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/emotion/images/cface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/emotion/images/fface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/emotion/images/jxface2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/emotion/images/tface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/emotion/images/wface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/emotion/images/yface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/gmap/gmap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/help/help.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/help/help.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/help/help.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/image/image.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/image/image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/image/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/image/images/alignicon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/image/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/image/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/image/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/image/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/image/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/image/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/image/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/insertframe/insertframe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/internal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/link/link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/map/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/map/show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/music/music.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/music/music.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/music/music.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/preview/preview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/scrawl/images/addimg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/scrawl/images/brush.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/scrawl/images/delimg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/scrawl/images/delimgH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/scrawl/images/empty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/scrawl/images/emptyH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/scrawl/images/eraser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/scrawl/images/redo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/scrawl/images/redoH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/scrawl/images/scale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/scrawl/images/scaleH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/scrawl/images/size.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/scrawl/images/undo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/scrawl/images/undoH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/scrawl/scrawl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/scrawl/scrawl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/scrawl/scrawl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/searchreplace/searchreplace.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/searchreplace/searchreplace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/snapscreen/snapscreen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/spechars/spechars.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/spechars/spechars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/table/dragicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/table/edittable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/table/edittable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/table/edittable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/table/edittd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/table/edittip.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/template/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/template/images/bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/template/images/pre0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/template/images/pre1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/template/images/pre2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/template/images/pre3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/template/images/pre4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/template/template.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/template/template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/template/template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/video/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/video/images/center_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/video/images/file-icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/video/images/file-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/video/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/video/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/video/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/video/images/left_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/video/images/none_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/video/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/video/images/right_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/video/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/video/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/video/video.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/video/video.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/video/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/webapp/webapp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/wordimage/imageUploader.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/wordimage/tangram.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/wordimage/wordimage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/dialogs/wordimage/wordimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/lang/en/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/lang/en/images/addimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/lang/en/images/alldeletebtnhoverskin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/lang/en/images/alldeletebtnupskin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/lang/en/images/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/lang/en/images/button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/lang/en/images/copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/lang/en/images/deletedisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/lang/en/images/deleteenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/lang/en/images/listbackground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/lang/en/images/localimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/lang/en/images/music.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/lang/en/images/rotateleftdisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/lang/en/images/rotateleftenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/lang/en/images/rotaterightdisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/lang/en/images/rotaterightenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/lang/en/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/lang/zh-cn/images/copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/lang/zh-cn/images/localimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/lang/zh-cn/images/music.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/lang/zh-cn/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/lang/zh-cn/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/css/ueditor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/css/ueditor.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/dialogbase.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/anchor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/arrow_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/arrow_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/button-bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/cancelbutton.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/charts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/cursor_h.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/cursor_h.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/cursor_v.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/cursor_v.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/dialog-title-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/filescan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/highlighted.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/icons-all.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/loaderror.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/lock.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/neweditor-tab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/pagebreak.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/scale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/sortable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/spacer.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/sparator_v.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/table-cell-align.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/tangram-colorpicker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/toolbar_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/unhighlighted.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/videologo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/word.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/default/images/wordpaste.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/themes/iframe.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/SyntaxHighlighter/shCore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/codemirror/codemirror.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/codemirror/codemirror.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/adapters/mootools-adapter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/adapters/prototype-adapter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/adapters/standalone-framework.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/highcharts-more.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/highcharts-more.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/highcharts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/highcharts.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/modules/annotations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/modules/annotations.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/modules/canvas-tools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/modules/canvas-tools.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/modules/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/modules/data.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/modules/drilldown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/modules/drilldown.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/modules/exporting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/modules/exporting.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/modules/funnel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/modules/funnel.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/modules/heatmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/modules/heatmap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/modules/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/modules/map.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/modules/no-data-to-display.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/themes/dark-blue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/themes/dark-green.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/themes/gray.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/themes/grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/highcharts/themes/skies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/jquery-1.10.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/jquery-1.10.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/jquery-1.10.2.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/video-js/font/vjs.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/video-js/font/vjs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/video-js/font/vjs.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/video-js/font/vjs.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/video-js/video-js.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/video-js/video-js.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/video-js/video-js.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/video-js/video.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/video-js/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/webuploader/Uploader.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/webuploader/webuploader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/webuploader/webuploader.custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/webuploader/webuploader.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/webuploader/webuploader.flashonly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/webuploader/webuploader.flashonly.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/webuploader/webuploader.html5only.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/webuploader/webuploader.html5only.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/webuploader/webuploader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/webuploader/webuploader.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/webuploader/webuploader.withoutimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/xss.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/zeroclipboard/ZeroClipboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/ueditor.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/ueditor.all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/ueditor.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/ueditor.parse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/target/yswblog/static/ueditor/ueditor.parse.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/yswblog/exception/BaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/yswblog/exception/ClientException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/yswblog/model/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/yswblog/model/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/yswblog/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/yswblog/servlet/AbstractBaseServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/yswblog/servlet/ArticleAddServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/yswblog/servlet/ArticleDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/yswblog/servlet/ArticleListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/yswblog/util/JSONUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/webapp/tmp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/test/java/yswblog/util/JSONUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/512fead8-eba3-4ad4-8916-c11353074b5f.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/512fead8-eba3-4ad4-8916-c11353074b5f/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/17790.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/17790.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020_04_25_maven/target/classes/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/2020_04_25_maven/target/classes/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020_04_25_maven/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/db/blog.sql" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db/blog.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/target/yswblog/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog/target/yswblog/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -819,8 +57,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -887,15 +125,15 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\JavaCodeIDEA\Study" />
-      <recent name="E:\JavaCodeIDEA\Study\thread-study\src" />
-      <recent name="E:\JavaCodeIDEA\Study\2020_02_23" />
-      <recent name="E:\JavaCodeIDEA\Study\2020_02_23\src" />
-      <recent name="E:\JavaCodeIDEA\Study\2020_02_23\src\JDBCUtil" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaCodeIDEA\Study\blog" />
+      <recent name="E:\JavaCodeIDEA\Study\2020_04_11_file\lib" />
+      <recent name="E:\JavaCodeIDEA\Study\thread-study" />
+      <recent name="E:\JavaCodeIDEA\Study\2020_03_03\lib" />
+      <recent name="E:\JavaCodeIDEA\Study\2020_02_25\imag" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ThreadBinaryTree" />
@@ -904,12 +142,12 @@
       <recent name="web.servletcontext" />
       <recent name="web.response" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\JavaCodeIDEA\Study\blog" />
-      <recent name="E:\JavaCodeIDEA\Study\2020_04_11_file\lib" />
-      <recent name="E:\JavaCodeIDEA\Study\thread-study" />
-      <recent name="E:\JavaCodeIDEA\Study\2020_03_03\lib" />
-      <recent name="E:\JavaCodeIDEA\Study\2020_02_25\imag" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JavaCodeIDEA\Study" />
+      <recent name="E:\JavaCodeIDEA\Study\thread-study\src" />
+      <recent name="E:\JavaCodeIDEA\Study\2020_02_23" />
+      <recent name="E:\JavaCodeIDEA\Study\2020_02_23\src" />
+      <recent name="E:\JavaCodeIDEA\Study\2020_02_23\src\JDBCUtil" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -934,22 +172,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="2020_04_11_file" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="blog.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/blog/db/blog.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="656ebea9-556c-4cae-b81c-f5c0c0e4e422" namespace="schema/&quot;blog&quot;" />
+      <method v="2" />
     </configuration>
-    <configuration name="Test.writeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="2020_04_11_file" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <option name="METHOD_NAME" value="writeTest" />
+    <configuration name="JSONUtilTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yswblog.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="yswblog.util" />
+      <option name="MAIN_CLASS_NAME" value="yswblog.util.JSONUtilTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -1231,21 +470,21 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="Database Script.blog.sql" />
       <item itemvalue="JAR Application.junit-4.10.jar" />
       <item itemvalue="JavaScript Debug.index.html" />
-      <item itemvalue="JUnit.Test.test" />
-      <item itemvalue="JUnit.Test.writeTest" />
+      <item itemvalue="JavaScript Debug.main.jsp" />
+      <item itemvalue="JUnit.JSONUtilTest.test1" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.54" />
       <item itemvalue="Tomcat Server.blog" />
-      <item itemvalue="JavaScript Debug.main.jsp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JSONUtilTest.test1" />
+        <item itemvalue="Database Script.blog.sql" />
         <item itemvalue="JavaScript Debug.main.jsp" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JUnit.Test.writeTest" />
-        <item itemvalue="JUnit.Test.test" />
       </list>
     </recent_temporary>
   </component>
@@ -1442,14 +681,9 @@
       <workItem from="1588483510818" duration="4438000" />
       <workItem from="1588493679672" duration="7312000" />
       <workItem from="1588583681437" duration="606000" />
-      <workItem from="1588986534319" duration="8186000" />
-    </task>
-    <task id="LOCAL-00066" summary="学习">
-      <created>1581231241409</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1581231241409</updated>
+      <workItem from="1588986534319" duration="8833000" />
+      <workItem from="1589358009453" duration="10406000" />
+      <workItem from="1589368453062" duration="129000" />
     </task>
     <task id="LOCAL-00067" summary="赫夫曼编码">
       <created>1581339244991</created>
@@ -1787,7 +1021,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588501486956</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="学习">
+      <created>1588994749850</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1588994749851</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1878,22 +1119,26 @@
     </state>
     <state x="275" y="36" key="#Tomcat_Server/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1583471202438" />
     <state x="275" y="36" key="#Tomcat_Server/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1587776278436" />
-    <state x="137" y="17" width="1092" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588987318341">
+    <state x="379" y="104" key="#blog.sql" timestamp="1589359408477">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="379" y="104" key="#blog.sql/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1589359408477" />
+    <state x="137" y="17" width="1092" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589363254048">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="137" y="17" width="1092" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1583471325421" />
-    <state x="137" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1588987318341" />
+    <state x="137" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1589363254048" />
     <state x="1510" y="-283" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1588493594209" />
     <state x="439" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582439660076">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="439" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1582439660076" />
-    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1588497924825">
+    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1589368362953">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1585364374873" />
     <state x="1880" y="-103" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1583636335244" />
-    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1588497924825" />
+    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1589368362953" />
     <state x="275" y="14" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1588986937665">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -1924,160 +1169,150 @@
     <state x="262" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1586098497764" />
     <state x="262" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1585563370880" />
     <state x="1642" y="-203" key="CommitChangelistDialog2/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1583635902994" />
-    <state x="262" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580646849430" />
     <state x="262" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1588994740715" />
     <state x="1642" y="-303" key="CommitChangelistDialog2/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1587789340566" />
     <state x="262" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586326684998" />
     <state x="262" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1581576190443" />
-    <state x="1854" y="-157" key="FileChooserDialogImpl" timestamp="1587899670654">
-      <screen x="1366" y="-303" width="1440" height="870" />
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1589361024697">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1585899878491" />
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1585720785163" />
     <state x="1854" y="-57" key="FileChooserDialogImpl/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1584235821692" />
-    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1587776270101" />
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1589361024697" />
     <state x="1854" y="-157" key="FileChooserDialogImpl/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1587899670654" />
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586330996421" />
-    <state width="1323" height="282" key="GridCell.Tab.0.bottom" timestamp="1588994364776">
+    <state width="1323" height="116" key="GridCell.Tab.0.bottom" timestamp="1589367691382">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1586098650533" />
     <state width="1323" height="221" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1585566768483" />
     <state width="1397" height="242" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1584236428009" />
-    <state width="1323" height="244" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580646872003" />
-    <state width="1323" height="282" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1588994364776" />
+    <state width="1323" height="116" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1589367691382" />
     <state width="1397" height="277" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1588493532754" />
     <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586330997883" />
     <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.-146.1440.900@0.0.1366.768" timestamp="1586098259651" />
-    <state width="1323" height="282" key="GridCell.Tab.0.center" timestamp="1588994364776">
+    <state width="1323" height="116" key="GridCell.Tab.0.center" timestamp="1589367691380">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.0.center/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1586098650533" />
     <state width="1323" height="221" key="GridCell.Tab.0.center/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1585566768483" />
     <state width="1397" height="242" key="GridCell.Tab.0.center/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1584236428009" />
-    <state width="1323" height="244" key="GridCell.Tab.0.center/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580646872003" />
-    <state width="1323" height="282" key="GridCell.Tab.0.center/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1588994364776" />
+    <state width="1323" height="116" key="GridCell.Tab.0.center/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1589367691380" />
     <state width="1397" height="277" key="GridCell.Tab.0.center/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1588493532754" />
     <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586330997883" />
     <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768/1366.-146.1440.900@0.0.1366.768" timestamp="1586098259651" />
-    <state width="1323" height="282" key="GridCell.Tab.0.left" timestamp="1588994364776">
+    <state width="1323" height="116" key="GridCell.Tab.0.left" timestamp="1589367691379">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.0.left/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1586098650533" />
     <state width="1323" height="221" key="GridCell.Tab.0.left/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1585566768483" />
     <state width="1397" height="242" key="GridCell.Tab.0.left/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1584236428009" />
-    <state width="1323" height="244" key="GridCell.Tab.0.left/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580646872003" />
-    <state width="1323" height="282" key="GridCell.Tab.0.left/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1588994364776" />
+    <state width="1323" height="116" key="GridCell.Tab.0.left/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1589367691379" />
     <state width="1397" height="277" key="GridCell.Tab.0.left/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1588493532754" />
     <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586330997882" />
     <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768/1366.-146.1440.900@0.0.1366.768" timestamp="1586098259651" />
-    <state width="1323" height="282" key="GridCell.Tab.0.right" timestamp="1588994364776">
+    <state width="1323" height="116" key="GridCell.Tab.0.right" timestamp="1589367691381">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.0.right/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1586098650533" />
     <state width="1323" height="221" key="GridCell.Tab.0.right/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1585566768483" />
     <state width="1397" height="242" key="GridCell.Tab.0.right/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1584236428009" />
-    <state width="1323" height="244" key="GridCell.Tab.0.right/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580646872003" />
-    <state width="1323" height="282" key="GridCell.Tab.0.right/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1588994364776" />
+    <state width="1323" height="116" key="GridCell.Tab.0.right/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1589367691381" />
     <state width="1397" height="277" key="GridCell.Tab.0.right/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1588493532754" />
     <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586330997883" />
     <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768/1366.-146.1440.900@0.0.1366.768" timestamp="1586098259651" />
-    <state width="1323" height="282" key="GridCell.Tab.1.bottom" timestamp="1588994364778">
+    <state width="1323" height="116" key="GridCell.Tab.1.bottom" timestamp="1589367691383">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1586098650534" />
     <state width="1323" height="246" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1584362573431" />
     <state width="1397" height="242" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1584236428009" />
-    <state width="1323" height="184" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580643820638" />
-    <state width="1323" height="282" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1588994364778" />
+    <state width="1323" height="116" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1589367691383" />
     <state width="1397" height="277" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1588493532755" />
     <state width="1323" height="238" key="GridCell.Tab.1.bottom/0.0.1366.768/1366.-146.1440.900@0.0.1366.768" timestamp="1586097354602" />
-    <state width="1323" height="282" key="GridCell.Tab.1.center" timestamp="1588994364776">
+    <state width="1323" height="116" key="GridCell.Tab.1.center" timestamp="1589367691383">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.1.center/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1586098650533" />
     <state width="1323" height="246" key="GridCell.Tab.1.center/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1584362573431" />
     <state width="1397" height="242" key="GridCell.Tab.1.center/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1584236428009" />
-    <state width="1323" height="184" key="GridCell.Tab.1.center/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580643820638" />
-    <state width="1323" height="282" key="GridCell.Tab.1.center/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1588994364776" />
+    <state width="1323" height="116" key="GridCell.Tab.1.center/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1589367691383" />
     <state width="1397" height="277" key="GridCell.Tab.1.center/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1588493532754" />
     <state width="1323" height="238" key="GridCell.Tab.1.center/0.0.1366.768/1366.-146.1440.900@0.0.1366.768" timestamp="1586097354601" />
-    <state width="1323" height="282" key="GridCell.Tab.1.left" timestamp="1588994364776">
+    <state width="1323" height="116" key="GridCell.Tab.1.left" timestamp="1589367691383">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.1.left/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1586098650533" />
     <state width="1323" height="246" key="GridCell.Tab.1.left/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1584362573431" />
     <state width="1397" height="242" key="GridCell.Tab.1.left/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1584236428009" />
-    <state width="1323" height="184" key="GridCell.Tab.1.left/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580643820637" />
-    <state width="1323" height="282" key="GridCell.Tab.1.left/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1588994364776" />
+    <state width="1323" height="116" key="GridCell.Tab.1.left/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1589367691383" />
     <state width="1397" height="277" key="GridCell.Tab.1.left/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1588493532754" />
     <state width="1323" height="238" key="GridCell.Tab.1.left/0.0.1366.768/1366.-146.1440.900@0.0.1366.768" timestamp="1586097354601" />
-    <state width="1323" height="282" key="GridCell.Tab.1.right" timestamp="1588994364777">
+    <state width="1323" height="116" key="GridCell.Tab.1.right" timestamp="1589367691383">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.1.right/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1586098650534" />
     <state width="1323" height="246" key="GridCell.Tab.1.right/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1584362573431" />
     <state width="1397" height="242" key="GridCell.Tab.1.right/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1584236428009" />
-    <state width="1323" height="184" key="GridCell.Tab.1.right/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580643820638" />
-    <state width="1323" height="282" key="GridCell.Tab.1.right/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1588994364777" />
+    <state width="1323" height="116" key="GridCell.Tab.1.right/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1589367691383" />
     <state width="1397" height="277" key="GridCell.Tab.1.right/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1588493532755" />
     <state width="1323" height="238" key="GridCell.Tab.1.right/0.0.1366.768/1366.-146.1440.900@0.0.1366.768" timestamp="1586097354601" />
-    <state width="1323" height="282" key="GridCell.Tab.2.bottom" timestamp="1588994364778">
+    <state width="1323" height="116" key="GridCell.Tab.2.bottom" timestamp="1589367691383">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="282" key="GridCell.Tab.2.bottom/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1588994364778" />
+    <state width="1323" height="116" key="GridCell.Tab.2.bottom/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1589367691383" />
     <state width="1397" height="277" key="GridCell.Tab.2.bottom/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1588493532755" />
-    <state width="1323" height="282" key="GridCell.Tab.2.center" timestamp="1588994364778">
+    <state width="1323" height="116" key="GridCell.Tab.2.center" timestamp="1589367691383">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="282" key="GridCell.Tab.2.center/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1588994364778" />
+    <state width="1323" height="116" key="GridCell.Tab.2.center/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1589367691383" />
     <state width="1397" height="277" key="GridCell.Tab.2.center/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1588493532755" />
-    <state width="1323" height="282" key="GridCell.Tab.2.left" timestamp="1588994364778">
+    <state width="1323" height="116" key="GridCell.Tab.2.left" timestamp="1589367691383">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="282" key="GridCell.Tab.2.left/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1588994364778" />
+    <state width="1323" height="116" key="GridCell.Tab.2.left/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1589367691383" />
     <state width="1397" height="277" key="GridCell.Tab.2.left/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1588493532755" />
-    <state width="1323" height="282" key="GridCell.Tab.2.right" timestamp="1588994364778">
+    <state width="1323" height="116" key="GridCell.Tab.2.right" timestamp="1589367691383">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="282" key="GridCell.Tab.2.right/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1588994364778" />
+    <state width="1323" height="116" key="GridCell.Tab.2.right/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1589367691383" />
     <state width="1397" height="277" key="GridCell.Tab.2.right/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1588493532755" />
-    <state width="1323" height="282" key="GridCell.Tab.3.bottom" timestamp="1588994364779">
+    <state width="1323" height="116" key="GridCell.Tab.3.bottom" timestamp="1589367691383">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="282" key="GridCell.Tab.3.bottom/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1588994364779" />
-    <state width="1323" height="282" key="GridCell.Tab.3.center" timestamp="1588994364779">
+    <state width="1323" height="116" key="GridCell.Tab.3.bottom/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1589367691383" />
+    <state width="1323" height="116" key="GridCell.Tab.3.center" timestamp="1589367691383">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="282" key="GridCell.Tab.3.center/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1588994364779" />
-    <state width="1323" height="282" key="GridCell.Tab.3.left" timestamp="1588994364779">
+    <state width="1323" height="116" key="GridCell.Tab.3.center/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1589367691383" />
+    <state width="1323" height="116" key="GridCell.Tab.3.left" timestamp="1589367691383">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="282" key="GridCell.Tab.3.left/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1588994364779" />
-    <state width="1323" height="282" key="GridCell.Tab.3.right" timestamp="1588994364779">
+    <state width="1323" height="116" key="GridCell.Tab.3.left/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1589367691383" />
+    <state width="1323" height="116" key="GridCell.Tab.3.right" timestamp="1589367691383">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="282" key="GridCell.Tab.3.right/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1588994364779" />
+    <state width="1323" height="116" key="GridCell.Tab.3.right/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1589367691383" />
     <state x="254" y="184" key="Registry" timestamp="1587776110687">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="254" y="184" key="Registry/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1587776110687" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1588987264838">
+    <state x="194" y="8" key="SettingsEditor" timestamp="1589368426536">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1583230688505" />
     <state x="1560" y="-203" key="SettingsEditor/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1584235823370" />
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1588987264838" />
+    <state x="194" y="8" key="SettingsEditor/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1589368426536" />
     <state x="1559" y="-284" key="SettingsEditor/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1588493640589" />
     <state x="184" y="0" key="SettingsEditor/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586326815396" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1588501495497">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1588994949725">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1586098506535" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1585563376874" />
     <state x="1656" y="-83" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1583635912390" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-210.1440.870@0.0.1366.738" timestamp="1580646858665" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1588501495497" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1588994949725" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586326985987" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1581576200766" />
     <state x="381" y="262" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587776781482">
@@ -2109,9 +1344,10 @@
     </state>
     <state x="339" y="165" key="run.anything.popup/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1580724579770" />
     <state x="1723" y="-108" width="672" height="677" key="run.anything.popup/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1587899143641" />
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1584929078330">
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1589364058090">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1584929078330" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1589364058090" />
   </component>
 </project>
