@@ -23,13 +23,17 @@ import java.util.concurrent.atomic.AtomicInteger;
  **/
 public abstract class AbstractBaseServlet extends HttpServlet {
     //统计访问次数
-    private static final ConcurrentMap<String, Integer> MAP = new ConcurrentHashMap<>();
+    private static final ConcurrentMap<String, Integer> MAP2 = new ConcurrentHashMap<>();
 
-    private static final ConcurrentMap<String, AtomicInteger> MAP2 = new ConcurrentHashMap<>();
+    private static final ConcurrentMap<String, AtomicInteger> MAP = new ConcurrentHashMap<>();
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         doPost(req, resp);
+    }
+
+    public static ConcurrentMap<String, AtomicInteger> getMAP() {
+        return MAP;
     }
 
     @Override
@@ -72,13 +76,16 @@ public abstract class AbstractBaseServlet extends HttpServlet {
 //                MAP.put(path, 1);
 //            }
 //        }
-        if (MAP2.containsKey(path)) {
-            AtomicInteger integer = MAP2.get(path);
+        if (MAP.containsKey(path)) {
+            AtomicInteger integer = MAP.get(path);
             integer.incrementAndGet();
-            MAP2.put(path, integer);
+            MAP.put(path, integer);
         } else {
-            MAP2.put(path, new AtomicInteger(1));
+            MAP.put(path, new AtomicInteger(1));
         }
+
+
+
     }
 
     public abstract Object process(HttpServletRequest req, HttpServletResponse resp)
