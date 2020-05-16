@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="blog" />
         <module name="2020_04_25_maven" />
+        <module name="yswblog" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="2020_04_25_maven" target="1.8" />
       <module name="blog" target="1.8" />
+      <module name="blogdemo" target="1.8" />
+      <module name="yswblog" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
