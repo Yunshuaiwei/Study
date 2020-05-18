@@ -1,5 +1,7 @@
 package yswblog.servlet;
 
+import yswblog.dao.ArticleDAO;
+import yswblog.exception.BusinessException;
 import yswblog.model.Article;
 import yswblog.util.JSONUtil;
 
@@ -24,7 +26,10 @@ public class ArticleUpdateServlet extends AbstractBaseServlet {
         //文章修改：包含id，title，content
         InputStream is = req.getInputStream();
         Article article = JSONUtil.deserialize(is, Article.class);
-
+        int num= ArticleDAO.update(article);
+        if(num!=1){
+            throw new BusinessException("004","文章修改错误！");
+        }
 
         return null;
     }

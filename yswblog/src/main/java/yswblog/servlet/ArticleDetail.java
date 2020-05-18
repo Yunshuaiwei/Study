@@ -1,5 +1,7 @@
 package yswblog.servlet;
 
+import yswblog.dao.ArticleDAO;
+import yswblog.exception.BusinessException;
 import yswblog.exception.ClientException;
 import yswblog.model.Article;
 
@@ -20,12 +22,17 @@ public class ArticleDetail extends AbstractBaseServlet {
     @Override
     public Object process(HttpServletRequest req, HttpServletResponse resp) throws Exception {
         String id = req.getParameter("id");
+        Integer articleId=null;
         try {
-            Integer articleId = Integer.parseInt(id);
+            articleId = Integer.parseInt(id);
         } catch (Exception e) {
             throw new ClientException("001", "请求参数错误：id=" + id);
         }
-        return testData();//之后替换为数据库查询出的数据
+        Article article= ArticleDAO.query(articleId);
+        if (article==null){
+            throw new BusinessException("002","查询不到文章详情，id="+id);
+        }
+        return article;//之后替换为数据库查询出的数据
     }
 
     public static Article testData() {
