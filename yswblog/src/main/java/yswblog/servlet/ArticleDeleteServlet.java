@@ -1,5 +1,8 @@
 package yswblog.servlet;
 
+import yswblog.dao.ArticleDAO;
+import yswblog.exception.BusinessException;
+
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -18,6 +21,10 @@ public class ArticleDeleteServlet extends AbstractBaseServlet {
         String ids = req.getParameter("ids");
         int[] ints = parseIds(ids);
         //将ints传入数据库进行删除
+        int num= ArticleDAO.delete(ints);
+        if (num==0){
+            throw new BusinessException("005","删除文章出错！");
+        }
         return null;
     }
 

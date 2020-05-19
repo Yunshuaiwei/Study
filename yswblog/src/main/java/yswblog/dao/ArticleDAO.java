@@ -125,4 +125,28 @@ public class ArticleDAO {
             DBUtil.close(conn, ps);
         }
     }
+
+    public static int delete(int[] ids) {
+        Connection conn = DBUtil.getConnection();
+        PreparedStatement ps = null;
+        StringBuilder sql = new StringBuilder("delete from article where id in (");
+        for (int i = 0; i < ids.length; i++) {
+            if (i > 0) {
+                sql.append(",");
+            }
+            sql.append("?");
+        }
+        sql.append(")");
+        try {
+            ps = conn.prepareStatement(sql.toString());
+            for (int i = 0; i < ids.length; i++) {
+                ps.setInt(i + 1, ids[i]);
+            }
+            return ps.executeUpdate();
+        } catch (SQLException e) {
+            throw new SystemException("005", "文章删除错误！", e);
+        } finally {
+            DBUtil.close(conn, ps);
+        }
+    }
 }
