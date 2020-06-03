@@ -9,7 +9,6 @@ package jvm;
 public class JVMStackLook {
     public static void main(String[] args) {
         int [] array=new int[]{4,5,6,3,2};
-
     }
 
     public static void test(int [] array,int index){
@@ -18,5 +17,6 @@ public class JVMStackLook {
             return;
         }
         test(array,index-1);
+
     }
 }

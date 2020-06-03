@@ -2,16 +2,19 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="2020_05_20_jvm" />
         <module name="2020_04_25_maven" />
         <module name="yswblog" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="2020_04_25_maven" target="1.8" />
+      <module name="2020_05_20_jvm" target="1.8" />
       <module name="blog" target="1.8" />
       <module name="blogdemo" target="1.8" />
       <module name="yswblog" target="1.8" />
