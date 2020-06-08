@@ -82,5 +82,8 @@ public class StringTest {
         //s1和s2使用final修饰，即拼接符号两边都是字符串常量，则仍然使用编译器优化
         String s4 = s1 + s2;
         System.out.println(s3 == s4);//true
+
+
+
     }
 }
