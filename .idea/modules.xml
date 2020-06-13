@@ -42,9 +42,11 @@
       <module fileurl="file://$PROJECT_DIR$/2020_04_25_maven/2020_04_25_maven.iml" filepath="$PROJECT_DIR$/2020_04_25_maven/2020_04_25_maven.iml" />
       <module fileurl="file://$PROJECT_DIR$/2020_05_20_jvm/2020_05_20_jvm.iml" filepath="$PROJECT_DIR$/2020_05_20_jvm/2020_05_20_jvm.iml" />
       <module fileurl="file://$PROJECT_DIR$/2020_05_21/2020_05_21.iml" filepath="$PROJECT_DIR$/2020_05_21/2020_05_21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2020_06_11_reflection/2020_06_11_reflection.iml" filepath="$PROJECT_DIR$/2020_06_11_reflection/2020_06_11_reflection.iml" />
       <module fileurl="file://$PROJECT_DIR$/2020_1_16/2020_1_16.iml" filepath="$PROJECT_DIR$/2020_1_16/2020_1_16.iml" />
       <module fileurl="file://$PROJECT_DIR$/2019_12_18_SingletonTest/SingletonTest.iml" filepath="$PROJECT_DIR$/2019_12_18_SingletonTest/SingletonTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/Study.iml" filepath="$PROJECT_DIR$/Study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mavenTest/mavenTest.iml" filepath="$PROJECT_DIR$/mavenTest/mavenTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/thread-study/thread-study.iml" filepath="$PROJECT_DIR$/thread-study/thread-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/yswblog/yswblog.iml" filepath="$PROJECT_DIR$/yswblog/yswblog.iml" />
     </modules>

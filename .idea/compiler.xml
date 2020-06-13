@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="2020_05_20_jvm" />
         <module name="2020_04_25_maven" />
+        <module name="mavenTest" />
         <module name="yswblog" />
       </profile>
     </annotationProcessing>
@@ -17,6 +18,7 @@
       <module name="2020_05_20_jvm" target="1.8" />
       <module name="blog" target="1.8" />
       <module name="blogdemo" target="1.8" />
+      <module name="mavenTest" target="1.5" />
       <module name="yswblog" target="1.8" />
     </bytecodeTargetLevel>
   </component>
