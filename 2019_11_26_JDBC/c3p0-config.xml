@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+
+    <!-- This app is massive! -->
+    <named-config name="hello">
+        <property name="user">root</property>
+        <property name="password">123456</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/ysw</property>
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <!--当数据库连接池中的连接数不够时，c3p0一次性向数据库服务器申请的连接数-->
+        <property name="acquireIncrement">5</property>
+        <!--数据库连接池中初始化时的连接数-->
+        <property name="initialPoolSize">10</property>
+        <!--维护最小的连接-->
+        <property name="minPoolSize">50</property>
+        <!--维护最大的连接数-->
+        <property name="maxPoolSize">1000</property>
+
+        <!--数据库连接池最多维护的Statement的个数-->
+        <property name="maxStatements">50</property>
+        <!--每个连接中最多可以使用的Statement的个数-->
+        <property name="maxStatementsPerConnection">5</property>
+
+    </named-config>
+</c3p0-config>
