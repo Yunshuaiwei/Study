@@ -1,9 +1,14 @@
 package JDBC.DataSource;
 
+import com.alibaba.druid.pool.DruidDataSourceFactory;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 import org.junit.Test;
 
+import javax.sql.DataSource;
+import java.io.File;
+import java.io.FileInputStream;
 import java.sql.Connection;
+import java.util.Properties;
 
 /**
  * @Description TODO
@@ -20,7 +25,6 @@ public class DataSourceTest {
         cpds.setJdbcUrl("jdbc:mysql://localhost:3306/ysw");
         cpds.setUser("root");
         cpds.setPassword("123456");
-
         //初始数据库连接数
         cpds.setInitialPoolSize(10);
         //获取连接
@@ -35,5 +39,15 @@ public class DataSourceTest {
         Connection conn = cpds.getConnection();
         System.out.println(conn);
 
+    }
+
+    @Test
+    public void druidTest() throws Exception {
+        Properties p = new Properties();
+        FileInputStream fs = new FileInputStream(new File("druid.properties"));
+        p.load(fs);
+        DataSource ds = DruidDataSourceFactory.createDataSource(p);
+        Connection conn = ds.getConnection();
+        System.out.println(conn);
     }
 }

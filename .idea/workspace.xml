@@ -19,16 +19,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="学习">
-      <change afterPath="$PROJECT_DIR$/2019_11_26_JDBC/c3p0-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2019_11_26_JDBC/lib/c3p0-0.9.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2019_11_26_JDBC/src/JDBC/DAO/BaseDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2019_11_26_JDBC/src/JDBC/DataSource/DataSourceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2019_11_26_JDBC/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2019_11_26_JDBC/lib/commons-dbutils-1.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2019_11_26_JDBC/lib/druid-1.1.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2019_11_26_JDBC/src/JDBC/DAO/AccountDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2019_11_26_JDBC/src/JDBC/DBUtils/dbUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2019_11_26_JDBC/JDBC/DAO/AccountDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2019_11_26_JDBC/JDBC/DBUtils/dbUtilsTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenTest/mavenTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mavenTest/mavenTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenTest/target/classes/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/mavenTest/target/classes/Hello.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenTest/target/test-classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/mavenTest/target/test-classes/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019_11_26_JDBC/c3p0-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019_11_26_JDBC/c3p0-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019_11_26_JDBC/src/JDBC/DAO/BaseDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019_11_26_JDBC/src/JDBC/DataSource/DataSourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/2019_11_26_JDBC/src/JDBC/DataSource/DataSourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019_11_26_JDBC/src/JDBC/JDBCUtil/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/2019_11_26_JDBC/src/JDBC/JDBCUtil/JDBCUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019_11_26_JDBC/JDBC/DAO/BaseDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019_11_26_JDBC/JDBC/DataSource/DataSourceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2019_11_26_JDBC/JDBC/DataSource/DataSourceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019_11_26_JDBC/JDBC/JDBCUtil/JDBCUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2019_11_26_JDBC/JDBC/JDBCUtil/JDBCUtils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +52,8 @@
       <list>
         <option value="HTML File" />
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="Tag Library Descriptor" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -100,7 +106,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/2019_11_26_JDBC/lib" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -117,12 +123,12 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaCodeIDEA\Study\2019_11_26_JDBC\lib" />
       <recent name="E:\JavaCodeIDEA\Study" />
-      <recent name="E:\JavaCodeIDEA\Study\thread-study\src" />
-      <recent name="E:\JavaCodeIDEA\Study\2020_02_23" />
-      <recent name="E:\JavaCodeIDEA\Study\2020_02_23\src" />
-      <recent name="E:\JavaCodeIDEA\Study\2020_02_23\src\JDBCUtil" />
+      <recent name="E:\JavaCodeIDEA\Study\yswblog\src\main\java\yswblog\util" />
+      <recent name="E:\JavaCodeIDEA\Study\yswblog" />
+      <recent name="E:\JavaCodeIDEA\Study\blog" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ThreadBinaryTree" />
@@ -131,12 +137,12 @@
       <recent name="web.servletcontext" />
       <recent name="web.response" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\JavaCodeIDEA\Study" />
-      <recent name="E:\JavaCodeIDEA\Study\2019_11_26_JDBC\lib" />
-      <recent name="E:\JavaCodeIDEA\Study\yswblog\src\main\java\yswblog\util" />
-      <recent name="E:\JavaCodeIDEA\Study\yswblog" />
-      <recent name="E:\JavaCodeIDEA\Study\blog" />
+      <recent name="E:\JavaCodeIDEA\Study\thread-study\src" />
+      <recent name="E:\JavaCodeIDEA\Study\2020_02_23" />
+      <recent name="E:\JavaCodeIDEA\Study\2020_02_23\src" />
+      <recent name="E:\JavaCodeIDEA\Study\2020_02_23\src\JDBCUtil" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -146,88 +152,99 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DataSourceTest.testGetConnection1">
+  <component name="RunManager" selected="JUnit.dbUtilsTest.countTestScalarHandler">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataSourceTest.testGetConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="2019_11_26_JDBC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JDBC.DataSource.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="JDBC.DataSource" />
-      <option name="MAIN_CLASS_NAME" value="JDBC.DataSource.DataSourceTest" />
-      <option name="METHOD_NAME" value="testGetConnection" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataSourceTest.testGetConnection1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="2019_11_26_JDBC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JDBC.DataSource.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="JDBC.DataSource" />
-      <option name="MAIN_CLASS_NAME" value="JDBC.DataSource.DataSourceTest" />
-      <option name="METHOD_NAME" value="testGetConnection1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReflectionTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="2020_06_11_reflection" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ReflectionTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReflectionTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="2020_06_11_reflection" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ReflectionTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TransactionUpdate.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="2019_11_26_JDBC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JDBC.transaction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="JDBC.transaction" />
-      <option name="MAIN_CLASS_NAME" value="JDBC.transaction.TransactionUpdate" />
-      <option name="METHOD_NAME" value="testUpdate" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dbUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2019_11_26_JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JDBC.DBUtils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JDBC.DBUtils" />
+      <option name="MAIN_CLASS_NAME" value="JDBC.DBUtils.dbUtilsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dbUtilsTest.countTestScalarHandler" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2019_11_26_JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JDBC.DBUtils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JDBC.DBUtils" />
+      <option name="MAIN_CLASS_NAME" value="JDBC.DBUtils.dbUtilsTest" />
+      <option name="METHOD_NAME" value="countTestScalarHandler" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dbUtilsTest.insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2019_11_26_JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JDBC.DBUtils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JDBC.DBUtils" />
+      <option name="MAIN_CLASS_NAME" value="JDBC.DBUtils.dbUtilsTest" />
+      <option name="METHOD_NAME" value="insertTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dbUtilsTest.testQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2019_11_26_JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JDBC.DBUtils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JDBC.DBUtils" />
+      <option name="MAIN_CLASS_NAME" value="JDBC.DBUtils.dbUtilsTest" />
+      <option name="METHOD_NAME" value="testQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dbUtilsTest.testQuery2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2019_11_26_JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JDBC.DBUtils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JDBC.DBUtils" />
+      <option name="MAIN_CLASS_NAME" value="JDBC.DBUtils.dbUtilsTest" />
+      <option name="METHOD_NAME" value="testQuery2" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -494,21 +511,21 @@
     </configuration>
     <list>
       <item itemvalue="JAR Application.junit-4.10.jar" />
-      <item itemvalue="JUnit.ReflectionTest.test1" />
-      <item itemvalue="JUnit.ReflectionTest.test2" />
-      <item itemvalue="JUnit.TransactionUpdate.testUpdate" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.54" />
       <item itemvalue="Tomcat Server.blog" />
-      <item itemvalue="JUnit.DataSourceTest.testGetConnection" />
-      <item itemvalue="JUnit.DataSourceTest.testGetConnection1" />
+      <item itemvalue="JUnit.dbUtilsTest.insertTest" />
+      <item itemvalue="JUnit.dbUtilsTest" />
+      <item itemvalue="JUnit.dbUtilsTest.testQuery" />
+      <item itemvalue="JUnit.dbUtilsTest.testQuery2" />
+      <item itemvalue="JUnit.dbUtilsTest.countTestScalarHandler" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DataSourceTest.testGetConnection1" />
-        <item itemvalue="JUnit.DataSourceTest.testGetConnection" />
-        <item itemvalue="JUnit.TransactionUpdate.testUpdate" />
-        <item itemvalue="JUnit.ReflectionTest.test2" />
-        <item itemvalue="JUnit.ReflectionTest.test1" />
+        <item itemvalue="JUnit.dbUtilsTest.countTestScalarHandler" />
+        <item itemvalue="JUnit.dbUtilsTest.testQuery2" />
+        <item itemvalue="JUnit.dbUtilsTest.testQuery" />
+        <item itemvalue="JUnit.dbUtilsTest" />
+        <item itemvalue="JUnit.dbUtilsTest.insertTest" />
       </list>
     </recent_temporary>
   </component>
@@ -742,14 +759,8 @@
       <workItem from="1592227333980" duration="174000" />
       <workItem from="1592557944844" duration="130000" />
       <workItem from="1592796698080" duration="3402000" />
-      <workItem from="1592813385032" duration="7104000" />
-    </task>
-    <task id="LOCAL-00080" summary="算法">
-      <created>1582115228093</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1582115228094</updated>
+      <workItem from="1592813385032" duration="7199000" />
+      <workItem from="1592872272544" duration="7434000" />
     </task>
     <task id="LOCAL-00081" summary="算法">
       <created>1582197528346</created>
@@ -1087,7 +1098,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592800459908</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="学习">
+      <created>1592835626330</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1592835626331</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1186,11 +1204,11 @@
     </state>
     <state x="137" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1592797261337" />
     <state x="1510" y="-283" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1588493594209" />
-    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1591874547591">
+    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1592880497465">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1585364374873" />
-    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1591874547591" />
+    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1592880497465" />
     <state x="275" y="14" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1588986937665">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -1218,12 +1236,12 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="416" y="210" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1590555121374" />
-    <state x="205" y="58" width="914" height="599" key="CommitChangelistDialog2" timestamp="1592800457435">
+    <state x="205" y="58" width="914" height="599" key="CommitChangelistDialog2" timestamp="1592835623807">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="262" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1586098497764" />
     <state x="262" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1585563370880" />
-    <state x="205" y="58" width="914" height="599" key="CommitChangelistDialog2/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1592800457435" />
+    <state x="205" y="58" width="914" height="599" key="CommitChangelistDialog2/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1592835623807" />
     <state x="1642" y="-303" key="CommitChangelistDialog2/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1587789340566" />
     <state x="262" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1591627054174" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1592835123793">
@@ -1235,80 +1253,80 @@
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1592835123793" />
     <state x="1854" y="-157" key="FileChooserDialogImpl/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1587899670654" />
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586330996421" />
-    <state width="1323" height="215" key="GridCell.Tab.0.bottom" timestamp="1592835452274">
+    <state width="1323" height="367" key="GridCell.Tab.0.bottom" timestamp="1592882618715">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1586098650533" />
     <state width="1323" height="221" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1585566768483" />
     <state width="1397" height="242" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1584236428009" />
-    <state width="1323" height="215" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1592835452274" />
+    <state width="1323" height="367" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1592882618715" />
     <state width="1397" height="277" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1588493532754" />
     <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586330997883" />
     <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.-146.1440.900@0.0.1366.768" timestamp="1586098259651" />
-    <state width="1323" height="215" key="GridCell.Tab.0.center" timestamp="1592835452274">
+    <state width="1323" height="367" key="GridCell.Tab.0.center" timestamp="1592882618715">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.0.center/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1586098650533" />
     <state width="1323" height="221" key="GridCell.Tab.0.center/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1585566768483" />
     <state width="1397" height="242" key="GridCell.Tab.0.center/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1584236428009" />
-    <state width="1323" height="215" key="GridCell.Tab.0.center/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1592835452274" />
+    <state width="1323" height="367" key="GridCell.Tab.0.center/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1592882618715" />
     <state width="1397" height="277" key="GridCell.Tab.0.center/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1588493532754" />
     <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586330997883" />
     <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768/1366.-146.1440.900@0.0.1366.768" timestamp="1586098259651" />
-    <state width="1323" height="215" key="GridCell.Tab.0.left" timestamp="1592835452273">
+    <state width="1323" height="367" key="GridCell.Tab.0.left" timestamp="1592882618714">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.0.left/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1586098650533" />
     <state width="1323" height="221" key="GridCell.Tab.0.left/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1585566768483" />
     <state width="1397" height="242" key="GridCell.Tab.0.left/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1584236428009" />
-    <state width="1323" height="215" key="GridCell.Tab.0.left/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1592835452273" />
+    <state width="1323" height="367" key="GridCell.Tab.0.left/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1592882618714" />
     <state width="1397" height="277" key="GridCell.Tab.0.left/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1588493532754" />
     <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586330997882" />
     <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768/1366.-146.1440.900@0.0.1366.768" timestamp="1586098259651" />
-    <state width="1323" height="215" key="GridCell.Tab.0.right" timestamp="1592835452274">
+    <state width="1323" height="367" key="GridCell.Tab.0.right" timestamp="1592882618715">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.0.right/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1586098650533" />
     <state width="1323" height="221" key="GridCell.Tab.0.right/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1585566768483" />
     <state width="1397" height="242" key="GridCell.Tab.0.right/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1584236428009" />
-    <state width="1323" height="215" key="GridCell.Tab.0.right/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1592835452274" />
+    <state width="1323" height="367" key="GridCell.Tab.0.right/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1592882618715" />
     <state width="1397" height="277" key="GridCell.Tab.0.right/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1588493532754" />
     <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586330997883" />
     <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768/1366.-146.1440.900@0.0.1366.768" timestamp="1586098259651" />
-    <state width="1323" height="215" key="GridCell.Tab.1.bottom" timestamp="1592835452274">
+    <state width="1323" height="367" key="GridCell.Tab.1.bottom" timestamp="1592882618716">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1586098650534" />
     <state width="1323" height="246" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1584362573431" />
     <state width="1397" height="242" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1584236428009" />
-    <state width="1323" height="215" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1592835452274" />
+    <state width="1323" height="367" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1592882618716" />
     <state width="1397" height="277" key="GridCell.Tab.1.bottom/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1588493532755" />
     <state width="1323" height="238" key="GridCell.Tab.1.bottom/0.0.1366.768/1366.-146.1440.900@0.0.1366.768" timestamp="1586097354602" />
-    <state width="1323" height="215" key="GridCell.Tab.1.center" timestamp="1592835452274">
+    <state width="1323" height="367" key="GridCell.Tab.1.center" timestamp="1592882618716">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.1.center/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1586098650533" />
     <state width="1323" height="246" key="GridCell.Tab.1.center/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1584362573431" />
     <state width="1397" height="242" key="GridCell.Tab.1.center/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1584236428009" />
-    <state width="1323" height="215" key="GridCell.Tab.1.center/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1592835452274" />
+    <state width="1323" height="367" key="GridCell.Tab.1.center/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1592882618716" />
     <state width="1397" height="277" key="GridCell.Tab.1.center/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1588493532754" />
     <state width="1323" height="238" key="GridCell.Tab.1.center/0.0.1366.768/1366.-146.1440.900@0.0.1366.768" timestamp="1586097354601" />
-    <state width="1323" height="215" key="GridCell.Tab.1.left" timestamp="1592835452274">
+    <state width="1323" height="367" key="GridCell.Tab.1.left" timestamp="1592882618715">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.1.left/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1586098650533" />
     <state width="1323" height="246" key="GridCell.Tab.1.left/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1584362573431" />
     <state width="1397" height="242" key="GridCell.Tab.1.left/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1584236428009" />
-    <state width="1323" height="215" key="GridCell.Tab.1.left/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1592835452274" />
+    <state width="1323" height="367" key="GridCell.Tab.1.left/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1592882618715" />
     <state width="1397" height="277" key="GridCell.Tab.1.left/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1588493532754" />
     <state width="1323" height="238" key="GridCell.Tab.1.left/0.0.1366.768/1366.-146.1440.900@0.0.1366.768" timestamp="1586097354601" />
-    <state width="1323" height="215" key="GridCell.Tab.1.right" timestamp="1592835452274">
+    <state width="1323" height="367" key="GridCell.Tab.1.right" timestamp="1592882618716">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.1.right/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1586098650534" />
     <state width="1323" height="246" key="GridCell.Tab.1.right/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1584362573431" />
     <state width="1397" height="242" key="GridCell.Tab.1.right/0.0.1366.738/1366.-203.1440.870@1366.-203.1440.870" timestamp="1584236428009" />
-    <state width="1323" height="215" key="GridCell.Tab.1.right/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1592835452274" />
+    <state width="1323" height="367" key="GridCell.Tab.1.right/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1592882618716" />
     <state width="1397" height="277" key="GridCell.Tab.1.right/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1588493532755" />
     <state width="1323" height="238" key="GridCell.Tab.1.right/0.0.1366.768/1366.-146.1440.900@0.0.1366.768" timestamp="1586097354601" />
     <state width="1323" height="321" key="GridCell.Tab.2.bottom" timestamp="1589893940076">
@@ -1358,17 +1376,21 @@
     <state x="194" y="0" key="SettingsEditor/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1592800551425" />
     <state x="1559" y="-284" key="SettingsEditor/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1588493640589" />
     <state x="184" y="0" key="SettingsEditor/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586326815396" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1592800561065">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1592835631501">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-146.1440.870@0.0.1366.738" timestamp="1586098506535" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-203.1440.870@0.0.1366.738" timestamp="1585563376874" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1592800561065" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1592835631501" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1591627242391" />
     <state x="381" y="262" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1591874797264">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="381" y="262" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1591874797264" />
+    <state x="476" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592877948211">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="476" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1592877948211" />
     <state x="475" y="268" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1592226953372">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
