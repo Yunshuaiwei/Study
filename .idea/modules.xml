@@ -46,6 +46,9 @@
       <module fileurl="file://$PROJECT_DIR$/2020_1_16/2020_1_16.iml" filepath="$PROJECT_DIR$/2020_1_16/2020_1_16.iml" />
       <module fileurl="file://$PROJECT_DIR$/2019_12_18_SingletonTest/SingletonTest.iml" filepath="$PROJECT_DIR$/2019_12_18_SingletonTest/SingletonTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/Study.iml" filepath="$PROJECT_DIR$/Study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task01/Task01.iml" filepath="$PROJECT_DIR$/Task01/Task01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task02/Task02.iml" filepath="$PROJECT_DIR$/Task02/Task02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task03/Task03.iml" filepath="$PROJECT_DIR$/Task03/Task03.iml" />
       <module fileurl="file://$PROJECT_DIR$/mavenTest/mavenTest.iml" filepath="$PROJECT_DIR$/mavenTest/mavenTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/thread-study/thread-study.iml" filepath="$PROJECT_DIR$/thread-study/thread-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/yswblog/yswblog.iml" filepath="$PROJECT_DIR$/yswblog/yswblog.iml" />
