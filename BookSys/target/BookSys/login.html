@@ -13,7 +13,7 @@
 <br/>
 <br/>
 <br/>
-<form id="ajax_form">
+<form id="ajax_form" type="post">
     用户名：<input type="text" name="username" placeholder="请输入用户名"><br/>
     密码：<input type="password" name="password" placeholder="请输入密码"><br/>
     <input type="submit" value="提交">
@@ -29,14 +29,15 @@ $(function () {
             password:"123",
         };
         $.ajax({
-            url:"user/login",
+            url:"user/login2",
             type:"post",
             contentType:"application/json",
             data:JSON.stringify(data),
             dataType:"json",
             success:function (r) {
 
-            },error:function (jq) {
+            },
+            error:function (jq) {
                 alert("状态码："+jq.status+"，错误消息："+jq.statusText)
             }
         })
