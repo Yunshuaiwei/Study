@@ -13,7 +13,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -32,7 +32,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -66,7 +66,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -478,7 +478,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -497,7 +497,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -531,7 +531,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -943,7 +943,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -962,7 +962,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -996,7 +996,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -1408,7 +1408,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -1427,7 +1427,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -1461,7 +1461,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -1915,7 +1915,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -1934,7 +1934,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -1968,7 +1968,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -2380,7 +2380,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -2399,7 +2399,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -2433,7 +2433,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -2852,7 +2852,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -2871,7 +2871,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -2905,7 +2905,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -3393,7 +3393,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -3412,7 +3412,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -3446,7 +3446,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -3900,7 +3900,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -3919,7 +3919,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -3953,7 +3953,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -4375,7 +4375,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -4394,7 +4394,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -4428,7 +4428,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -4899,7 +4899,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -4918,7 +4918,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -4952,7 +4952,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -5379,7 +5379,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -5398,7 +5398,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -5432,7 +5432,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -5814,7 +5814,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -5833,7 +5833,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -5867,7 +5867,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -6294,7 +6294,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -6313,7 +6313,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -6347,7 +6347,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -6775,7 +6775,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -6794,7 +6794,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -6828,7 +6828,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -7257,7 +7257,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -7276,7 +7276,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -7310,7 +7310,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -7754,7 +7754,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -7773,7 +7773,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -7807,7 +7807,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -8225,7 +8225,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -8244,7 +8244,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -8278,7 +8278,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -8787,7 +8787,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -8806,7 +8806,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -8840,7 +8840,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -9257,7 +9257,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -9276,7 +9276,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -9310,7 +9310,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -9720,7 +9720,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -9739,7 +9739,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -9773,7 +9773,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -10187,7 +10187,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -10206,7 +10206,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -10240,7 +10240,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -10648,7 +10648,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -10667,7 +10667,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -10701,7 +10701,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -11109,7 +11109,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -11128,7 +11128,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -11162,7 +11162,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -11569,7 +11569,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -11588,7 +11588,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -11622,7 +11622,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -12029,7 +12029,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -12048,7 +12048,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -12082,7 +12082,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -12314,10 +12314,10 @@
             ],
             parsed;
 
-        // test that a formatted moment including meridiem string can be parsed back to the same moment
+        // ysw that a formatted moment including meridiem string can be parsed back to the same moment
         assert.ok(b.isSame(moment(b.format('h:mm:ss a'), 'h:mm:ss a', 'el', true), 'seconds'), b.format('h:mm:ss a') + ' should be equal to ' + moment(b.format('h:mm:ss a'), 'h:mm:ss a', 'el', true).format('h:mm:ss a'));
 
-        // test that a formatted moment having a meridiem string can be parsed with strict flag
+        // ysw that a formatted moment having a meridiem string can be parsed with strict flag
         assert.ok(moment(b.format('h:mm:ss a'), 'h:mm:ss a', 'el', true).isValid(), b.format('h:mm:ss a') + ' should be parsed as valid');
 
         for (i = 0; i < meridiemTests.length; i++) {
@@ -12550,7 +12550,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -12569,7 +12569,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -12603,7 +12603,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -13015,7 +13015,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -13034,7 +13034,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -13068,7 +13068,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -13489,7 +13489,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -13508,7 +13508,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -13542,7 +13542,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -13954,7 +13954,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -13973,7 +13973,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -14007,7 +14007,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -14419,7 +14419,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -14438,7 +14438,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -14472,7 +14472,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -14888,7 +14888,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -14907,7 +14907,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -14941,7 +14941,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -15353,7 +15353,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -15372,7 +15372,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -15406,7 +15406,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -15843,7 +15843,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -15862,7 +15862,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -15896,7 +15896,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -16309,7 +16309,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -16328,7 +16328,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -16362,7 +16362,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -16783,7 +16783,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -16802,7 +16802,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -16836,7 +16836,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -17258,7 +17258,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -17277,7 +17277,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -17311,7 +17311,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -17731,7 +17731,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -17750,7 +17750,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -17784,7 +17784,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -18219,7 +18219,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -18238,7 +18238,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -18272,7 +18272,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -18683,7 +18683,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -18702,7 +18702,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -18736,7 +18736,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -19140,7 +19140,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -19159,7 +19159,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -19193,7 +19193,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -19605,7 +19605,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -19624,7 +19624,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -19658,7 +19658,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -20071,7 +20071,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -20090,7 +20090,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -20124,7 +20124,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -20558,7 +20558,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -20577,7 +20577,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -20611,7 +20611,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -21045,7 +21045,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -21064,7 +21064,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -21098,7 +21098,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -21532,7 +21532,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -21551,7 +21551,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -21585,7 +21585,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -22001,7 +22001,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -22020,7 +22020,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -22054,7 +22054,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -22478,7 +22478,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -22497,7 +22497,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -22531,7 +22531,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -22951,7 +22951,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -22970,7 +22970,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -23004,7 +23004,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -23430,7 +23430,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -23449,7 +23449,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -23483,7 +23483,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -23910,7 +23910,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -23929,7 +23929,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -23963,7 +23963,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -24339,7 +24339,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -24358,7 +24358,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -24392,7 +24392,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -24819,7 +24819,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -24838,7 +24838,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -24872,7 +24872,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -25316,7 +25316,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -25335,7 +25335,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -25369,7 +25369,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -25794,7 +25794,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -25813,7 +25813,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -25847,7 +25847,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -26328,7 +26328,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -26347,7 +26347,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -26381,7 +26381,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -26755,7 +26755,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -26774,7 +26774,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -26808,7 +26808,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -27226,7 +27226,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -27245,7 +27245,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -27279,7 +27279,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -27689,7 +27689,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -27708,7 +27708,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -27742,7 +27742,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -28138,7 +28138,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -28157,7 +28157,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -28191,7 +28191,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -28568,7 +28568,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -28587,7 +28587,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -28621,7 +28621,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -29045,7 +29045,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -29064,7 +29064,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -29098,7 +29098,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -29510,7 +29510,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -29529,7 +29529,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -29563,7 +29563,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -30249,7 +30249,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -30268,7 +30268,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -30302,7 +30302,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -30729,7 +30729,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -30748,7 +30748,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -30782,7 +30782,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -31228,7 +31228,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -31247,7 +31247,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -31281,7 +31281,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -31693,7 +31693,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -31712,7 +31712,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -31746,7 +31746,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -32135,7 +32135,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -32154,7 +32154,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -32188,7 +32188,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -32600,7 +32600,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -32619,7 +32619,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -32653,7 +32653,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -33085,7 +33085,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -33104,7 +33104,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -33138,7 +33138,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -33481,7 +33481,7 @@
         assert.equal(start.from(moment([2007, 1, 28]).add({y: 5}), true),    '5 gadi',               '5 years = 5 years');
         assert.equal(start.from(moment([2007, 1, 28]).add({y: 5}), false),   'pirms 5 gadiem',       '5 years with suffix = 5 years ago');
 
-        // test that numbers ending with 1 are singular except for when they end with 11 in which case they are plural
+        // ysw that numbers ending with 1 are singular except for when they end with 11 in which case they are plural
         assert.equal(start.from(moment([2007, 1, 28]).add({y: 11}), true),   '11 gadi',              '11 years = 11 years');
         assert.equal(start.from(moment([2007, 1, 28]).add({y: 21}), true),   '21 gads',              '21 year = 21 year');
         assert.equal(start.from(moment([2007, 1, 28]).add({y: 211}), true),  '211 gadi',             '211 years = 211 years');
@@ -33576,7 +33576,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -33595,7 +33595,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -33629,7 +33629,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -34078,7 +34078,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -34097,7 +34097,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -34131,7 +34131,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -34543,7 +34543,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -34562,7 +34562,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -34596,7 +34596,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -35022,7 +35022,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -35041,7 +35041,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -35075,7 +35075,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -35502,7 +35502,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -35521,7 +35521,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -35555,7 +35555,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -35976,7 +35976,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -35995,7 +35995,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -36029,7 +36029,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -36456,7 +36456,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -36475,7 +36475,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -36509,7 +36509,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -36929,7 +36929,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -36948,7 +36948,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -36982,7 +36982,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -37402,7 +37402,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -37421,7 +37421,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -37455,7 +37455,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -37867,7 +37867,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -37886,7 +37886,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -37920,7 +37920,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -38409,7 +38409,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -38428,7 +38428,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -38462,7 +38462,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -38874,7 +38874,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -38893,7 +38893,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -38927,7 +38927,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -39353,7 +39353,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -39372,7 +39372,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -39406,7 +39406,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -39824,7 +39824,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -39843,7 +39843,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -39877,7 +39877,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -40295,7 +40295,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -40314,7 +40314,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -40348,7 +40348,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -40759,7 +40759,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -40778,7 +40778,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -40812,7 +40812,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -41336,7 +41336,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -41355,7 +41355,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -41389,7 +41389,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -41866,7 +41866,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -41885,7 +41885,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -41919,7 +41919,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -42342,7 +42342,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -42361,7 +42361,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -42395,7 +42395,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -42802,7 +42802,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -42821,7 +42821,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -42855,7 +42855,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -43274,7 +43274,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -43293,7 +43293,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -43327,7 +43327,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -43886,7 +43886,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -43905,7 +43905,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -43939,7 +43939,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -44364,7 +44364,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -44383,7 +44383,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -44417,7 +44417,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -44839,7 +44839,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -44858,7 +44858,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -44892,7 +44892,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -45298,7 +45298,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -45317,7 +45317,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -45351,7 +45351,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -45850,7 +45850,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -45869,7 +45869,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -45903,7 +45903,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -46438,7 +46438,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -46457,7 +46457,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -46491,7 +46491,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -46918,7 +46918,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -46937,7 +46937,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -46971,7 +46971,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -47417,7 +47417,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -47436,7 +47436,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -47470,7 +47470,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -47916,7 +47916,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -47935,7 +47935,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -47969,7 +47969,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -48193,10 +48193,10 @@
             ],
             parsed;
 
-        // test that a formatted moment including meridiem string can be parsed back to the same moment
+        // ysw that a formatted moment including meridiem string can be parsed back to the same moment
         assert.ok(b.isSame(moment(b.format('h:mm:ss a'), 'h:mm:ss a', 'ss', true), 'seconds'), b.format('h:mm:ss a') + ' should be equal to ' + moment(b.format('h:mm:ss a'), 'h:mm:ss a', 'ss', true).format('h:mm:ss a'));
 
-        // test that a formatted moment having a meridiem string can be parsed with strict flag
+        // ysw that a formatted moment having a meridiem string can be parsed with strict flag
         assert.ok(moment(b.format('h:mm:ss a'), 'h:mm:ss a', 'ss', true).isValid(), b.format('h:mm:ss a') + ' should be parsed as valid');
 
         for (i = 0; i < meridiemTests.length; i++) {
@@ -48413,7 +48413,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -48432,7 +48432,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -48466,7 +48466,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -48877,7 +48877,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -48896,7 +48896,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -48930,7 +48930,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -49341,7 +49341,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -49360,7 +49360,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -49394,7 +49394,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -49808,7 +49808,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -49827,7 +49827,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -49861,7 +49861,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -50288,7 +50288,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -50307,7 +50307,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -50341,7 +50341,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -50753,7 +50753,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -50772,7 +50772,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -50806,7 +50806,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -51229,7 +51229,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -51248,7 +51248,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -51282,7 +51282,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -51656,7 +51656,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -51675,7 +51675,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -51709,7 +51709,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -52119,7 +52119,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -52138,7 +52138,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -52172,7 +52172,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -52363,7 +52363,7 @@
 
     //Current parsing method doesn't allow parsing correctly months 10, 11 and 12.
     /*
-     * test('parse', function (assert) {
+     * ysw('parse', function (assert) {
         var tests = 'tera’ jar wa’.jar wa’_tera’ jar cha’.jar cha’_tera’ jar wej.jar wej_tera’ jar loS.jar loS_tera’ jar vagh.jar vagh_tera’ jar jav.jar jav_tera’ jar Soch.jar Soch_tera’ jar chorgh.jar chorgh_tera’ jar Hut.jar Hut_tera’ jar wa’maH.jar wa’maH_tera’ jar wa’maH wa’.jar wa’maH wa’_tera’ jar wa’maH cha’.jar wa’maH cha’'.split('_'), i;
         function equalTest(input, mmm, i) {
             assert.equal(moment(input, mmm).month(), i, input + ' should be month ' + (i + 1));
@@ -52599,7 +52599,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -52618,7 +52618,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -52652,7 +52652,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -53074,7 +53074,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -53093,7 +53093,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -53127,7 +53127,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -53542,7 +53542,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -53561,7 +53561,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -53595,7 +53595,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -54006,7 +54006,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -54025,7 +54025,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -54059,7 +54059,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -54470,7 +54470,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -54489,7 +54489,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -54523,7 +54523,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -54907,7 +54907,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -54926,7 +54926,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -54960,7 +54960,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -55404,7 +55404,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -55423,7 +55423,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -55457,7 +55457,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -55883,7 +55883,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -55902,7 +55902,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -55936,7 +55936,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -56348,7 +56348,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -56367,7 +56367,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -56401,7 +56401,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -56813,7 +56813,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -56832,7 +56832,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -56866,7 +56866,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -57288,7 +57288,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -57307,7 +57307,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -57341,7 +57341,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -57753,7 +57753,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -57772,7 +57772,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -57806,7 +57806,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -58221,7 +58221,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -58240,7 +58240,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -58274,7 +58274,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -58660,7 +58660,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -58679,7 +58679,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -58713,7 +58713,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -59106,7 +59106,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -59125,7 +59125,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -59159,7 +59159,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function objectKeys(obj) {
         if (Object.keys) {
@@ -59552,7 +59552,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -59571,7 +59571,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -59605,7 +59605,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -60013,7 +60013,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -60032,7 +60032,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -60066,7 +60066,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -60161,7 +60161,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -60180,7 +60180,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -60214,7 +60214,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -61251,12 +61251,12 @@
         moment.defineLocale('parselocale', null);
     });
 
-    function getVerifier(test$$1) {
+    function getVerifier(ysw$$1) {
         return function (input, format, expected, description, asymetrical) {
             var m = moment(input, format);
             test$$1.equal(m.format('YYYY MM DD'), expected, 'compare: ' + description);
 
-            //test round trip
+            //ysw round trip
             if (!asymetrical) {
                 test$$1.equal(m.format(format), input, 'round trip: ' + description);
             }
@@ -61499,7 +61499,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -61518,7 +61518,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -61552,7 +61552,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -61624,7 +61624,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -61643,7 +61643,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -61677,7 +61677,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -62275,7 +62275,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -62294,7 +62294,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -62328,7 +62328,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -62377,7 +62377,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -62396,7 +62396,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -62430,7 +62430,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -62525,7 +62525,7 @@
 
     test('deprecate', function (assert) {
         // NOTE: hooks inside deprecate.js and moment are different, so this is can
-        // not be test.expectedDeprecations(...)
+        // not be ysw.expectedDeprecations(...)
         var fn = function () {};
         var deprecatedFn = deprecate('testing deprecation', fn);
         deprecatedFn();
@@ -62550,7 +62550,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -62569,7 +62569,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -62603,7 +62603,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -62888,7 +62888,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -62907,7 +62907,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -62941,7 +62941,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -63743,7 +63743,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -63762,7 +63762,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -63796,7 +63796,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -63879,7 +63879,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -63898,7 +63898,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -63932,7 +63932,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -64056,7 +64056,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -64075,7 +64075,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -64109,7 +64109,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -64574,7 +64574,7 @@
         assert.equal(moment([2000, 0,  2]).format('Qo [quarter] YYYY'), '1st quarter 2000', 'Jan  2 2000 is 1st quarter');
     });
 
-    // test('full expanded format is returned from abbreviated formats', function (assert) {
+    // ysw('full expanded format is returned from abbreviated formats', function (assert) {
     //     function objectKeys(obj) {
     //         if (Object.keys) {
     //             return Object.keys(obj);
@@ -64684,7 +64684,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -64703,7 +64703,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -64737,7 +64737,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -64827,7 +64827,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -64846,7 +64846,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -64880,7 +64880,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -65302,7 +65302,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -65321,7 +65321,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -65355,7 +65355,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -65421,7 +65421,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -65440,7 +65440,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -65474,7 +65474,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -65693,7 +65693,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -65712,7 +65712,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -65746,7 +65746,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -65956,7 +65956,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function isArray(input) {
         return input instanceof Array || Object.prototype.toString.call(input) === '[object Array]';
@@ -65995,7 +65995,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -66014,7 +66014,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -66048,7 +66048,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -66263,7 +66263,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -66282,7 +66282,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -66316,7 +66316,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -66711,7 +66711,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -66730,7 +66730,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -66764,7 +66764,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -66828,7 +66828,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -66847,7 +66847,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -66881,7 +66881,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -66957,7 +66957,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function isNumber(input) {
         return typeof input === 'number' || Object.prototype.toString.call(input) === '[object Number]';
@@ -67005,7 +67005,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -67024,7 +67024,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -67058,7 +67058,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -67247,7 +67247,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -67266,7 +67266,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -67300,7 +67300,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -67520,7 +67520,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -67539,7 +67539,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -67573,7 +67573,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -67795,7 +67795,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -67814,7 +67814,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -67848,7 +67848,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -68169,7 +68169,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -68188,7 +68188,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -68222,7 +68222,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -68271,7 +68271,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -68290,7 +68290,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -68324,7 +68324,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -68478,7 +68478,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -68497,7 +68497,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -68531,7 +68531,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -68911,7 +68911,7 @@
 
     test('month name callback function', function (assert) {
         function fakeReplace(m, format) {
-            if (/test/.test(format)) {
+            if (/ysw/.test(format)) {
                 return 'test';
             }
             if (m.date() === 1) {
@@ -69074,8 +69074,8 @@
 
 
     // TODO: Enable this after fixing pl months parse hack hack
-    // test('monthsParseExact', function (assert) {
-    //     var locale = 'test-months-parse-exact';
+    // ysw('monthsParseExact', function (assert) {
+    //     var locale = 'ysw-months-parse-exact';
 
     //     moment.defineLocale(locale, {
     //         monthsParseExact: true,
@@ -69122,7 +69122,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -69141,7 +69141,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -69175,7 +69175,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -69406,7 +69406,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -69425,7 +69425,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -69459,7 +69459,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -69671,7 +69671,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -69690,7 +69690,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -69724,7 +69724,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -69810,7 +69810,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -69829,7 +69829,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -69863,7 +69863,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -69927,7 +69927,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -69946,7 +69946,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -69980,7 +69980,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -70049,7 +70049,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -70068,7 +70068,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -70102,7 +70102,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -70137,7 +70137,7 @@
     });
 
     test('now - Date mocked', function (assert) {
-        // We need to test mocking the global Date object, so disable 'Read Only' jshint check
+        // We need to ysw mocking the global Date object, so disable 'Read Only' jshint check
         /* jshint -W020 */
         var RealDate = Date,
             customTimeMs = moment('2015-01-01T01:30:00.000Z').valueOf();
@@ -70222,7 +70222,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -70241,7 +70241,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -70275,7 +70275,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -70487,7 +70487,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -70506,7 +70506,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -70540,7 +70540,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -70651,7 +70651,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -70670,7 +70670,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -70704,7 +70704,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -70843,7 +70843,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -70862,7 +70862,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -70896,7 +70896,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -71154,7 +71154,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -71173,7 +71173,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -71207,7 +71207,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -71640,7 +71640,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -71659,7 +71659,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -71693,7 +71693,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -71747,7 +71747,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -71766,7 +71766,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -71800,7 +71800,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -71891,7 +71891,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -71910,7 +71910,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -71944,7 +71944,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -72060,7 +72060,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -72079,7 +72079,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -72113,7 +72113,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -72635,7 +72635,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -72654,7 +72654,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -72688,7 +72688,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -73034,7 +73034,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -73053,7 +73053,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -73087,7 +73087,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -73276,7 +73276,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -73295,7 +73295,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -73329,7 +73329,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -73591,7 +73591,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -73610,7 +73610,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -73644,7 +73644,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -73769,7 +73769,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -73788,7 +73788,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -73822,7 +73822,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
@@ -73895,7 +73895,7 @@
     });
 
     test('utc to local, keepLocalTime = true', function (assert) {
-        // Don't test near the spring DST transition
+        // Don't ysw near the spring DST transition
         if (isNearSpringDST()) {
             assert.expect(0);
             return;
@@ -73914,7 +73914,7 @@
     });
 
     test('zone to local, keepLocalTime = true', function (assert) {
-        // Don't test near the spring DST transition
+        // Don't ysw near the spring DST transition
         if (isNearSpringDST()) {
             assert.expect(0);
             return;
@@ -73972,7 +73972,7 @@
         }
     }
 
-    function setupDeprecationHandler(test, moment$$1, scope) {
+    function setupDeprecationHandler(ysw, moment$$1, scope) {
         test._expectedDeprecations = null;
         test._observedDeprecations = null;
         test._oldSupress = moment$$1.suppressDeprecationWarnings;
@@ -73991,7 +73991,7 @@
         };
     }
 
-    function teardownDeprecationHandler(test, moment$$1, scope) {
+    function teardownDeprecationHandler(ysw, moment$$1, scope) {
         moment$$1.suppressDeprecationWarnings = test._oldSupress;
 
         if (test._expectedDeprecations != null) {
@@ -74025,7 +74025,7 @@
 
     /*global QUnit:false*/
 
-    var test = QUnit.test;
+    var ysw = QUnit.test;
 
     function module$1 (name, lifecycle) {
         QUnit.module(name, {
