@@ -69,8 +69,6 @@ public class Demo {
         p.name="abc";
 
     }
-
-
 }
 class Person{
     static String  name="abc";

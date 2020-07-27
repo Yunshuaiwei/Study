@@ -19,42 +19,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="学习">
-      <change afterPath="$PROJECT_DIR$/BookSys/src/main/java/ysw/servlet/BookQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSys/src/main/java/ysw/servlet/ClassesQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSys/src/main/java/ysw/servlet/StudentQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSys/src/main/java/ysw/servlet/UserQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSys/target/BookSys/WEB-INF/classes/ysw/servlet/BookQuery.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSys/target/BookSys/WEB-INF/classes/ysw/servlet/ClassesQuery.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSys/target/BookSys/WEB-INF/classes/ysw/servlet/StudentQuery.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSys/target/BookSys/WEB-INF/classes/ysw/servlet/UserQuery.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSys/target/classes/ysw/servlet/BookQuery.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSys/target/classes/ysw/servlet/ClassesQuery.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSys/target/classes/ysw/servlet/StudentQuery.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookSys/target/classes/ysw/servlet/UserQuery.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Study/META-INF/Study.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Study/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Study/ysw/Demo$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Study/ysw/Demo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Study/ysw/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Study/ysw/a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ysw/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ysw/NetWorkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ysw/ProxyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019_12_18_SingletonTest/SingletonTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019_12_18_SingletonTest/src/SingletonTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019_12_18_SingletonTest/src/SingletonTest2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020_04_25_maven/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2020_04_25_maven/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookSys/src/main/webapp/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/BookSys/src/main/webapp/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookSys/src/main/webapp/public/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/BookSys/src/main/webapp/public/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookSys/src/main/webapp/static/moment@2.22.2/tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/BookSys/src/main/webapp/static/moment@2.22.2/tests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookSys/target/BookSys/public/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/BookSys/target/BookSys/public/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SingletonTest/Bank.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SingletonTest/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SingletonTest/SingletonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SingletonTest/SingletonTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Study/ysw/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Study/ysw/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ysw/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ysw/Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,9 +143,23 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Demo.stringTest">
+  <component name="RunManager" selected="Application.ProxyTest">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ysw.Demo" />
+      <module name="Study" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ysw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ysw.ProxyTest" />
       <module name="Study" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -239,23 +223,6 @@
       <option name="PACKAGE_NAME" value="ysw" />
       <option name="MAIN_CLASS_NAME" value="ysw.TestDemo" />
       <option name="METHOD_NAME" value="testJsonRead" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDemo.testJsonWrite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BookSys" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ysw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ysw" />
-      <option name="MAIN_CLASS_NAME" value="ysw.TestDemo" />
-      <option name="METHOD_NAME" value="testJsonWrite" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -455,19 +422,19 @@
     <list>
       <item itemvalue="Application.Demo" />
       <item itemvalue="JAR Application.junit-4.10.jar" />
-      <item itemvalue="JUnit.TestDemo.testJsonWrite" />
       <item itemvalue="JUnit.TestDemo.testJsonRead" />
       <item itemvalue="JUnit.Demo.test" />
       <item itemvalue="JUnit.Demo.stringTest" />
       <item itemvalue="Tomcat Server.blog" />
+      <item itemvalue="Application.ProxyTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProxyTest" />
         <item itemvalue="JUnit.Demo.stringTest" />
         <item itemvalue="JUnit.Demo.test" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="JUnit.TestDemo.testJsonRead" />
-        <item itemvalue="JUnit.TestDemo.testJsonWrite" />
       </list>
     </recent_temporary>
   </component>
@@ -721,14 +688,11 @@
       <workItem from="1594857632730" duration="1478000" />
       <workItem from="1594867915208" duration="8402000" />
       <workItem from="1594896927918" duration="4006000" />
-      <workItem from="1594960192801" duration="1058000" />
-    </task>
-    <task id="LOCAL-00087" summary="学习">
-      <created>1582896757855</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1582896757855</updated>
+      <workItem from="1594960192801" duration="1111000" />
+      <workItem from="1594999468348" duration="947000" />
+      <workItem from="1595807942560" duration="1249000" />
+      <workItem from="1595843336246" duration="2012000" />
+      <workItem from="1595868627663" duration="943000" />
     </task>
     <task id="LOCAL-00088" summary="学习">
       <created>1583228831428</created>
@@ -1066,7 +1030,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594612737144</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="学习">
+      <created>1594965749463</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1594965749463</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1165,10 +1136,10 @@
     </state>
     <state x="137" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1594554517613" />
     <state x="1510" y="-283" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1588493594209" />
-    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1594785566956">
+    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1595868832451">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1594785566956" />
+    <state x="488" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1595868832451" />
     <state x="275" y="0" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1594554516285">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -1192,18 +1163,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="379" y="16" key="#init.sql/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1594555264147" />
-    <state x="391" y="16" key="#junit-4.10.jar" timestamp="1586611134586">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="391" y="16" key="#junit-4.10.jar/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1586611134586" />
     <state x="416" y="210" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1590555121374">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="416" y="210" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1590555121374" />
-    <state x="205" y="58" width="914" height="599" key="CommitChangelistDialog2" timestamp="1594612732365">
+    <state x="205" y="58" width="914" height="599" key="CommitChangelistDialog2" timestamp="1594965746180">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="205" y="58" width="914" height="599" key="CommitChangelistDialog2/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1594612732365" />
+    <state x="205" y="58" width="914" height="599" key="CommitChangelistDialog2/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1594965746180" />
     <state x="1642" y="-303" key="CommitChangelistDialog2/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1587789340566" />
     <state x="262" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1591627054174" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1594887674797">
@@ -1211,31 +1178,26 @@
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1594887674797" />
     <state x="1854" y="-157" key="FileChooserDialogImpl/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1587899670654" />
-    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586330996421" />
     <state width="1323" height="262" key="GridCell.Tab.0.bottom" timestamp="1594887675774">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="262" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1594887675774" />
     <state width="1397" height="523" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1593532661990" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586330997883" />
     <state width="1323" height="262" key="GridCell.Tab.0.center" timestamp="1594887675774">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="262" key="GridCell.Tab.0.center/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1594887675774" />
     <state width="1397" height="523" key="GridCell.Tab.0.center/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1593532661975" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586330997883" />
     <state width="1323" height="262" key="GridCell.Tab.0.left" timestamp="1594887675774">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="262" key="GridCell.Tab.0.left/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1594887675774" />
     <state width="1397" height="523" key="GridCell.Tab.0.left/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1593532661975" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586330997882" />
     <state width="1323" height="262" key="GridCell.Tab.0.right" timestamp="1594887675774">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="262" key="GridCell.Tab.0.right/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1594887675774" />
     <state width="1397" height="523" key="GridCell.Tab.0.right/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1593532661990" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1586330997883" />
     <state width="1323" height="262" key="GridCell.Tab.1.bottom" timestamp="1594887675774">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -1310,10 +1272,10 @@
     <state x="194" y="0" key="SettingsEditor/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1594558261487" />
     <state x="1559" y="-284" key="SettingsEditor/0.0.1366.738/1366.-303.1440.870@1366.-303.1440.870" timestamp="1588493640589" />
     <state x="208" y="5" key="SettingsEditor/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1593790903528" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1594612742581">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1594965752402">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1594612742581" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.-303.1440.870@0.0.1366.738" timestamp="1594965752402" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1591627242391" />
     <state x="482" y="146" key="chooseDestDirectoryDialog" timestamp="1594561302250">
       <screen x="0" y="0" width="1366" height="738" />
