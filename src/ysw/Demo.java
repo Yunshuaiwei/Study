@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.Serializable;
 import java.util.*;
 
 /**
@@ -36,8 +37,9 @@ public class Demo {
             }
         }
     }
+
     @Test
-    public void test(){
+    public void test() {
         ArrayList<Integer> list = new ArrayList<>();
         list.add(45);
         list.add(5);
@@ -47,29 +49,62 @@ public class Demo {
         Collections.sort(list, new Comparator<Integer>() {
             @Override
             public int compare(Integer o1, Integer o2) {
-                return o2-o1;
+                return o2 - o1;
             }
         });
         List<Integer> list1 = Collections.synchronizedList(list);
         System.out.println(list);
     }
+
     @Test
-    public void stringTest(){
+    public void stringTest() {
         String s = new String("abc");
-        String str="abc";
+        String str = "abc";
         char[] chars = str.toCharArray();
-        String str2=new String(chars);
-        for(char c:chars){
+        String str2 = new String(chars);
+        for (char c : chars) {
             System.out.println(c);
         }
     }
+
     @Test
-    public void byteTest(){
+    public void byteTest() {
         Person p = new Person();
-        p.name="abc";
+        p.name = "abc";
 
     }
 }
-class Person{
-    static String  name="abc";
+
+class Person implements Serializable {
+    public String name;
+    public int age;
+    private String nation;
+
+    public Person() {
+    }
+
+    public Person(String name, int age, String nation) {
+        this.age = age;
+        this.name = name;
+        this.nation = nation;
+    }
+
+    private Person(String name, int age) {
+        this.age = age;
+        this.name = name;
+    }
+
+    public void show(String nation) {
+        System.out.println("nation=" + nation);
+    }
+
+    private String eat() {
+        System.out.println("eat");
+        return "ok";
+    }
+
+    public static String run() {
+        System.out.println("run");
+        return "OK";
+    }
 }

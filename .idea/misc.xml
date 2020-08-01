@@ -4,6 +4,7 @@
     <file type="web" url="file://$PROJECT_DIR$/2020_04_25_maven" />
     <file type="web" url="file://$PROJECT_DIR$/blog" />
     <file type="web" url="file://$PROJECT_DIR$/BookSys" />
+    <file type="web" url="file://$PROJECT_DIR$/ChatRoom" />
     <file type="web" url="file://$PROJECT_DIR$/yswblog" />
   </component>
   <component name="MavenProjectsManager">
@@ -14,6 +15,7 @@
         <option value="$PROJECT_DIR$/2020_05_20_jvm/pom.xml" />
         <option value="$PROJECT_DIR$/mavenTest/pom.xml" />
         <option value="$PROJECT_DIR$/BookSys/pom.xml" />
+        <option value="$PROJECT_DIR$/ChatRoom/pom.xml" />
       </list>
     </option>
   </component>
