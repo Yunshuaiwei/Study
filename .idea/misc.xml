@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/2020_04_25_maven" />
+    <file type="web" url="file://$PROJECT_DIR$/2020_11_20" />
     <file type="web" url="file://$PROJECT_DIR$/blog" />
     <file type="web" url="file://$PROJECT_DIR$/BookSys" />
     <file type="web" url="file://$PROJECT_DIR$/ChatRoom" />
@@ -16,6 +17,7 @@
         <option value="$PROJECT_DIR$/mavenTest/pom.xml" />
         <option value="$PROJECT_DIR$/BookSys/pom.xml" />
         <option value="$PROJECT_DIR$/ChatRoom/pom.xml" />
+        <option value="$PROJECT_DIR$/Jedis/pom.xml" />
       </list>
     </option>
   </component>
