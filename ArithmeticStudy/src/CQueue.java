@@ -12,6 +12,13 @@ public class CQueue {
     public CQueue() {
     }
 
+    /**
+     * @author yunshuaiwei
+     * @description TODO
+     * @date 15:45 2021/10/16
+     * @Param [value]
+     * @Return void
+     */
     public void appendTail(int value) {
         while (!st1.isEmpty()) {
             st2.add(st1.pop());
