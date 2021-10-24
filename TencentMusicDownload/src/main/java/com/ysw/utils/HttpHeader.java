@@ -9,7 +9,7 @@ import org.springframework.http.HttpHeaders;
  * @date 2021/10/24 14:39
  */
 public class HttpHeader {
-    private static final String cookie = "_qpsvr_localtk=0.03464813767213637; rewardsn=; wxtokenkey=777";
+    private static final String cookie = "";
 
     /**
      * @author yunshuaiwei
