@@ -17,9 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="下载公众号的歌曲">
-      <change beforePath="$PROJECT_DIR$/MusicDownloadUtil/src/main/java/HttpHeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/MusicDownloadUtil/src/main/java/HttpHeader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TencentMusicDownload/src/main/java/com/ysw/utils/HttpHeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/TencentMusicDownload/src/main/java/com/ysw/utils/HttpHeader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TencentMusicDownload/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/TencentMusicDownload/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusicDownloadUtil/src/main/java/MusicDownload.java" beforeDir="false" afterPath="$PROJECT_DIR$/MusicDownloadUtil/src/main/java/MusicDownload.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +122,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -416,13 +415,13 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JAR Application.junit-4.10.jar" />
-      <item itemvalue="Tomcat Server.blog" />
       <item itemvalue="Application.Solution" />
-      <item itemvalue="Spring Boot.TencentMusicDownloadApplication" />
+      <item itemvalue="Application.MusicDownload" />
+      <item itemvalue="JAR Application.junit-4.10.jar" />
       <item itemvalue="JUnit.MusicDownloadTest.test" />
       <item itemvalue="JUnit.MusicDownload.test" />
-      <item itemvalue="Application.MusicDownload" />
+      <item itemvalue="Spring Boot.TencentMusicDownloadApplication" />
+      <item itemvalue="Tomcat Server.blog" />
     </list>
     <recent_temporary>
       <list>
@@ -750,14 +749,8 @@
       <workItem from="1634428651438" duration="33000" />
       <workItem from="1634428734404" duration="1194000" />
       <workItem from="1634652678304" duration="2539000" />
-      <workItem from="1634684481944" duration="16658000" />
-    </task>
-    <task id="LOCAL-00095" summary="学习">
-      <created>1584080243391</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1584080243392</updated>
+      <workItem from="1634684481944" duration="18126000" />
+      <workItem from="1635119145628" duration="292000" />
     </task>
     <task id="LOCAL-00096" summary="学习">
       <created>1584093566567</created>
@@ -1095,7 +1088,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635087077292</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="下载公众号的歌曲">
+      <created>1635087381971</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1635087381971</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

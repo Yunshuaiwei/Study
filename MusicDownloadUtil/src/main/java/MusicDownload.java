@@ -24,7 +24,14 @@ import java.util.regex.Pattern;
  */
 public class MusicDownload {
     //公众号URL
-    private static String uri = "https://mp.weixin.qq.com/s/1iYXFxI-DJtoyhwMqduGvA";
+    private static String URI = "https://mp.weixin.qq.com/s/1iYXFxI-DJtoyhwMqduGvA";
+
+    //查找mediaid正则表达式
+    private static final String REGEX;
+
+    static {
+        REGEX = "voice_encode_fileid=\"[\\w]*\"";
+    }
 
     public void downloadMusic() {
         System.out.println("开始下载......");
@@ -32,7 +39,7 @@ public class MusicDownload {
         HttpHeaders httpHeader = HttpHeader.getHttpHeader();
         HttpEntity<String> entity = new HttpEntity<String>("parameters", httpHeader);
         RestTemplate restTemplate = new RestTemplate();
-        ResponseEntity<String> result = restTemplate.exchange(uri, HttpMethod.GET, entity, String.class);
+        ResponseEntity<String> result = restTemplate.exchange(URI, HttpMethod.GET, entity, String.class);
         //请求到的主页面body体
         String body = result.getBody();
         List<String> strings = searchMediaid(body);
@@ -56,9 +63,7 @@ public class MusicDownload {
         if (Strings.isEmpty(body)) {
             throw new RuntimeException("页面body体为空");
         }
-        //查找mediaid正则表达式
-        String pattern = "voice_encode_fileid=\"[\\w]*\"";
-        Pattern compile = Pattern.compile(pattern);
+        Pattern compile = Pattern.compile(REGEX);
         Matcher matcher = compile.matcher(body);
         //保存mediaid
         ArrayList<String> strings = new ArrayList<>();
@@ -88,9 +93,9 @@ public class MusicDownload {
         FileOutputStream fileOutputStream = null;
         for (String mediaId : mediaIds) {
             //音频页面的URL
-            uri = "https://res.wx.qq.com/voice/getvoice?mediaid=" + mediaId;
+            URI = "https://res.wx.qq.com/voice/getvoice?mediaid=" + mediaId;
             try {
-                URL url = new URL(uri);
+                URL url = new URL(URI);
                 URLConnection urlConnection = url.openConnection();
                 InputStream inputStream = urlConnection.getInputStream();
                 UUID uuid = UUID.randomUUID();
