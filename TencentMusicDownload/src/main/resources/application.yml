@@ -1,4 +1,4 @@
 server:
   port: 8080
 http:
-  cookie: _qpsvr_localtk=0.03464813767213637; rewardsn=; wxtokenkey=777
+  cookie: 
