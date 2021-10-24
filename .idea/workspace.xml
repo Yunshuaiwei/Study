@@ -16,11 +16,88 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="学习">
-      <change afterPath="$PROJECT_DIR$/EditFileName/EditFileName.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EditFileName/src/EditFileName.java" afterDir="false" />
+    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="下载公众号的歌曲">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_78.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_12_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_12_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_12_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_12_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_14_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_14_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_54.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_54.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_54.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArithmeticStudy/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicDownloadUtil/MusicDownloadUtil.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicDownloadUtil/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicDownloadUtil/src/main/java/HttpHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicDownloadUtil/src/main/java/MusicDownload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/17790.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/17790.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019_11_20_TCP_UDP/2019_11_20_TCP_UDP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019_11_20_TCP_UDP/2019_11_20_TCP_UDP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019_11_26_JDBC/2019_11_26_JDBC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019_11_26_JDBC/2019_11_26_JDBC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_03_03/2020_03_03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2020_03_03/2020_03_03.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020_06_11_reflection/2020_06_11_reflection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2020_06_11_reflection/2020_06_11_reflection.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task02/Task02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Task02/Task02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TencentMusicDownload/src/main/java/com/ysw/controller/MusicDownload.java" beforeDir="false" afterPath="$PROJECT_DIR$/TencentMusicDownload/src/main/java/com/ysw/controller/MusicDownload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TencentMusicDownload/src/main/java/com/ysw/utils/HttpHeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/TencentMusicDownload/src/main/java/com/ysw/utils/HttpHeader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TencentMusicDownload/target/classes/com/ysw/controller/MusicDownload.class" beforeDir="false" afterPath="$PROJECT_DIR$/TencentMusicDownload/target/classes/com/ysw/controller/MusicDownload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TencentMusicDownload/target/classes/com/ysw/utils/HttpHeader.class" beforeDir="false" afterPath="$PROJECT_DIR$/TencentMusicDownload/target/classes/com/ysw/utils/HttpHeader.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +117,7 @@
         <option value="Jsp File" />
         <option value="Tag Library Descriptor" />
         <option value="HTML File" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -97,14 +175,20 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="backg&#9;ACTION&#9;Images.SetBackgroundImage&#10;set back&#9;ACTION&#9;Images.SetBackgroundImage" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TencentMusicDownload/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -122,18 +206,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaCodeIDEA\Study\TencentMusicDownload\src\main\resources" />
       <recent name="E:\JavaCodeIDEA\Study\2020_11_20\src\main\java\com" />
       <recent name="E:\JavaCodeIDEA\Study\BookSys\src\main\webapp" />
       <recent name="E:\JavaCodeIDEA\Study\BookSys\src\main\webapp\static" />
       <recent name="E:\JavaCodeIDEA\Study\BookSys\db" />
-      <recent name="E:\JavaCodeIDEA\Study\2019_11_26_JDBC\lib" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ysw.filter" />
-      <recent name="ThreadBinaryTree" />
-      <recent name="com.session" />
-      <recent name="com.cookie" />
-      <recent name="web.servletcontext" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\JavaCodeIDEA\Study" />
@@ -141,6 +218,19 @@
       <recent name="E:\JavaCodeIDEA\Study\2020_02_23" />
       <recent name="E:\JavaCodeIDEA\Study\2020_02_23\src" />
       <recent name="E:\JavaCodeIDEA\Study\2020_02_23\src\JDBCUtil" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.ysw.controller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.ysw" />
+      <recent name="com.ysw.utils" />
+      <recent name="com.ysw.controller" />
+      <recent name="com.ysw.config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -150,10 +240,18 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EditFileName">
-    <configuration name="EditFileName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EditFileName" />
-      <module name="EditFileName" />
+  <component name="RunManager" selected="Application.MusicDownload">
+    <configuration name="MusicDownload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MusicDownload" />
+      <module name="MusicDownloadUtil" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <module name="ArithmeticStudy" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,43 +263,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLambda" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java8Test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestLambda" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLambda.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java8Test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestLambda" />
-      <option name="METHOD_NAME" value="test7" />
+    <configuration name="MusicDownloadTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TencentMusicDownload" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ysw.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ysw.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.ysw.controller.MusicDownloadTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLambda.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java8Test" />
+    <configuration name="MusicDownload.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicDownloadUtil" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestLambda" />
-      <option name="METHOD_NAME" value="test8" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLambda.test9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java8Test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestLambda" />
-      <option name="METHOD_NAME" value="test9" />
+      <option name="MAIN_CLASS_NAME" value="MusicDownload" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -219,6 +302,19 @@
       <option name="JAR_PATH" value="$PROJECT_DIR$/2020_04_11_file/lib/junit-4.10.jar" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2" />
+    </configuration>
+    <configuration name="TencentMusicDownloadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="TencentMusicDownload" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ysw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ysw.TencentMusicDownloadApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
@@ -400,20 +496,20 @@
     </configuration>
     <list>
       <item itemvalue="JAR Application.junit-4.10.jar" />
-      <item itemvalue="JUnit.TestLambda" />
-      <item itemvalue="JUnit.TestLambda.test7" />
-      <item itemvalue="JUnit.TestLambda.test8" />
-      <item itemvalue="JUnit.TestLambda.test9" />
       <item itemvalue="Tomcat Server.blog" />
-      <item itemvalue="Application.EditFileName" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Spring Boot.TencentMusicDownloadApplication" />
+      <item itemvalue="JUnit.MusicDownloadTest.test" />
+      <item itemvalue="JUnit.MusicDownload.test" />
+      <item itemvalue="Application.MusicDownload" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EditFileName" />
-        <item itemvalue="JUnit.TestLambda.test9" />
-        <item itemvalue="JUnit.TestLambda.test8" />
-        <item itemvalue="JUnit.TestLambda" />
-        <item itemvalue="JUnit.TestLambda.test7" />
+        <item itemvalue="Application.MusicDownload" />
+        <item itemvalue="JUnit.MusicDownload.test" />
+        <item itemvalue="JUnit.MusicDownloadTest.test" />
+        <item itemvalue="Spring Boot.TencentMusicDownloadApplication" />
+        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -732,21 +828,8 @@
       <workItem from="1634428068127" duration="537000" />
       <workItem from="1634428651438" duration="33000" />
       <workItem from="1634428734404" duration="1194000" />
-      <workItem from="1634652678304" duration="1920000" />
-    </task>
-    <task id="LOCAL-00092" summary="学习">
-      <created>1583507746822</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1583507746822</updated>
-    </task>
-    <task id="LOCAL-00093" summary="学习">
-      <created>1583635904790</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1583635904790</updated>
+      <workItem from="1634652678304" duration="2539000" />
+      <workItem from="1634684481944" duration="16319000" />
     </task>
     <task id="LOCAL-00094" summary="学习">
       <created>1583642136606</created>
@@ -1077,7 +1160,21 @@
       <option name="project" value="LOCAL" />
       <updated>1634370440905</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="修改文件名称">
+      <created>1634654916522</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1634654916524</updated>
+    </task>
+    <task id="LOCAL-00142" summary="下载公众号的歌曲">
+      <created>1635065410186</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1635065410187</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1127,8 +1224,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Stack" />
-    <MESSAGE value="练习" />
     <MESSAGE value="栈测试" />
     <MESSAGE value="栈" />
     <MESSAGE value="后缀表达式" />
@@ -1152,7 +1247,20 @@
     <MESSAGE value="常用算法" />
     <MESSAGE value="算法" />
     <MESSAGE value="学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="学习" />
+    <MESSAGE value="修改文件名称" />
+    <MESSAGE value="下载公众号的歌曲" />
+    <option name="LAST_COMMIT_MESSAGE" value="下载公众号的歌曲" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ArithmeticStudy/src/Solution.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

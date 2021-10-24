@@ -31,7 +31,7 @@ public class MusicDownload {
     private RestTemplate restTemplate;
 
     public String getMusic(){
-        String uri = "https://mp.weixin.qq.com/s/ylb4znRRVSEPuoXR1aDvCw";
+        String uri = "https://mp.weixin.qq.com/s/x5KVA4NO0Lo7DS5dKiFkDA";
 
         //请求头
         HttpHeaders httpHeader = HttpHeader.getHttpHeader();
