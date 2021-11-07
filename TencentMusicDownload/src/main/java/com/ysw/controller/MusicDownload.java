@@ -66,11 +66,9 @@ public class MusicDownload {
                 InputStream inputStream = urlConnection.getInputStream();
                 fileOutputStream = new FileOutputStream("F:\\test\\"+i+".mp3");
                 i++;
-                int bytesum = 0;
                 int byteread;
                 byte[] buffer = new byte[1024];
                 while ((byteread = inputStream.read(buffer)) != -1) {
-                    bytesum += byteread;
                     fileOutputStream.write(buffer, 0, byteread);
                 }
             } catch (IOException e) {

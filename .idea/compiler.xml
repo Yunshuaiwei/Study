@@ -8,7 +8,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Jedis" />
-        <module name="MusicDownloadUtil" />
         <module name="yswblog" />
         <module name="ChatRoom" />
         <module name="FileDownload" />

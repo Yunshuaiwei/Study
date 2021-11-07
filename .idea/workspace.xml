@@ -16,23 +16,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="下载公众号的歌曲">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileDownload/FileDownload.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileDownload/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileDownload/src/main/java/DownloadMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileDownload/src/main/java/file/FileDownload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileDownload/src/main/java/music/MusicDownload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileDownload/src/main/java/util/HttpHeader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicDownloadUtil/src/main/java/MusicDownload.java" beforeDir="false" afterPath="$PROJECT_DIR$/MusicDownloadUtil/src/main/java/MusicDownload.java" afterDir="false" />
-    </list>
+    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="下载文件" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +120,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -766,14 +750,7 @@
       <workItem from="1634684481944" duration="18126000" />
       <workItem from="1635119145628" duration="930000" />
       <workItem from="1635899704517" duration="293000" />
-      <workItem from="1636270735937" duration="932000" />
-    </task>
-    <task id="LOCAL-00097" summary="学习">
-      <created>1584246771614</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1584246771614</updated>
+      <workItem from="1636270735937" duration="1062000" />
     </task>
     <task id="LOCAL-00098" summary="学习">
       <created>1584358950463</created>
@@ -1111,7 +1088,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635119463044</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="下载文件">
+      <created>1636271746306</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1636271746307</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1161,7 +1145,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="栈测试" />
     <MESSAGE value="栈" />
     <MESSAGE value="后缀表达式" />
     <MESSAGE value="中缀表达式" />
@@ -1186,7 +1169,8 @@
     <MESSAGE value="学习" />
     <MESSAGE value="修改文件名称" />
     <MESSAGE value="下载公众号的歌曲" />
-    <option name="LAST_COMMIT_MESSAGE" value="下载公众号的歌曲" />
+    <MESSAGE value="下载文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="下载文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

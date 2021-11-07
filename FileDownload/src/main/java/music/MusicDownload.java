@@ -6,7 +6,7 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
-import util.HttpHeader;
+import common.HttpHeader;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

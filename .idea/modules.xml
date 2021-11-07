@@ -51,11 +51,7 @@
       <module fileurl="file://$PROJECT_DIR$/FileDownload/FileDownload.iml" filepath="$PROJECT_DIR$/FileDownload/FileDownload.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java8Test/Java8Test.iml" filepath="$PROJECT_DIR$/Java8Test/Java8Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/Jedis/Jedis.iml" filepath="$PROJECT_DIR$/Jedis/Jedis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MusicDownloadUtil/MusicDownloadUtil.iml" filepath="$PROJECT_DIR$/MusicDownloadUtil/MusicDownloadUtil.iml" />
       <module fileurl="file://$PROJECT_DIR$/Study.iml" filepath="$PROJECT_DIR$/Study.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Task01/Task01.iml" filepath="$PROJECT_DIR$/Task01/Task01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Task02/Task02.iml" filepath="$PROJECT_DIR$/Task02/Task02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Task03/Task03.iml" filepath="$PROJECT_DIR$/Task03/Task03.iml" />
       <module fileurl="file://$PROJECT_DIR$/TencentMusicDownload/TencentMusicDownload.iml" filepath="$PROJECT_DIR$/TencentMusicDownload/TencentMusicDownload.iml" />
       <module fileurl="file://$PROJECT_DIR$/mavenTest/mavenTest.iml" filepath="$PROJECT_DIR$/mavenTest/mavenTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/thread-study/thread-study.iml" filepath="$PROJECT_DIR$/thread-study/thread-study.iml" />
