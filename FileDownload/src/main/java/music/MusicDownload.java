@@ -104,11 +104,9 @@ public class MusicDownload {
                 UUID uuid = UUID.randomUUID();
                 //存储位置
                 fileOutputStream = new FileOutputStream("F:\\test\\" + uuid + ".mp3");
-                int byteSum = 0;
                 int byteRead;
                 byte[] buffer = new byte[1024];
                 while ((byteRead = inputStream.read(buffer)) != -1) {
-                    byteSum += byteRead;
                     fileOutputStream.write(buffer, 0, byteRead);
                 }
             } catch (IOException e) {
