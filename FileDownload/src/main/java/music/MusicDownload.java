@@ -1,9 +1,12 @@
+package music;
+
 import org.apache.logging.log4j.util.Strings;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
+import util.HttpHeader;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -123,8 +126,5 @@ public class MusicDownload {
         return true;
     }
 
-    public static void main(String[] args) {
-        MusicDownload download = new MusicDownload();
-        download.downloadMusic();
-    }
+
 }

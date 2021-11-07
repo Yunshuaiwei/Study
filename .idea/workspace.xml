@@ -17,6 +17,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="下载公众号的歌曲">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileDownload/FileDownload.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileDownload/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileDownload/src/main/java/DownloadMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileDownload/src/main/java/file/FileDownload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileDownload/src/main/java/music/MusicDownload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileDownload/src/main/java/util/HttpHeader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MusicDownloadUtil/src/main/java/MusicDownload.java" beforeDir="false" afterPath="$PROJECT_DIR$/MusicDownloadUtil/src/main/java/MusicDownload.java" afterDir="false" />
     </list>
@@ -102,13 +115,14 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="backg&#9;ACTION&#9;Images.SetBackgroundImage&#10;set back&#9;ACTION&#9;Images.SetBackgroundImage" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/TencentMusicDownload/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FileDownload/src/main/java/file" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -122,15 +136,15 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaCodeIDEA\Study\FileDownload\src\main\java\file" />
       <recent name="E:\JavaCodeIDEA\Study\TencentMusicDownload\src\main\resources" />
       <recent name="E:\JavaCodeIDEA\Study\2020_11_20\src\main\java\com" />
       <recent name="E:\JavaCodeIDEA\Study\BookSys\src\main\webapp" />
       <recent name="E:\JavaCodeIDEA\Study\BookSys\src\main\webapp\static" />
-      <recent name="E:\JavaCodeIDEA\Study\BookSys\db" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\JavaCodeIDEA\Study" />
@@ -146,11 +160,11 @@
       <recent name="com.ysw.controller" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="music" />
+      <recent name="util" />
       <recent name="" />
       <recent name="com.ysw" />
       <recent name="com.ysw.utils" />
-      <recent name="com.ysw.controller" />
-      <recent name="com.ysw.config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -750,14 +764,9 @@
       <workItem from="1634428734404" duration="1194000" />
       <workItem from="1634652678304" duration="2539000" />
       <workItem from="1634684481944" duration="18126000" />
-      <workItem from="1635119145628" duration="292000" />
-    </task>
-    <task id="LOCAL-00096" summary="学习">
-      <created>1584093566567</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1584093566567</updated>
+      <workItem from="1635119145628" duration="930000" />
+      <workItem from="1635899704517" duration="293000" />
+      <workItem from="1636270735937" duration="932000" />
     </task>
     <task id="LOCAL-00097" summary="学习">
       <created>1584246771614</created>
@@ -1095,7 +1104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635087381971</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="下载公众号的歌曲">
+      <created>1635119463043</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1635119463044</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
