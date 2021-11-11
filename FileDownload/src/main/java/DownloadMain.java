@@ -11,8 +11,12 @@ import music.MusicDownload;
 public class DownloadMain {
 
     public static void main(String[] args) {
-        downloadMusic();
-        downloadFile();
+        //文件下载的URL
+        String url = "http://h6.pdfdo.com/Download/111206531135_03-3-1.pdf?t=693";
+        //下载公众号音频
+//        downloadMusic(url);
+        //下载文件
+        downloadFile(url);
     }
 
     /**
@@ -22,10 +26,10 @@ public class DownloadMain {
      * @Param []
      * @Return void
      */
-    private static void downloadMusic(){
+    private static void downloadMusic(String url) {
         //下载公众号中的音频
         MusicDownload download = new MusicDownload();
-        download.downloadMusic();
+        download.downloadMusic(url);
     }
 
     /**
@@ -35,9 +39,7 @@ public class DownloadMain {
      * @Param []
      * @Return void
      */
-    private static void downloadFile(){
-        //文件下载的URL
-        String url = "https://scootersoftware.com/BCompare-zh-3.3.13.18981.exe";
+    private static void downloadFile(String url) {
         //文件的存储位置
         String path = "F:\\test";
         long size = FileDownload.downLoadFromUrl(url, path);

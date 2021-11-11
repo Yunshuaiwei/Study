@@ -16,7 +16,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="下载文件" />
+    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="update:修改写文件的代码" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,10 +158,10 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MusicDownload">
-    <configuration name="MusicDownload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MusicDownload" />
-      <module name="MusicDownloadUtil" />
+  <component name="RunManager" selected="Application.DownloadMain">
+    <configuration name="DownloadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DownloadMain" />
+      <module name="FileDownload" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,7 +170,6 @@
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="ArithmeticStudy" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -191,17 +190,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ysw.controller" />
       <option name="MAIN_CLASS_NAME" value="com.ysw.controller.MusicDownloadTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MusicDownload.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MusicDownloadUtil" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MusicDownload" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -337,94 +325,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="blog" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.54" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER" value="false" />
-      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="BookSys:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_47_Study_3" />
-        <option name="DEPLOY_TOMCAT_APPS" value="true" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="53382" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="BookSys:war exploded" />
-        </option>
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.MusicDownload" />
+      <item itemvalue="Application.DownloadMain" />
       <item itemvalue="JAR Application.junit-4.10.jar" />
       <item itemvalue="JUnit.MusicDownloadTest.test" />
-      <item itemvalue="JUnit.MusicDownload.test" />
       <item itemvalue="Spring Boot.TencentMusicDownloadApplication" />
-      <item itemvalue="Tomcat Server.blog" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MusicDownload" />
-        <item itemvalue="JUnit.MusicDownload.test" />
+        <item itemvalue="Application.DownloadMain" />
         <item itemvalue="JUnit.MusicDownloadTest.test" />
         <item itemvalue="Spring Boot.TencentMusicDownloadApplication" />
         <item itemvalue="Application.Solution" />
@@ -750,21 +660,7 @@
       <workItem from="1634684481944" duration="18126000" />
       <workItem from="1635119145628" duration="930000" />
       <workItem from="1635899704517" duration="293000" />
-      <workItem from="1636270735937" duration="1062000" />
-    </task>
-    <task id="LOCAL-00098" summary="学习">
-      <created>1584358950463</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1584358950464</updated>
-    </task>
-    <task id="LOCAL-00099" summary="学习">
-      <created>1584362530275</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1584362530275</updated>
+      <workItem from="1636270735937" duration="1513000" />
     </task>
     <task id="LOCAL-00100" summary="学习">
       <created>1584932186884</created>
@@ -1095,7 +991,21 @@
       <option name="project" value="LOCAL" />
       <updated>1636271746307</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="update:修改包名">
+      <created>1636271971454</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1636271971454</updated>
+    </task>
+    <task id="LOCAL-00148" summary="update:修改写文件的代码">
+      <created>1636272049169</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1636272049170</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1145,8 +1055,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="栈" />
-    <MESSAGE value="后缀表达式" />
     <MESSAGE value="中缀表达式" />
     <MESSAGE value="递归" />
     <MESSAGE value="迷宫问题" />
@@ -1170,7 +1078,9 @@
     <MESSAGE value="修改文件名称" />
     <MESSAGE value="下载公众号的歌曲" />
     <MESSAGE value="下载文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="下载文件" />
+    <MESSAGE value="update:修改包名" />
+    <MESSAGE value="update:修改写文件的代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="update:修改写文件的代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

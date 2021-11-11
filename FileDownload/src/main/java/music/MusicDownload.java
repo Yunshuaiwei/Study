@@ -26,9 +26,6 @@ import java.util.regex.Pattern;
  * @date 2021/10/24 22:07
  */
 public class MusicDownload {
-    //公众号URL
-    private static String URI = "https://mp.weixin.qq.com/s/sd89TxAM0ajZeHjqeHrTpw";
-
     //查找mediaid正则表达式
     private static final String REGEX;
 
@@ -36,7 +33,7 @@ public class MusicDownload {
         REGEX = "voice_encode_fileid=\"[\\w]*\"";
     }
 
-    public void downloadMusic() {
+    public void downloadMusic(String URI) {
         System.out.println("开始下载......");
         //请求头
         HttpHeaders httpHeader = HttpHeader.getHttpHeader();
@@ -96,7 +93,7 @@ public class MusicDownload {
         FileOutputStream fileOutputStream = null;
         for (String mediaId : mediaIds) {
             //音频页面的URL
-            URI = "https://res.wx.qq.com/voice/getvoice?mediaid=" + mediaId;
+            String URI = "https://res.wx.qq.com/voice/getvoice?mediaid=" + mediaId;
             try {
                 URL url = new URL(URI);
                 URLConnection urlConnection = url.openConnection();
