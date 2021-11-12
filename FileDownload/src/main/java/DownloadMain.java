@@ -12,11 +12,11 @@ public class DownloadMain {
 
     public static void main(String[] args) {
         //文件下载的URL
-        String url = "http://h6.pdfdo.com/Download/111206531135_03-3-1.pdf?t=693";
+        String url = "https://mp.weixin.qq.com/s/GbVpJv3qDYnFIlNd92pkJA";
         //下载公众号音频
-//        downloadMusic(url);
+        downloadMusic(url);
         //下载文件
-        downloadFile(url);
+//        downloadFile(url);
     }
 
     /**
