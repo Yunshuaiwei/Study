@@ -17,6 +17,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="update:修改写文件的代码">
+      <change afterPath="$PROJECT_DIR$/2022_02_09/2022_02_09.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022_02_09/src/CQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022_02_09/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022_02_09/src/MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022_02_09/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022_02_09/src/common/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022_02_09/src/common/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FileDownload/src/main/java/DownloadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/FileDownload/src/main/java/DownloadMain.java" afterDir="false" />
     </list>
@@ -109,7 +117,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/FileDownload/src/main/java/file" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../efis-svc-initial" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -664,14 +672,17 @@
       <workItem from="1635119145628" duration="930000" />
       <workItem from="1635899704517" duration="293000" />
       <workItem from="1636270735937" duration="1513000" />
-      <workItem from="1636671290918" duration="1039000" />
-    </task>
-    <task id="LOCAL-00101" summary="学习">
-      <created>1585282946370</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1585282946370</updated>
+      <workItem from="1636671290918" duration="1614000" />
+      <workItem from="1637491580028" duration="714000" />
+      <workItem from="1638661611324" duration="318000" />
+      <workItem from="1640225213194" duration="611000" />
+      <workItem from="1640484883803" duration="1429000" />
+      <workItem from="1640756485086" duration="5472000" />
+      <workItem from="1641513136342" duration="1905000" />
+      <workItem from="1641694826727" duration="229000" />
+      <workItem from="1642141043952" duration="633000" />
+      <workItem from="1642417921997" duration="3086000" />
+      <workItem from="1644374608692" duration="12171000" />
     </task>
     <task id="LOCAL-00102" summary="学习">
       <created>1585366928438</created>
@@ -1009,7 +1020,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636671533227</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="update:修改写文件的代码">
+      <created>1636676369293</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1636676369293</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
