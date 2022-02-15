@@ -2,6 +2,8 @@ import common.ListNode;
 import common.Node;
 
 import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 /**
@@ -118,7 +120,152 @@ public class Solution {
         }
         return builder.substring(n);
     }
+
     public String reverseLeftWords(String s, int n) {
-        return s.substring(n)+s.substring(0,n);
+        return s.substring(n) + s.substring(0, n);
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 在一个长度为 n 的数组 nums 里的所有数字都在 0～n-1 的范围内。
+     * 数组中某些数字是重复的，但不知道有几个数字重复了，也不知道每个数字重复了几次。请找出数组中任意一个重复的数字
+     * @date 20:32 2022/2/12
+     * @Param [nums]
+     * @Return int
+     */
+    public int findRepeatNumber(int[] nums) {
+        int i = 0;
+        while (i < nums.length) {
+            if (nums[i] == i) {
+                i++;
+            } else if (nums[i] == nums[nums[i]]) {
+                return nums[i];
+            } else {
+                int tmp = nums[i];
+                nums[i] = nums[tmp];
+                nums[tmp] = tmp;
+            }
+        }
+        return -1;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 统计一个数字在排序数组中出现的次数。
+     * @date 20:49 2022/2/12
+     * @Param [nums, target]
+     * @Return int
+     */
+    public int search(int[] nums, int target) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for (int num : nums) {
+            if (map.containsKey(num)) {
+                map.put(num, Integer.sum(map.get(num), 1));
+            } else {
+                map.put(num, 1);
+            }
+        }
+        if (!map.containsKey(target)) {
+            return 0;
+        }
+        return map.get(target);
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 一个长度为n-1的递增排序数组中的所有数字都是唯一的，并且每个数字都在范围0～n-1之内。
+     * 在范围0～n-1内的n个数字中有且只有一个数字不在该数组中，请找出这个数字。
+     * @date 21:01 2022/2/12
+     * @Param [nums]
+     * @Return int
+     */
+    public int missingNumber(int[] nums) {
+        int i = 0;
+        int j = nums.length - 1;
+        int m;
+        while (i <= j) {
+            m = (i + j) / 2;
+            if (nums[m] == m) {
+                i = m + 1;
+            } else {
+                j = m - 1;
+            }
+        }
+        return i;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 在一个 n * m 的二维数组中，每一行都按照从左到右递增的顺序排序，
+     * 每一列都按照从上到下递增的顺序排序。请完成一个高效的函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。
+     * @date 20:24 2022/2/13
+     * @Param [matrix, target]
+     * @Return boolean
+     */
+    public boolean findNumberIn2DArray(int[][] matrix, int target) {
+        if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
+            return false;
+        }
+        int i = 0;
+        int j = matrix[0].length - 1;
+        while (i < matrix.length && j >= 0) {
+            int num = matrix[i][j];
+            if (num == target) {
+                return true;
+            } else if (num > target) {
+                j--;
+            } else {
+                i++;
+            }
+        }
+        return false;
+    }
+
+
+    /**
+     * @author yunshuaiwei
+     * @description 把一个数组最开始的若干个元素搬到数组的末尾，我们称之为数组的旋转。
+     * @date 21:15 2022/2/13
+     * @Param [numbers]
+     * @Return int
+     */
+    public int minArray(int[] numbers) {
+        int num = numbers[0];
+        for (int number : numbers) {
+            if (number < num) {
+                return number;
+            }
+        }
+        return num;
+    }
+
+
+    /**
+     * @author yunshuaiwei
+     * @description 在字符串 s 中找出第一个只出现一次的字符。如果没有，返回一个单空格。 s 只包含小写字母。
+     * @date 21:32 2022/2/13
+     * @Param [s]
+     * @Return char
+     */
+    public static char firstUniqChar(String s) {
+        HashMap<Character, Integer> map = new HashMap<>();
+        Queue<Character> queue = new LinkedList<>();
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            map.put(c, map.containsKey(c) ? Integer.sum(map.get(c), 1) : 1);
+            queue.add(c);
+        }
+        for (Character character : queue) {
+            if (map.get(character) == 1) {
+                return character;
+            }
+        }
+        return ' ';
+    }
+
+
+    public static void main(String[] args) {
+        char z = firstUniqChar("z");
+        System.out.println(z);
     }
 }

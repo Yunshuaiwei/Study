@@ -16,16 +16,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="update:修改写文件的代码">
-      <change afterPath="$PROJECT_DIR$/2022_02_09/2022_02_09.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022_02_09/src/CQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022_02_09/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022_02_09/src/MinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022_02_09/src/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022_02_09/src/common/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022_02_09/src/common/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="add:算法练习">
+      <change afterPath="$PROJECT_DIR$/2022_02_09/src/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022_02_09/src/SearchAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022_02_09/src/common/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022_02_09/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FileDownload/src/main/java/DownloadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/FileDownload/src/main/java/DownloadMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -178,9 +174,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SearchAlgorithm" />
+      <module name="2022_02_09" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution" />
-      <module name="ArithmeticStudy" />
+      <module name="2022_02_09" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -337,18 +342,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.DownloadMain" />
       <item itemvalue="JAR Application.junit-4.10.jar" />
       <item itemvalue="JUnit.MusicDownloadTest.test" />
       <item itemvalue="Spring Boot.TencentMusicDownloadApplication" />
+      <item itemvalue="Application.SearchAlgorithm" />
+      <item itemvalue="Application.Solution (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.DownloadMain" />
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.SearchAlgorithm" />
         <item itemvalue="JUnit.MusicDownloadTest.test" />
         <item itemvalue="Spring Boot.TencentMusicDownloadApplication" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -682,14 +689,7 @@
       <workItem from="1641694826727" duration="229000" />
       <workItem from="1642141043952" duration="633000" />
       <workItem from="1642417921997" duration="3086000" />
-      <workItem from="1644374608692" duration="12171000" />
-    </task>
-    <task id="LOCAL-00102" summary="学习">
-      <created>1585366928438</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1585366928439</updated>
+      <workItem from="1644374608692" duration="30640000" />
     </task>
     <task id="LOCAL-00103" summary="学习">
       <created>1585563372421</created>
@@ -1027,7 +1027,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636676369293</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="add:算法练习">
+      <created>1644573278488</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1644573278497</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1077,7 +1084,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="中缀表达式" />
     <MESSAGE value="递归" />
     <MESSAGE value="迷宫问题" />
     <MESSAGE value="八皇后问题" />
@@ -1102,7 +1108,8 @@
     <MESSAGE value="下载文件" />
     <MESSAGE value="update:修改包名" />
     <MESSAGE value="update:修改写文件的代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="update:修改写文件的代码" />
+    <MESSAGE value="add:算法练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="add:算法练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
