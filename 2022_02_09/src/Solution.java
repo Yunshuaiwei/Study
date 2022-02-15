@@ -1,5 +1,6 @@
 import common.ListNode;
 import common.Node;
+import common.TreeNode;
 
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -261,6 +262,73 @@ public class Solution {
             }
         }
         return ' ';
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 输入两棵二叉树A和B，判断B是不是A的子结构。(约定空树不是任意一个树的子结构)
+     * B是A的子结构， 即 A中有出现和B相同的结构和节点值。
+     * @date 22:33 2022/2/15
+     * @Param [A, B]
+     * @Return boolean
+     */
+    public boolean isSubStructure(TreeNode A, TreeNode B) {
+        return (A != null && B != null) && (recur(A, B) || isSubStructure(A.left, B) || isSubStructure(A.right, B));
+    }
+
+    boolean recur(TreeNode A, TreeNode B) {
+        if (B == null) {
+            return true;
+        }
+        if (A == null || A.val != B.val) {
+            return false;
+        }
+        return recur(A.left, B.left) && recur(A.right, B.right);
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 请完成一个函数，输入一个二叉树，该函数输出它的镜像。
+     * @date 22:42 2022/2/15
+     * @Param [root]
+     * @Return common.TreeNode
+     */
+    public TreeNode mirrorTree(TreeNode root) {
+        if (root != null) {
+            TreeNode tmp = root.left;
+            root.left = root.right;
+            root.right = tmp;
+            mirrorTree(root.left);
+            mirrorTree(root.right);
+        }
+        return root;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 请实现一个函数，用来判断一棵二叉树是不是对称的。如果一棵二叉树和它的镜像一样，那么它是对称的。
+     * @date 22:58 2022/2/15
+     * @Param [root]
+     * @Return boolean
+     */
+    public boolean isSymmetric(TreeNode root) {
+        if (root == null) {
+            return true;
+        }
+        return check(root.left, root.right);
+    }
+
+    public boolean check(TreeNode A, TreeNode B) {
+        if (A == null && B == null) {
+            return true;
+        }
+        if (A == null || B == null) {
+            return false;
+        }
+        if (A.val != B.val) {
+            return false;
+        }
+        return check(A.left, B.right) && check(A.right, B.left);
     }
 
 
