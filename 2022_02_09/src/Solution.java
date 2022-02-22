@@ -2,10 +2,7 @@ import common.ListNode;
 import common.Node;
 import common.TreeNode;
 
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * @author yunshuaiwei
@@ -331,9 +328,324 @@ public class Solution {
         return check(A.left, B.right) && check(A.right, B.left);
     }
 
+    /**
+     * @author yunshuaiwei
+     * @description 写一个函数，输入 n ，求斐波那契（Fibonacci）数列的第 n 项（即 F(N)）
+     * @date 15:42 2022/2/18
+     * @Param [n]
+     * @Return int
+     */
+    public int fib(int n) {
+        int a = 0, b = 1, sum = 0;
+        for (int i = 0; i < n; i++) {
+            sum = (a + b) % 1000000007;
+            a = b;
+            b = sum;
+        }
+        return a;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 一只青蛙一次可以跳上1级台阶，也可以跳上2级台阶。求该青蛙跳上一个 n 级的台阶总共有多少种跳法
+     * @date 15:54 2022/2/18
+     * @Param [n]
+     * @Return int
+     */
+    public static int numWays(int n) {
+        int a = 1, b = 1, sum;
+        for (int i = 0; i < n; i++) {
+            sum = (a + b) % 1000000007;
+            a = b;
+            b = sum;
+        }
+        return a;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 假设把某股票的价格按照时间先后顺序存储在数组中，请问买卖该股票一次可能获得的最大利润是多少？
+     * @date 16:08 2022/2/18
+     * @Param [prices]
+     * @Return int
+     */
+    public int maxProfit(int[] prices) {
+        int cost = Integer.MAX_VALUE, profit = 0;
+        for (int price : prices) {
+            cost = Math.min(cost, price);
+            profit = Math.max(profit, price - cost);
+        }
+        return profit;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 在一个 m*n 的棋盘的每一格都放有一个礼物，每个礼物都有一定的价值（价值大于 0）。
+     * 你可以从棋盘的左上角开始拿格子里的礼物，并每次向右或者向下移动一格、直到到达棋盘的右下角。
+     * 给定一个棋盘及其上面的礼物的价值，请计算你最多能拿到多少价值的礼物？
+     * @date 16:40 2022/2/18
+     * @Param [grid]
+     * @Return int
+     */
+    public int maxValue(int[][] grid) {
+        int m = grid.length;
+        int n = grid[0].length;
+        int[][] ints = new int[m][n];
+        ints[0][0] = grid[0][0];
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (i == 0 && j == 0) {
+                    continue;
+                }
+                if (i == 0) {
+                    ints[i][j] = grid[i][j] + ints[i][j - 1];
+                } else if (j == 0) {
+                    ints[i][j] = grid[i][j] + ints[i - 1][j];
+                } else {
+                    ints[i][j] = grid[i][j] + Math.max(ints[i - 1][j], ints[i][j - 1]);
+                }
+            }
+        }
+        return ints[m - 1][n - 1];
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 输入一个整型数组，数组中的一个或连续多个整数组成一个子数组。求所有子数组的和的最大值。
+     * @date 16:17 2022/2/18
+     * @Param [nums]
+     * @Return int
+     */
+    public int maxSubArray(int[] nums) {
+        int res = nums[0];
+        for (int i = 1; i < nums.length; i++) {
+            nums[i] += Math.max(nums[i - 1], 0);
+            res = Math.max(res, nums[i]);
+        }
+        return res;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 给定一个数字，我们按照如下规则把它翻译为字符串：
+     * 0 翻译成 “a” ，1 翻译成 “b”，……，11 翻译成 “l”，……，25 翻译成 “z”。
+     * 一个数字可能有多个翻译。请编程实现一个函数，用来计算一个数字有多少种不同的翻译方法。
+     * @date 10:27 2022/2/22
+     * @Param [num]
+     * @Return int
+     */
+    public int translateNum(int num) {
+        return 0;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 请从字符串中找出一个最长的不包含重复字符的子字符串，计算该最长子字符串的长度。
+     * @date 10:32 2022/2/22
+     * @Param [s]
+     * @Return int
+     */
+    public static int lengthOfLongestSubstring(String s) {
+        Map<Character, Integer> map = new HashMap<>();
+        int res = 0, tmp = 0;
+        for (int i = 0; i < s.length(); i++) {
+            Integer j = map.getOrDefault(s.charAt(i), -1);
+            map.put(s.charAt(i), i);
+            tmp = tmp < i - j ? tmp + 1 : i - j;
+            res = Math.max(res, tmp);
+        }
+        return res;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 给定单向链表的头指针和一个要删除的节点的值，定义一个函数删除该节点。
+     * 返回删除后的链表的头节点。
+     * @date 10:54 2022/2/22
+     * @Param [head, val]
+     * @Return common.ListNode
+     */
+    public ListNode deleteNode(ListNode head, int val) {
+        if (head.val == val) {
+            return head.next;
+        }
+        ListNode cur = head;
+        while (cur.next != null) {
+            if (cur.next.val == val) {
+                cur.next = cur.next.next;
+                break;
+            }
+            cur = cur.next;
+        }
+        return head;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 输入一个链表，输出该链表中倒数第k个节点。为了符合大多数人的习惯，本题从1开始计数，即链表的尾节点是倒数第1个节点。
+     * @date 11:00 2022/2/22
+     * @Param [head, k]
+     * @Return common.ListNode
+     */
+    public ListNode getKthFromEnd(ListNode head, int k) {
+        ListNode letter = head;
+        ListNode former = head;
+        while (k-- > 0) {
+            former = former.next;
+        }
+        while (former != null) {
+            letter = letter.next;
+            former = former.next;
+        }
+        return letter;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 输入两个递增排序的链表，合并这两个链表并使新链表中的节点仍然是递增排序的。
+     * @date 11:07 2022/2/22
+     * @Param [l1, l2]
+     * @Return common.ListNode
+     */
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        ListNode newHead = null;
+        if (l1 == null) {
+            return l2;
+        }
+        if (l2 == null) {
+            return l1;
+        }
+        ListNode cur = null;
+        while (l1 != null && l2 != null) {
+            if (l1.val < l2.val) {
+                if (newHead == null) {
+                    newHead = new ListNode(l1.val);
+                    cur = newHead;
+                } else {
+                    cur.next = new ListNode(l1.val);
+                    cur = cur.next;
+                }
+                l1 = l1.next;
+            } else {
+                if (newHead == null) {
+                    newHead = new ListNode(l2.val);
+                    cur = newHead;
+                } else {
+                    cur.next = new ListNode(l2.val);
+                    cur = cur.next;
+                }
+                l2 = l2.next;
+            }
+        }
+        if (l1 != null) {
+            cur.next = l1;
+        }
+        if (l2 != null) {
+            cur.next = l2;
+        }
+        return newHead;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 输入两个链表，找出它们的第一个公共节点
+     * @date 11:19 2022/2/22
+     * @Param [headA, headB]
+     * @Return common.ListNode
+     */
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        ListNode cur1 = headA;
+        ListNode cur2 = headB;
+        while (cur1 != cur2) {
+            cur1 = cur1 == null ? headB : cur1.next;
+            cur2 = cur2 == null ? headA : cur2.next;
+        }
+        return cur2;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 输入一个整数数组，实现一个函数来调整该数组中数字的顺序，使得所有奇数在数组的前半部分，所有偶数在数组的后半部分。
+     * @date 11:29 2022/2/22
+     * @Param [nums]
+     * @Return int[]
+     */
+    public static int[] exchange(int[] nums) {
+        int low = 0;
+        int high = nums.length - 1;
+        while (low < high) {
+            while (low < high && nums[low] % 2 != 0) {
+                low++;
+            }
+            while (low < high && nums[high] % 2 == 0) {
+                high--;
+            }
+            int tmp = nums[low];
+            nums[low] = nums[high];
+            nums[high] = tmp;
+        }
+        return nums;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 输入一个递增排序的数组和一个数字s，在数组中查找两个数，使得它们的和正好是s。
+     * 如果有多对数字的和等于s，则输出任意一对即可
+     * @date 11:39 2022/2/22
+     * @Param [nums, target]
+     * @Return int[]
+     */
+    public int[] twoSum(int[] nums, int target) {
+        int i = 0;
+        int j = nums.length - 1;
+        while (i < j) {
+            int num = nums[i] + nums[j];
+            if (num > target) {
+                j--;
+            } else if (num < target) {
+                i++;
+            } else {
+                return new int[]{nums[i], nums[j]};
+            }
+        }
+        return new int[0];
+    }
+
+
+    /**
+     * @author yunshuaiwei
+     * @description 输入一个英文句子，翻转句子中单词的顺序，但单词内字符的顺序不变。为简单起见，
+     * 标点符号和普通字母一样处理。例如输入字符串"I am a student. "，则输出"student. a am I"。
+     * @date 11:50 2022/2/22
+     * @Param [s]
+     * @Return java.lang.String
+     */
+    public String reverseWords(String s) {
+        Stack<String> stack = new Stack<>();
+        StringBuilder builder = new StringBuilder();
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (c == ' ') {
+                if (!"".equals(builder.toString())) {
+                    stack.push(builder.toString());
+                }
+                builder = new StringBuilder();
+            } else {
+                builder.append(c);
+            }
+        }
+        stack.push(builder.toString());
+        builder = new StringBuilder();
+        while (!stack.empty()) {
+            builder.append(stack.pop()).append(" ");
+        }
+        return builder.toString().trim();
+    }
+
 
     public static void main(String[] args) {
         char z = firstUniqChar("z");
-        System.out.println(z);
+        int[] nums = new int[]{1, 2, 3, 4};
+        System.out.println(Arrays.toString(exchange(nums)));
     }
 }
