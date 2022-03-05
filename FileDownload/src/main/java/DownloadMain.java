@@ -12,11 +12,11 @@ public class DownloadMain {
 
     public static void main(String[] args) {
         //文件下载的URL
-        String url = "https://mp.weixin.qq.com/s/SafiuEUDMNK0yRG7U2G1ng";
+        String url = "https://mp32.9ku.com/upload/128/2018/02/24/876051.mp3";
         //下载公众号音频
-        downloadMusic(url);
+//        downloadMusic(url);
         //下载文件
-//        downloadFile(url);
+        downloadFile(url);
     }
 
     /**

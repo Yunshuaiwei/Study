@@ -17,7 +17,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="add:算法练习">
-      <change afterPath="$PROJECT_DIR$/2022_02_09/src/SortAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2022_02_09/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FileDownload/src/main/java/DownloadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/FileDownload/src/main/java/DownloadMain.java" afterDir="false" />
@@ -338,15 +337,15 @@
       <item itemvalue="Application.DownloadMain" />
       <item itemvalue="Application.SearchAlgorithm" />
       <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.SortAlgorithm" />
       <item itemvalue="JAR Application.junit-4.10.jar" />
       <item itemvalue="JUnit.MusicDownloadTest.test" />
-      <item itemvalue="Application.SortAlgorithm" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.SortAlgorithm" />
         <item itemvalue="Application.DownloadMain" />
+        <item itemvalue="Application.SortAlgorithm" />
         <item itemvalue="Application.SearchAlgorithm" />
         <item itemvalue="JUnit.MusicDownloadTest.test" />
       </list>
@@ -683,14 +682,9 @@
       <workItem from="1642141043952" duration="633000" />
       <workItem from="1642417921997" duration="3086000" />
       <workItem from="1644374608692" duration="32468000" />
-      <workItem from="1644937829288" duration="20830000" />
-    </task>
-    <task id="LOCAL-00105" summary="学习">
-      <created>1586093968907</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1586093968908</updated>
+      <workItem from="1644937829288" duration="26699000" />
+      <workItem from="1645634950087" duration="3115000" />
+      <workItem from="1646108692707" duration="4176000" />
     </task>
     <task id="LOCAL-00106" summary="学习">
       <created>1586098499194</created>
@@ -1028,7 +1022,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644937856120</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="add:算法练习">
+      <created>1645502396616</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1645502396616</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1112,11 +1113,6 @@
           <url>file://$PROJECT_DIR$/ArithmeticStudy/src/Solution.java</url>
           <line>43</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2022_02_09/src/Solution.java</url>
-          <line>649</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

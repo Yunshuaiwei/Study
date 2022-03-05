@@ -643,9 +643,180 @@ public class Solution {
     }
 
 
+    /**
+     * @author yunshuaiwei
+     * @description 给定一个m x n 二维字符网格board 和一个字符串单词word 。如果word 存在于网格中，返回 true ；否则，返回 false 。
+     * 单词必须按照字母顺序，通过相邻的单元格内的字母构成，其中“相邻”单元格是那些水平相邻或垂直相邻的单元格。同一个单元格内的字母不允许被重复使用。
+     * @date 12:33 2022/2/23
+     * @Param [board, word]
+     * @Return boolean
+     */
+    public boolean exist(char[][] board, String word) {
+
+        for (int i = 0; i < word.length(); i++) {
+            char c = word.charAt(i);
+            for (int j = 0; j < board.length; j++) {
+                for (int k = 0; k < board[0].length; k++) {
+
+
+                }
+            }
+
+
+        }
+
+        return false;
+    }
+
+    int res, k;
+
+    /**
+     * @author yunshuaiwei
+     * @description 给定一棵二叉搜索树，请找出其中第 k 大的节点的值
+     * @date 9:28 2022/2/24
+     * @Param [root, k]
+     * @Return int
+     */
+    public int kthLargest(TreeNode root, int k) {
+        this.k = k;
+        dfs(root);
+        return res;
+    }
+
+    /**
+     * @description 中序遍历的倒序
+     */
+    private void dfs(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        dfs(root.right);
+        if (k == 0) {
+            return;
+        }
+        if (--k == 0) {
+            res = root.val;
+        }
+        dfs(root.left);
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 从若干副扑克牌中随机抽 5 张牌，判断是不是一个顺子，即这5张牌是不是连续的。
+     * 2～10为数字本身，A为1，J为11，Q为12，K为13，而大、小王为 0 ，可以看成任意数字。A 不能视为 14。
+     * @date 9:31 2022/2/24
+     * @Param [nums]
+     * @Return boolean
+     */
+    public static boolean isStraight(int[] nums) {
+        HashSet<Integer> set = new HashSet<>();
+        int max = 0;
+        int min = 14;
+        for (int num : nums) {
+            if (set.contains(num)) {
+                return false;
+            }
+            if (num == 0) {
+                continue;
+            }
+            max = Math.max(max, num);
+            min = Math.min(min, num);
+            set.add(num);
+        }
+        return max - min < 5;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 输入整数数组 arr ，找出其中最小的 k 个数。例如，输入4、5、1、6、2、7、3、8这8个数字，则最小的4个数字是1、2、3、4。
+     * @date 12:26 2022/3/1
+     * @Param [arr, k]
+     * @Return int[]
+     */
+    public static int[] getLeastNumbers(int[] arr, int k) {
+        int[] res = new int[k];
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = arr.length - 1; j > i; j--) {
+                if (arr[j] < arr[j - 1]) {
+                    int tmp = arr[j];
+                    arr[j] = arr[j - 1];
+                    arr[j - 1] = tmp;
+                }
+            }
+            if (i == k) {
+                return res;
+            }
+            res[i] = arr[i];
+        }
+        return res;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 输入一棵二叉树的根节点，求该树的深度。从根节点到叶节点依次经过的节点（含根、叶节点）形成树的一条路径，最长路径的长度为树的深度。
+     * @date 12:45 2022/3/1
+     * @Param
+     * @Return
+     */
+    public int maxDepth(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 编写一个函数，输入是一个无符号整数（以二进制串的形式），返回其二进制表达式中数字位数为 '1' 的个数
+     * @date 12:48 2022/3/1
+     * @Param [n]
+     * @Return int
+     */
+    public static int hammingWeight(int n) {
+        int res = 0;
+        for (int i = 0; i < 32; i++) {
+            res += n & 1;
+            //右移一位
+            n >>= 1;
+        }
+        return res;
+    }
+
+    public int add(int a, int b) {
+        return Integer.sum(a, b);
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 输入一棵二叉树的根节点，判断该树是不是平衡二叉树。如果某二叉树中任意节点的左右子树的深度相差不超过1，那么它就是一棵平衡二叉树。
+     * @date 13:07 2022/3/1
+     * @Param [root]
+     * @Return boolean
+     */
+    public boolean isBalanced(TreeNode root) {
+        if (root == null) {
+            return true;
+        }
+        return Math.abs(depth(root.left) - depth(root.right)) <= 1 && isBalanced(root.left) && isBalanced(root.right);
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 计算树的深度
+     * @date 13:15 2022/3/1
+     * @Param [node]
+     * @Return int
+     */
+    private int depth(TreeNode node) {
+        if (node == null) {
+            return 0;
+        }
+        return Math.max(depth(node.left), depth(node.right)) + 1;
+    }
+
+
     public static void main(String[] args) {
-        char z = firstUniqChar("z");
-        int[] nums = new int[]{1, 2, 3, 4};
-        System.out.println(Arrays.toString(exchange(nums)));
+        int[] nums = new int[]{4, 5, 1, 6, 2, 7, 3, 8};
+        System.out.println(hammingWeight(11));
     }
 }
