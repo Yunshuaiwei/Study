@@ -1,9 +1,6 @@
 import common.TreeNode;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 /**
  * @author yunshuaiwei
@@ -15,112 +12,185 @@ public class BinaryTree {
 
     /**
      * @author yunshuaiwei
-     * @description 二叉树层序遍历
-     * @date 10:13 2022/2/14
+     * @description 二叉树前序遍历
+     * @date 11:11 2022/3/7
      * @Param [root]
-     * @Return int[]
+     * @Return void
      */
-    public int[] levelOrder1(TreeNode root) {
+    public static void preOrder(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        System.out.print(root.val + " ");
+        preOrder(root.left);
+        preOrder(root.right);
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 中序遍历
+     * @date 11:18 2022/3/7
+     * @Param [root]
+     * @Return void
+     */
+    public static void inOrder(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        inOrder(root.left);
+        System.out.print(root.val + " ");
+        inOrder(root.right);
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 后序遍历
+     * @date 11:20 2022/3/7
+     * @Param [root]
+     * @Return void
+     */
+    public static void afterOrder(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        afterOrder(root.left);
+        afterOrder(root.right);
+        System.out.print(root.val + " ");
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 迭代版前序遍历
+     * @date 14:25 2022/3/7
+     * @Param [root]
+     * @Return void
+     */
+    public static void preorderTraversal(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
+        while (!stack.isEmpty()) {
+            TreeNode pop = stack.pop();
+            System.out.print(pop.val + " ");
+            if (pop.right != null) {
+                stack.push(pop.right);
+            }
+            if (pop.left != null) {
+                stack.push(pop.left);
+            }
+        }
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 迭代版中序遍历
+     * @date 14:37 2022/3/7
+     * @Param [root]
+     * @Return void
+     */
+    public static void inorderTraversal(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode cur = root;
+        while (cur != null || !stack.isEmpty()) {
+            while (cur != null) {
+                stack.push(cur);
+                cur = cur.left;
+            }
+            cur = stack.pop();
+            System.out.print(cur.val + " ");
+            cur = cur.right;
+        }
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 迭代版后序遍历
+     * @date 14:53 2022/3/7
+     * @Param [root]
+     * @Return void
+     */
+    public static void postorderTraversal(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        Stack<TreeNode> stack = new Stack<>();
+        Stack<TreeNode> res = new Stack<>();
+        stack.push(root);
+        while (!stack.isEmpty()) {
+            TreeNode pop = stack.pop();
+            res.add(pop);
+            if (pop.left != null) {
+                stack.add(pop.left);
+            }
+            if (pop.right != null) {
+                stack.add(pop.right);
+            }
+        }
+        while (!res.isEmpty()) {
+            System.out.print(res.pop().val + " ");
+        }
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 二叉树层序遍历
+     * @date 15:10 2022/3/7
+     * @Param [root]
+     * @Return void
+     */
+    public static void levelOrderTraversal(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        //层序遍历结果集
+        List<List<Integer>> lists = new ArrayList<>();
         Queue<TreeNode> queue = new LinkedList<>();
-        List<Integer> list = new ArrayList<>();
         queue.add(root);
         while (!queue.isEmpty()) {
-            TreeNode node = queue.poll();
-            list.add(node.val);
-            if (node.left != null) {
-                queue.add(node.left);
+            ArrayList<Integer> list = new ArrayList<>();
+            int len = queue.size();
+            while (len-- > 0) {
+                TreeNode poll = queue.poll();
+                assert poll != null;
+                list.add(poll.val);
+                if (poll.left != null) {
+                    queue.add(poll.left);
+                }
+                if (poll.right != null) {
+                    queue.add(poll.right);
+                }
             }
-            if (node.right != null) {
-                queue.add(node.right);
-            }
+            lists.add(list);
         }
-        int[] ints = new int[list.size()];
-        for (int i = 0; i < list.size(); i++) {
-            ints[i] = list.get(i);
-        }
-        return ints;
+        lists.forEach(e -> {
+            System.out.println(e.toString());
+        });
     }
 
-    /**
-     * @author yunshuaiwei
-     * @description 从上到下按层打印二叉树，同一层的节点按从左到右的顺序打印，每一层打印到一行。
-     * @date 11:06 2022/2/15
-     * @Param [root]
-     * @Return java.util.List<java.util.List < java.lang.Integer>>
-     */
-    public List<List<Integer>> levelOrder2(TreeNode root) {
-        Queue<TreeNode> queue = new LinkedList<TreeNode>();
-        List<List<Integer>> lists = new ArrayList<>();
-        if (root != null) {
-            queue.add(root);
-        }
-        while (!queue.isEmpty()) {
-            List<Integer> tmp = new ArrayList<>();
-            for (int i = queue.size(); i > 0; i--) {
-                TreeNode node = queue.poll();
-                tmp.add(node.val);
-                if (node.left != null) {
-                    queue.add(node.left);
-                }
-                if (node.right != null) {
-                    queue.add(node.right);
-                }
-            }
-            lists.add(tmp);
-        }
-        return lists;
-    }
 
-    /**
-     * @author yunshuaiwei
-     * @description 请实现一个函数按照之字形顺序打印二叉树，即第一行按照从左到右的顺序打印，
-     * 第二层按照从右到左的顺序打印，第三行再按照从左到右的顺序打印，其他行以此类推。
-     * @date 11:21 2022/2/15
-     * @Param [root]
-     * @Return java.util.List<java.util.List < java.lang.Integer>>
-     */
-    public List<List<Integer>> levelOrder(TreeNode root) {
-        Queue<TreeNode> queue = new LinkedList<TreeNode>();
-        List<List<Integer>> lists = new LinkedList<>();
-        if (root != null) {
-            queue.add(root);
-        }
-        while (!queue.isEmpty()) {
-            LinkedList<Integer> tmp = new LinkedList<>();
-            for (int i = queue.size(); i > 0; i--) {
-                TreeNode node = queue.poll();
-                if (lists.size() % 2 == 0) {
-                    tmp.add(node.val);
-                } else {
-                    tmp.addFirst(node.val);
-                }
-                if (node.left != null) {
-                    queue.add(node.left);
-                }
-                if (node.right != null) {
-                    queue.add(node.right);
-                }
-            }
-            lists.add(tmp);
-        }
-        return lists;
-    }
-
-    /**
-     * @author yunshuaiwei
-     * @description 前序遍历
-     * @date 10:14 2022/2/14
-     * @Param [root]
-     * @Return int
-     */
-    private void preOrder(TreeNode root) {
-        System.out.println(root.val);
-        if (root.left != null) {
-            preOrder(root.left);
-        }
-        if (root.right != null) {
-            preOrder(root.right);
-        }
+    public static void main(String[] args) {
+        TreeNode root = new TreeNode(1);
+        TreeNode left = new TreeNode(2);
+        TreeNode right = new TreeNode(3);
+        TreeNode node1 = new TreeNode(4);
+        TreeNode node2 = new TreeNode(5);
+        TreeNode node3 = new TreeNode(6);
+        //左子树
+        root.left = left;
+        //右子树
+        root.right = right;
+        //左子树的左子树
+        left.left = node1;
+        //左子树的右子树
+        left.right = node2;
+        //右子树的左子树
+        right.left = node3;
+        levelOrderTraversal(root);
     }
 
 }

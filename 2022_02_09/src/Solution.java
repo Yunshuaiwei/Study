@@ -815,8 +815,70 @@ public class Solution {
     }
 
 
+    /**
+     * @author yunshuaiwei
+     * @description TODO
+     * @date 15:38 2022/3/5
+     * @Param [N, sequence]
+     * @Return int
+     */
+    public static int LSubSequence(int N, ArrayList<Integer> sequence) {
+        // write code here
+        if (sequence.size() < 2) {
+            return sequence.size();
+        }
+        List<Integer> dp = new ArrayList<>(N);
+        for (int i = 0; i < N; i++) {
+            dp.add(1);
+        }
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < i; j++) {
+                if (sequence.get(i) > sequence.get(j)) {
+                    dp.set(i, Math.max(dp.get(i), dp.get(j) + 1));
+                }
+            }
+        }
+        return Collections.max(dp);
+    }
+
+    public static int count(ArrayList<String> arr) {
+        // write code here
+        int res = 0;
+        for (String s : arr) {
+            if (s.equals("")) {
+                continue;
+            }
+            if (matching(s.toCharArray())) {
+                res++;
+            }
+        }
+        return res;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 括号匹配
+     * @date 15:56 2022/3/5
+     * @Param [chars]
+     * @Return boolean
+     */
+    private static boolean matching(char[] chars) {
+        Stack<Character> stack = new Stack<>();
+        for (char c : chars) {
+            if (c == '(' || stack.isEmpty()) {
+                stack.push(c);
+            } else {
+                Character pop = stack.pop();
+                if (pop == ')') {
+                    return false;
+                }
+            }
+        }
+        return stack.isEmpty();
+    }
+
+
     public static void main(String[] args) {
-        int[] nums = new int[]{4, 5, 1, 6, 2, 7, 3, 8};
-        System.out.println(hammingWeight(11));
+        System.out.println(Integer.MIN_VALUE+"，最大值："+Integer.MAX_VALUE);
     }
 }
