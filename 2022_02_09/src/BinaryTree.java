@@ -172,6 +172,51 @@ public class BinaryTree {
         });
     }
 
+    /**
+     * @author yunshuaiwei
+     * @description 递归反转二叉树
+     * @date 16:01 2022/3/7
+     * @Param [root]
+     * @Return void
+     */
+    public static void invertTree1(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        TreeNode tmp = root.left;
+        root.left = root.right;
+        root.right = tmp;
+        invertTree1(root.left);
+        invertTree1(root.right);
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 迭代法反转二叉树
+     * @date 16:05 2022/3/7
+     * @Param [root]
+     * @Return void
+     */
+    public static void invertTree2(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
+        while (!stack.isEmpty()) {
+            TreeNode node = stack.pop();
+            TreeNode tmp = node.left;
+            node.left = node.right;
+            node.right = tmp;
+            if (node.right != null) {
+                stack.push(node.right);
+            }
+            if (node.left != null) {
+                stack.push(node.left);
+            }
+        }
+    }
+
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);
@@ -190,7 +235,7 @@ public class BinaryTree {
         left.right = node2;
         //右子树的左子树
         right.left = node3;
+        invertTree2(root);
         levelOrderTraversal(root);
     }
-
 }

@@ -17,9 +17,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="add:算法练习">
+      <change afterPath="$PROJECT_DIR$/2022_02_09/src/DynamicProgramStudy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2022_02_09/src/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022_02_09/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +162,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryTree">
+  <component name="RunManager" selected="Application.DynamicProgramStudy">
     <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryTree" />
       <module name="2022_02_09" />
@@ -179,8 +179,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SearchAlgorithm" />
+    <configuration name="DynamicProgramStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramStudy" />
       <module name="2022_02_09" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -326,19 +326,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.DownloadMain" />
-      <item itemvalue="Application.SearchAlgorithm" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.SortAlgorithm" />
-      <item itemvalue="JAR Application.junit-4.10.jar" />
       <item itemvalue="Application.BinaryTree" />
+      <item itemvalue="JAR Application.junit-4.10.jar" />
+      <item itemvalue="Application.DynamicProgramStudy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DynamicProgramStudy" />
         <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.DownloadMain" />
         <item itemvalue="Application.SortAlgorithm" />
-        <item itemvalue="Application.SearchAlgorithm" />
       </list>
     </recent_temporary>
   </component>
@@ -676,6 +676,7 @@
       <workItem from="1644937829288" duration="26699000" />
       <workItem from="1645634950087" duration="3115000" />
       <workItem from="1646108692707" duration="15482000" />
+      <workItem from="1646638967210" duration="4652000" />
     </task>
     <task id="LOCAL-00107" summary="学习">
       <created>1586326686993</created>
