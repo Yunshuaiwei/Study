@@ -16,10 +16,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="add:算法练习">
-      <change afterPath="$PROJECT_DIR$/2022_02_09/src/DynamicProgramStudy.java" afterDir="false" />
+    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="add:算法练习---动态规划">
+      <change afterPath="$PROJECT_DIR$/2022_02_09/src/ProxyTestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022_02_09/src/proxy/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022_02_09/src/proxy/ProxyTestImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022_02_09/src/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022_02_09/src/DynamicProgramStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/DynamicProgramStudy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +42,7 @@
         <option value="Tag Library Descriptor" />
         <option value="HTML File" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -162,7 +165,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DynamicProgramStudy">
+  <component name="RunManager" selected="Application.ProxyTestDemo">
     <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryTree" />
       <module name="2022_02_09" />
@@ -187,16 +190,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
+    <configuration name="ProxyTestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProxyTestDemo" />
       <module name="2022_02_09" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortAlgorithm" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="2022_02_09" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -327,18 +330,18 @@
     <list>
       <item itemvalue="Application.DownloadMain" />
       <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.SortAlgorithm" />
       <item itemvalue="Application.BinaryTree" />
       <item itemvalue="JAR Application.junit-4.10.jar" />
       <item itemvalue="Application.DynamicProgramStudy" />
+      <item itemvalue="Application.ProxyTestDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProxyTestDemo" />
         <item itemvalue="Application.DynamicProgramStudy" />
         <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.DownloadMain" />
-        <item itemvalue="Application.SortAlgorithm" />
       </list>
     </recent_temporary>
   </component>
@@ -676,14 +679,7 @@
       <workItem from="1644937829288" duration="26699000" />
       <workItem from="1645634950087" duration="3115000" />
       <workItem from="1646108692707" duration="15482000" />
-      <workItem from="1646638967210" duration="4652000" />
-    </task>
-    <task id="LOCAL-00107" summary="学习">
-      <created>1586326686993</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1586326686994</updated>
+      <workItem from="1646638967210" duration="14278000" />
     </task>
     <task id="LOCAL-00108" summary="学习">
       <created>1586612097466</created>
@@ -1021,7 +1017,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646462722560</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="add:算法练习---动态规划">
+      <created>1646724101869</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1646724101869</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1071,7 +1074,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="递归" />
     <MESSAGE value="迷宫问题" />
     <MESSAGE value="八皇后问题" />
     <MESSAGE value="排序" />
@@ -1096,7 +1098,8 @@
     <MESSAGE value="update:修改包名" />
     <MESSAGE value="update:修改写文件的代码" />
     <MESSAGE value="add:算法练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="add:算法练习" />
+    <MESSAGE value="add:算法练习---动态规划" />
+    <option name="LAST_COMMIT_MESSAGE" value="add:算法练习---动态规划" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
