@@ -217,6 +217,191 @@ public class BinaryTree {
         }
     }
 
+    /**
+     * @author yunshuaiwei
+     * @description 对称二叉树
+     * @date 15:24 2022/3/9
+     * @Param [root]
+     * @Return boolean
+     */
+    public boolean isSymmetric(TreeNode root) {
+        return compare(root.left, root.right);
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 比较左子树和右子树的节点
+     * @date 15:25 2022/3/9
+     * @Param [left, right]
+     * @Return boolean
+     */
+    private boolean compare(TreeNode left, TreeNode right) {
+        if (left == null && right == null) {
+            return true;
+        }
+        if (left == null) {
+            return false;
+        }
+        if (right == null) {
+            return false;
+        }
+        if (left.val == right.val) {
+            return true;
+        }
+        return compare(left.left, right.right) && compare(left.right, right.left);
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 给定一个二叉树，找出其最大深度。
+     * 二叉树的深度为根节点到最远叶子节点的最长路径上的节点数。
+     * @date 15:42 2022/3/9
+     * @Param [root]
+     * @Return int
+     */
+    public static int maxDepth(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 给定一个二叉树，找出其最小深度。
+     * 最小深度是从根节点到最近叶子节点的最短路径上的节点数量。
+     * @date 15:50 2022/3/9
+     * @Param [root]
+     * @Return int
+     */
+    public int minDepth(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        int leftDepth = minDepth(root.left);
+        int rightDepth = minDepth(root.right);
+        if (root.left == null) {
+            return rightDepth + 1;
+        }
+        if (root.right == null) {
+            return leftDepth + 1;
+        }
+        // 左右结点都不为null
+        return Math.min(leftDepth, rightDepth) + 1;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 递归：给你一棵 完全二叉树 的根节点 root ，求出该树的节点个数。
+     * @date 20:43 2022/3/9
+     * @Param [root]
+     * @Return int
+     */
+    public static int countNodes(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        return countNodes(root.left) + countNodes(root.right) + 1;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 迭代：给你一棵 完全二叉树 的根节点 root ，求出该树的节点个数。
+     * @date 20:46 2022/3/9
+     * @Param [root]
+     * @Return int
+     */
+    public static int countNodes2(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        int res = 0;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            while (size-- > 0) {//一层
+                TreeNode poll = queue.poll();
+                res++;
+                if (poll.left != null) {
+                    queue.add(poll.left);
+                }
+                if (poll.right != null) {
+                    queue.add(poll.right);
+                }
+            }
+        }
+        return res;
+    }
+
+
+    /**
+     * @author yunshuaiwei
+     * @description 给定一个二叉树，判断它是否是高度平衡的二叉树。
+     * @date 20:54 2022/3/9
+     * @Param
+     * @Return
+     */
+    public static boolean isBalanced(TreeNode root) {
+        return Math.abs(getDepth(root.left) - getDepth(root.right)) <= 1;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 树的高度
+     * @date 20:58 2022/3/9
+     * @Param [root]
+     * @Return int
+     */
+    private static int getDepth(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        return Math.max(getDepth(root.left), getDepth(root.right)) + 1;
+    }
+
+
+    /**
+     * @author yunshuaiwei
+     * @description 给你一个二叉树的根节点 root ，按 任意顺序 ，返回所有从根节点到叶子节点的路径。
+     * @date 21:05 2022/3/9
+     * @Param [root]
+     * @Return java.util.List<java.lang.String>
+     */
+    public static List<String> binaryTreePaths(TreeNode root) {
+        List<String> res = new ArrayList<>();
+        if (root == null) {
+            return res;
+        }
+        List<String> paths = new ArrayList<>();
+        traversal(root, paths, res);
+        return res;
+    }
+
+    private static void traversal(TreeNode root, List<String> paths, List<String> res) {
+        if (root == null) {
+            return;
+        }
+        paths.add(String.valueOf(root.val));
+        if (root.left == null && root.right == null) {
+            //构造结果集
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < paths.size() - 1; i++) {
+                sb.append(paths.get(i)).append("->");
+            }
+            sb.append(paths.get(paths.size() - 1));
+            res.add(sb.toString());
+            return;
+        }
+        if (root.left != null) {
+            traversal(root.left, paths, res);
+            paths.remove(paths.size() - 1);//回溯
+        }
+        if (root.right != null) {
+            traversal(root.right, paths, res);
+            paths.remove(paths.size() - 1);//回溯
+        }
+    }
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);
@@ -235,7 +420,7 @@ public class BinaryTree {
         left.right = node2;
         //右子树的左子树
         right.left = node3;
-        invertTree2(root);
         levelOrderTraversal(root);
+        System.out.println(binaryTreePaths(root).toString());
     }
 }
