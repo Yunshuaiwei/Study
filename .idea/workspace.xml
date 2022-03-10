@@ -16,9 +16,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="add:动态代理练习">
+    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="add:二叉树练习">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2022_02_09/src/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022_02_09/src/DynamicProgramStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/DynamicProgramStudy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +163,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryTree">
+  <component name="RunManager" selected="Application.DynamicProgramStudy">
     <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryTree" />
       <module name="2022_02_09" />
@@ -334,9 +335,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DynamicProgramStudy" />
         <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.ProxyTestDemo" />
-        <item itemvalue="Application.DynamicProgramStudy" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.DownloadMain" />
       </list>
@@ -677,14 +678,7 @@
       <workItem from="1645634950087" duration="3115000" />
       <workItem from="1646108692707" duration="15482000" />
       <workItem from="1646638967210" duration="21544000" />
-      <workItem from="1646873144351" duration="1975000" />
-    </task>
-    <task id="LOCAL-00109" summary="学习">
-      <created>1587776607390</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1587776607391</updated>
+      <workItem from="1646873144351" duration="7526000" />
     </task>
     <task id="LOCAL-00110" summary="学习">
       <created>1587776820799</created>
@@ -1022,7 +1016,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646810655216</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="add:二叉树练习">
+      <created>1646893456047</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1646893456047</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1072,7 +1073,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="八皇后问题" />
     <MESSAGE value="排序" />
     <MESSAGE value="排序算法" />
     <MESSAGE value="查找算法" />
@@ -1097,7 +1097,8 @@
     <MESSAGE value="add:算法练习" />
     <MESSAGE value="add:算法练习---动态规划" />
     <MESSAGE value="add:动态代理练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="add:动态代理练习" />
+    <MESSAGE value="add:二叉树练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="add:二叉树练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1106,6 +1107,16 @@
           <url>file://$PROJECT_DIR$/ArithmeticStudy/src/Solution.java</url>
           <line>43</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2022_02_09/src/DynamicProgramStudy.java</url>
+          <line>140</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2022_02_09/src/DynamicProgramStudy.java</url>
+          <line>168</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

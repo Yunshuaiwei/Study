@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * @author yunshuaiwei
  * @className DynamicProgramStudy
@@ -132,12 +134,54 @@ public class DynamicProgramStudy {
      * @Param [n]
      * @Return int
      */
-    public int integerBreak(int n) {
+    public static int integerBreak(int n) {
+        int[] dp = new int[n + 1];
+        dp[2] = 1;
+        for (int i = 3; i <= n; i++) {
+            for (int j = 1; j < i; j++) {
+                dp[i] = Math.max(dp[i], Math.max(j * (i - j), dp[i - j] * j));
+            }
+        }
+        return dp[n];
+    }
 
-        return 0;
+    /**
+     * @author yunshuaiwei
+     * @description 01背包问题测试
+     * @date 22:13 2022/3/10
+     * @Param [weight：物品重量]
+     * @Param [value：物品价值]
+     * @Param [bagSize：背包大小]
+     * @Return void
+     */
+    public static void testWeightBagProblem(int[] weight, int[] value, int bagSize) {
+        int wLen = weight.length;
+        //背包容量为j时，前i个物品获取的最大价值
+        int[][] dp = new int[wLen][bagSize + 1];
+        //初始化数组
+        for (int j = weight[0]; j <= bagSize; j++) {
+            //背包大小大于第1个物品的重量时，该背包只能放物品0的价值
+            dp[0][j] = value[0];
+        }
+        for (int i = 1; i < wLen; i++) {
+            for (int j = 1; j <= bagSize; j++) {
+                if (j < weight[i]) {
+                    dp[i][j] = dp[i - 1][j];
+                } else {
+                    //weight[i-1]]和value[i-1]分别表示第i个物品的重量和价值，因为i是从1开始的
+                    dp[i][j] = Math.max(dp[i - 1][j], dp[i - 1][j - weight[i]] + value[i]);
+                }
+            }
+        }
+        //打印数组
+        for (int[] ints : dp) {
+            System.out.println(Arrays.toString(ints));
+        }
     }
 
     public static void main(String[] args) {
-        System.out.println(uniquePaths(3, 7));
+        int[] weight = {1, 3, 4};
+        int[] value = {15, 20, 30};
+        testWeightBagProblem(weight, value, 4);
     }
 }
