@@ -179,7 +179,65 @@ public class DynamicProgramStudy {
         }
     }
 
-    public static void main(String[] args) {
+    /**
+     * @author yunshuaiwei
+     * @description 给你一个 只包含正整数 的 非空 数组 nums 。请你判断是否可以将这个数组分割成两个子集，使得两个子集的元素和相等。
+     * @date 15:08 2022/3/16
+     * @Param [nums]
+     * @Return boolean
+     */
+    public static boolean canPartition(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return false;
+        }
+        int sum = 0;
+        for (int num : nums) {
+            sum += num;
+        }
+        if (sum % 2 != 0) {//奇数
+            return false;
+        }
+        int num = sum / 2;
+        int[] dp = new int[num + 1];
+        for (int val : nums) {
+            for (int j = num; j >= val; j--) {
+                dp[j] = Math.max(dp[j], dp[j - val] + val);
+            }
+        }
+        return dp[num] == num;
+    }
 
+    /**
+     * @author yunshuaiwei
+     * @description 有一堆石头，用整数数组 stones 表示。其中 stones[i] 表示第 i 块石头的重量。
+     * @date 15:34 2022/3/16
+     * @Param [stones]
+     * @Return int
+     */
+    public int lastStoneWeightII(int[] stones) {
+        int sum = 0;
+        for (int stone : stones) {
+            sum += stone;
+        }
+        int target = sum / 2;
+        int[][] dp = new int[stones.length][target + 1];
+        for (int j = stones[0]; j <= target; j++) {
+            dp[0][j] = stones[0];
+        }
+        for (int i = 1; i < stones.length; i++) {
+            for (int j = 1; j <= target; j++) {
+                if (j >= stones[i]) {
+                    dp[i][j] = Math.max(dp[i - 1][j], dp[i - 1][j - stones[i]] + stones[i]);
+                } else {
+                    dp[i][j] = dp[i - 1][j];
+                }
+            }
+        }
+        return (sum - dp[stones.length - 1][target]) - dp[stones.length - 1][target];
+    }
+
+    public static void main(String[] args) {
+        int[] nums = new int[]{1, 5, 11, 5};
+        System.out.println(canPartition(nums));
     }
 }

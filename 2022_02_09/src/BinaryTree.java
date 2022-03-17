@@ -426,24 +426,117 @@ public class BinaryTree {
         return dp[n];
     }
 
+    /**
+     * @author yunshuaiwei
+     * @description 给定二叉树的根节点 root ，返回所有左叶子之和。
+     * @date 15:00 2022/3/14
+     * @Param [root]
+     * @Return int
+     */
+    public int sumOfLeftLeaves(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
+        int res = 0;
+        while (!stack.isEmpty()) {
+            TreeNode node = stack.pop();
+            if (node.left != null && node.left.left == null && node.left.right == null) {
+                res += node.left.val;
+            }
+            if (node.right != null) {
+                stack.push(node.right);
+            }
+            if (node.left != null) {
+                stack.push(node.left);
+            }
+        }
+        return res;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 给定一个二叉树的 根节点 root，请找出该二叉树的 最底层 最左边 节点的值。
+     * @date 15:37 2022/3/14
+     * @Param [root]
+     * @Return int
+     */
+    public static int findBottomLeftValue(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        List<List<Integer>> lists = new ArrayList<>();
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            ArrayList<Integer> list = new ArrayList<>();
+            int size = queue.size();
+            while (size-- > 0) {
+                TreeNode poll = queue.poll();
+                list.add(poll.val);
+                if (poll.left != null) {
+                    queue.add(poll.left);
+                }
+                if (poll.right != null) {
+                    queue.add(poll.right);
+                }
+            }
+            lists.add(list);
+        }
+        return lists.get(lists.size() - 1).get(0);
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 给你二叉树的根节点root 和一个表示目标和的整数targetSum 。
+     * 判断该树中是否存在 根节点到叶子节点 的路径，这条路径上所有节点值相加等于目标和targetSum 。如果存在，返回 true ；否则，返回 false 。
+     * @date 16:07 2022/3/14
+     * @Param [root, targetSum]
+     * @Return boolean
+     */
+    private static boolean hasPathSum(TreeNode root, int targetSum) {
+        if (root == null) {
+            return false;
+        }
+        targetSum -= root.val;
+        // 叶子结点
+        if (root.left == null && root.right == null) {
+            return targetSum == 0;
+        }
+        if (root.left != null) {
+            boolean left = hasPathSum(root.left, targetSum);
+            if (left) {// 已经找到
+                return true;
+            }
+        }
+        if (root.right != null) {
+            boolean right = hasPathSum(root.right, targetSum);
+            if (right) {// 已经找到
+                return true;
+            }
+        }
+        return false;
+    }
+
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);
         TreeNode left = new TreeNode(2);
-        TreeNode right = new TreeNode(3);
+        TreeNode right = new TreeNode(2);
         TreeNode node1 = new TreeNode(4);
         TreeNode node2 = new TreeNode(5);
         TreeNode node3 = new TreeNode(6);
         //左子树
-        root.left = left;
-        //右子树
-        root.right = right;
-        //左子树的左子树
-        left.left = node1;
-        //左子树的右子树
-        left.right = node2;
-        //右子树的左子树
-        right.left = node3;
+        root.left = right;
+//        //右子树
+//        root.right = right;
+//        //左子树的左子树
+//        left.left = node1;
+//        //左子树的右子树
+//        left.right = node2;
+//        //右子树的左子树
+//        right.left = node3;
         levelOrderTraversal(root);
-        System.out.println(binaryTreePaths(root).toString());
+        System.out.println(hasPathSum(root, 2));
     }
 }
