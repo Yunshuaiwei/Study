@@ -519,6 +519,169 @@ public class BinaryTree {
         return false;
     }
 
+    /**
+     * @author yunshuaiwei
+     * @description 想象一下，当你将其中一棵覆盖到另一棵之上时，两棵树上的一些节点将会重叠（而另一些不会）。
+     * 你需要将这两棵树合并成一棵新二叉树。合并的规则是：如果两个节点重叠，那么将这两个节点的值相加作为合并后节点的新值；否则，不为 null 的节点将直接作为新二叉树的节点。
+     * @date 14:48 2022/3/17
+     * @Param [root1, root2]
+     * @Return common.TreeNode
+     */
+    public TreeNode mergeTrees(TreeNode root1, TreeNode root2) {
+        if (root1 == null) {
+            return root2;
+        }
+        if (root2 == null) {
+            return root1;
+        }
+        TreeNode newNode = new TreeNode(root1.val + root2.val);
+        newNode.left = mergeTrees(root1.left, root2.left);
+        newNode.right = mergeTrees(root1.right, root2.right);
+        return newNode;
+    }
+
+
+    /**
+     * @author yunshuaiwei
+     * @description 给定二叉搜索树（BST）的根节点root和一个整数值val。
+     * 你需要在 BST 中找到节点值等于val的节点。 返回以该节点为根的子树。 如果节点不存在，则返回null。
+     * @date 15:00 2022/3/17
+     * @Param [root, val]
+     * @Return common.TreeNode
+     */
+    public TreeNode searchBST(TreeNode root, int val) {
+        if (root == null || root.val == val) {
+            return root;
+        }
+        if (val < root.val) {
+            return searchBST(root.left, val);
+        }
+        return searchBST(root.right, val);
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 给你一个二叉树的根节点 root ，判断其是否是一个有效的二叉搜索树。
+     * @date 15:06 2022/3/17
+     * @Param [root]
+     * @Return boolean
+     */
+    public boolean isValidBST(TreeNode root) {
+        if (root == null) {
+            return true;
+        }
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode pre = null;
+        while (root != null || !stack.isEmpty()) {
+            while (root != null) {
+                stack.push(root);
+                root = root.left;
+            }
+            TreeNode pop = stack.pop();
+            if (pre != null && pre.val >= pop.val) {
+                return false;
+            }
+            pre = pop;
+            root = pop.right;
+        }
+        return true;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 给你一个二叉搜索树的根节点 root ，返回 树中任意两不同节点值之间的最小差值 。
+     * 差值是一个正数，其数值等于两值之差的绝对值。
+     * @date 15:27 2022/3/17
+     * @Param [root]
+     * @Return int
+     */
+    public int getMinimumDifference(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        Stack<TreeNode> stack = new Stack<>();
+        int min = Integer.MAX_VALUE;
+        TreeNode pre = null;
+        while (root != null || !stack.isEmpty()) {
+            while (root != null) {
+                stack.push(root);
+                root = root.left;
+            }
+            TreeNode node = stack.pop();
+            if (pre != null) {
+                min = Math.min(min, Math.abs(pre.val - node.val));
+            }
+            pre = node;
+            root = node.right;
+        }
+        return min;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 给你一个含重复值的二叉搜索树（BST）的根节点 root ，找出并返回 BST 中的所有 众数（即，出现频率最高的元素）。
+     * 如果树中有不止一个众数，可以按 任意顺序 返回。
+     * @date 15:43 2022/3/17
+     * @Param [root]
+     * @Return int[]
+     */
+    public int[] findMode(TreeNode root) {
+        ArrayList<Integer> list = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode pre = null;
+        int count = 0;
+        int maxValue = 0;
+        while (root != null || !stack.isEmpty()) {
+            while (root != null) {
+                stack.push(root);
+                root = root.left;
+            }
+            TreeNode node = stack.pop();
+            if (pre == null || pre.val != node.val) {
+                count = 1;
+            } else {
+                count++;
+            }
+            //更新结果
+            if (count > maxValue) {
+                maxValue = count;
+                list.clear();
+                list.add(node.val);
+            } else if (count == maxValue) {
+                //多个众数
+                list.add(node.val);
+            }
+            pre = node;
+            root = node.right;
+        }
+        return list.stream().mapToInt(Integer::intValue).toArray();
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 给定一个二叉树, 找到该树中两个指定节点的最近公共祖先。
+     * 百度百科中最近公共祖先的定义为：“对于有根树 T 的两个节点 p、q，最近公共祖先表示为一个节点 x，满足 x 是 p、q 的祖先且 x 的深度尽可能大（一个节点也可以是它自己的祖先）。”
+     * @date 16:09 2022/3/17
+     * @Param [root, p, q]
+     * @Return common.TreeNode
+     */
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == null || root == p || root == q) {
+            return root;
+        }
+        TreeNode left = lowestCommonAncestor(root.left, p, q);
+        TreeNode right = lowestCommonAncestor(root.right, p, q);
+        if (left == null && right == null) {
+            return null;
+        } else if (left != null && right == null) {//找到一个节点
+            return left;
+        } else if (left == null) {
+            return right;
+        } else {//找到两个节点
+            return root;
+        }
+    }
+
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);
         TreeNode left = new TreeNode(2);
@@ -528,15 +691,14 @@ public class BinaryTree {
         TreeNode node3 = new TreeNode(6);
         //左子树
         root.left = right;
-//        //右子树
-//        root.right = right;
-//        //左子树的左子树
-//        left.left = node1;
-//        //左子树的右子树
-//        left.right = node2;
-//        //右子树的左子树
-//        right.left = node3;
+        //右子树
+        root.right = right;
+        //左子树的左子树
+        left.left = node1;
+        //左子树的右子树
+        left.right = node2;
+        //右子树的左子树
+        right.left = node3;
         levelOrderTraversal(root);
-        System.out.println(hasPathSum(root, 2));
     }
 }
