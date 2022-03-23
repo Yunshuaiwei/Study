@@ -236,6 +236,52 @@ public class DynamicProgramStudy {
         return (sum - dp[stones.length - 1][target]) - dp[stones.length - 1][target];
     }
 
+    /**
+     * @author yunshuaiwei
+     * @description 给你一个整数数组 coins 表示不同面额的硬币，另给一个整数 amount 表示总金额。
+     * 请你计算并返回可以凑成总金额的硬币组合数。如果任何硬币组合都无法凑出总金额，返回 0 。
+     * 假设每一种面额的硬币有无限个。
+     * 题目数据保证结果符合 32 位带符号整数。
+     * @date 15:32 2022/3/18
+     * @Param [nums, target]
+     * @Return int
+     */
+    public int change(int amount, int[] coins) {
+        int[] dp = new int[amount + 1];
+        dp[0] = 1;
+        for (int coin : coins) {
+            for (int j = coin; j <= amount; j++) {
+                dp[j] += dp[j - coin];
+            }
+        }
+        return dp[amount];
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 给你一个整数数组 nums ，找到其中最长严格递增子序列的长度。
+     * 子序列是由数组派生而来的序列，删除（或不删除）数组中的元素而不改变其余元素的顺序。例如，[3,6,2,7] 是数组 [0,3,1,6,2,2,7] 的子序列。
+     * @date 16:01 2022/3/18
+     * @Param [nums, target]
+     * @Return int
+     */
+    public int lengthOfLIS(int[] nums) {
+        int[] dp = new int[nums.length];
+        Arrays.fill(dp,1);
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = 0; j < i; j++) {
+                if (nums[i] > nums[j]) {
+                    dp[i] = Math.max(dp[i], dp[j] + 1);
+                }
+            }
+        }
+        int res = 0;
+        for (int j : dp) {
+            res = Math.max(res, j);
+        }
+        return res;
+    }
+
     public static void main(String[] args) {
         int[] nums = new int[]{1, 5, 11, 5};
         System.out.println(canPartition(nums));
