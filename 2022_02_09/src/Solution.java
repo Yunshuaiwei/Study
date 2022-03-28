@@ -877,8 +877,28 @@ public class Solution {
         return stack.isEmpty();
     }
 
+    private static void matching2(){
+        Scanner in = new Scanner(System.in);
+        String str = in.nextLine();
+        int res = 0;
+        Stack<Integer> stack = new Stack<>();
+        stack.push(-1);
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) == '(') {
+                stack.push(i);
+            } else {
+                stack.pop();
+                if (stack.isEmpty()) {
+                    stack.push(i);
+                } else {
+                    res = Math.max(res, i - stack.peek());
+                }
+            }
+        }
+        System.out.println(res);
+    }
 
     public static void main(String[] args) {
-        System.out.println(Integer.MIN_VALUE+"，最大值："+Integer.MAX_VALUE);
+
     }
 }
