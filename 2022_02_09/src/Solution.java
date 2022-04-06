@@ -901,4 +901,29 @@ public class Solution {
     public static void main(String[] args) {
 
     }
+    public static int fun(int money){
+        int res=0;
+        while(true){
+            if(money>1000000){
+                res+=(money-=1000000)*0.01;
+                money=1000000;
+            }else if(money>600000){
+                res+=(money-=600000)*0.015;
+                money=600000;
+            }else if(money>400000){
+                res+=(money-=400000)*0.03;
+                money=400000;
+            }else if(money>200000){
+                res+=(money-=200000)*0.05;
+                money=200000;
+            }else if(money>100000){
+                res+=(money-=100000)*0.05;
+                money=100000;
+            }else{
+                res+=money*0.05;
+                break;
+            }
+        }
+        return res;
+    }
 }

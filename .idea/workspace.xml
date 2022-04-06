@@ -16,9 +16,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="add:二叉树练习">
+    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="add:算法练习">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_websocket_javax_websocket_api_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022_02_09/src/DynamicProgramStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/DynamicProgramStudy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2022_02_09/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatRoom/ChatRoom.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatRoom/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatRoom/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatRoom/src/main/webapp/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +121,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaEEStudy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nms" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -124,7 +135,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -179,8 +190,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="ProxyTestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProxyTestDemo" />
       <module name="2022_02_09" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -327,18 +338,18 @@
     <list>
       <item itemvalue="Application.BinaryTree" />
       <item itemvalue="Application.DynamicProgramStudy" />
-      <item itemvalue="JAR Application.junit-4.10.jar" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.SortAlgorithm" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.ProxyTestDemo" />
+      <item itemvalue="JAR Application.junit-4.10.jar" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.ProxyTestDemo" />
         <item itemvalue="Application.DynamicProgramStudy" />
         <item itemvalue="Application.SortAlgorithm" />
         <item itemvalue="Application.BinaryTree" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -678,14 +689,9 @@
       <workItem from="1646108692707" duration="15482000" />
       <workItem from="1646638967210" duration="21544000" />
       <workItem from="1646873144351" duration="8656000" />
-      <workItem from="1646958793111" duration="42248000" />
-    </task>
-    <task id="LOCAL-00115" summary="学习">
-      <created>1588994749850</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1588994749851</updated>
+      <workItem from="1646958793111" duration="47132000" />
+      <workItem from="1648608839317" duration="471000" />
+      <workItem from="1648610429503" duration="10674000" />
     </task>
     <task id="LOCAL-00116" summary="学习">
       <created>1589368757472</created>
@@ -1023,7 +1029,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648023386315</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary="add:算法练习">
+      <created>1648444620421</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1648444620427</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1091,14 +1104,14 @@
     <MESSAGE value="下载文件" />
     <MESSAGE value="update:修改包名" />
     <MESSAGE value="update:修改写文件的代码" />
-    <MESSAGE value="add:算法练习" />
     <MESSAGE value="add:算法练习---动态规划" />
     <MESSAGE value="add:动态代理练习" />
     <MESSAGE value="add:01背包问题测试" />
     <MESSAGE value="add:极米科技校招笔试" />
     <MESSAGE value="add:动态规划算法练习" />
     <MESSAGE value="add:二叉树练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="add:二叉树练习" />
+    <MESSAGE value="add:算法练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="add:算法练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1107,11 +1120,6 @@
           <url>file://$PROJECT_DIR$/ArithmeticStudy/src/Solution.java</url>
           <line>43</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2022_02_09/src/DynamicProgramStudy.java</url>
-          <line>140</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/2022_02_09/src/Main.java</url>

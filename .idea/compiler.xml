@@ -9,7 +9,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Jedis" />
         <module name="yswblog" />
-        <module name="ChatRoom" />
         <module name="FileDownload" />
         <module name="2020_04_25_maven" />
         <module name="BookSys" />
