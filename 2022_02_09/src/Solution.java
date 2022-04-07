@@ -877,7 +877,7 @@ public class Solution {
         return stack.isEmpty();
     }
 
-    private static void matching2(){
+    private static void matching2() {
         Scanner in = new Scanner(System.in);
         String str = in.nextLine();
         int res = 0;
@@ -898,29 +898,50 @@ public class Solution {
         System.out.println(res);
     }
 
-    public static void main(String[] args) {
-
+    /**
+     * @author yunshuaiwei
+     * @description 给你一个数组 nums 和一个值 val，你需要 原地 移除所有数值等于 val 的元素，并返回移除后数组的新长度。
+     * @date 9:52 2022/4/7
+     * @Param [nums, val]
+     * @Return int
+     */
+    public static int removeElement(int[] nums, int val) {
+        int i = 0, j = nums.length;
+        while (i < j) {
+            if (nums[i] == val) {
+                nums[i] = nums[j - 1];
+                j--;
+            } else {
+                i++;
+            }
+        }
+        return i;
     }
-    public static int fun(int money){
-        int res=0;
-        while(true){
-            if(money>1000000){
-                res+=(money-=1000000)*0.01;
-                money=1000000;
-            }else if(money>600000){
-                res+=(money-=600000)*0.015;
-                money=600000;
-            }else if(money>400000){
-                res+=(money-=400000)*0.03;
-                money=400000;
-            }else if(money>200000){
-                res+=(money-=200000)*0.05;
-                money=200000;
-            }else if(money>100000){
-                res+=(money-=100000)*0.05;
-                money=100000;
-            }else{
-                res+=money*0.05;
+
+    public static void main(String[] args) {
+        
+    }
+
+    public static int fun(int money) {
+        int res = 0;
+        while (true) {
+            if (money > 1000000) {
+                res += (money -= 1000000) * 0.01;
+                money = 1000000;
+            } else if (money > 600000) {
+                res += (money -= 600000) * 0.015;
+                money = 600000;
+            } else if (money > 400000) {
+                res += (money -= 400000) * 0.03;
+                money = 400000;
+            } else if (money > 200000) {
+                res += (money -= 200000) * 0.05;
+                money = 200000;
+            } else if (money > 100000) {
+                res += (money -= 100000) * 0.05;
+                money = 100000;
+            } else {
+                res += money * 0.05;
                 break;
             }
         }
