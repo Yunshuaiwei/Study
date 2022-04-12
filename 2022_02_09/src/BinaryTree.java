@@ -363,7 +363,7 @@ public class BinaryTree {
 
     /**
      * @author yunshuaiwei
-     * @description 给你一个二叉树的根节点 root ，按 任意顺序 ，返回所有从根节点到叶子节点的路径。
+     * @description 给你一个二叉树的根节点 root ，按任意顺序 ，返回所有从根节点到叶子节点的路径。
      * @date 21:05 2022/3/9
      * @Param [root]
      * @Return java.util.List<java.lang.String>

@@ -919,32 +919,36 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-
+        Queue<Integer> queue = new LinkedList<>();
+        MyThread myThread = new MyThread();
+        Thread t1 = new Thread(myThread);
+        Thread t2 = new Thread(myThread);
+        t1.setName("线程一");
+        t2.setName("线程二");
+        t1.start();
+        t2.start();
     }
+}
 
-    public static int fun(int money) {
-        int res = 0;
-        while (true) {
-            if (money > 1000000) {
-                res += (money -= 1000000) * 0.01;
-                money = 1000000;
-            } else if (money > 600000) {
-                res += (money -= 600000) * 0.015;
-                money = 600000;
-            } else if (money > 400000) {
-                res += (money -= 400000) * 0.03;
-                money = 400000;
-            } else if (money > 200000) {
-                res += (money -= 200000) * 0.05;
-                money = 200000;
-            } else if (money > 100000) {
-                res += (money -= 100000) * 0.05;
-                money = 100000;
-            } else {
-                res += money * 0.05;
-                break;
+class MyThread implements Runnable {
+    private static int num;
+
+    @Override
+    public void run() {
+        synchronized (this) {
+            while (true) {
+                notifyAll();
+                if (num <= 100) {
+                    System.out.println(Thread.currentThread().getName() + ":" + num++);
+                    try {
+                        wait();
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                } else {
+                    break;
+                }
             }
         }
-        return res;
     }
 }

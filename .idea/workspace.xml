@@ -17,8 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="add:算法练习">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022_02_09/src/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/BinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2022_02_09/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +121,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -682,21 +682,9 @@
       <workItem from="1646958793111" duration="47132000" />
       <workItem from="1648608839317" duration="471000" />
       <workItem from="1648610429503" duration="10762000" />
-      <workItem from="1649220184787" duration="6533000" />
-    </task>
-    <task id="LOCAL-00117" summary="学习">
-      <created>1589630852246</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1589630852248</updated>
-    </task>
-    <task id="LOCAL-00118" summary="学习">
-      <created>1589639957582</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1589639957583</updated>
+      <workItem from="1649220184787" duration="6973000" />
+      <workItem from="1649473918661" duration="2670000" />
+      <workItem from="1649641876529" duration="12408000" />
     </task>
     <task id="LOCAL-00119" summary="学习">
       <created>1589811925486</created>
@@ -1027,7 +1015,21 @@
       <option name="project" value="LOCAL" />
       <updated>1649219940647</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="add:算法练习">
+      <created>1649298914485</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1649298914486</updated>
+    </task>
+    <task id="LOCAL-00167" summary="add:算法练习">
+      <created>1649298944278</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1649298944278</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
