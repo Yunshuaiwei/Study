@@ -13,6 +13,7 @@
         <module name="2020_04_25_maven" />
         <module name="BookSys" />
         <module name="2020_05_20_jvm" />
+        <module name="IPlantTest" />
         <module name="mavenTest" />
         <module name="TencentMusicDownload" />
       </profile>
@@ -27,6 +28,7 @@
       <module name="ChatRoom" target="1.8" />
       <module name="DataSourceTest" target="1.8" />
       <module name="FileDownload" target="1.8" />
+      <module name="IPlantTest" target="1.8" />
       <module name="Jedis" target="1.8" />
       <module name="mavenTest" target="1.8" />
       <module name="MusicDownloadUtil" target="1.8" />
