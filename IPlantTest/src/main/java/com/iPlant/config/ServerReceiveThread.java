@@ -44,7 +44,7 @@ public class ServerReceiveThread implements Runnable {
         //输出流发送数据
         OutputStream outputStream = null;
         //响应数据
-        String response;
+        String response="";
         //用于接收数据
         byte[] bytes = new byte[2048];
         try {
@@ -60,6 +60,7 @@ public class ServerReceiveThread implements Runnable {
                 if (len != -1) {
                     request.append(new String(bytes, 0, len, StandardCharsets.UTF_8));
                     if ("exit".equals(request.toString()) || "close".equals(request.toString())) {
+                        response=request.toString();
                         break;
                     } else {
                         response = "接收数据成功！";
@@ -84,6 +85,16 @@ public class ServerReceiveThread implements Runnable {
                     break;
                 }
             }
+            MessageEntity message = MessageEntity.builder().message(Objects.requireNonNull(request).toString())
+                    .ip(socket.getInetAddress().getHostAddress())
+                    .response(response)
+                    .threadName(Thread.currentThread().getName())
+                    .port(String.valueOf(socket.getPort()))
+                    .createTime(new Date())
+                    .build();
+            log.info("存入数据库：{}", message.toString());
+            //插入数据库
+            messageMapper.insert(message);
         } catch (IOException e) {
             e.printStackTrace();
             throw new RuntimeException("数据处理异常:" + e.getMessage());

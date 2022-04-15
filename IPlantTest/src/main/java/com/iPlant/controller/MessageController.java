@@ -1,6 +1,7 @@
 package com.iPlant.controller;
 
 import com.iPlant.entity.MessageEntity;
+import com.iPlant.entity.ResponseEntity;
 import com.iPlant.service.MessageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -23,16 +24,21 @@ public class MessageController {
 
     @GetMapping(value = "/message")
     @ResponseBody
-    public MessageEntity getMessageAll(){
+    public ResponseEntity getMessageAll() {
         List<MessageEntity> messageAll = messageService.getMessageAll();
-        return null;
+        return ResponseEntity.builder().code("200")
+                .msg("success")
+                .data(messageAll)
+                .build();
     }
 
-    @RequestMapping(value = "/message/{ip}",method = RequestMethod.GET)
+    @RequestMapping(value = "/message/{ip}", method = RequestMethod.GET)
     @ResponseBody
-    public MessageEntity getMessageByIp(@PathVariable("ip") String ip){
+    public ResponseEntity getMessageByIp(@PathVariable("ip") String ip) {
         List<MessageEntity> messageByIp = messageService.getMessageByIp(ip);
-        return null;
+        return ResponseEntity.builder().code("200")
+                .msg("success")
+                .data(messageByIp)
+                .build();
     }
-
 }

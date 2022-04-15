@@ -11,6 +11,11 @@ logging:
     name: E:\JavaCodeIDEA\Study\IPlantTest\log\iPlant.log
   level:
     com.iPlant: info
+# MyBatisPlus日志打印
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+# Socket服务端口号
 socket:
   port: 8888
 
