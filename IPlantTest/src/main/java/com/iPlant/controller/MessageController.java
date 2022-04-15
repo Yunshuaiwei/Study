@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 /**
  * @author yunshuaiwei
  * @className MessageController
@@ -22,14 +24,14 @@ public class MessageController {
     @GetMapping(value = "/message")
     @ResponseBody
     public MessageEntity getMessageAll(){
-        MessageEntity messageAll = messageService.getMessageAll();
+        List<MessageEntity> messageAll = messageService.getMessageAll();
         return null;
     }
 
     @RequestMapping(value = "/message/{ip}",method = RequestMethod.GET)
     @ResponseBody
     public MessageEntity getMessageByIp(@PathVariable("ip") String ip){
-        MessageEntity messageByIp = messageService.getMessageByIp(ip);
+        List<MessageEntity> messageByIp = messageService.getMessageByIp(ip);
         return null;
     }
 
