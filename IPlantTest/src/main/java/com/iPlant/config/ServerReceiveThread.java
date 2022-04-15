@@ -1,9 +1,13 @@
 package com.iPlant.config;
 
-import com.iPlant.entity.Message;
+import com.iPlant.entity.MessageEntity;
+import com.iPlant.mapper.MessageMapper;
+import lombok.NoArgsConstructor;
 import lombok.SneakyThrows;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -19,10 +23,15 @@ import java.util.Objects;
  * @description: TODO
  * @date 2022/4/15 11:04
  */
+@Component
+@NoArgsConstructor
 public class ServerReceiveThread implements Runnable {
     private static Socket socket;
 
     private static final Logger log = LoggerFactory.getLogger(ServerReceiveThread.class);
+
+    @Autowired
+    private MessageMapper messageMapper;
 
     public ServerReceiveThread(Socket socket) {
         ServerReceiveThread.socket = socket;
@@ -61,7 +70,7 @@ public class ServerReceiveThread implements Runnable {
                     log.info("接收到的数据为：{}", request);
                     log.info("响应数据为：{}", response);
 
-                    Message message = Message.builder().message(Objects.requireNonNull(request).toString())
+                    MessageEntity message = MessageEntity.builder().message(Objects.requireNonNull(request).toString())
                             .ip(socket.getInetAddress().getHostAddress())
                             .response(response)
                             .threadName(Thread.currentThread().getName())
@@ -69,6 +78,8 @@ public class ServerReceiveThread implements Runnable {
                             .createTime(new Date())
                             .build();
                     log.info("存入数据库：{}", message.toString());
+                    //插入数据库
+                    messageMapper.insert(message);
                     request=new StringBuilder();
                 }else{
                     break;

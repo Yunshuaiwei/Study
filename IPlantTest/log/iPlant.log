@@ -1031,3 +1031,574 @@ Caused by: java.lang.NumberFormatException: For input string: "socket.port"
 2022-04-15 15:19:05.914  INFO 1512 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 存入数据库：Message(id=c733a771-abb7-4997-9a45-04b62ae5b6e5, ip=127.0.0.1, port=59153, message=world, response=接收数据成功！, threadName=pool-2-thread-1, createTime=Fri Apr 15 15:19:05 CST 2022)
 2022-04-15 15:19:20.806  WARN 1512 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 关闭连接！
 2022-04-15 15:19:20.807  WARN 1512 --- [pool-2-thread-2] com.iPlant.config.ServerReceiveThread    : 关闭连接！
+2022-04-15 15:57:38.680  INFO 16304 --- [main] com.iPlant.IPlantTestApplication         : Starting IPlantTestApplication using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 16304 (E:\JavaCodeIDEA\Study\IPlantTest\target\classes started by 17790 in E:\JavaCodeIDEA\Study)
+2022-04-15 15:57:38.689  INFO 16304 --- [main] com.iPlant.IPlantTestApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 15:57:40.419  INFO 16304 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-15 15:57:40.420  INFO 16304 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-15 15:57:40.420  INFO 16304 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-15 15:57:40.421  INFO 16304 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-15 15:57:40.445  INFO 16304 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-15 15:57:40.455  INFO 16304 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-15 15:57:40.455  INFO 16304 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-15 15:57:40.746  INFO 16304 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-15 15:57:40.746  INFO 16304 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1990 ms
+2022-04-15 15:57:40.797  WARN 16304 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'messageController': Unsatisfied dependency expressed through field 'messageService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.iPlant.service.MessageService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-04-15 15:57:40.800  INFO 16304 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-04-15 15:57:40.833  INFO 16304 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-15 15:57:40.864 ERROR 16304 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field messageService in com.iPlant.controller.MessageController required a bean of type 'com.iPlant.service.MessageService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.iPlant.service.MessageService' in your configuration.
+
+2022-04-15 15:59:05.035  INFO 24064 --- [main] com.iPlant.IPlantTestApplication         : Starting IPlantTestApplication using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 24064 (E:\JavaCodeIDEA\Study\IPlantTest\target\classes started by 17790 in E:\JavaCodeIDEA\Study)
+2022-04-15 15:59:05.040  INFO 24064 --- [main] com.iPlant.IPlantTestApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 15:59:06.356  INFO 24064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-15 15:59:06.357  INFO 24064 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-15 15:59:06.357  INFO 24064 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-15 15:59:06.357  INFO 24064 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-15 15:59:06.360  INFO 24064 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-15 15:59:06.367  INFO 24064 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-15 15:59:06.367  INFO 24064 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-15 15:59:06.476  INFO 24064 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-15 15:59:06.476  INFO 24064 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1357 ms
+2022-04-15 15:59:06.516  WARN 24064 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'messageController': Unsatisfied dependency expressed through field 'messageService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'messageServiceImpl': Unsatisfied dependency expressed through field 'messageDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'messageDao': Unsatisfied dependency expressed through field 'messageDao'; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'messageDao': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2022-04-15 15:59:06.519  INFO 24064 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-04-15 15:59:06.531  INFO 24064 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-15 15:59:06.544 ERROR 24064 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   messageController (field private com.iPlant.service.MessageService com.iPlant.controller.MessageController.messageService)
+      ↓
+   messageServiceImpl (field private com.iPlant.dao.MessageDao com.iPlant.service.impl.MessageServiceImpl.messageDao)
+┌─────┐
+|  messageDao (field private com.iPlant.dao.MessageDao com.iPlant.dao.MessageDao.messageDao)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2022-04-15 15:59:46.443  INFO 23892 --- [main] com.iPlant.IPlantTestApplication         : Starting IPlantTestApplication using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 23892 (E:\JavaCodeIDEA\Study\IPlantTest\target\classes started by 17790 in E:\JavaCodeIDEA\Study)
+2022-04-15 15:59:46.447  INFO 23892 --- [main] com.iPlant.IPlantTestApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 15:59:47.694  INFO 23892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-15 15:59:47.695  INFO 23892 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-15 15:59:47.695  INFO 23892 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-15 15:59:47.695  INFO 23892 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-15 15:59:47.698  INFO 23892 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-15 15:59:47.704  INFO 23892 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-15 15:59:47.704  INFO 23892 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-15 15:59:47.814  INFO 23892 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-15 15:59:47.815  INFO 23892 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1289 ms
+2022-04-15 15:59:49.296  INFO 23892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-15 15:59:49.305  INFO 23892 --- [main] com.iPlant.IPlantTestApplication         : Started IPlantTestApplication in 3.457 seconds (JVM running for 4.388)
+2022-04-15 15:59:49.308  INFO 23892 --- [main] com.iPlant.server.ServerSocketConfig     : Socket服务已开启。。。
+2022-04-15 16:00:04.956  INFO 8608 --- [main] com.iPlant.IPlantTestApplication         : Starting IPlantTestApplication using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 8608 (E:\JavaCodeIDEA\Study\IPlantTest\target\classes started by 17790 in E:\JavaCodeIDEA\Study)
+2022-04-15 16:00:04.961  INFO 8608 --- [main] com.iPlant.IPlantTestApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 16:00:06.452  INFO 8608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-15 16:00:06.453  INFO 8608 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-15 16:00:06.454  INFO 8608 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-15 16:00:06.454  INFO 8608 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-15 16:00:06.462  INFO 8608 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-15 16:00:06.476  INFO 8608 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-15 16:00:06.477  INFO 8608 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-15 16:00:06.624  INFO 8608 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-15 16:00:06.625  INFO 8608 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1571 ms
+2022-04-15 16:00:07.831  INFO 8608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-15 16:00:07.840  INFO 8608 --- [main] com.iPlant.IPlantTestApplication         : Started IPlantTestApplication in 3.578 seconds (JVM running for 4.796)
+2022-04-15 16:00:07.843  INFO 8608 --- [main] com.iPlant.server.ServerSocketConfig     : Socket服务已开启。。。
+2022-04-15 16:00:38.743  INFO 8608 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 线程信息：pool-2-thread-1
+2022-04-15 16:00:45.228  INFO 8608 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 接收到的数据为：hello
+2022-04-15 16:00:45.229  INFO 8608 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 响应数据为：接收数据成功！
+2022-04-15 16:00:45.229  WARN 8608 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 关闭连接！
+2022-04-15 16:02:59.299  INFO 10140 --- [main] com.iPlant.IPlantTestApplication         : Starting IPlantTestApplication using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 10140 (E:\JavaCodeIDEA\Study\IPlantTest\target\classes started by 17790 in E:\JavaCodeIDEA\Study)
+2022-04-15 16:02:59.303  INFO 10140 --- [main] com.iPlant.IPlantTestApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 16:03:00.555  INFO 10140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-15 16:03:00.555  INFO 10140 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-15 16:03:00.556  INFO 10140 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-15 16:03:00.556  INFO 10140 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-15 16:03:00.558  INFO 10140 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-15 16:03:00.567  INFO 10140 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-15 16:03:00.567  INFO 10140 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-15 16:03:00.697  INFO 10140 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-15 16:03:00.697  INFO 10140 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1325 ms
+2022-04-15 16:03:02.028  INFO 10140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-15 16:03:02.037  INFO 10140 --- [main] com.iPlant.IPlantTestApplication         : Started IPlantTestApplication in 3.314 seconds (JVM running for 4.235)
+2022-04-15 16:03:02.039  INFO 10140 --- [main] com.iPlant.server.ServerSocketConfig     : Socket服务已开启。。。
+2022-04-15 16:03:09.882  INFO 10140 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 线程信息：pool-2-thread-1
+2022-04-15 16:03:13.800  WARN 10140 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 关闭连接！
+2022-04-15 16:03:27.039  INFO 10140 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 线程信息：pool-2-thread-1
+2022-04-15 16:03:33.868  INFO 10140 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 接收到的数据为：hello
+2022-04-15 16:03:33.868  INFO 10140 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 响应数据为：接收数据成功！
+2022-04-15 16:03:33.868  WARN 10140 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 关闭连接！
+2022-04-15 16:05:58.770  INFO 15140 --- [main] com.iPlant.IPlantTestApplication         : Starting IPlantTestApplication using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 15140 (E:\JavaCodeIDEA\Study\IPlantTest\target\classes started by 17790 in E:\JavaCodeIDEA\Study)
+2022-04-15 16:05:58.774  INFO 15140 --- [main] com.iPlant.IPlantTestApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 16:06:00.084  INFO 15140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-15 16:06:00.085  INFO 15140 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-15 16:06:00.085  INFO 15140 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-15 16:06:00.085  INFO 15140 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-15 16:06:00.088  INFO 15140 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-15 16:06:00.094  INFO 15140 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-15 16:06:00.095  INFO 15140 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-15 16:06:00.262  INFO 15140 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-15 16:06:00.262  INFO 15140 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1412 ms
+2022-04-15 16:06:01.842  INFO 15140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-15 16:06:01.855  INFO 15140 --- [main] com.iPlant.IPlantTestApplication         : Started IPlantTestApplication in 3.701 seconds (JVM running for 4.653)
+2022-04-15 16:06:01.858  INFO 15140 --- [main] com.iPlant.server.ServerSocketConfig     : Socket服务已开启。。。
+2022-04-15 16:06:11.573  INFO 15140 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 线程信息：pool-2-thread-1
+2022-04-15 16:06:15.109  WARN 15140 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 关闭连接！
+2022-04-15 16:06:27.348  INFO 15140 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 线程信息：pool-2-thread-1
+2022-04-15 16:06:32.180  INFO 15140 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 接收到的数据为：hello
+2022-04-15 16:06:32.181  INFO 15140 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 响应数据为：接收数据成功！
+2022-04-15 16:06:32.181  WARN 15140 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 关闭连接！
+2022-04-15 16:07:16.662  INFO 10112 --- [main] com.iPlant.IPlantTestApplication         : Starting IPlantTestApplication using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 10112 (E:\JavaCodeIDEA\Study\IPlantTest\target\classes started by 17790 in E:\JavaCodeIDEA\Study)
+2022-04-15 16:07:16.666  INFO 10112 --- [main] com.iPlant.IPlantTestApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 16:07:18.183  INFO 10112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-15 16:07:18.184  INFO 10112 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-15 16:07:18.184  INFO 10112 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-15 16:07:18.185  INFO 10112 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-15 16:07:18.188  INFO 10112 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-15 16:07:18.198  INFO 10112 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-15 16:07:18.199  INFO 10112 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-15 16:07:18.360  INFO 10112 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-15 16:07:18.361  INFO 10112 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1587 ms
+2022-04-15 16:07:20.473  INFO 10112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-15 16:07:20.489  INFO 10112 --- [main] com.iPlant.IPlantTestApplication         : Started IPlantTestApplication in 4.467 seconds (JVM running for 5.409)
+2022-04-15 16:07:20.496  INFO 10112 --- [main] com.iPlant.server.ServerSocketConfig     : Socket服务已开启。。。
+2022-04-15 16:07:51.025  INFO 10112 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 线程信息：pool-2-thread-1
+2022-04-15 16:07:57.336  INFO 10112 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 接收到的数据为：hello
+2022-04-15 16:07:57.336  INFO 10112 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 响应数据为：接收数据成功！
+2022-04-15 16:07:57.336  WARN 10112 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 关闭连接！
+2022-04-15 16:13:38.359  INFO 6536 --- [main] com.iPlant.IPlantTestApplication         : Starting IPlantTestApplication using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 6536 (E:\JavaCodeIDEA\Study\IPlantTest\target\classes started by 17790 in E:\JavaCodeIDEA\Study)
+2022-04-15 16:13:38.363  INFO 6536 --- [main] com.iPlant.IPlantTestApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 16:13:39.182  WARN 6536 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.iPlant]' package. Please check your configuration.
+2022-04-15 16:13:39.505  INFO 6536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-15 16:13:39.506  INFO 6536 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-15 16:13:39.507  INFO 6536 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-15 16:13:39.507  INFO 6536 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-15 16:13:39.510  INFO 6536 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-15 16:13:39.517  INFO 6536 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-15 16:13:39.518  INFO 6536 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-15 16:13:39.635  INFO 6536 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-15 16:13:39.635  INFO 6536 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1204 ms
+2022-04-15 16:13:39.680  WARN 6536 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'messageController': Unsatisfied dependency expressed through field 'messageService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'messageServiceImpl': Unsatisfied dependency expressed through field 'messageMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.iPlant.mapper.MessageMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-04-15 16:13:39.682  INFO 6536 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-04-15 16:13:39.805  INFO 6536 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-15 16:13:39.900 ERROR 6536 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field messageMapper in com.iPlant.service.impl.MessageServiceImpl required a bean of type 'com.iPlant.mapper.MessageMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.iPlant.mapper.MessageMapper' in your configuration.
+
+2022-04-15 16:14:25.121  INFO 10016 --- [main] com.iPlant.IPlantTestApplication         : Starting IPlantTestApplication using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 10016 (E:\JavaCodeIDEA\Study\IPlantTest\target\classes started by 17790 in E:\JavaCodeIDEA\Study)
+2022-04-15 16:14:25.126  INFO 10016 --- [main] com.iPlant.IPlantTestApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 16:14:26.173  WARN 10016 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.iPlant]' package. Please check your configuration.
+2022-04-15 16:14:26.508  INFO 10016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-15 16:14:26.509  INFO 10016 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-15 16:14:26.510  INFO 10016 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-15 16:14:26.510  INFO 10016 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-15 16:14:26.512  INFO 10016 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-15 16:14:26.519  INFO 10016 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-15 16:14:26.519  INFO 10016 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-15 16:14:26.674  INFO 10016 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-15 16:14:26.674  INFO 10016 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1476 ms
+2022-04-15 16:14:26.716  WARN 10016 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'messageController': Unsatisfied dependency expressed through field 'messageService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'messageServiceImpl': Unsatisfied dependency expressed through field 'messageMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.iPlant.mapper.MessageMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-04-15 16:14:26.718  INFO 10016 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-04-15 16:14:26.734  INFO 10016 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-15 16:14:26.753 ERROR 10016 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field messageMapper in com.iPlant.service.impl.MessageServiceImpl required a bean of type 'com.iPlant.mapper.MessageMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.iPlant.mapper.MessageMapper' in your configuration.
+
+2022-04-15 16:17:07.421  INFO 25532 --- [main] com.iPlant.IPlantTestApplication         : Starting IPlantTestApplication using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 25532 (E:\JavaCodeIDEA\Study\IPlantTest\target\classes started by 17790 in E:\JavaCodeIDEA\Study)
+2022-04-15 16:17:07.426  INFO 25532 --- [main] com.iPlant.IPlantTestApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 16:17:08.949  INFO 25532 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-15 16:17:08.950  INFO 25532 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-15 16:17:08.951  INFO 25532 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-15 16:17:08.951  INFO 25532 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-15 16:17:08.955  INFO 25532 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-15 16:17:08.962  INFO 25532 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-15 16:17:08.963  INFO 25532 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-15 16:17:09.082  INFO 25532 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-15 16:17:09.082  INFO 25532 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1590 ms
+2022-04-15 16:17:10.396  INFO 25532 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-15 16:17:10.404  INFO 25532 --- [main] com.iPlant.IPlantTestApplication         : Started IPlantTestApplication in 3.613 seconds (JVM running for 4.552)
+2022-04-15 16:17:10.406  INFO 25532 --- [main] com.iPlant.server.ServerSocketConfig     : Socket服务已开启。。。
+2022-04-15 16:17:27.135  INFO 25532 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 线程信息：pool-2-thread-1
+2022-04-15 16:17:31.713  INFO 25532 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 接收到的数据为：hello
+2022-04-15 16:17:31.714  INFO 25532 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 响应数据为：接收数据成功！
+2022-04-15 16:17:31.714  WARN 25532 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 关闭连接！
+2022-04-15 17:51:43.354  INFO 5992 --- [main] com.iPlant.IPlantTestApplication         : Starting IPlantTestApplication using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 5992 (E:\JavaCodeIDEA\Study\IPlantTest\target\classes started by 17790 in E:\JavaCodeIDEA\Study)
+2022-04-15 17:51:43.365  INFO 5992 --- [main] com.iPlant.IPlantTestApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 17:51:45.334  INFO 5992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-15 17:51:45.335  INFO 5992 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-15 17:51:45.336  INFO 5992 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-15 17:51:45.336  INFO 5992 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-15 17:51:45.373  INFO 5992 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-15 17:51:45.385  INFO 5992 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-15 17:51:45.385  INFO 5992 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-15 17:51:45.567  INFO 5992 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-15 17:51:45.567  INFO 5992 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2067 ms
+2022-04-15 17:51:47.000  INFO 5992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-15 17:51:47.011  INFO 5992 --- [main] com.iPlant.IPlantTestApplication         : Started IPlantTestApplication in 4.737 seconds (JVM running for 6.24)
+2022-04-15 17:51:47.014  INFO 5992 --- [main] com.iPlant.server.ServerSocketConfig     : Socket服务已开启。。。
+2022-04-15 17:51:54.233  INFO 20208 --- [main] com.iPlant.ClientTest                    : Starting ClientTest using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 20208 (started by 17790 in E:\JavaCodeIDEA\Study\IPlantTest)
+2022-04-15 17:51:54.235  INFO 20208 --- [main] com.iPlant.ClientTest                    : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 17:51:58.235  INFO 20208 --- [main] com.iPlant.ClientTest                    : Started ClientTest in 4.646 seconds (JVM running for 6.85)
+2022-04-15 17:51:58.824  INFO 5992 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 线程信息：pool-2-thread-1
+2022-04-15 17:51:58.825  INFO 5992 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 接收到的数据为：hello
+2022-04-15 17:51:58.826  INFO 5992 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 响应数据为：接收数据成功！
+2022-04-15 17:51:58.827  WARN 5992 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 关闭连接！
+2022-04-15 17:53:36.617  INFO 24712 --- [main] com.iPlant.IPlantTestApplication         : Starting IPlantTestApplication using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 24712 (E:\JavaCodeIDEA\Study\IPlantTest\target\classes started by 17790 in E:\JavaCodeIDEA\Study)
+2022-04-15 17:53:36.619  INFO 24712 --- [main] com.iPlant.IPlantTestApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 17:53:37.869  INFO 24712 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-15 17:53:37.869  INFO 24712 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-15 17:53:37.870  INFO 24712 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-15 17:53:37.870  INFO 24712 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-15 17:53:37.875  INFO 24712 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-15 17:53:37.884  INFO 24712 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-15 17:53:37.884  INFO 24712 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-15 17:53:38.008  INFO 24712 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-15 17:53:38.008  INFO 24712 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1318 ms
+2022-04-15 17:53:39.135  INFO 24712 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-15 17:53:39.144  INFO 24712 --- [main] com.iPlant.IPlantTestApplication         : Started IPlantTestApplication in 2.97 seconds (JVM running for 3.87)
+2022-04-15 17:53:39.146  INFO 24712 --- [main] com.iPlant.server.ServerSocketConfig     : Socket服务已开启。。。
+2022-04-15 17:53:51.495  INFO 12176 --- [main] com.iPlant.ClientTest                    : Starting ClientTest using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 12176 (started by 17790 in E:\JavaCodeIDEA\Study\IPlantTest)
+2022-04-15 17:53:51.497  INFO 12176 --- [main] com.iPlant.ClientTest                    : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 17:53:54.957  INFO 12176 --- [main] com.iPlant.ClientTest                    : Started ClientTest in 4.083 seconds (JVM running for 5.563)
+2022-04-15 17:53:55.225  INFO 24712 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 线程信息：pool-2-thread-1
+2022-04-15 17:53:55.227  INFO 24712 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 接收到的数据为：hello
+2022-04-15 17:53:55.228  INFO 24712 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 响应数据为：接收数据成功！
+2022-04-15 17:53:55.228  WARN 24712 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 关闭连接！
+2022-04-15 17:54:35.516  INFO 24528 --- [main] com.iPlant.IPlantTestApplication         : Starting IPlantTestApplication using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 24528 (E:\JavaCodeIDEA\Study\IPlantTest\target\classes started by 17790 in E:\JavaCodeIDEA\Study)
+2022-04-15 17:54:35.521  INFO 24528 --- [main] com.iPlant.IPlantTestApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 17:54:36.638  INFO 24528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-15 17:54:36.639  INFO 24528 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-15 17:54:36.639  INFO 24528 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-15 17:54:36.639  INFO 24528 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-15 17:54:36.643  INFO 24528 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-15 17:54:36.650  INFO 24528 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-15 17:54:36.650  INFO 24528 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-15 17:54:36.776  INFO 24528 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-15 17:54:36.777  INFO 24528 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1185 ms
+2022-04-15 17:54:38.028  INFO 24528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-15 17:54:38.039  INFO 24528 --- [main] com.iPlant.IPlantTestApplication         : Started IPlantTestApplication in 3.046 seconds (JVM running for 3.947)
+2022-04-15 17:54:38.042  INFO 24528 --- [main] com.iPlant.server.ServerSocketConfig     : Socket服务已开启。。。
+2022-04-15 17:54:44.344  INFO 10032 --- [main] com.iPlant.ClientTest                    : Starting ClientTest using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 10032 (started by 17790 in E:\JavaCodeIDEA\Study\IPlantTest)
+2022-04-15 17:54:44.376  INFO 10032 --- [main] com.iPlant.ClientTest                    : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 17:54:47.771  INFO 10032 --- [main] com.iPlant.ClientTest                    : Started ClientTest in 3.999 seconds (JVM running for 5.533)
+2022-04-15 17:54:48.148  INFO 24528 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 线程信息：pool-2-thread-1
+2022-04-15 17:54:48.150  INFO 24528 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 接收到的数据为：hello
+2022-04-15 17:54:48.150  INFO 24528 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 响应数据为：接收数据成功！
+2022-04-15 17:54:48.152  WARN 24528 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 关闭连接！
+2022-04-15 17:59:49.379  INFO 12068 --- [main] com.iPlant.IPlantTestApplication         : Starting IPlantTestApplication using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 12068 (E:\JavaCodeIDEA\Study\IPlantTest\target\classes started by 17790 in E:\JavaCodeIDEA\Study)
+2022-04-15 17:59:49.385  INFO 12068 --- [main] com.iPlant.IPlantTestApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 17:59:50.531  INFO 12068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-15 17:59:50.533  INFO 12068 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-15 17:59:50.533  INFO 12068 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-15 17:59:50.533  INFO 12068 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-15 17:59:50.537  INFO 12068 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-15 17:59:50.545  INFO 12068 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-15 17:59:50.545  INFO 12068 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-15 17:59:50.657  INFO 12068 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-15 17:59:50.657  INFO 12068 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1200 ms
+2022-04-15 17:59:51.813  INFO 12068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-15 17:59:51.822  INFO 12068 --- [main] com.iPlant.IPlantTestApplication         : Started IPlantTestApplication in 3.033 seconds (JVM running for 3.941)
+2022-04-15 17:59:51.825  INFO 12068 --- [main] com.iPlant.server.ServerSocketConfig     : Socket服务已开启。。。
+2022-04-15 18:00:03.791  INFO 24664 --- [main] com.iPlant.ClientTest                    : Starting ClientTest using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 24664 (started by 17790 in E:\JavaCodeIDEA\Study\IPlantTest)
+2022-04-15 18:00:03.793  INFO 24664 --- [main] com.iPlant.ClientTest                    : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 18:00:07.018  INFO 24664 --- [main] com.iPlant.ClientTest                    : Started ClientTest in 3.868 seconds (JVM running for 5.423)
+2022-04-15 18:00:07.302  INFO 12068 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 线程信息：pool-2-thread-1
+2022-04-15 18:00:07.305  INFO 12068 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 接收到的数据为：hello
+2022-04-15 18:00:07.306  INFO 12068 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 响应数据为：接收数据成功！
+2022-04-15 18:00:07.306  WARN 12068 --- [pool-2-thread-1] com.iPlant.config.ServerReceiveThread    : 关闭连接！
+2022-04-15 18:05:33.997  INFO 4992 --- [main] com.iPlant.IPlantTestApplication         : Starting IPlantTestApplication using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 4992 (E:\JavaCodeIDEA\Study\IPlantTest\target\classes started by 17790 in E:\JavaCodeIDEA\Study)
+2022-04-15 18:05:33.999  INFO 4992 --- [main] com.iPlant.IPlantTestApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 18:05:35.560  INFO 4992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-15 18:05:35.562  INFO 4992 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-15 18:05:35.562  INFO 4992 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-15 18:05:35.562  INFO 4992 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-15 18:05:35.583  INFO 4992 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-15 18:05:35.591  INFO 4992 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-15 18:05:35.592  INFO 4992 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-15 18:05:35.766  INFO 4992 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-15 18:05:35.766  INFO 4992 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1717 ms
+2022-04-15 18:05:35.813  INFO 4992 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static com.iPlant.server.ServerSocketConfig com.iPlant.IPlantTestApplication.serverSocketConfig
+2022-04-15 18:05:36.960  INFO 4992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-15 18:05:36.970  INFO 4992 --- [main] com.iPlant.IPlantTestApplication         : Started IPlantTestApplication in 3.415 seconds (JVM running for 4.32)
+2022-04-15 18:07:47.903  INFO 16676 --- [main] com.iPlant.IPlantTestApplication         : Starting IPlantTestApplication using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 16676 (E:\JavaCodeIDEA\Study\IPlantTest\target\classes started by 17790 in E:\JavaCodeIDEA\Study)
+2022-04-15 18:07:47.908  INFO 16676 --- [main] com.iPlant.IPlantTestApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 18:07:49.112  INFO 16676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-15 18:07:49.113  INFO 16676 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-15 18:07:49.114  INFO 16676 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-15 18:07:49.114  INFO 16676 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-15 18:07:49.117  INFO 16676 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-15 18:07:49.126  INFO 16676 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-15 18:07:49.126  INFO 16676 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-15 18:07:49.249  INFO 16676 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-15 18:07:49.249  INFO 16676 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1276 ms
+2022-04-15 18:07:50.657  INFO 16676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-15 18:07:50.669  INFO 16676 --- [main] com.iPlant.IPlantTestApplication         : Started IPlantTestApplication in 3.36 seconds (JVM running for 4.259)
+2022-04-15 18:07:50.672  INFO 16676 --- [main] com.iPlant.server.ServerSocketConfig     : Socket服务已开启。。。
+2022-04-15 18:08:02.006  INFO 3620 --- [main] com.iPlant.ClientTest                    : Starting ClientTest using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 3620 (started by 17790 in E:\JavaCodeIDEA\Study\IPlantTest)
+2022-04-15 18:08:02.040  INFO 3620 --- [main] com.iPlant.ClientTest                    : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 18:08:05.935  INFO 3620 --- [main] com.iPlant.ClientTest                    : Started ClientTest in 4.604 seconds (JVM running for 6.842)
+2022-04-15 18:08:06.570  INFO 16676 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 线程信息：pool-1-thread-1
+2022-04-15 18:08:06.572  INFO 16676 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 接收到的数据为：hello
+2022-04-15 18:08:06.572  INFO 16676 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 响应数据为：接收数据成功！
+2022-04-15 18:08:06.572  WARN 16676 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 关闭连接！
+2022-04-15 18:08:56.986  INFO 10156 --- [main] com.iPlant.IPlantTestApplication         : Starting IPlantTestApplication using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 10156 (E:\JavaCodeIDEA\Study\IPlantTest\target\classes started by 17790 in E:\JavaCodeIDEA\Study)
+2022-04-15 18:08:56.991  INFO 10156 --- [main] com.iPlant.IPlantTestApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 18:08:58.268  INFO 10156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-15 18:08:58.269  INFO 10156 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-15 18:08:58.269  INFO 10156 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-15 18:08:58.270  INFO 10156 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-15 18:08:58.273  INFO 10156 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-15 18:08:58.281  INFO 10156 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-15 18:08:58.282  INFO 10156 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-15 18:08:58.404  INFO 10156 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-15 18:08:58.404  INFO 10156 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1328 ms
+2022-04-15 18:08:59.912  INFO 10156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-15 18:08:59.923  INFO 10156 --- [main] com.iPlant.IPlantTestApplication         : Started IPlantTestApplication in 3.597 seconds (JVM running for 4.59)
+2022-04-15 18:08:59.929  INFO 10156 --- [main] com.iPlant.server.ServerSocketConfig     : Socket服务已开启。。。
+2022-04-15 18:09:10.758  INFO 23280 --- [main] com.iPlant.ClientTest                    : Starting ClientTest using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 23280 (started by 17790 in E:\JavaCodeIDEA\Study\IPlantTest)
+2022-04-15 18:09:10.760  INFO 23280 --- [main] com.iPlant.ClientTest                    : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 18:09:14.448  INFO 23280 --- [main] com.iPlant.ClientTest                    : Started ClientTest in 4.592 seconds (JVM running for 6.574)
+2022-04-15 18:09:14.838  INFO 10156 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 线程信息：pool-1-thread-1
+2022-04-15 18:09:14.840  INFO 10156 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 接收到的数据为：hello
+2022-04-15 18:09:14.841  INFO 10156 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 响应数据为：接收数据成功！
+2022-04-15 18:09:14.841  WARN 10156 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 关闭连接！
+2022-04-15 18:10:31.518  INFO 23952 --- [main] com.iPlant.IPlantTestApplication         : Starting IPlantTestApplication using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 23952 (E:\JavaCodeIDEA\Study\IPlantTest\target\classes started by 17790 in E:\JavaCodeIDEA\Study)
+2022-04-15 18:10:31.530  INFO 23952 --- [main] com.iPlant.IPlantTestApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 18:10:32.955  INFO 23952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-15 18:10:32.956  INFO 23952 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-15 18:10:32.956  INFO 23952 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-15 18:10:32.956  INFO 23952 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-15 18:10:32.959  INFO 23952 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-15 18:10:32.965  INFO 23952 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-15 18:10:32.966  INFO 23952 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-15 18:10:33.079  INFO 23952 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-15 18:10:33.079  INFO 23952 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1462 ms
+2022-04-15 18:10:34.305  INFO 23952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-15 18:10:34.313  INFO 23952 --- [main] com.iPlant.IPlantTestApplication         : Started IPlantTestApplication in 3.496 seconds (JVM running for 4.446)
+2022-04-15 18:10:34.317  INFO 23952 --- [main] com.iPlant.server.ServerSocketConfig     : Socket服务已开启。。。
+2022-04-15 18:12:24.102  INFO 1440 --- [main] com.iPlant.ClientTest                    : Starting ClientTest using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 1440 (started by 17790 in E:\JavaCodeIDEA\Study\IPlantTest)
+2022-04-15 18:12:24.106  INFO 1440 --- [main] com.iPlant.ClientTest                    : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 18:12:29.038  INFO 1440 --- [main] com.iPlant.ClientTest                    : Started ClientTest in 5.968 seconds (JVM running for 8.253)
+2022-04-15 18:12:29.727  INFO 23952 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 线程信息：pool-1-thread-1
+2022-04-15 18:12:29.733  INFO 23952 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 接收到的数据为：hello
+2022-04-15 18:12:29.735  INFO 23952 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 响应数据为：接收数据成功！
+2022-04-15 18:12:29.737  WARN 23952 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 关闭连接！
+2022-04-15 18:13:02.740  INFO 21056 --- [main] com.iPlant.IPlantTestApplication         : Starting IPlantTestApplication using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 21056 (E:\JavaCodeIDEA\Study\IPlantTest\target\classes started by 17790 in E:\JavaCodeIDEA\Study)
+2022-04-15 18:13:02.753  INFO 21056 --- [main] com.iPlant.IPlantTestApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 18:13:04.605  INFO 21056 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-15 18:13:04.607  INFO 21056 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-15 18:13:04.607  INFO 21056 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-15 18:13:04.607  INFO 21056 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-15 18:13:04.654  INFO 21056 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-15 18:13:04.665  INFO 21056 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-15 18:13:04.666  INFO 21056 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-15 18:13:04.864  INFO 21056 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-15 18:13:04.864  INFO 21056 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1934 ms
+2022-04-15 18:13:06.213  INFO 21056 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-15 18:13:06.224  INFO 21056 --- [main] com.iPlant.IPlantTestApplication         : Started IPlantTestApplication in 6.106 seconds (JVM running for 9.674)
+2022-04-15 18:13:06.227  INFO 21056 --- [main] com.iPlant.server.ServerSocketConfig     : Socket服务已开启。。。
+2022-04-15 18:13:16.579  INFO 23012 --- [main] com.iPlant.ClientTest                    : Starting ClientTest using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 23012 (started by 17790 in E:\JavaCodeIDEA\Study\IPlantTest)
+2022-04-15 18:13:16.582  INFO 23012 --- [main] com.iPlant.ClientTest                    : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 18:13:24.383  INFO 23012 --- [main] com.iPlant.ClientTest                    : Started ClientTest in 8.952 seconds (JVM running for 11.905)
+2022-04-15 18:13:25.988  INFO 21056 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 线程信息：pool-1-thread-1
+2022-04-15 18:13:25.991  INFO 21056 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 接收到的数据为：hello
+2022-04-15 18:13:25.992  INFO 21056 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 响应数据为：接收数据成功！
+2022-04-15 18:13:25.994  WARN 21056 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 关闭连接！
+2022-04-15 18:20:56.806  INFO 21460 --- [main] com.iPlant.IPlantTestApplication         : Starting IPlantTestApplication using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 21460 (E:\JavaCodeIDEA\Study\IPlantTest\target\classes started by 17790 in E:\JavaCodeIDEA\Study)
+2022-04-15 18:20:56.809  INFO 21460 --- [main] com.iPlant.IPlantTestApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 18:20:58.060  INFO 21460 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-15 18:20:58.061  INFO 21460 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-15 18:20:58.062  INFO 21460 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-15 18:20:58.062  INFO 21460 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-15 18:20:58.065  INFO 21460 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-15 18:20:58.073  INFO 21460 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-15 18:20:58.073  INFO 21460 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-15 18:20:58.204  INFO 21460 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-15 18:20:58.204  INFO 21460 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1334 ms
+2022-04-15 18:20:59.342  INFO 21460 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-15 18:20:59.350  INFO 21460 --- [main] com.iPlant.IPlantTestApplication         : Started IPlantTestApplication in 2.977 seconds (JVM running for 3.873)
+2022-04-15 18:20:59.353  INFO 21460 --- [main] com.iPlant.server.ServerSocketConfig     : Socket服务已开启。。。
+2022-04-15 18:21:09.434  INFO 3412 --- [main] com.iPlant.ClientTest                    : Starting ClientTest using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 3412 (started by 17790 in E:\JavaCodeIDEA\Study\IPlantTest)
+2022-04-15 18:21:09.437  INFO 3412 --- [main] com.iPlant.ClientTest                    : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 18:21:13.004  INFO 3412 --- [main] com.iPlant.ClientTest                    : Started ClientTest in 4.216 seconds (JVM running for 5.716)
+2022-04-15 18:21:13.385  INFO 21460 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 线程信息：pool-1-thread-1
+2022-04-15 18:21:13.389  INFO 21460 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 接收到的数据为：hello
+2022-04-15 18:21:13.389  INFO 21460 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 响应数据为：接收数据成功！
+2022-04-15 18:21:13.390  WARN 21460 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 关闭连接！
+2022-04-15 23:34:12.395  INFO 11252 --- [main] com.iPlant.MessageTest                   : Starting MessageTest using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 11252 (started by 17790 in E:\JavaCodeIDEA\Study\IPlantTest)
+2022-04-15 23:34:12.405  INFO 11252 --- [main] com.iPlant.MessageTest                   : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 23:34:16.954  INFO 11252 --- [main] com.iPlant.MessageTest                   : Started MessageTest in 5.336 seconds (JVM running for 7.414)
+2022-04-15 23:34:17.556  INFO 11252 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-15 23:34:19.383  INFO 11252 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-15 23:34:19.696  INFO 11252 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-15 23:34:19.719  INFO 11252 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-15 23:35:38.943  INFO 19608 --- [main] com.iPlant.MessageTest                   : Starting MessageTest using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 19608 (started by 17790 in E:\JavaCodeIDEA\Study\IPlantTest)
+2022-04-15 23:35:38.945  INFO 19608 --- [main] com.iPlant.MessageTest                   : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 23:35:43.219  INFO 19608 --- [main] com.iPlant.MessageTest                   : Started MessageTest in 4.861 seconds (JVM running for 6.701)
+2022-04-15 23:35:43.984  INFO 19608 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-15 23:35:51.030  INFO 19608 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-15 23:35:51.490  INFO 19608 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-15 23:35:51.503  INFO 19608 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-15 23:38:24.248  INFO 19204 --- [main] com.iPlant.IPlantTestApplication         : Starting IPlantTestApplication using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 19204 (E:\JavaCodeIDEA\Study\IPlantTest\target\classes started by 17790 in E:\JavaCodeIDEA\Study)
+2022-04-15 23:38:24.260  INFO 19204 --- [main] com.iPlant.IPlantTestApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 23:38:25.996  INFO 19204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-15 23:38:25.997  INFO 19204 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-15 23:38:25.998  INFO 19204 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-15 23:38:25.998  INFO 19204 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-15 23:38:26.059  INFO 19204 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-15 23:38:26.069  INFO 19204 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-15 23:38:26.069  INFO 19204 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-15 23:38:26.239  INFO 19204 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-15 23:38:26.239  INFO 19204 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1897 ms
+2022-04-15 23:38:27.536  INFO 19204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-15 23:38:27.545  INFO 19204 --- [main] com.iPlant.IPlantTestApplication         : Started IPlantTestApplication in 4.125 seconds (JVM running for 5.235)
+2022-04-15 23:38:27.548  INFO 19204 --- [main] com.iPlant.server.ServerSocketConfig     : Socket服务已开启。。。
+2022-04-15 23:38:39.688  INFO 3244 --- [main] com.iPlant.ClientTest                    : Starting ClientTest using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 3244 (started by 17790 in E:\JavaCodeIDEA\Study\IPlantTest)
+2022-04-15 23:38:39.690  INFO 3244 --- [main] com.iPlant.ClientTest                    : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 23:38:43.977  INFO 3244 --- [main] com.iPlant.ClientTest                    : Started ClientTest in 4.85 seconds (JVM running for 7.476)
+2022-04-15 23:38:44.572  INFO 19204 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 线程信息：pool-1-thread-1
+2022-04-15 23:38:44.574  INFO 19204 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 接收到的数据为：hello
+2022-04-15 23:38:44.575  INFO 19204 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 响应数据为：接收数据成功！
+2022-04-15 23:38:44.575  WARN 19204 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 关闭连接！
+2022-04-15 23:39:26.752  INFO 5556 --- [main] com.iPlant.IPlantTestApplication         : Starting IPlantTestApplication using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 5556 (E:\JavaCodeIDEA\Study\IPlantTest\target\classes started by 17790 in E:\JavaCodeIDEA\Study)
+2022-04-15 23:39:26.756  INFO 5556 --- [main] com.iPlant.IPlantTestApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 23:39:28.153  INFO 5556 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-15 23:39:28.154  INFO 5556 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-15 23:39:28.155  INFO 5556 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-15 23:39:28.155  INFO 5556 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-15 23:39:28.166  INFO 5556 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-15 23:39:28.174  INFO 5556 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-15 23:39:28.174  INFO 5556 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-15 23:39:28.625  INFO 5556 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-15 23:39:28.626  INFO 5556 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1789 ms
+2022-04-15 23:39:29.862  INFO 5556 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-15 23:39:29.869  INFO 5556 --- [main] com.iPlant.IPlantTestApplication         : Started IPlantTestApplication in 3.551 seconds (JVM running for 4.404)
+2022-04-15 23:39:29.872  INFO 5556 --- [main] com.iPlant.server.ServerSocketConfig     : Socket服务已开启。。。
+2022-04-15 23:39:47.363  INFO 23564 --- [main] com.iPlant.ClientTest                    : Starting ClientTest using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 23564 (started by 17790 in E:\JavaCodeIDEA\Study\IPlantTest)
+2022-04-15 23:39:47.404  INFO 23564 --- [main] com.iPlant.ClientTest                    : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 23:39:50.767  INFO 23564 --- [main] com.iPlant.ClientTest                    : Started ClientTest in 4.051 seconds (JVM running for 5.332)
+2022-04-15 23:39:51.644  INFO 5556 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 线程信息：pool-1-thread-1
+2022-04-15 23:39:51.645  INFO 5556 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 接收到的数据为：hello
+2022-04-15 23:39:51.646  INFO 5556 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 响应数据为：接收数据成功！
+2022-04-15 23:39:51.646  WARN 5556 --- [pool-1-thread-1] com.iPlant.config.ServerReceiveThread    : 关闭连接！
+2022-04-15 23:50:05.083  INFO 20020 --- [main] com.iPlant.IPlantTestApplication         : Starting IPlantTestApplication using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 20020 (E:\JavaCodeIDEA\Study\IPlantTest\target\classes started by 17790 in E:\JavaCodeIDEA\Study)
+2022-04-15 23:50:05.091  INFO 20020 --- [main] com.iPlant.IPlantTestApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 23:50:06.160  INFO 20020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-15 23:50:06.161  INFO 20020 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-15 23:50:06.161  INFO 20020 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-15 23:50:06.161  INFO 20020 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-15 23:50:06.164  INFO 20020 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-15 23:50:06.171  INFO 20020 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-15 23:50:06.171  INFO 20020 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-15 23:50:06.277  INFO 20020 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-15 23:50:06.277  INFO 20020 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1117 ms
+2022-04-15 23:50:06.330  WARN 20020 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serverReceiveThread' defined in file [E:\JavaCodeIDEA\Study\IPlantTest\target\classes\com\iPlant\config\ServerReceiveThread.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.net.Socket' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-04-15 23:50:06.332  INFO 20020 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-04-15 23:50:06.344  INFO 20020 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-15 23:50:06.520 ERROR 20020 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.iPlant.config.ServerReceiveThread required a bean of type 'java.net.Socket' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'java.net.Socket' in your configuration.
+
+2022-04-15 23:53:07.743  INFO 25264 --- [main] com.iPlant.IPlantTestApplication         : Starting IPlantTestApplication using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 25264 (E:\JavaCodeIDEA\Study\IPlantTest\target\classes started by 17790 in E:\JavaCodeIDEA\Study)
+2022-04-15 23:53:07.750  INFO 25264 --- [main] com.iPlant.IPlantTestApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-15 23:53:09.032  INFO 25264 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-15 23:53:09.033  INFO 25264 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-15 23:53:09.034  INFO 25264 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-15 23:53:09.034  INFO 25264 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-15 23:53:09.036  INFO 25264 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-15 23:53:09.044  INFO 25264 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-15 23:53:09.044  INFO 25264 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-15 23:53:09.155  INFO 25264 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-15 23:53:09.156  INFO 25264 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1313 ms
+2022-04-15 23:53:09.208  WARN 25264 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serverReceiveThread' defined in file [E:\JavaCodeIDEA\Study\IPlantTest\target\classes\com\iPlant\config\ServerReceiveThread.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.net.Socket' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-04-15 23:53:09.210  INFO 25264 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-04-15 23:53:09.222  INFO 25264 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-15 23:53:09.239 ERROR 25264 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.iPlant.config.ServerReceiveThread required a bean of type 'java.net.Socket' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'java.net.Socket' in your configuration.
+

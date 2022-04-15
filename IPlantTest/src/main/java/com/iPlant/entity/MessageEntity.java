@@ -24,7 +24,7 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 @TableName("message")
-public class Message {
+public class MessageEntity {
 
     @TableId(type=IdType.AUTO)
     public Long id;
