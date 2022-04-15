@@ -39,6 +39,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="FileDownload" options="-parameters" />
+      <module name="IPlantTest" options="-parameters" />
       <module name="MusicDownloadUtil" options="-parameters" />
       <module name="TencentMusicDownload" options="-parameters" />
     </option>
