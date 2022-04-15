@@ -17,16 +17,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="add:上海以朴信息测试题">
-      <change afterPath="$PROJECT_DIR$/IPlantTest/src/main/java/com/iPlant/controller/MessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IPlantTest/src/main/java/com/iPlant/mapper/MessageMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IPlantTest/src/main/java/com/iPlant/service/MessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IPlantTest/src/main/java/com/iPlant/service/impl/MessageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IPlantTest/src/test/java/com/iPlant/MessageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IPlantTest/log/iPlant.log" beforeDir="false" afterPath="$PROJECT_DIR$/IPlantTest/log/iPlant.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPlantTest/src/main/java/com/iPlant/IPlantTestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/IPlantTest/src/main/java/com/iPlant/IPlantTestApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IPlantTest/src/main/java/com/iPlant/config/ServerReceiveThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/IPlantTest/src/main/java/com/iPlant/config/ServerReceiveThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPlantTest/src/main/java/com/iPlant/entity/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/IPlantTest/src/main/java/com/iPlant/entity/MessageEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPlantTest/src/main/java/com/iPlant/server/ServerSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/IPlantTest/src/main/java/com/iPlant/server/ServerSocketConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +164,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.IPlantTestApplication">
+  <component name="RunManager" selected="JUnit.ClientTest.test">
     <configuration name="ProxyTestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProxyTestDemo" />
       <module name="2022_02_09" />
@@ -365,8 +359,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.IPlantTestApplication" />
         <item itemvalue="JUnit.ClientTest.test" />
+        <item itemvalue="Spring Boot.IPlantTestApplication" />
         <item itemvalue="JUnit.MessageTest.test" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.ProxyTestDemo" />
@@ -717,14 +711,7 @@
       <workItem from="1649641876529" duration="12582000" />
       <workItem from="1649808085226" duration="1951000" />
       <workItem from="1649980307082" duration="2037000" />
-      <workItem from="1649985198134" duration="24373000" />
-    </task>
-    <task id="LOCAL-00122" summary="学习">
-      <created>1591190452097</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1591190452098</updated>
+      <workItem from="1649985198134" duration="24680000" />
     </task>
     <task id="LOCAL-00123" summary="学习">
       <created>1591352298222</created>
@@ -1062,7 +1049,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650007851919</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary="add:上海以朴信息测试题">
+      <created>1650038182072</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1650038182072</updated>
+    </task>
+    <option name="localTasksCounter" value="172" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1156,6 +1150,16 @@
           <url>file://$PROJECT_DIR$/IPlantTest/src/test/java/com/iPlant/ClientTest.java</url>
           <line>28</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/IPlantTest/src/main/java/com/iPlant/config/ServerReceiveThread.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/IPlantTest/src/main/java/com/iPlant/config/ServerReceiveThread.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -2,11 +2,13 @@ package com.iPlant.service;
 
 import com.iPlant.entity.MessageEntity;
 
+import java.util.List;
+
 public interface MessageService {
 
     void insert(MessageEntity message);
 
-    MessageEntity getMessageAll();
+    List<MessageEntity> getMessageAll();
 
-    MessageEntity getMessageByIp(String ip);
+    List<MessageEntity> getMessageByIp(String ip);
 }

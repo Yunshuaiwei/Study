@@ -6,7 +6,6 @@ import lombok.NoArgsConstructor;
 import lombok.SneakyThrows;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
@@ -30,11 +29,11 @@ public class ServerReceiveThread implements Runnable {
 
     private static final Logger log = LoggerFactory.getLogger(ServerReceiveThread.class);
 
-    @Autowired
     private MessageMapper messageMapper;
 
-    public ServerReceiveThread(Socket socket) {
+    public ServerReceiveThread(Socket socket,MessageMapper messageMapper) {
         ServerReceiveThread.socket = socket;
+        this.messageMapper=messageMapper;
     }
 
     @SneakyThrows
