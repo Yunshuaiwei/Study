@@ -26,8 +26,8 @@ import java.util.Date;
 @TableName("message")
 public class MessageEntity {
 
-    @TableId(type=IdType.AUTO)
-    public Long id;
+    @TableId(type=IdType.ASSIGN_UUID)
+    public String id;
 
     @TableField(value = "ip")
     public String ip;
