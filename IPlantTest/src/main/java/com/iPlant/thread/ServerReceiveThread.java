@@ -1,4 +1,4 @@
-package com.iPlant.config;
+package com.iPlant.thread;
 
 import com.iPlant.entity.MessageEntity;
 import com.iPlant.mapper.MessageMapper;

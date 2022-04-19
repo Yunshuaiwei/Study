@@ -1,6 +1,6 @@
 package com.iPlant.server;
 
-import com.iPlant.config.ServerReceiveThread;
+import com.iPlant.thread.ServerReceiveThread;
 import com.iPlant.mapper.MessageMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
