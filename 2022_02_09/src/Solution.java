@@ -918,37 +918,154 @@ public class Solution {
         return i;
     }
 
-    public static void main(String[] args) {
-        Queue<Integer> queue = new LinkedList<>();
-        MyThread myThread = new MyThread();
-        Thread t1 = new Thread(myThread);
-        Thread t2 = new Thread(myThread);
-        t1.setName("线程一");
-        t2.setName("线程二");
-        t1.start();
-        t2.start();
-    }
-}
-
-class MyThread implements Runnable {
-    private static int num;
-
-    @Override
-    public void run() {
-        synchronized (this) {
-            while (true) {
-                notifyAll();
-                if (num <= 100) {
-                    System.out.println(Thread.currentThread().getName() + ":" + num++);
-                    try {
-                        wait();
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                } else {
-                    break;
-                }
+    /**
+     * @author yunshuaiwei
+     * @description 给你一个按 非递减顺序 排序的整数数组 nums，返回 每个数字的平方 组成的新数组，要求也按 非递减顺序 排序。
+     * @date 19:42 2022/4/27
+     * @Param [nums]
+     * @Return int[]
+     */
+    public static int[] sortedSquares(int[] nums) {
+        int[] result = new int[nums.length];
+        int l = 0, r = nums.length - 1;
+        int index = nums.length - 1;
+        while (l < r) {
+            if (nums[l] * nums[l] > nums[r] * nums[r]) {
+                result[index--] = nums[l] * nums[l];
+                l++;
+            } else {
+                result[index--] = nums[r] * nums[r];
+                r--;
             }
         }
+        return result;
     }
+
+    /**
+     * @author yunshuaiwei
+     * @description 给定一个含有n个正整数的数组和一个正整数 target 。
+     * 找出该数组中满足其和 ≥ target 的长度最小的 连续子数组[numsl, numsl+1, ..., numsr-1, numsr] ，并返回其长度。如果不存在符合条件的子数组，返回 0。
+     * @date 15:27 2022/5/5
+     * @Param [target, nums]
+     * @Return int
+     */
+    public static int minSubArrayLen(int target, int[] nums) {
+        int left = 0;
+        int result = Integer.MAX_VALUE;
+        int sum = 0;
+        for (int i = 0; i < nums.length; i++) {
+            sum += nums[i];
+            while (sum >= target) {
+                result = Math.min(result, i - left + 1);
+                //左指针右移
+                sum -= nums[left++];
+            }
+        }
+        return result == Integer.MAX_VALUE ? 0 : result;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 给你一个链表的头节点 head 和一个整数 val ，请你删除链表中所有满足 Node.val == val 的节点，并返回 新的头节点 。
+     * @date 15:37 2022/5/5
+     * @Param [head, val]
+     * @Return common.ListNode
+     */
+    public ListNode removeElements(ListNode head, int val) {
+        while (head != null && head.val == val) {
+            head = head.next;
+        }
+        if (head == null) {
+            return null;
+        }
+        ListNode pre = head;
+        ListNode cur = head.next;
+        while (cur != null) {
+            if (cur.val == val) {
+                pre.next = cur.next;
+            } else {
+                pre = cur;
+            }
+            cur = cur.next;
+        }
+        return head;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 给你单链表的头节点 head ，请你反转链表，并返回反转后的链表
+     * @date 14:48 2022/5/6
+     * @Param [head]
+     * @Return common.ListNode
+     */
+    public ListNode reverseList1(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode cur = head;
+        ListNode pre = null;
+        ListNode curNext;
+        while (cur != null) {
+            curNext = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = curNext;
+        }
+        return pre;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 给你一个链表，两两交换其中相邻的节点，
+     * 并返回交换后链表的头节点。你必须在不修改节点内部的值的情况下完成本题（即，只能进行节点交换）。
+     * @date 14:53 2022/5/6
+     * @Param [head]
+     * @Return common.ListNode
+     */
+    public ListNode swapPairs(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode cur = head;
+        while (cur != null && cur.next != null) {
+            int val = cur.val;
+            cur.val = cur.next.val;
+            cur.next.val = val;
+            cur = cur.next.next;
+        }
+        return head;
+    }
+
+
+    public static void main(String[] args) {
+        int[] nums = new int[]{2, 3, 1, 2, 4, 3};
+        System.out.println(minSubArrayLen(7, nums));
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 给定一个n个元素有序的（升序）整型数组nums 和一个目标值target ，
+     * 写一个函数搜索nums中的 target，如果目标值存在返回下标，否则返回 -1。
+     * @date 11:34 2022/4/24
+     * @Param [nums, target]
+     * @Return int
+     */
+    public int binarySearch(int[] nums, int target) {
+        int low = 0, high = nums.length - 1;
+        int mid = (low + high) / 2;
+        while (low <= high) {
+            if (nums[mid] == target) {
+                return mid;
+            }
+            if (nums[mid] > target) {
+                high = mid - 1;
+            }
+            if (nums[mid] < target) {
+                low = mid + 1;
+            }
+            mid = (low + high) / 2;
+        }
+        return -1;
+    }
+
 }

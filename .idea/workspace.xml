@@ -16,9 +16,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="update:上海以朴信息测试题，修改包名">
-      <change beforePath="$PROJECT_DIR$/IPlantTest/log/iPlant.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPlantTest/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/IPlantTest/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="update:上海以朴信息测试题，修改日志文件路径">
+      <change afterPath="$PROJECT_DIR$/IPlantTest/log/iPlant.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022_02_09/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileDownload/src/main/java/DownloadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/FileDownload/src/main/java/DownloadMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java8Test/src/TestLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java8Test/src/TestLambda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,10 +165,10 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.IPlantTestApplication">
-    <configuration name="ProxyTestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProxyTestDemo" />
-      <module name="2022_02_09" />
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="DownloadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DownloadMain" />
+      <module name="FileDownload" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,6 +177,14 @@
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="2022_02_09" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestLambda" />
+      <module name="Java8Test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -195,23 +206,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.iPlant" />
       <option name="MAIN_CLASS_NAME" value="com.iPlant.ClientTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MessageTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IPlantTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.iPlant.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.iPlant" />
-      <option name="MAIN_CLASS_NAME" value="com.iPlant.MessageTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -348,20 +342,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.TestLambda" />
+      <item itemvalue="Application.DownloadMain" />
       <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.ProxyTestDemo" />
       <item itemvalue="JAR Application.junit-4.10.jar" />
       <item itemvalue="JUnit.ClientTest.test" />
-      <item itemvalue="JUnit.MessageTest.test" />
       <item itemvalue="Spring Boot.IPlantTestApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.DownloadMain" />
+        <item itemvalue="Application.TestLambda" />
         <item itemvalue="Spring Boot.IPlantTestApplication" />
         <item itemvalue="JUnit.ClientTest.test" />
-        <item itemvalue="JUnit.MessageTest.test" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.ProxyTestDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -710,14 +704,9 @@
       <workItem from="1649808085226" duration="1951000" />
       <workItem from="1649980307082" duration="2037000" />
       <workItem from="1649985198134" duration="27598000" />
-      <workItem from="1650251248270" duration="1077000" />
-    </task>
-    <task id="LOCAL-00127" summary="学习">
-      <created>1592226802328</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1592226802329</updated>
+      <workItem from="1650251248270" duration="2564000" />
+      <workItem from="1650937489063" duration="5525000" />
+      <workItem from="1651458077193" duration="11925000" />
     </task>
     <task id="LOCAL-00128" summary="学习">
       <created>1592800459908</created>
@@ -1055,7 +1044,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650330384001</updated>
     </task>
-    <option name="localTasksCounter" value="176" />
+    <task id="LOCAL-00176" summary="update:上海以朴信息测试题，修改日志文件路径">
+      <created>1650330777482</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1650330777482</updated>
+    </task>
+    <option name="localTasksCounter" value="177" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1105,7 +1101,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="顺序存储二叉树" />
     <MESSAGE value="树结构" />
     <MESSAGE value="堆排序" />
     <MESSAGE value="赫夫曼树" />
@@ -1130,7 +1125,8 @@
     <MESSAGE value="add:算法练习" />
     <MESSAGE value="add:上海以朴信息测试题" />
     <MESSAGE value="update:上海以朴信息测试题，修改包名" />
-    <option name="LAST_COMMIT_MESSAGE" value="update:上海以朴信息测试题，修改包名" />
+    <MESSAGE value="update:上海以朴信息测试题，修改日志文件路径" />
+    <option name="LAST_COMMIT_MESSAGE" value="update:上海以朴信息测试题，修改日志文件路径" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

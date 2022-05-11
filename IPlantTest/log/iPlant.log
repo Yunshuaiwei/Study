@@ -1,0 +1,52 @@
+2022-04-19 09:11:47.586  INFO 22392 --- [main] com.iPlant.IPlantTestApplication         : Starting IPlantTestApplication using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 22392 (E:\JavaCodeIDEA\Study\IPlantTest\target\classes started by 17790 in E:\JavaCodeIDEA\Study)
+2022-04-19 09:11:47.594  INFO 22392 --- [main] com.iPlant.IPlantTestApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-19 09:11:48.647  INFO 22392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-19 09:11:48.648  INFO 22392 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-19 09:11:48.648  INFO 22392 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-19 09:11:48.650  INFO 22392 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-19 09:11:48.653  INFO 22392 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-19 09:11:48.660  INFO 22392 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-19 09:11:48.660  INFO 22392 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-19 09:11:48.818  INFO 22392 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-19 09:11:48.819  INFO 22392 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1135 ms
+2022-04-19 09:11:50.044  INFO 22392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-19 09:11:50.052  INFO 22392 --- [main] com.iPlant.IPlantTestApplication         : Started IPlantTestApplication in 3.24 seconds (JVM running for 4.627)
+2022-04-19 09:11:50.055  INFO 22392 --- [main] com.iPlant.server.ServerSocketConfig     : Socket服务已开启。。。
+2022-04-19 14:26:05.469  INFO 23856 --- [main] com.iPlant.IPlantTestApplication         : Starting IPlantTestApplication using Java 1.8.0_301 on DESKTOP-C9C1OT6 with PID 23856 (E:\JavaCodeIDEA\Study\IPlantTest\target\classes started by 17790 in E:\JavaCodeIDEA\Study)
+2022-04-19 14:26:05.475  INFO 23856 --- [main] com.iPlant.IPlantTestApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-04-19 14:26:07.872  INFO 23856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-19 14:26:07.873  INFO 23856 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-19 14:26:07.874  INFO 23856 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-19 14:26:07.874  INFO 23856 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-19 14:26:07.931  INFO 23856 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-19 14:26:07.950  INFO 23856 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-19 14:26:07.951  INFO 23856 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-19 14:26:08.422  INFO 23856 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-19 14:26:08.424  INFO 23856 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2880 ms
+2022-04-19 14:26:10.630  INFO 23856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-19 14:26:10.640  INFO 23856 --- [main] com.iPlant.IPlantTestApplication         : Started IPlantTestApplication in 5.85 seconds (JVM running for 7.94)
+2022-04-19 14:26:10.643  INFO 23856 --- [main] com.iPlant.server.ServerSocketConfig     : Socket服务已开启。。。
+2022-04-19 14:27:44.359  INFO 23856 --- [pool-1-thread-1] com.iPlant.thread.ServerReceiveThread    : 线程信息：pool-1-thread-1
+2022-04-19 14:27:49.671  INFO 23856 --- [pool-1-thread-1] com.iPlant.thread.ServerReceiveThread    : 接收到的数据为：hello
+2022-04-19 14:27:49.671  INFO 23856 --- [pool-1-thread-1] com.iPlant.thread.ServerReceiveThread    : 响应数据为：接收数据成功！
+2022-04-19 14:27:49.671  INFO 23856 --- [pool-1-thread-1] com.iPlant.thread.ServerReceiveThread    : 存入数据库：MessageEntity(id=null, ip=127.0.0.1, port=59608, message=hello, response=接收数据成功！, threadName=pool-1-thread-1, createTime=Tue Apr 19 14:27:49 CST 2022)
+2022-04-19 14:27:49.897  INFO 23856 --- [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-19 14:27:51.736  INFO 23856 --- [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-19 14:27:55.987  INFO 23856 --- [pool-1-thread-1] com.iPlant.thread.ServerReceiveThread    : 接收到的数据为：world
+2022-04-19 14:27:55.987  INFO 23856 --- [pool-1-thread-1] com.iPlant.thread.ServerReceiveThread    : 响应数据为：接收数据成功！
+2022-04-19 14:27:55.987  INFO 23856 --- [pool-1-thread-1] com.iPlant.thread.ServerReceiveThread    : 存入数据库：MessageEntity(id=null, ip=127.0.0.1, port=59608, message=world, response=接收数据成功！, threadName=pool-1-thread-1, createTime=Tue Apr 19 14:27:55 CST 2022)
+2022-04-19 14:28:08.896  INFO 23856 --- [pool-1-thread-2] com.iPlant.thread.ServerReceiveThread    : 线程信息：pool-1-thread-2
+2022-04-19 14:28:12.741  INFO 23856 --- [pool-1-thread-2] com.iPlant.thread.ServerReceiveThread    : 接收到的数据为：hi
+2022-04-19 14:28:12.741  INFO 23856 --- [pool-1-thread-2] com.iPlant.thread.ServerReceiveThread    : 响应数据为：接收数据成功！
+2022-04-19 14:28:12.741  INFO 23856 --- [pool-1-thread-2] com.iPlant.thread.ServerReceiveThread    : 存入数据库：MessageEntity(id=null, ip=127.0.0.1, port=59652, message=hi, response=接收数据成功！, threadName=pool-1-thread-2, createTime=Tue Apr 19 14:28:12 CST 2022)
+2022-04-19 14:28:16.327  INFO 23856 --- [pool-1-thread-2] com.iPlant.thread.ServerReceiveThread    : 接收到的数据为：yun
+2022-04-19 14:28:16.327  INFO 23856 --- [pool-1-thread-2] com.iPlant.thread.ServerReceiveThread    : 响应数据为：接收数据成功！
+2022-04-19 14:28:16.328  INFO 23856 --- [pool-1-thread-2] com.iPlant.thread.ServerReceiveThread    : 存入数据库：MessageEntity(id=null, ip=127.0.0.1, port=59652, message=yun, response=接收数据成功！, threadName=pool-1-thread-2, createTime=Tue Apr 19 14:28:16 CST 2022)
+2022-04-19 14:28:26.962  INFO 23856 --- [pool-1-thread-2] com.iPlant.thread.ServerReceiveThread    : 存入数据库：MessageEntity(id=null, ip=127.0.0.1, port=59652, message=, response=接收数据成功！, threadName=pool-1-thread-2, createTime=Tue Apr 19 14:28:26 CST 2022)
+2022-04-19 14:28:27.138  WARN 23856 --- [pool-1-thread-2] com.iPlant.thread.ServerReceiveThread    : 关闭连接！
+2022-04-19 14:28:32.233  WARN 23856 --- [pool-1-thread-1] com.iPlant.thread.ServerReceiveThread    : 关闭连接！
+2022-04-19 14:30:38.268  INFO 23856 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-19 14:30:38.269  INFO 23856 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-19 14:30:38.273  INFO 23856 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-04-19 14:31:51.815  INFO 23856 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-19 14:31:51.827  INFO 23856 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
