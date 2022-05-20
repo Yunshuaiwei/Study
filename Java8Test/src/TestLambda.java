@@ -118,7 +118,7 @@ public class TestLambda {
     @Test
     public void test8(){
         PrintStream print = System.out;
-        Consumer<String> con=x->print.println(x);
+        Consumer<String> con= print::println;
 
         Consumer<String> cons= print::println;
 
