@@ -16,7 +16,6 @@ import java.util.function.Supplier;
 public class TestLambda {
 
     /**
-     * @return void
      * @Param
      * @Date 22:04 2021/7/26
      * @Description: 匿名内部类
@@ -40,7 +39,7 @@ public class TestLambda {
      **/
     @Test
     public void test2() {
-        Comparator<Integer> com = (a, b) -> Integer.compare(a, b);
+        Comparator<Integer> com = Integer::compare;
         TreeSet<Integer> treeSet = new TreeSet<>(com);
     }
 
@@ -49,7 +48,7 @@ public class TestLambda {
         Runnable r = () -> System.out.println("run()");
         r.run();
 
-        Consumer<String> con = x -> System.out.println(x);
+        Consumer<String> con = System.out::println;
         con.accept("Hello!");
 
         Comparator<Integer> com = (x, y) -> {
