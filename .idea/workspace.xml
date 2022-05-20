@@ -162,7 +162,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.TestLambda">
     <configuration name="DownloadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DownloadMain" />
       <module name="FileDownload" />
@@ -348,9 +348,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestLambda" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.DownloadMain" />
-        <item itemvalue="Application.TestLambda" />
         <item itemvalue="Spring Boot.IPlantTestApplication" />
         <item itemvalue="JUnit.ClientTest.test" />
       </list>
