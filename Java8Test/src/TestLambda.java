@@ -129,7 +129,7 @@ public class TestLambda {
 
     @Test
     public void test9(){
-        Comparator<Integer> com=(x,y)->Integer.compare(x,y);
+        Comparator<Integer> com= Integer::compare;
 
         Comparator<Integer> com1=Integer::compare;
 

@@ -16,11 +16,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="update:上海以朴信息测试题，修改日志文件路径">
-      <change afterPath="$PROJECT_DIR$/IPlantTest/log/iPlant.log" afterDir="false" />
+    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="update:算法练习">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022_02_09/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileDownload/src/main/java/DownloadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/FileDownload/src/main/java/DownloadMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java8Test/src/TestLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java8Test/src/TestLambda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +124,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -706,14 +703,9 @@
       <workItem from="1649985198134" duration="27598000" />
       <workItem from="1650251248270" duration="2564000" />
       <workItem from="1650937489063" duration="5525000" />
-      <workItem from="1651458077193" duration="11925000" />
-    </task>
-    <task id="LOCAL-00128" summary="学习">
-      <created>1592800459908</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1592800459908</updated>
+      <workItem from="1651458077193" duration="12418000" />
+      <workItem from="1652395558306" duration="20346000" />
+      <workItem from="1652839116454" duration="3733000" />
     </task>
     <task id="LOCAL-00129" summary="学习">
       <created>1592835626330</created>
@@ -1051,7 +1043,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650330777482</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="update:算法练习">
+      <created>1652272615789</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1652272615791</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1101,7 +1100,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="树结构" />
     <MESSAGE value="堆排序" />
     <MESSAGE value="赫夫曼树" />
     <MESSAGE value="赫夫曼编码" />
@@ -1126,7 +1124,8 @@
     <MESSAGE value="add:上海以朴信息测试题" />
     <MESSAGE value="update:上海以朴信息测试题，修改包名" />
     <MESSAGE value="update:上海以朴信息测试题，修改日志文件路径" />
-    <option name="LAST_COMMIT_MESSAGE" value="update:上海以朴信息测试题，修改日志文件路径" />
+    <MESSAGE value="update:算法练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="update:算法练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
