@@ -16,11 +16,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="update:Lambda练习">
-      <change afterPath="$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="update:测试">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileDownload/src/main/java/DownloadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/FileDownload/src/main/java/DownloadMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,10 +163,18 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DownloadMain">
+  <component name="RunManager" selected="Application.HuaweiOdTest">
     <configuration name="DownloadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DownloadMain" />
       <module name="FileDownload" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HuaweiOdTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HuaweiOdTest" />
+      <module name="2022_02_09" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -192,23 +198,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClientTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IPlantTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.iPlant.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.iPlant" />
-      <option name="MAIN_CLASS_NAME" value="com.iPlant.ClientTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -346,16 +335,16 @@
       <item itemvalue="Application.DownloadMain" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="JAR Application.junit-4.10.jar" />
-      <item itemvalue="JUnit.ClientTest.test" />
       <item itemvalue="Spring Boot.IPlantTestApplication" />
+      <item itemvalue="Application.HuaweiOdTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HuaweiOdTest" />
         <item itemvalue="Application.DownloadMain" />
         <item itemvalue="Application.TestLambda" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Spring Boot.IPlantTestApplication" />
-        <item itemvalue="JUnit.ClientTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -711,14 +700,7 @@
       <workItem from="1652839116454" duration="6150000" />
       <workItem from="1653691992640" duration="387000" />
       <workItem from="1653699870909" duration="783000" />
-      <workItem from="1654060890848" duration="2833000" />
-    </task>
-    <task id="LOCAL-00133" summary="学习">
-      <created>1594031182121</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1594031182122</updated>
+      <workItem from="1654060890848" duration="11177000" />
     </task>
     <task id="LOCAL-00134" summary="学习">
       <created>1594570661659</created>
@@ -1056,7 +1038,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653025355967</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="update:测试">
+      <created>1654156271246</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1654156271247</updated>
+    </task>
+    <option name="localTasksCounter" value="183" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1106,7 +1095,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="赫夫曼树" />
     <MESSAGE value="赫夫曼编码" />
     <MESSAGE value="二叉排序树" />
     <MESSAGE value="平衡二叉树" />
@@ -1131,7 +1119,8 @@
     <MESSAGE value="update:上海以朴信息测试题，修改日志文件路径" />
     <MESSAGE value="update:算法练习" />
     <MESSAGE value="update:Lambda练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="update:Lambda练习" />
+    <MESSAGE value="update:测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="update:测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1145,6 +1134,16 @@
           <url>file://$PROJECT_DIR$/2022_02_09/src/Main.java</url>
           <line>34</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
