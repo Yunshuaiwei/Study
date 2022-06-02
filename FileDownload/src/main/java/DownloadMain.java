@@ -12,11 +12,11 @@ public class DownloadMain {
 
     public static void main(String[] args) {
         //文件下载的URL
-        String url = "http://mpvideo.qpic.cn/0bf224ab4aaa2eaehnpfmzqfbv6dd3lqahqa.f10002.mp4";
+        String url = "https://mp.weixin.qq.com/s/373MSbrEgoROddSqP6Gz3A";
         //下载公众号音频
-//        downloadMusic(url);
+        downloadMusic(url);
         //下载文件
-        downloadFile(url);
+//        downloadFile(url);
     }
 
     /**

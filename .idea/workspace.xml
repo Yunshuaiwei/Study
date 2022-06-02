@@ -16,9 +16,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="update:算法练习">
+    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="update:Lambda练习">
+      <change afterPath="$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8Test/src/TestLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java8Test/src/TestLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileDownload/src/main/java/DownloadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/FileDownload/src/main/java/DownloadMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +96,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -162,7 +165,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestLambda">
+  <component name="RunManager" selected="Application.DownloadMain">
     <configuration name="DownloadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DownloadMain" />
       <module name="FileDownload" />
@@ -348,9 +351,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DownloadMain" />
         <item itemvalue="Application.TestLambda" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.DownloadMain" />
         <item itemvalue="Spring Boot.IPlantTestApplication" />
         <item itemvalue="JUnit.ClientTest.test" />
       </list>
@@ -705,35 +708,10 @@
       <workItem from="1650937489063" duration="5525000" />
       <workItem from="1651458077193" duration="12418000" />
       <workItem from="1652395558306" duration="20346000" />
-      <workItem from="1652839116454" duration="3733000" />
-    </task>
-    <task id="LOCAL-00129" summary="学习">
-      <created>1592835626330</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1592835626331</updated>
-    </task>
-    <task id="LOCAL-00130" summary="学习">
-      <created>1592892800029</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1592892800030</updated>
-    </task>
-    <task id="LOCAL-00131" summary="学习">
-      <created>1593005821454</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1593005821455</updated>
-    </task>
-    <task id="LOCAL-00132" summary="学习">
-      <created>1593532882268</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1593532882269</updated>
+      <workItem from="1652839116454" duration="6150000" />
+      <workItem from="1653691992640" duration="387000" />
+      <workItem from="1653699870909" duration="783000" />
+      <workItem from="1654060890848" duration="2833000" />
     </task>
     <task id="LOCAL-00133" summary="学习">
       <created>1594031182121</created>
@@ -1050,7 +1028,35 @@
       <option name="project" value="LOCAL" />
       <updated>1652272615791</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="update:Lambda练习">
+      <created>1653025077187</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1653025077187</updated>
+    </task>
+    <task id="LOCAL-00179" summary="update:Lambda练习">
+      <created>1653025136540</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1653025136540</updated>
+    </task>
+    <task id="LOCAL-00180" summary="update:Lambda练习">
+      <created>1653025222744</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1653025222744</updated>
+    </task>
+    <task id="LOCAL-00181" summary="update:Lambda练习">
+      <created>1653025355967</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1653025355967</updated>
+    </task>
+    <option name="localTasksCounter" value="182" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1100,7 +1106,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="堆排序" />
     <MESSAGE value="赫夫曼树" />
     <MESSAGE value="赫夫曼编码" />
     <MESSAGE value="二叉排序树" />
@@ -1125,7 +1130,8 @@
     <MESSAGE value="update:上海以朴信息测试题，修改包名" />
     <MESSAGE value="update:上海以朴信息测试题，修改日志文件路径" />
     <MESSAGE value="update:算法练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="update:算法练习" />
+    <MESSAGE value="update:Lambda练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="update:Lambda练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
