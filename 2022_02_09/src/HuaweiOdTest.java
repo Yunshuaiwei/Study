@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.regex.Pattern;
 
 /**
  * @author yunshuaiwei
@@ -218,8 +219,305 @@ public class HuaweiOdTest {
         System.out.println(res.toString());
     }
 
+    /**
+     * @author yunshuaiwei
+     * @description 编写一个函数，计算字符串中含有的不同字符的个数。
+     * 字符在 ASCII 码范围内( 0~127 ，包括 0 和 127 )，换行表示结束符，不算在字符里。不在范围内的不作统计。多个相同的字符只计算一次
+     * @date 0:51 2022/6/3
+     * @Param []
+     * @Return void
+     */
+    public static void charsNum() {
+        Scanner scanner = new Scanner(System.in);
+        String str = scanner.nextLine();
+        HashSet<Character> set = new HashSet<>();
+        for (int i = 0; i < str.length(); i++) {
+            set.add(str.charAt(i));
+        }
+        System.out.println(set.size());
+    }
+
+
+    /**
+     * @author yunshuaiwei
+     * @description 输入一个整数，将这个整数以字符串的形式逆序输出
+     * @date 21:47 2022/6/3
+     * @Param []
+     * @Return void
+     */
+    public static void intToStringReverse() {
+        Scanner scanner = new Scanner(System.in);
+        int num = scanner.nextInt();
+        StringBuilder builder = new StringBuilder(String.valueOf(num));
+        System.out.println(builder.reverse().toString());
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 接受一个只包含小写字母的字符串，然后输出该字符串反转后的字符串。（字符串长度不超过1000）
+     * @date 21:50 2022/6/3
+     * @Param []
+     * @Return void
+     */
+    public static void reverseString() {
+        Scanner scanner = new Scanner(System.in);
+        String s = scanner.nextLine();
+        StringBuilder builder = new StringBuilder(s);
+        System.out.println(builder.reverse().toString());
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 输入一个字符串以空格隔开，反转之后并输出
+     * @date 22:12 2022/6/3
+     * @Param []
+     * @Return void
+     */
+    public static void reverseWord() {
+        Scanner scanner = new Scanner(System.in);
+        String str = scanner.nextLine();
+        Stack<String> stack = new Stack<>();
+        String[] strs = str.split(" ");
+        for (String s : strs) {
+            stack.push(s);
+        }
+        while (!stack.isEmpty()) {
+            System.out.print(stack.pop() + " ");
+        }
+    }
+
+
+    /**
+     * @author yunshuaiwei
+     * @description 给定 n 个字符串，请对 n 个字符串按照字典序排列。
+     * @date 22:12 2022/6/3
+     * @Param []
+     * @Return void
+     */
+    public static void stringSort() {
+        Scanner scanner = new Scanner(System.in);
+        ArrayList<String> list = new ArrayList<>();
+        int num = scanner.nextInt();
+        scanner.nextLine();
+        for (int i = 0; i < num; i++) {
+            String s = scanner.nextLine();
+            list.add(s);
+        }
+        Collections.sort(list);
+        for (String s : list) {
+            System.out.println(s);
+        }
+    }
+
+
+    /**
+     * @author yunshuaiwei
+     * @description 输入一个 int 型的正整数，计算出该 int 型数据在内存中存储时 1 的个数。
+     * @date 22:19 2022/6/3
+     * @Param []
+     * @Return void
+     */
+    public static void method02() {
+        Scanner scanner = new Scanner(System.in);
+        int i = scanner.nextInt();
+        int num = 0;
+        while (i != 0) {
+            if ((i & 1) == 1) {
+                num++;
+            }
+            i = i >> 1;
+        }
+        System.out.println(num);
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description HJ16 购物单
+     * @date 22:31 2022/6/3
+     * @Param []
+     * @Return void
+     */
+    public static void method03() {
+        Scanner scanner = new Scanner(System.in);
+        //总钱数
+        int N = scanner.nextInt();
+
+        int m = scanner.nextInt();
+        int[][] dp = new int[m][3];
+        for (int i = 0; i < m; i++) {
+            dp[i][0] = scanner.nextInt();
+            dp[i][1] = scanner.nextInt();
+            dp[i][2] = scanner.nextInt();
+        }
+
+        for (int[] ints : dp) {
+            System.out.println(Arrays.toString(ints));
+        }
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description HJ17 坐标移动
+     * @date 11:56 2022/6/8
+     * @Param []
+     * @Return void
+     */
+    public static void method04() {
+        Scanner scanner = new Scanner(System.in);
+        String str = scanner.nextLine();
+        String[] split = str.split(";");
+        int x = 0;
+        int y = 0;
+        HashMap<Character, Integer> map = new HashMap<>();
+        String pattern = "[ADWS]\\d{1}\\d?";
+        for (String s : split) {
+            if (s.matches(pattern)) {
+                map.put(s.charAt(0), map.getOrDefault(s.charAt(0), 0) + Integer.parseInt(s.substring(1)));
+            }
+        }
+        x = x - map.get('A') + map.get('D');
+        y = y - map.get('S') + map.get('W');
+        System.out.println(x + "," + y);
+    }
+
+
+    /**
+     * @author yunshuaiwei
+     * @description HJ18：识别有效的IP地址和掩码并进行分类统计
+     * @date 12:27 2022/6/8
+     * @Param []
+     * @Return void
+     */
+    public static void method05() {
+        Scanner scanner = new Scanner(System.in);
+        while (scanner.hasNext()) {
+            String s = scanner.nextLine();
+            if (s.length() <= 8) {
+                System.out.println("NG");
+                continue;
+            }
+            if (getMatch(s)) {
+                System.out.println("NG");
+                continue;
+            }
+            if (getString(s, 0, 3)) {
+                System.out.println("NG");
+                continue;
+            }
+            System.out.println("OK");
+        }
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 校验是否有重复子串
+     * @date 12:46 2022/6/8
+     * @Param [str, l, r]
+     * @Return boolean
+     */
+    private static boolean getString(String str, int l, int r) {
+        if (r >= str.length()) {
+            return false;
+        }
+        if (str.substring(r).contains(str.substring(l, r))) {
+            return true;
+        } else {
+            return getString(str, l + 1, r + 1);
+        }
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 正则匹配
+     * @date 12:42 2022/6/8
+     * @Param [str]
+     * @Return boolean
+     */
+    private static boolean getMatch(String str) {
+        int count = 0;
+        Pattern p1 = Pattern.compile("[A-Z]");
+        if (p1.matcher(str).find()) {
+            count++;
+        }
+        Pattern p2 = Pattern.compile("[a-z]");
+        if (p2.matcher(str).find()) {
+            count++;
+        }
+        Pattern p3 = Pattern.compile("[0-9]");
+        if (p3.matcher(str).find()) {
+            count++;
+        }
+        Pattern p4 = Pattern.compile("[^a-zA-Z0-9]");
+        if (p4.matcher(str).find()) {
+            count++;
+        }
+        return count < 3;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description HJ21：简单密码
+     * @date 15:27 2022/6/8
+     * @Param []
+     * @Return void
+     */
+    public static void method06() {
+        Scanner scanner = new Scanner(System.in);
+        String str = scanner.nextLine();
+        HashMap<String, Integer> map = new HashMap<>();
+        map.put("abc", 2);
+        map.put("def", 3);
+        map.put("ghi", 4);
+        map.put("jkl", 5);
+        map.put("mno", 6);
+        map.put("pqrs", 7);
+        map.put("tuv", 8);
+        map.put("wxyz", 9);
+        for (int i = 0; i < str.length(); i++) {
+            char c = str.charAt(i);
+            if (c >= 'A' && c < 'Z') {
+                System.out.print((char) (c + 33));
+            } else if (c == 'Z') {
+                System.out.print((char) (c + 7));
+            } else if (c >= 'a' && c < 'z') {
+                String key = map.keySet().stream().filter(o -> o.contains(Character.toString(c))).findAny().get();
+                System.out.print(map.get(key));
+            } else {
+                System.out.print(c);
+            }
+        }
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description HJ22 汽水瓶
+     * @date 15:49 2022/6/8
+     * @Param []
+     * @Return void
+     */
+    public static void method07() {
+        Scanner scanner = new Scanner(System.in);
+        while (scanner.hasNext()) {
+            int num = scanner.nextInt();
+            if (num == 0) {
+                break;
+            }
+            int res = 0;
+            while (num > 2) {
+                int i = num / 3;
+                res += i;
+                num = num % 3 + i;
+            }
+            if (num == 2) {
+                System.out.println(res + 1);
+            } else {
+                System.out.println(res);
+            }
+        }
+    }
+
     public static void main(String[] args) {
-        reverseInt();
+        method07();
     }
 
 }

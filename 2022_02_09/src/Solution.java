@@ -337,12 +337,15 @@ public class Solution {
      */
     public int fib(int n) {
         int a = 0, b = 1, sum = 0;
-        for (int i = 0; i < n; i++) {
-            sum = (a + b) % 1000000007;
+        if (n < 2) {
+            return n;
+        }
+        for (int i = 2; i <= n; i++) {
+            sum = a + b;
             a = b;
             b = sum;
         }
-        return a;
+        return sum;
     }
 
     /**
@@ -1036,10 +1039,184 @@ public class Solution {
         return head;
     }
 
+    /**
+     * @author yunshuaiwei
+     * @description 假设你正在爬楼梯。需要 n 阶你才能到达楼顶。
+     * 每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？
+     * @date 15:58 2022/6/6
+     * @Param [n]
+     * @Return int
+     */
+    public int climbStairs(int n) {
+        int a = 1, b = 2, sum = 0;
+        if (n < 3) {
+            return n;
+        }
+        for (int i = 3; i <= n; i++) {
+            sum = a + b;
+            a = b;
+            b = sum;
+        }
+        return sum;
+    }
+
+
+    /**
+     * @author yunshuaiwei
+     * @description 给你一个整数数组 cost ，其中 cost[i] 是从楼梯第 i 个台阶向上爬需要支付的费用。
+     * 一旦你支付此费用，即可选择向上爬一个或者两个台阶。
+     * 你可以选择从下标为 0 或下标为 1 的台阶开始爬楼梯。
+     * 请你计算并返回达到楼梯顶部的最低花费。
+     * @date 16:00 2022/6/6
+     * @Param [cost]
+     * @Return int
+     */
+    public static int minCostClimbingStairs(int[] cost) {
+        if (cost == null || cost.length == 0) {
+            return 0;
+        }
+        if (cost.length == 1) {
+            return cost[0];
+        }
+        int[] dp = new int[cost.length];
+        dp[0] = cost[0];
+        dp[1] = cost[1];
+        for (int i = 2; i < cost.length; i++) {
+            dp[i] = Math.min(dp[i - 2], dp[i - 1]) + cost[i];
+        }
+        return Math.min(dp[dp.length - 1], dp[dp.length - 2]);
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 一个机器人位于一个 m x n网格的左上角 （起始点在下图中标记为 “Start” ）。
+     * 机器人每次只能向下或者向右移动一步。机器人试图达到网格的右下角（在下图中标记为 “Finish” ）。
+     * 问总共有多少条不同的路径？
+     * @date 17:06 2022/6/7
+     * @Param [m, n]
+     * @Return int
+     */
+    public static int uniquePaths(int m, int n) {
+        int[][] dp = new int[m][n];
+        for (int i = 0; i < m; i++) {
+            dp[i][0] = 1;
+        }
+        for (int i = 0; i < n; i++) {
+            dp[0][i] = 1;
+        }
+        for (int i = 1; i < m; i++) {
+            for (int j = 1; j < n; j++) {
+                dp[i][j] = dp[i - 1][j] + dp[i][j - 1];
+            }
+        }
+        return dp[m - 1][n - 1];
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 一个机器人位于一个 m x n 网格的左上角 （起始点在下图中标记为 “Start” ）。
+     * 机器人每次只能向下或者向右移动一步。机器人试图达到网格的右下角（在下图中标记为 “Finish”）。
+     * 现在考虑网格中有障碍物。那么从左上角到右下角将会有多少条不同的路径？
+     * 网格中的障碍物和空位置分别用 1 和 0 来表示。
+     * @date 17:16 2022/6/7
+     * @Param [obstacleGrid]
+     * @Return int
+     */
+    public static int uniquePathsWithObstacles(int[][] obstacleGrid) {
+        int[][] dp = new int[obstacleGrid.length][obstacleGrid[0].length];
+        for (int i = 0; i < obstacleGrid.length && obstacleGrid[i][0] == 0; i++) {
+            dp[i][0] = 1;
+        }
+        for (int i = 0; i < obstacleGrid[0].length && obstacleGrid[0][i] == 0; i++) {
+            dp[0][i] = 1;
+        }
+        for (int i = 1; i < obstacleGrid.length; i++) {
+            for (int j = 1; j < obstacleGrid[0].length; j++) {
+                if (obstacleGrid[i][j] == 0) {
+                    dp[i][j] = dp[i - 1][j] + dp[i][j - 1];
+                }
+            }
+        }
+        return dp[obstacleGrid.length - 1][obstacleGrid[0].length - 1];
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 给定一个正整数 n ，将其拆分为 k 个 正整数 的和（ k >= 2 ），并使这些整数的乘积最大化。
+     * @date 17:26 2022/6/7
+     * @Param [n]
+     * @Return int
+     */
+    public static int integerBreak(int n) {
+        int[] dp = new int[n + 1];
+        dp[2] = 1;
+        for (int i = 3; i <= n; i++) {
+            for (int j = 1; j <= i - j; j++) {
+                dp[i] = Math.max(dp[i], Math.max(j * (i - j), j * dp[i - j]));
+            }
+        }
+        return dp[n];
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 动态规划 01背包问题 测试
+     * @date 11:20 2022/6/8
+     * @Param [weight, value, bagSize]
+     * @Return void
+     */
+    public static void testWeightBagProblem(int[] weight, int[] value, int bagSize) {
+        int wLen = weight.length;
+        int[][] dp = new int[wLen + 1][bagSize + 1];
+
+        //初始化：当背包容量为0时，前i个物品获得的最大价值为0
+        for (int i = 0; i <= wLen; i++) {
+            dp[i][0] = 0;
+        }
+        for (int i = 1; i <= wLen; i++) {//遍历物品
+            for (int j = 1; j <= bagSize; j++) {//遍历背包
+                if (j < weight[i - 1]) {
+                    dp[i][j] = dp[i - 1][j];
+                } else {
+                    dp[i][j] = Math.max(dp[i - 1][j], dp[i - 1][j - weight[i - 1]] + value[i - 1]);
+                }
+            }
+        }
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 给你一个 只包含正整数 的 非空 数组 nums 。请你判断是否可以将这个数组分割成两个子集，使得两个子集的元素和相等。
+     * @date 11:34 2022/6/8
+     * @Param [nums]
+     * @Return boolean
+     */
+    public boolean canPartition(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return false;
+        }
+        int target = 0;
+        for (int num : nums) {
+            target += num;
+        }
+        if (target % 2 != 0) {//奇数
+            return false;
+        }
+        target = target / 2;
+        int[] dp = new int[target + 1];
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = target; j >= nums[i]; j--) {
+                //物品 i 的重量是 nums[i]，其价值也是 nums[i]
+                dp[j] = Math.max(dp[j], dp[j - nums[i]] + nums[i]);
+            }
+        }
+        return dp[target] == target;
+    }
+
 
     public static void main(String[] args) {
-        int[] nums = new int[]{2, 3, 1, 2, 4, 3};
-        System.out.println(minSubArrayLen(7, nums));
+        int[] cost = new int[]{1, 100, 1, 1, 1, 100, 1, 1, 100, 1};
+        System.out.println(uniquePaths(3, 7));
     }
 
     /**
