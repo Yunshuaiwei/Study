@@ -7,17 +7,6 @@ import java.util.Arrays;
  * @date 2022/2/19 14:16
  */
 public class SortAlgorithm {
-
-
-    public static void main(String[] args) {
-        int[] arr = new int[]{4, 2, 8, 0, 1, 9, 7, 5, 3, 6};
-//        insertSort(arr);
-//        shellSort(arr);
-//        bubbleSort(arr);
-        quickSort(arr, 0, arr.length - 1);
-        System.out.println(Arrays.toString(arr));
-    }
-
     /**
      * @author yunshuaiwei
      * @description 插入排序
@@ -122,5 +111,40 @@ public class SortAlgorithm {
         return low;
     }
 
+
+    /**
+     * @author yunshuaiwei
+     * @description 选择排序
+     * @date 15:34 2022/6/14
+     * @Param [arr]
+     * @Return void
+     */
+    private static void selectSort(int [] arr){
+        if (arr==null||arr.length<2){
+            return;
+        }
+        for (int i = 0; i < arr.length; i++) {
+            int minValueIndex=i;
+            //找i到length区间的最小值
+            for (int j = i+1; j <arr.length ; j++) {
+                minValueIndex=arr[minValueIndex]<arr[j]?minValueIndex:j;
+            }
+            //交换
+            int tmp=arr[minValueIndex];
+            arr[minValueIndex]=arr[i];
+            arr[i]=tmp;
+        }
+    }
+
+
+
+    public static void main(String[] args) {
+        int[] arr = new int[]{4, 2, 8, 0, 1, 9, 7, 5, 3, 6};
+//        insertSort(arr);
+//        shellSort(arr);
+//        bubbleSort(arr);
+        selectSort(arr);
+        System.out.println(Arrays.toString(arr));
+    }
 
 }

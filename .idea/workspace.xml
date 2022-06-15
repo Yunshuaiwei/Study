@@ -17,10 +17,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="update:华为od测试题">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/17790.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/17790.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022_02_09/src/ArithmeticStudy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022_02_09/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022_02_09/src/SortAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/SortAlgorithm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,6 +166,14 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.HuaweiOdTest">
+    <configuration name="ArithmeticStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArithmeticStudy" />
+      <module name="2022_02_09" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DownloadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DownloadMain" />
       <module name="FileDownload" />
@@ -190,9 +198,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestLambda" />
-      <module name="Java8Test" />
+    <configuration name="SortAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortAlgorithm" />
+      <module name="2022_02_09" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -215,19 +223,6 @@
       <option name="JAR_PATH" value="$PROJECT_DIR$/2020_04_11_file/lib/junit-4.10.jar" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2" />
-    </configuration>
-    <configuration name="IPlantTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="IPlantTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.iPlant.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.iPlant.IPlantTestApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
@@ -333,20 +328,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestLambda" />
       <item itemvalue="Application.DownloadMain" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.HuaweiOdTest" />
       <item itemvalue="JAR Application.junit-4.10.jar" />
-      <item itemvalue="Spring Boot.IPlantTestApplication" />
+      <item itemvalue="Application.SortAlgorithm" />
+      <item itemvalue="Application.ArithmeticStudy" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.HuaweiOdTest" />
+        <item itemvalue="Application.ArithmeticStudy" />
+        <item itemvalue="Application.SortAlgorithm" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.DownloadMain" />
-        <item itemvalue="Application.TestLambda" />
-        <item itemvalue="Spring Boot.IPlantTestApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -704,6 +699,9 @@
       <workItem from="1653699870909" duration="783000" />
       <workItem from="1654060890848" duration="16407000" />
       <workItem from="1654591717337" duration="13558000" />
+      <workItem from="1654831399682" duration="1901000" />
+      <workItem from="1654917142365" duration="597000" />
+      <workItem from="1654992997320" duration="36254000" />
     </task>
     <task id="LOCAL-00135" summary="学习">
       <created>1594612737144</created>
@@ -1157,6 +1155,26 @@
           <url>file://$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java</url>
           <line>501</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java</url>
+          <line>760</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java</url>
+          <line>794</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java</url>
+          <line>893</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java</url>
+          <line>940</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
