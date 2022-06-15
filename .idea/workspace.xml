@@ -17,10 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="update:华为od测试题">
-      <change afterPath="$PROJECT_DIR$/2022_02_09/src/ArithmeticStudy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022_02_09/src/SortAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/SortAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022_02_09/src/ArithmeticStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/ArithmeticStudy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +163,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HuaweiOdTest">
+  <component name="RunManager" selected="Application.ArithmeticStudy">
     <configuration name="ArithmeticStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArithmeticStudy" />
       <module name="2022_02_09" />
@@ -337,8 +335,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HuaweiOdTest" />
         <item itemvalue="Application.ArithmeticStudy" />
+        <item itemvalue="Application.HuaweiOdTest" />
         <item itemvalue="Application.SortAlgorithm" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.DownloadMain" />
@@ -701,14 +699,7 @@
       <workItem from="1654591717337" duration="13558000" />
       <workItem from="1654831399682" duration="1901000" />
       <workItem from="1654917142365" duration="597000" />
-      <workItem from="1654992997320" duration="36254000" />
-    </task>
-    <task id="LOCAL-00135" summary="学习">
-      <created>1594612737144</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1594612737144</updated>
+      <workItem from="1654992997320" duration="41475000" />
     </task>
     <task id="LOCAL-00136" summary="学习">
       <created>1594965749463</created>
@@ -1046,7 +1037,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654164689105</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary="update:华为od测试题">
+      <created>1655281102894</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1655281102895</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1175,6 +1173,16 @@
           <url>file://$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java</url>
           <line>940</line>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2022_02_09/src/ArithmeticStudy.java</url>
+          <line>169</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2022_02_09/src/ArithmeticStudy.java</url>
+          <line>155</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
