@@ -17,6 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="update:华为od测试题">
+      <change afterPath="$PROJECT_DIR$/2022_02_09/src/common/DoubleListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2022_02_09/src/ArithmeticStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/ArithmeticStudy.java" afterDir="false" />
     </list>
@@ -699,14 +700,7 @@
       <workItem from="1654591717337" duration="13558000" />
       <workItem from="1654831399682" duration="1901000" />
       <workItem from="1654917142365" duration="597000" />
-      <workItem from="1654992997320" duration="41475000" />
-    </task>
-    <task id="LOCAL-00136" summary="学习">
-      <created>1594965749463</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1594965749463</updated>
+      <workItem from="1654992997320" duration="46583000" />
     </task>
     <task id="LOCAL-00137" summary="学习">
       <created>1595869815784</created>
@@ -1044,7 +1038,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655281102895</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="update:华为od测试题">
+      <created>1655286966204</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1655286966204</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1173,16 +1174,6 @@
           <url>file://$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java</url>
           <line>940</line>
           <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2022_02_09/src/ArithmeticStudy.java</url>
-          <line>169</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2022_02_09/src/ArithmeticStudy.java</url>
-          <line>155</line>
-          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

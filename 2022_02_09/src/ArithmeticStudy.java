@@ -1,4 +1,5 @@
-import java.util.Arrays;
+import common.DoubleListNode;
+import common.ListNode;
 
 /**
  * @author yunshuaiwei
@@ -118,6 +119,8 @@ public class ArithmeticStudy {
         return res;
     }
 
+    //-----------------------查找-----------------------
+
     /**
      * @author yunshuaiwei
      * @description 查找>=num，在数组arr中最左侧的位置下标
@@ -219,21 +222,121 @@ public class ArithmeticStudy {
         return leftBigger && rightBigger;
     }
 
-    public static void main(String[] args) {
-        int[] arr = new int[]{5, 4, 8, 1, 2, 7, 9, 0, 3, 6};
-        int[] ints = new int[]{71, 62, 56, 95};
+    //-----------------------链表-----------------------
 
-        //测试1W次
-        for (int i = 0; i < 10000; i++) {
-            ints = randomArray(10, 100);
-            int num = returnLocalMinimumOfIndex(ints);
-            if (!check(ints, num)) {
-                System.out.println(Arrays.toString(ints));
-                System.out.println("failed" + ": " + num);
-            }
+    /**
+     * @author yunshuaiwei
+     * @description 单链表反转
+     * @date 22:35 2022/6/15
+     * @Param []
+     * @Return void
+     */
+    private static ListNode singleLinkedReverse(ListNode head) {
+        if (head == null) {
+            return head;
         }
-        System.out.println("success");
+        ListNode pre = null;
+        ListNode cur = head;
+        ListNode curNext = null;
+        while (cur != null) {
+            curNext = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = curNext;
+        }
+        return pre;
+    }
 
+    /**
+     * @author yunshuaiwei
+     * @description 双向链表反转
+     * @date 22:53 2022/6/15
+     * @Param [head]
+     * @Return common.DoubleListNode
+     */
+    private static DoubleListNode doubleLinkedReverse(DoubleListNode head) {
+        if (head == null) {
+            return head;
+        }
+        DoubleListNode cur = head;
+        DoubleListNode pre = null;
+        DoubleListNode next = null;
+        while (cur != null) {
+            next = cur.next;
+            cur.next = pre;
+            cur.last = next;
+            pre = cur;
+            cur = next;
+        }
+        return pre;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 打印单链表
+     * @date 22:40 2022/6/15
+     * @Param []
+     * @Return void
+     */
+    private static void printSingleLinked(ListNode head) {
+        if (head == null) {
+            return;
+        }
+        ListNode cur = head;
+        while (cur != null) {
+            System.out.print(cur.val + " ");
+            cur = cur.next;
+        }
+        System.out.println();
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 打印双向链表
+     * @date 23:04 2022/6/15
+     * @Param [head]
+     * @Return void
+     */
+    private static void printDoubleLinked(DoubleListNode head) {
+        DoubleListNode cur = head;
+        while (cur != null) {
+            System.out.print(cur.value + " ");
+            cur = cur.next;
+        }
+        System.out.println();
+    }
+
+
+    public static void main(String[] args) {
+        //创建单链表
+//        ListNode head = new ListNode(1);
+//        ListNode node1 = new ListNode(2);
+//        ListNode node2 = new ListNode(3);
+//        ListNode node3 = new ListNode(4);
+//        head.next=node1;
+//        node1.next=node2;
+//        node2.next=node3;
+//        printLinked(head);
+//        System.out.println("反转");
+//        head = printSingleLinked(head);
+//        printLinked(head);
+
+        //创建双向链表
+        DoubleListNode head = new DoubleListNode(1);
+        DoubleListNode node1 = new DoubleListNode(2);
+        DoubleListNode node2 = new DoubleListNode(3);
+        DoubleListNode node3 = new DoubleListNode(4);
+        head.next = node1;
+        node1.last = head;
+        node1.next = node2;
+        node2.last = node1;
+        node2.next = node3;
+        node3.last = node2;
+        //打印
+        printDoubleLinked(head);
+        head = doubleLinkedReverse(head);
+        //打印
+        printDoubleLinked(head);
 
     }
 }
