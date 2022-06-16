@@ -17,9 +17,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="update:华为od测试题">
-      <change afterPath="$PROJECT_DIR$/2022_02_09/src/common/DoubleListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2022_02_09/src/ArithmeticStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/ArithmeticStudy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022_02_09/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022_02_09/src/common/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/common/ListNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,16 +175,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DownloadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DownloadMain" />
-      <module name="FileDownload" />
+    <configuration name="HuaweiOdTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HuaweiOdTest" />
+      <module name="2022_02_09" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HuaweiOdTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HuaweiOdTest" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="2022_02_09" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -327,20 +329,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DownloadMain" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.HuaweiOdTest" />
-      <item itemvalue="JAR Application.junit-4.10.jar" />
       <item itemvalue="Application.SortAlgorithm" />
       <item itemvalue="Application.ArithmeticStudy" />
+      <item itemvalue="JAR Application.junit-4.10.jar" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ArithmeticStudy" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.HuaweiOdTest" />
         <item itemvalue="Application.SortAlgorithm" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.DownloadMain" />
       </list>
     </recent_temporary>
   </component>
@@ -701,6 +703,8 @@
       <workItem from="1654831399682" duration="1901000" />
       <workItem from="1654917142365" duration="597000" />
       <workItem from="1654992997320" duration="46583000" />
+      <workItem from="1655307084122" duration="1221000" />
+      <workItem from="1655346455764" duration="5925000" />
     </task>
     <task id="LOCAL-00137" summary="学习">
       <created>1595869815784</created>
@@ -1174,6 +1178,16 @@
           <url>file://$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java</url>
           <line>940</line>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java</url>
+          <line>1046</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java</url>
+          <line>1091</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1006,20 +1006,104 @@ public class HuaweiOdTest {
 
     /**
      * @author yunshuaiwei
+     * @description HJ38 求小球落地5次后所经历的路程和第5次反弹的高度
+     * @date 10:31 2022/6/16
+     * @Param []
+     * @Return void
+     */
+    public static void method11() {
+        Scanner scanner = new Scanner(System.in);
+        while (scanner.hasNext()) {
+            String s = scanner.nextLine();
+            double height = Double.parseDouble(s);
+            double tmp = height / 2;
+            for (int i = 1; i < 5; i++) {
+                height += tmp * 2;
+                tmp /= 2;
+            }
+            System.out.println(height);
+            System.out.println(tmp);
+        }
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description HJ40 统计字符
+     * @date 10:56 2022/6/16
+     * @Param []
+     * @Return void
+     */
+    public static void statisticalCharCount() {
+        Scanner scanner = new Scanner(System.in);
+        String s = scanner.nextLine();
+        char[] chars = s.toCharArray();
+        HashMap<Character, Integer> map = new HashMap<>();
+        for (char c : chars) {
+            map.put(c, map.getOrDefault(c, 0) + 1);
+        }
+        int charNum = 0;
+        int number = 0;
+        int blankNum = 0;
+        int otherNum = 0;
+        for (Character character : map.keySet()) {
+            if (character >= 'a' && character <= 'z') {
+                charNum += map.get(character);
+            } else if (character >= '0' && character <= '9') {
+                number += map.get(character);
+            } else if (character == ' ') {
+                blankNum += map.get(character);
+            } else {
+                otherNum += map.get(character);
+            }
+        }
+        System.out.println(charNum);
+        System.out.println(blankNum);
+        System.out.println(number);
+        System.out.println(otherNum);
+    }
+
+    /**
+     * @author yunshuaiwei
      * @description HJ37 统计每个月兔子的总数
      * @date 16:13 2022/6/15
      * @Param []
      * @Return int
      */
-    public static int getTotalCount(int num){
-        if (num<3){
+    public static int getTotalCount(int num) {
+        if (num < 3) {
             return 1;
         }
-        return getTotalCount(num-2)+getTotalCount(num-1);
+        return getTotalCount(num - 2) + getTotalCount(num - 1);
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description HJ41 称砝码
+     * @date 11:11 2022/6/16
+     * @Param []
+     * @Return void
+     */
+    public static void takeTheWeight() {
+        Scanner scanner = new Scanner(System.in);
+        int i = scanner.nextInt();
+        scanner.nextLine();
+        String[] weight = scanner.nextLine().split(" ");//砝码重量
+        String[] num = scanner.nextLine().split(" ");//砝码个数
+        HashSet<Integer> set = new HashSet<>();
+        set.add(0);
+        for (int j = 0; j < i; j++) {
+            ArrayList<Integer> list = new ArrayList<>(set);
+            for (int k = 1; k <= Integer.parseInt(num[j]); k++) {//砝码个数
+                for (Integer integer : list) {
+                    set.add(integer + Integer.parseInt(weight[j]) * k);
+                }
+            }
+        }
+        System.out.println(set.size());
     }
 
     public static void main(String[] args) {
-        stringEncrypt();
+        takeTheWeight();
     }
 
 }

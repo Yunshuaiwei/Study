@@ -231,13 +231,13 @@ public class ArithmeticStudy {
      * @Param []
      * @Return void
      */
-    private static ListNode singleLinkedReverse(ListNode head) {
+    private static ListNode<Integer> singleLinkedReverse(ListNode<Integer> head) {
         if (head == null) {
             return head;
         }
-        ListNode pre = null;
-        ListNode cur = head;
-        ListNode curNext = null;
+        ListNode<Integer> pre = null;
+        ListNode<Integer> cur = head;
+        ListNode<Integer> curNext = null;
         while (cur != null) {
             curNext = cur.next;
             cur.next = pre;
@@ -278,11 +278,11 @@ public class ArithmeticStudy {
      * @Param []
      * @Return void
      */
-    private static void printSingleLinked(ListNode head) {
+    private static void printSingleLinked(ListNode<Integer> head) {
         if (head == null) {
             return;
         }
-        ListNode cur = head;
+        ListNode<Integer> cur = head;
         while (cur != null) {
             System.out.print(cur.val + " ");
             cur = cur.next;
@@ -305,6 +305,21 @@ public class ArithmeticStudy {
         }
         System.out.println();
     }
+
+    /**
+     * @author yunshuaiwei
+     * @description 链表实现队列
+     * @date 15:32 2022/6/16
+     * @Param
+     * @Return
+     */
+    public static class MyQueue<V>{
+
+
+    }
+
+
+
 
 
     public static void main(String[] args) {

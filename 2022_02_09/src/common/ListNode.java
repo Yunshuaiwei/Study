@@ -6,11 +6,16 @@ package common;
  * @description: TODO
  * @date 2022/2/10 18:56
  */
-public class ListNode {
-    public int val;
-    public ListNode next;
+public class ListNode<V> {
+    public V val;
+    public ListNode<V> next;
 
-    public ListNode(int x) {
+    public ListNode(V x) {
         val = x;
+    }
+
+    public ListNode(V x,ListNode<V> next){
+        this.val=x;
+        this.next=next;
     }
 }

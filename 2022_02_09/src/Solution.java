@@ -11,7 +11,7 @@ import java.util.*;
  * @date 2022/2/10 18:55
  */
 public class Solution {
-    public int[] reversePrint1(ListNode head) {
+    public int[] reversePrint1(ListNode<Integer> head) {
         Stack<Integer> stack = new Stack<>();
         while (head != null) {
             stack.push(head.val);
@@ -25,9 +25,9 @@ public class Solution {
         return ints;
     }
 
-    public int[] reversePrint(ListNode head) {
+    public int[] reversePrint(ListNode<Integer> head) {
         int len = 0;
-        ListNode tmp = head;
+        ListNode<Integer> tmp = head;
         while (tmp != null) {
             len++;
             tmp = tmp.next;
@@ -41,12 +41,12 @@ public class Solution {
         return ints;
     }
 
-    public ListNode reverseList(ListNode head) {
+    public ListNode<Integer> reverseList(ListNode<Integer> head) {
         if (head == null || head.next == null) {
             return head;
         }
-        ListNode cur = head;
-        ListNode pre = null;
+        ListNode<Integer> cur = head;
+        ListNode<Integer> pre = null;
         ListNode next = null;
         while (cur != null) {
             next = cur.next;
@@ -468,11 +468,11 @@ public class Solution {
      * @Param [head, val]
      * @Return common.ListNode
      */
-    public ListNode deleteNode(ListNode head, int val) {
+    public ListNode<Integer> deleteNode(ListNode<Integer> head, int val) {
         if (head.val == val) {
             return head.next;
         }
-        ListNode cur = head;
+        ListNode<Integer> cur = head;
         while (cur.next != null) {
             if (cur.next.val == val) {
                 cur.next = cur.next.next;
@@ -490,9 +490,9 @@ public class Solution {
      * @Param [head, k]
      * @Return common.ListNode
      */
-    public ListNode getKthFromEnd(ListNode head, int k) {
-        ListNode letter = head;
-        ListNode former = head;
+    public ListNode<Integer> getKthFromEnd(ListNode<Integer> head, int k) {
+        ListNode<Integer> letter = head;
+        ListNode<Integer> former = head;
         while (k-- > 0) {
             former = former.next;
         }
@@ -510,31 +510,31 @@ public class Solution {
      * @Param [l1, l2]
      * @Return common.ListNode
      */
-    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        ListNode newHead = null;
+    public ListNode<Integer> mergeTwoLists(ListNode<Integer> l1, ListNode<Integer> l2) {
+        ListNode<Integer> newHead = null;
         if (l1 == null) {
             return l2;
         }
         if (l2 == null) {
             return l1;
         }
-        ListNode cur = null;
+        ListNode<Integer> cur = null;
         while (l1 != null && l2 != null) {
             if (l1.val < l2.val) {
                 if (newHead == null) {
-                    newHead = new ListNode(l1.val);
+                    newHead = new ListNode<Integer>(l1.val);
                     cur = newHead;
                 } else {
-                    cur.next = new ListNode(l1.val);
+                    cur.next = new ListNode<Integer>(l1.val);
                     cur = cur.next;
                 }
                 l1 = l1.next;
             } else {
                 if (newHead == null) {
-                    newHead = new ListNode(l2.val);
+                    newHead = new ListNode<Integer>(l2.val);
                     cur = newHead;
                 } else {
-                    cur.next = new ListNode(l2.val);
+                    cur.next = new ListNode<Integer>(l2.val);
                     cur = cur.next;
                 }
                 l2 = l2.next;
@@ -556,9 +556,9 @@ public class Solution {
      * @Param [headA, headB]
      * @Return common.ListNode
      */
-    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        ListNode cur1 = headA;
-        ListNode cur2 = headB;
+    public ListNode<Integer> getIntersectionNode(ListNode<Integer> headA, ListNode<Integer> headB) {
+        ListNode<Integer> cur1 = headA;
+        ListNode<Integer> cur2 = headB;
         while (cur1 != cur2) {
             cur1 = cur1 == null ? headB : cur1.next;
             cur2 = cur2 == null ? headA : cur2.next;
@@ -974,15 +974,15 @@ public class Solution {
      * @Param [head, val]
      * @Return common.ListNode
      */
-    public ListNode removeElements(ListNode head, int val) {
+    public ListNode<Integer> removeElements(ListNode<Integer> head, int val) {
         while (head != null && head.val == val) {
             head = head.next;
         }
         if (head == null) {
             return null;
         }
-        ListNode pre = head;
-        ListNode cur = head.next;
+        ListNode<Integer> pre = head;
+        ListNode<Integer> cur = head.next;
         while (cur != null) {
             if (cur.val == val) {
                 pre.next = cur.next;
@@ -1025,11 +1025,11 @@ public class Solution {
      * @Param [head]
      * @Return common.ListNode
      */
-    public ListNode swapPairs(ListNode head) {
+    public ListNode<Integer> swapPairs(ListNode<Integer> head) {
         if (head == null || head.next == null) {
             return head;
         }
-        ListNode cur = head;
+        ListNode<Integer> cur = head;
         while (cur != null && cur.next != null) {
             int val = cur.val;
             cur.val = cur.next.val;
