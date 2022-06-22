@@ -308,18 +308,293 @@ public class ArithmeticStudy {
 
     /**
      * @author yunshuaiwei
-     * @description 链表实现队列
+     * @description 单链表实现队列
      * @date 15:32 2022/6/16
      * @Param
      * @Return
      */
-    public static class MyQueue<V>{
+    public static class MyQueue<V> {
+        private ListNode<V> head;
+        private ListNode<V> tail;
+        private int size;
 
+        public MyQueue() {
+            head = null;
+            tail = null;
+            size = 0;
+        }
 
+        public boolean isEmpty() {
+            return size == 0;
+        }
+
+        public int size() {
+            return size;
+        }
+
+        public void offer(V value) {
+            ListNode<V> node = new ListNode<>(value);
+            if (tail == null) {
+                head = node;
+            } else {
+                tail.next = node;
+            }
+            tail = node;
+            size++;
+        }
+
+        public V poll() {
+            V res = null;
+            if (head != null) {
+                res = head.val;
+                head = head.next;
+                size--;
+            }
+            if (head == null) {
+                tail = null;
+            }
+            return res;
+        }
+
+        public V peek() {
+            V res = null;
+            if (head != null) {
+                res = head.val;
+            }
+            return res;
+        }
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 单链表实现栈
+     * @date 15:46 2022/6/16
+     * @Param
+     * @Return
+     */
+    public static class MyStack<V> {
+        private ListNode<V> head;
+        private int size;
+
+        public MyStack() {
+            head = null;
+            size = 0;
+        }
+
+        public boolean isEmpty() {
+            return size == 0;
+        }
+
+        public int size() {
+            return size;
+        }
+
+        public void push(V value) {
+            ListNode<V> node = new ListNode<>(value);
+            if (head != null) {
+                node.next = head;
+            }
+            head = node;
+            size++;
+        }
+
+        public V poll() {
+            V res = null;
+            if (head != null) {
+                res = head.val;
+                head = head.next;
+                size--;
+            }
+            return res;
+        }
+
+        public V peek() {
+            V res = null;
+            if (head != null) {
+                res = head.val;
+            }
+            return res;
+        }
     }
 
 
+    /**
+     * @author yunshuaiwei
+     * @description 以k大小对链表进行分组，返回每一组的第一个节点
+     * @date 16:05 2022/6/16
+     * @Param [head, k]
+     * @Return common.ListNode
+     */
+    private static ListNode getKGroupEnd(ListNode head, int k) {
+        while (--k != 0 && head != null) {
+            head = head.next;
+        }
+        return head;
+    }
 
+    /**
+     * @author yunshuaiwei
+     * @description 反转从节点start到end之间的链表
+     * @date 16:08 2022/6/16
+     * @Param [start, end]
+     * @Return void
+     */
+    private static void reverse(ListNode start, ListNode end) {
+        end = end.next;
+        ListNode cur = start;
+        ListNode pre = null;
+        ListNode next;
+        while (cur != end) {
+            next = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = next;
+        }
+        start.next = end;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 反转以k为长度的每一组链表节点进行反转
+     * @date 16:15 2022/6/16
+     * @Param [head, k]
+     * @Return common.ListNode
+     */
+    public static ListNode reverseKGroup(ListNode head, int k) {
+        ListNode start = head;
+        ListNode end = getKGroupEnd(start, k);
+        if (end == null) {//不够k个节点，则直接返回
+            return head;
+        }
+        //第一组数据
+        head = end;
+        //反转
+        reverse(start, end);
+        //上一组的结尾节点
+        ListNode lastEnd = start;
+        while (lastEnd.next != null) {
+            start = lastEnd.next;
+            end = getKGroupEnd(start, k);
+            if (end == null) {
+                return head;
+            }
+            reverse(start, end);
+            lastEnd.next = end;
+            lastEnd = start;
+        }
+        return head;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 链表求和
+     * @date 16:59 2022/6/16
+     * @Param [l1, l2]
+     * @Return common.ListNode
+     */
+    public static ListNode<Integer> addTwoNumbers(ListNode<Integer> l1, ListNode<Integer> l2) {
+        int len1 = getListSize(l1);
+        int len2 = getListSize(l2);
+        //长链表
+        ListNode<Integer> l = len1 >= len2 ? l1 : l2;
+        //短链表
+        ListNode<Integer> s = l == l1 ? l2 : l1;
+        ListNode<Integer> curL = l;
+        ListNode<Integer> curS = s;
+        ListNode<Integer> last = curL;
+        int carry = 0;
+        while (curS != null) {
+            int sum = curL.val + curS.val + carry;
+            curL.val = sum % 10;
+            carry = sum / 10;
+            last = curL;
+            curL = curL.next;
+            curS = curS.next;
+        }
+        while (curL != null) {
+            int sum = curL.val + carry;
+            curL.val = sum % 10;
+            carry = sum / 10;
+            last = curL;
+            curL = curL.next;
+        }
+        if (carry != 0) {
+            last.next = new ListNode<Integer>(1);
+        }
+        return l;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 求链表长度
+     * @date 16:36 2022/6/16
+     * @Param [head]
+     * @Return int
+     */
+    private static int getListSize(ListNode<Integer> head) {
+        int len = 0;
+        while (head != null) {
+            len++;
+            head = head.next;
+        }
+        return len;
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 合并两个有序链表
+     * @date 17:17 2022/6/16
+     * @Param [l1, l2]
+     * @Return common.ListNode
+     */
+    public ListNode<Integer> mergeTwoLists(ListNode<Integer> l1, ListNode<Integer> l2) {
+        if (l1 == null || l2 == null) {
+            return l1 == null ? l2 : l1;
+        }
+        ListNode<Integer> head = l1.val <= l2.val ? l1 : l2;
+        ListNode<Integer> cur1 = head.next;
+        ListNode<Integer> cur2 = l1 == head ? l2 : l1;
+        ListNode<Integer> cur = head;
+        while (cur1 != null && cur2 != null) {
+            if (cur1.val <= cur2.val) {
+                cur.next = cur1;
+                cur1 = cur1.next;
+            } else {
+                cur.next = cur2;
+                cur2 = cur2.next;
+            }
+            cur = cur.next;
+        }
+        cur.next = cur1 != null ? cur1 : cur2;
+        return head;
+    }
+
+    //-----------------------KMP算法-----------------------
+
+    /**
+     * @author yunshuaiwei
+     * @description 796. 旋转字符串
+     * @date 11:25 2022/6/20
+     * @Param [s, goal]
+     * @Return boolean
+     */
+    public boolean rotateString(String s, String goal) {
+        if (goal.length() < s.length()) {
+            return false;
+        }
+        int len = goal.length();
+        s += s;
+        for (int i = 0; i < s.length(); i++) {
+            int j = i + len;
+            if (j >= s.length()) {
+                return false;
+            }
+            if (s.substring(i, j).equals(goal)) {
+                return true;
+            }
+        }
+        return false;
+    }
 
 
     public static void main(String[] args) {
@@ -337,21 +612,33 @@ public class ArithmeticStudy {
 //        printLinked(head);
 
         //创建双向链表
-        DoubleListNode head = new DoubleListNode(1);
-        DoubleListNode node1 = new DoubleListNode(2);
-        DoubleListNode node2 = new DoubleListNode(3);
-        DoubleListNode node3 = new DoubleListNode(4);
-        head.next = node1;
-        node1.last = head;
-        node1.next = node2;
-        node2.last = node1;
-        node2.next = node3;
-        node3.last = node2;
-        //打印
-        printDoubleLinked(head);
-        head = doubleLinkedReverse(head);
-        //打印
-        printDoubleLinked(head);
+//        DoubleListNode head = new DoubleListNode(1);
+//        DoubleListNode node1 = new DoubleListNode(2);
+//        DoubleListNode node2 = new DoubleListNode(3);
+//        DoubleListNode node3 = new DoubleListNode(4);
+//        head.next = node1;
+//        node1.last = head;
+//        node1.next = node2;
+//        node2.last = node1;
+//        node2.next = node3;
+//        node3.last = node2;
+//        //打印
+//        printDoubleLinked(head);
+//        head = doubleLinkedReverse(head);
+//        //打印
+//        printDoubleLinked(head);
 
+        ListNode<Integer> l1 = new ListNode<>(2);
+        ListNode<Integer> node1 = new ListNode<>(4);
+        ListNode<Integer> node2 = new ListNode<>(3);
+        l1.next = node1;
+        node1.next = node2;
+
+        ListNode<Integer> l2 = new ListNode<>(5);
+        ListNode<Integer> node3 = new ListNode<>(6);
+        ListNode<Integer> node4 = new ListNode<>(4);
+        l2.next = node3;
+        node3.next = node4;
+        System.out.println(addTwoNumbers(new ListNode<>(5), new ListNode<>(5)));
     }
 }

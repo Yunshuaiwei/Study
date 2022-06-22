@@ -1102,8 +1102,165 @@ public class HuaweiOdTest {
         System.out.println(set.size());
     }
 
+    public static void method12() {
+        Scanner in = new Scanner(System.in);
+        // 注意 hasNext 和 hasNextLine 的区别
+        while (in.hasNextInt()) { // 注意 while 处理多个 case
+            int n = in.nextInt();
+            int m = in.nextInt();
+            // 构造迷宫
+            int[][] map = new int[n][m];
+            for (int i = 0; i < n; i++) {
+                for (int j = 0; j < m; j++) {
+                    map[i][j] = in.nextInt();
+                }
+            }
+
+            // 路径存储的数组
+            List<Pos> path = new ArrayList<>();
+            // DFS 搜索路径
+            dfs(map, 0, 0, path);
+            // 输出
+            for (Pos p : path) {
+                System.out.println("(" + p.x + "," + p.y + ")");
+            }
+        }
+    }
+
+    // 返回值 标记是否找到可通行的路径
+    public static boolean dfs(int[][] map, int x, int y, List<Pos> path) {
+        // 添加路径并标记已走
+        path.add(new Pos(x, y));
+        map[x][y] = 1;
+        // 结束标志
+        if (x == map.length - 1 && y == map[0].length - 1) {
+            return true;
+        }
+        // 向下能走时
+        if (x + 1 < map.length && map[x + 1][y] == 0) {
+            if (dfs(map, x + 1, y, path)) {
+                return true;
+            }
+        }
+        // 向右能走时
+        if (y + 1 < map[0].length && map[x][y + 1] == 0) {
+            if (dfs(map, x, y + 1, path)) {
+                return true;
+            }
+        }
+        // 向上能走时
+        if (x - 1 > -1 && map[x - 1][y] == 0) {
+            if (dfs(map, x - 1, y, path)) {
+                return true;
+            }
+        }
+        // 向左能走时
+        if (y - 1 > -1 && map[x][y - 1] == 0) {
+            if (dfs(map, x, y - 1, path)) {
+                return true;
+            }
+        }
+        // 回溯
+        path.remove(path.size() - 1);
+        map[x][y] = 0;
+        return false;
+    }
+
+    // 简单的位置类
+    public static class Pos {
+        int x;
+        int y;
+
+        public Pos(int x, int y) {
+            this.x = x;
+            this.y = y;
+        }
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description HJ45 名字的漂亮度
+     * @date 11:17 2022/6/22
+     * @Param []
+     * @Return void
+     */
+    public static void stringBeautifulDegree() {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        scanner.nextLine();
+        String[] strings = new String[n];
+        for (int i = 0; i < n; i++) {
+            strings[i] = scanner.nextLine();
+        }
+        for (int i = 0; i < n; i++) {
+            int res = 0;
+            int num = 26;
+            String str = strings[i];
+            HashMap<Character, Integer> map = new HashMap<>();
+            for (int j = 0; j < str.length(); j++) {
+                char c = str.charAt(j);
+                map.put(c, map.getOrDefault(c, 0) + 1);
+            }
+            LinkedList<Map.Entry<Character, Integer>> list = new LinkedList<>(map.entrySet());
+            list.sort(new Comparator<Map.Entry<Character, Integer>>() {
+                //根据key由大到小排序
+                @Override
+                public int compare(Map.Entry<Character, Integer> o1, Map.Entry<Character, Integer> o2) {
+                    return o2.getValue() - o1.getValue();
+                }
+            });
+            for (Map.Entry<Character, Integer> entry : list) {
+                res += entry.getValue() * num;
+                num--;
+            }
+            System.out.println(res);
+        }
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description HJ46 截取字符串
+     * @date 11:36 2022/6/22
+     * @Param []
+     * @Return void
+     */
+    public static void interceptString() {
+        Scanner scanner = new Scanner(System.in);
+        String s = scanner.nextLine();
+        int k = scanner.nextInt();
+        System.out.println(s.substring(0, k));
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description HJ48 从单向链表中删除指定值的节点
+     * @date 11:39 2022/6/22
+     * @Param []
+     * @Return void
+     */
+    public static void singleLinkedRemove() {
+        Scanner sc = new Scanner(System.in);
+        int total = sc.nextInt();
+        int head = sc.nextInt();
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(head);
+        for (int i = 0; i < total - 1; i++) {
+            // 该节点的值
+            int value = sc.nextInt();
+            // 目标节点
+            int target = sc.nextInt();
+            list.add(list.indexOf(target) + 1, value);
+        }
+        // 需要删除的节点
+        int re = sc.nextInt();
+        list.remove(list.indexOf(re));
+        for (Integer integer : list) {
+            System.out.print(integer + " ");
+        }
+    }
+
     public static void main(String[] args) {
-        takeTheWeight();
+        stringBeautifulDegree();
     }
 
 }
