@@ -1,3 +1,8 @@
+import common.ListNode;
+
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineManager;
+import javax.script.ScriptException;
 import java.util.*;
 import java.util.regex.Pattern;
 
@@ -1259,8 +1264,72 @@ public class HuaweiOdTest {
         }
     }
 
+    /**
+     * @author yunshuaiwei
+     * @description HJ50 四则运算
+     * @date 21:25 2022/6/22
+     * @Param []
+     * @Return void
+     */
+    public static void arithmetic() throws ScriptException {
+        Scanner scanner = new Scanner(System.in);
+        String str = scanner.nextLine();
+        str = str.replace("[", "(");
+        str = str.replace("{", "(");
+        str = str.replace("}", ")");
+        str = str.replace("]", ")");
+        ScriptEngine jse = new ScriptEngineManager().getEngineByName("JavaScript");
+        System.out.println(jse.eval(str));
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description HJ51 输出单向链表中倒数第k个结点
+     * @date 21:39 2022/6/22
+     * @Param []
+     * @Return void
+     */
+    public static void thePenultimateKTHNode() {
+        Scanner scanner = new Scanner(System.in);
+        while (scanner.hasNext()) {
+            int num = scanner.nextInt();
+            scanner.nextLine();
+            ListNode<Integer> head = new ListNode<Integer>(scanner.nextInt());
+            ListNode<Integer> slow = head;
+            for (int i = 0; i < num - 1; i++) {
+                slow.next = new ListNode<>(scanner.nextInt());
+                slow = slow.next;
+            }
+            int k = scanner.nextInt();
+            ListNode<Integer> fast = head;
+            slow = head;
+            while (k-- > 0) {
+                fast = fast.next;
+            }
+            while (fast != null) {
+                slow = slow.next;
+                fast = fast.next;
+            }
+            System.out.println(slow.val);
+        }
+    }
+    
+    /**
+     * @author yunshuaiwei
+     * @description HJ52 计算字符串的编辑距离
+     * @date 21:46 2022/6/22
+     * @Param []
+     * @Return void
+     */
+    public static void editDistanceOfAString(){
+        Scanner sc = new Scanner(System.in);
+        String str1 = sc.nextLine();
+        String str2 = sc.nextLine();
+
+    }
+
     public static void main(String[] args) {
-        stringBeautifulDegree();
+        thePenultimateKTHNode();
     }
 
 }

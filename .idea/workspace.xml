@@ -17,10 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="update:华为od测试题">
-      <change afterPath="$PROJECT_DIR$/2022_02_09/src/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022_02_09/src/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022_02_09/src/ArithmeticStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/ArithmeticStudy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -707,14 +704,7 @@
       <workItem from="1655346455764" duration="11357000" />
       <workItem from="1655479160450" duration="1302000" />
       <workItem from="1655623610762" duration="3998000" />
-      <workItem from="1655866525916" duration="7008000" />
-    </task>
-    <task id="LOCAL-00138" summary="学习">
-      <created>1596251406323</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1596251406324</updated>
+      <workItem from="1655866525916" duration="13501000" />
     </task>
     <task id="LOCAL-00139" summary="学习">
       <created>1633996487804</created>
@@ -1052,7 +1042,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655364816778</updated>
     </task>
-    <option name="localTasksCounter" value="187" />
+    <task id="LOCAL-00187" summary="update:华为od测试题">
+      <created>1655884880133</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1655884880134</updated>
+    </task>
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1144,12 +1141,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java</url>
-          <line>37</line>
+          <line>42</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java</url>
-          <line>89</line>
+          <line>94</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1159,43 +1156,48 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java</url>
-          <line>501</line>
+          <line>506</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java</url>
-          <line>760</line>
+          <line>765</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java</url>
-          <line>794</line>
+          <line>799</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java</url>
-          <line>893</line>
+          <line>898</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java</url>
-          <line>940</line>
+          <line>945</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java</url>
-          <line>1046</line>
+          <line>1051</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java</url>
-          <line>1091</line>
+          <line>1096</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java</url>
-          <line>1194</line>
+          <line>1199</line>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java</url>
+          <line>1303</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
