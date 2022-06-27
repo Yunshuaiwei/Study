@@ -1,5 +1,8 @@
 import common.DoubleListNode;
 import common.ListNode;
+import common.TreeNode;
+
+import java.util.*;
 
 /**
  * @author yunshuaiwei
@@ -569,6 +572,48 @@ public class ArithmeticStudy {
         return head;
     }
 
+    /**
+     * @author yunshuaiwei
+     * @description 160. 相交链表
+     * @date 14:30 2022/6/24
+     * @Param [headA, headB]
+     * @Return common.ListNode<java.lang.Integer>
+     */
+    public ListNode<Integer> getIntersectionNode(ListNode<Integer> headA, ListNode<Integer> headB) {
+        if (headA == null || headB == null) {
+            return null;
+        }
+        ListNode<Integer> cur1 = headA;
+        ListNode<Integer> cur2 = headB;
+        //两个链表的长度差
+        int n = 0;
+        while (cur1.next != null) {
+            n++;
+            cur1 = cur1.next;
+        }
+        while (cur2.next != null) {
+            n--;
+            cur2 = cur2.next;
+        }
+        if (cur1 != cur2) {
+            return null;
+        }
+        //长链表
+        cur1 = n > 0 ? headA : headB;
+        //短链表
+        cur2 = cur1 == headA ? headB : headA;
+        n = Math.abs(n);
+        while (n != 0) {
+            n--;
+            cur1 = cur1.next;
+        }
+        while (cur1 != cur2) {
+            cur1 = cur1.next;
+            cur2 = cur2.next;
+        }
+        return cur1;
+    }
+
     //-----------------------KMP算法-----------------------
 
     /**
@@ -596,49 +641,310 @@ public class ArithmeticStudy {
         return false;
     }
 
+    //-----------------------二叉树-----------------------
+
+    /**
+     * @author yunshuaiwei
+     * @description 二叉树先序遍历
+     * @date 14:56 2022/6/24
+     * @Param [root]
+     * @Return void
+     */
+    public static void preorderTraversal(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
+        while (!stack.isEmpty()) {
+            TreeNode node = stack.pop();
+            System.out.println(node.val);
+            if (root.right != null) {
+                stack.push(root.right);
+            }
+            if (root.left != null) {
+                stack.push(root.left);
+            }
+        }
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 中序遍历
+     * @date 15:00 2022/6/24
+     * @Param [root]
+     * @Return void
+     */
+    public static void inorderTraversal(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode cur = root;
+        while (cur != null || !stack.isEmpty()) {
+            while (cur != null) {
+                stack.push(cur);
+                cur = cur.left;
+            }
+            cur = stack.pop();
+            System.out.println(cur.val);
+            cur = cur.right;
+        }
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 层序遍历
+     * @date 15:24 2022/6/24
+     * @Param [root]
+     * @Return void
+     */
+    public static void levelOrderTraversal(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            TreeNode node = queue.poll();
+            System.out.print(node.val + " ");
+            if (node.left != null) {
+                queue.add(node.left);
+            }
+            if (node.right != null) {
+                queue.add(node.right);
+            }
+        }
+
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 后续遍历
+     * @date 15:01 2022/6/24
+     * @Param [root]
+     * @Return void
+     */
+    public static void postorderTraversal(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        Stack<TreeNode> stack = new Stack<>();
+        Stack<TreeNode> res = new Stack<>();
+        stack.push(root);
+        while (!stack.isEmpty()) {
+            TreeNode pop = stack.pop();
+            res.push(pop);
+            if (pop.left != null) {
+                stack.push(pop.left);
+            }
+            if (pop.right != null) {
+                stack.push(pop.right);
+            }
+        }
+        while (!res.isEmpty()) {
+            System.out.print(res.pop().val + " ");
+        }
+        System.out.println();
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 树的最大宽度
+     * @date 15:45 2022/6/24
+     * @Param [root]
+     * @Return void
+     */
+    public static void theMaximumWidthOfTheTree(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        Queue<TreeNode> queue = new LinkedList<>();
+        HashMap<TreeNode, Integer> map = new HashMap<>();
+        map.put(root, 1);
+        queue.add(root);
+        int curLevel = 1;
+        //当前层节点个数
+        int curLevelNodes = 0;
+        int max = Integer.MIN_VALUE;
+        while (!queue.isEmpty()) {
+            TreeNode node = queue.poll();
+            //当前节点所在的层
+            Integer curNodeLevel = map.get(node);
+            if (curLevel == curNodeLevel) {
+                curLevelNodes++;
+            } else {
+                curLevel++;
+                max = Math.max(max, curLevelNodes);
+                //初始化当前层的节点数
+                curLevelNodes = 1;
+            }
+            if (node.left != null) {
+                map.put(node.left, curNodeLevel + 1);
+                queue.add(node.left);
+            }
+            if (node.right != null) {
+                map.put(node.right, curNodeLevel + 1);
+                queue.add(node.right);
+            }
+        }
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 汉诺塔问题
+     * @date 11:09 2022/6/27
+     * @Param [n]
+     * @Return void
+     */
+    public static void hanota(int n) {
+        if (n > 0) {
+            func(n, "左", "右", "中");
+        }
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 1~i是圆盘，目标是from->end，other是另外一个
+     * @date 11:10 2022/6/27
+     * @Param [i, from, end, other]
+     * @Return void
+     */
+    private static void func(int i, String from, String end, String other) {
+        if (i == 1) {
+            System.out.println("Move 1 from " + from + " to " + end);
+        } else {
+            func(i - 1, from, other, end);
+            System.out.println("Move " + i + " from " + from + " to " + end);
+            func(i - 1, other, end, from);
+        }
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 一个字符串的全部子序列
+     * @date 11:28 2022/6/27
+     * @Param []
+     * @Return void
+     */
+    public static void theEntireSubsequenceOfString(String str) {
+        process(str.toCharArray(), 0, new ArrayList<>());
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 当前来到 i 位置，要和不要走两条路
+     * @date 11:39 2022/6/27
+     * @Param [chars, i, res]
+     * @Return void
+     */
+    private static void process(char[] chars, int i, List<Character> res) {
+        if (i == chars.length) {
+            printList(res);
+            return;
+        }
+        List<Character> resKeep = copyList(res);
+        resKeep.add(chars[i]);
+        process(chars, i + 1, resKeep);//要当前字符
+        List<Character> noInclude = copyList(res);
+        process(chars, i + 1, noInclude);//不要当前字符
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 打印链表
+     * @date 11:32 2022/6/27
+     * @Param [res]
+     * @Return void
+     */
+    private static void printList(List<Character> res) {
+        System.out.println(res.toString());
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 拷贝函数
+     * @date 11:34 2022/6/27
+     * @Param [list]
+     * @Return java.util.List<java.lang.Character>
+     */
+    private static List<Character> copyList(List<Character> list) {
+        return new ArrayList<>(list);
+    }
+
+
+    /**
+     * @author yunshuaiwei
+     * @description 一个字符串的全排列
+     * @date 14:25 2022/6/27
+     * @Param [str]
+     * @Return void
+     */
+    public static void stringOfFullPermutation(String str) {
+        ArrayList<String> list = new ArrayList<>();
+        stringOfFullPermutationForFunc(str.toCharArray(), 0, list);
+        for (String s : list) {
+            System.out.println(s);
+        }
+    }
+
+    private static void stringOfFullPermutationForFunc(char[] str, int i, ArrayList<String> res) {
+        if (str.length == i) {
+            res.add(String.valueOf(str));
+        }
+        boolean[] visit = new boolean[26];
+        for (int j = i; j < str.length; j++) {
+            if (!visit[str[j] - 'a']) {
+                visit[str[j] - 'a'] = true;
+                swap(str, i, j);
+                stringOfFullPermutationForFunc(str, i + 1, res);
+                swap(str, i, j);
+            }
+        }
+    }
+
+    private static void swap(char[] str, int i, int j) {
+        char c = str[i];
+        str[i] = str[j];
+        str[j] = c;
+    }
+
+    public static int win(int[] arr) {
+        if (arr == null || arr.length == 0) {
+            return 0;
+        }
+        return Math.max(f(arr, 0, arr.length - 1), s(arr, 0, arr.length - 1));
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 先手函数
+     * @date 14:51 2022/6/27
+     * @Param [arr, i, j]
+     * @Return int
+     */
+    private static int f(int[] arr, int i, int j) {
+        if (i == j) {
+            return arr[i];
+        }
+        return Math.max(arr[i] + s(arr, i + 1, j), arr[j] + s(arr, i, j - 1));
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 后手函数
+     * @date 14:53 2022/6/27
+     * @Param [arr, i, j]
+     * @Return int
+     */
+    private static int s(int[] arr, int i, int j) {
+        if (i == j) {
+            return 0;
+        }
+        return Math.min(f(arr, i + 1, j), f(arr, i, j - 1));
+    }
 
     public static void main(String[] args) {
-        //创建单链表
-//        ListNode head = new ListNode(1);
-//        ListNode node1 = new ListNode(2);
-//        ListNode node2 = new ListNode(3);
-//        ListNode node3 = new ListNode(4);
-//        head.next=node1;
-//        node1.next=node2;
-//        node2.next=node3;
-//        printLinked(head);
-//        System.out.println("反转");
-//        head = printSingleLinked(head);
-//        printLinked(head);
-
-        //创建双向链表
-//        DoubleListNode head = new DoubleListNode(1);
-//        DoubleListNode node1 = new DoubleListNode(2);
-//        DoubleListNode node2 = new DoubleListNode(3);
-//        DoubleListNode node3 = new DoubleListNode(4);
-//        head.next = node1;
-//        node1.last = head;
-//        node1.next = node2;
-//        node2.last = node1;
-//        node2.next = node3;
-//        node3.last = node2;
-//        //打印
-//        printDoubleLinked(head);
-//        head = doubleLinkedReverse(head);
-//        //打印
-//        printDoubleLinked(head);
-
-        ListNode<Integer> l1 = new ListNode<>(2);
-        ListNode<Integer> node1 = new ListNode<>(4);
-        ListNode<Integer> node2 = new ListNode<>(3);
-        l1.next = node1;
-        node1.next = node2;
-
-        ListNode<Integer> l2 = new ListNode<>(5);
-        ListNode<Integer> node3 = new ListNode<>(6);
-        ListNode<Integer> node4 = new ListNode<>(4);
-        l2.next = node3;
-        node3.next = node4;
-        System.out.println(addTwoNumbers(new ListNode<>(5), new ListNode<>(5)));
+        stringOfFullPermutation("hello");
     }
 }

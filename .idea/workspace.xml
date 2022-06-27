@@ -17,8 +17,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="update:华为od测试题">
+      <change afterPath="$PROJECT_DIR$/2022_02_09/src/LeetCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022_02_09/src/offer/Day01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/17790.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/17790.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/HuaweiOdTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022_02_09/src/ArithmeticStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022_02_09/src/ArithmeticStudy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,10 +152,10 @@
       <recent name="com.ysw.controller" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="com.iPlant.client" />
       <recent name="music" />
       <recent name="util" />
-      <recent name="" />
       <recent name="com.ysw" />
     </key>
   </component>
@@ -163,7 +166,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HuaweiOdTest">
+  <component name="RunManager" selected="Application.ArithmeticStudy">
     <configuration name="ArithmeticStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArithmeticStudy" />
       <module name="2022_02_09" />
@@ -335,8 +338,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HuaweiOdTest" />
         <item itemvalue="Application.ArithmeticStudy" />
+        <item itemvalue="Application.HuaweiOdTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.SortAlgorithm" />
@@ -704,14 +707,10 @@
       <workItem from="1655346455764" duration="11357000" />
       <workItem from="1655479160450" duration="1302000" />
       <workItem from="1655623610762" duration="3998000" />
-      <workItem from="1655866525916" duration="13501000" />
-    </task>
-    <task id="LOCAL-00139" summary="学习">
-      <created>1633996487804</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1633996487805</updated>
+      <workItem from="1655866525916" duration="19667000" />
+      <workItem from="1656145399309" duration="1302000" />
+      <workItem from="1656292711041" duration="2025000" />
+      <workItem from="1656299323395" duration="5325000" />
     </task>
     <task id="LOCAL-00140" summary="学习">
       <created>1634370440905</created>
@@ -1049,7 +1048,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655884880134</updated>
     </task>
-    <option name="localTasksCounter" value="188" />
+    <task id="LOCAL-00188" summary="update:华为od测试题">
+      <created>1656050792690</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1656050792701</updated>
+    </task>
+    <option name="localTasksCounter" value="189" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
