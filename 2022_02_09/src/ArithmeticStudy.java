@@ -944,6 +944,59 @@ public class ArithmeticStudy {
         return Math.min(f(arr, i + 1, j), f(arr, i, j - 1));
     }
 
+    /**
+     * @author yunshuaiwei
+     * @description 递归返回栈底元素
+     * @date 10:07 2022/6/28
+     * @Param [stack]
+     * @Return int
+     */
+    public static int stackBottomOfValue(Stack<Integer> stack) {
+        Integer res = stack.pop();
+        if (stack.isEmpty()) {
+            return res;
+        } else {
+            int last = stackBottomOfValue(stack);
+            stack.push(res);
+            return last;
+        }
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 递归逆序栈
+     * @date 10:13 2022/6/28
+     * @Param [stack]
+     * @Return void
+     */
+    public static void reverseStack(Stack<Integer> stack) {
+        if (stack.isEmpty()) {
+            return;
+        }
+        int i = stackBottomOfValue(stack);
+        reverseStack(stack);
+        stack.push(i);
+    }
+
+    /**
+     * @author yunshuaiwei
+     * @description 剑指 Offer 46. 把数字翻译成字符串
+     * @date 10:18 2022/6/28
+     * @Param [num]
+     * @Return int
+     */
+    public int translateNum(int num) {
+        String s = String.valueOf(num);
+        int a = 1, b = 1;
+        for (int i = 2; i <= s.length(); i++) {
+            String tmp = s.substring(i - 2, i);
+            int c = tmp.compareTo("10") >= 0 && tmp.compareTo("25") <= 0 ? a + b : a;
+            b = a;
+            a = c;
+        }
+        return a;
+    }
+
     public static void main(String[] args) {
         stringOfFullPermutation("hello");
     }
