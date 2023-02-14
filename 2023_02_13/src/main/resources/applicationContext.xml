@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="userService" class="org.service.impl.UserServiceImpl"/>
+
+    <bean id="userDao" class="org.utils.BeanFactory" factory-method="userDao"/>
+
+    <bean id="userService1" class="org.utils.MyFactoryBean"/>
+
+
+    <!--静态工厂方式-->
+    <bean id="inputStream" class="org.apache.ibatis.io.Resources" factory-method="getResourceAsStream">
+        <constructor-arg name="resource" value="mybatis-config.xml"/>
+    </bean>
+    <!--无参构造-->
+    <bean id="builder" class="org.apache.ibatis.session.SqlSessionFactoryBuilder"/>
+    <!--实例工厂-->
+    <bean id="factory" factory-bean="builder" factory-method="build" >
+        <constructor-arg name="inputStream" ref="inputStream"/>
+    </bean>
+</beans>

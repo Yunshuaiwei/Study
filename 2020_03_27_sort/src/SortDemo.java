@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 /**
  * @author DELL
  * @Date 2020/3/27 10:49
@@ -10,9 +8,9 @@ public class SortDemo {
 //        insertSort(arr);
 //        shellSort(arr);
 //        selectSort(arr);
-        mergeSort(arr);
-        quickSort(arr, 0, arr.length);
-        System.out.println("排序后：" + Arrays.toString(arr));
+//        mergeSort(arr);
+//        quickSort(arr, 0, arr.length);
+//        System.out.println("排序后：" + Arrays.toString(arr));
     }
 
     /**
@@ -110,7 +108,6 @@ public class SortDemo {
             quickSort(arr, div + 1, right);
         }
     }
-
     /**
      * 找划分区间的基准值
      *
