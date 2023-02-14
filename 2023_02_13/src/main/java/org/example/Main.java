@@ -19,7 +19,7 @@ public class Main {
         SqlSessionFactoryBuilder builder = new SqlSessionFactoryBuilder();
         //实例工厂
         SqlSessionFactory factory = builder.build(inputStream);
-        System.out.println(factory);
+        System.out.println(factory.openSession());
 
     }
 }

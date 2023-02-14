@@ -1,9 +1,8 @@
 import utils.ListNode;
 import utils.Node;
+import utils.TreeNode;
 
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * @author yunshuaiwei
@@ -241,6 +240,194 @@ public class Solution {
             }
         }
         return ' ';
+    }
+
+    /**
+     * 剑指 Offer 32 - I. 从上到下打印二叉树
+     * 用数组顺序存储
+     *
+     * @author yunshuaiwei
+     * @date 2023/2/14 14:43
+     **/
+    public int[] levelOrder(TreeNode root) {
+        if (root == null) {
+            return new int[]{};
+        }
+        Queue<TreeNode> queue = new LinkedList<>();
+        ArrayList<Integer> list = new ArrayList<>();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            while (size > 0) {
+                TreeNode poll = queue.poll();
+                list.add(poll.val);
+                if (poll.left != null) {
+                    queue.add(poll.left);
+                }
+                if (poll.right != null) {
+                    queue.add(poll.right);
+                }
+                size--;
+            }
+        }
+        int[] ints = new int[list.size()];
+        for (int i = 0; i < list.size(); i++) {
+            ints[i] = list.get(i);
+        }
+        return ints;
+    }
+
+
+    /**
+     * 剑指 Offer 32 - II. 从上到下打印二叉树 II
+     * 每一层数据用List存储
+     *
+     * @author yunshuaiwei
+     * @date 2023/2/14 16:22
+     **/
+    public List<List<Integer>> levelOrder2(TreeNode root) {
+        ArrayList<List<Integer>> lists = new ArrayList<>();
+        if (root == null) {
+            return lists;
+        }
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            ArrayList<Integer> list = new ArrayList<>();
+            while (size > 0) {
+                TreeNode poll = queue.poll();
+                list.add(poll.val);
+                if (poll.left != null) {
+                    queue.add(poll.left);
+                }
+                if (poll.right != null) {
+                    queue.add(poll.right);
+                }
+                size--;
+            }
+            lists.add(list);
+        }
+        return lists;
+    }
+
+    /**
+     * 剑指 Offer 32 - III. 从上到下打印二叉树 III
+     * “之”字型打印
+     *
+     * @author yunshuaiwei
+     * @date 2023/2/14 16:33
+     **/
+    public List<List<Integer>> levelOrder3(TreeNode root) {
+        ArrayList<List<Integer>> lists = new ArrayList<>();
+        if (root == null) {
+            return lists;
+        }
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            ArrayList<Integer> list = new ArrayList<>();
+            while (size > 0) {
+                TreeNode poll = queue.poll();
+                list.add(poll.val);
+                if (poll.left != null) {
+                    queue.add(poll.left);
+                }
+                if (poll.right != null) {
+                    queue.add(poll.right);
+                }
+                size--;
+            }
+            if (lists.size() % 2 != 0) {
+                Collections.reverse(list);
+            }
+            lists.add(list);
+        }
+        return lists;
+    }
+
+    /**
+     * 剑指 Offer 26. 树的子结构
+     *
+     * @author yunshuaiwei
+     * @date 2023/2/14 22:31
+     **/
+    public boolean isSubStructure(TreeNode A, TreeNode B) {
+        if (A == null || B == null) {
+            return false;
+        }
+        return recur(A, B) || isSubStructure(A.left, B) || isSubStructure(A.right, B);
+    }
+
+    private Boolean recur(TreeNode A, TreeNode B) {
+        if (B == null) {
+            return true;
+        }
+        if (A == null || A.val != B.val) {
+            return false;
+        }
+        return recur(A.left, B.left) && recur(A.right, B.right);
+    }
+
+    /**
+     * 二叉树的镜像
+     *
+     * @author yunshuaiwei
+     * @date 2023/2/14 22:43
+     **/
+    public TreeNode mirrorTree(TreeNode root) {
+        if (root == null) {
+            return root;
+        }
+        TreeNode tmp = root.left;
+        root.left = root.right;
+        root.right = tmp;
+        mirrorTree(root.left);
+        mirrorTree(root.right);
+        return root;
+    }
+
+    /**
+     * 剑指 Offer 28. 对称的二叉树
+     *
+     * @author yunshuaiwei
+     * @date 2023/2/14 22:48
+     **/
+    public boolean isSymmetric(TreeNode root) {
+        if (root == null) {
+            return true;
+        }
+        return check(root.left, root.right);
+    }
+
+    public boolean check(TreeNode A, TreeNode B) {
+        if (A == null && B == null) {
+            return true;
+        }
+        if (A == null || B == null) {
+            return false;
+        }
+        if (A.val != B.val) {
+            return false;
+        }
+        return check(A.left, B.right) && check(A.right, B.left);
+    }
+
+    /**
+     * 剑指 Offer 10- I. 斐波那契数列
+     *
+     * @author yunshuaiwei
+     * @date 2023/2/14 22:56
+     **/
+    public int fib(int n) {
+        int a = 0, b = 1, c = 0;
+        for (int i = 0; i < n; i++) {
+            c = (a + b) % 1000000007;
+            a = b;
+            b = c;
+        }
+        return a;
     }
 
     public static void main(String[] args) {

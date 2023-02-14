@@ -12,11 +12,11 @@ public class DownloadMain {
 
     public static void main(String[] args) {
         //文件下载的URL
-        String url = "https://mp.weixin.qq.com/s/373MSbrEgoROddSqP6Gz3A";
+        String url = "https://img.wanjita.com/ueditor/php/upload/image/20210917/1631894141810962.jpg";
         //下载公众号音频
-        downloadMusic(url);
+//        downloadMusic(url);
         //下载文件
-//        downloadFile(url);
+        downloadFile(url);
     }
 
     /**
