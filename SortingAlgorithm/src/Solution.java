@@ -430,6 +430,33 @@ public class Solution {
         return a;
     }
 
+    /**
+     * 剑指 Offer 10- II. 青蛙跳台阶问题
+     *
+     * @author yunshuaiwei
+     * @date 2023/2/20 15:16
+     **/
+    public int numWays(int n) {
+        int a = 1, b = 1, sum;
+        for (int i = 0; i < n; i++) {
+            sum = (a + b) % 1000000007;
+            a = b;
+            b = sum;
+        }
+        return a;
+    }
+
+    /**
+     * 剑指 Offer 63. 股票的最大利润
+     *
+     * @author yunshuaiwei
+     * @date 2023/2/20 15:23
+     **/
+    public int maxProfit(int[] prices) {
+
+        return 0;
+    }
+
     public static void main(String[] args) {
         System.out.println(firstUniqChar("abaccdeff"));
     }

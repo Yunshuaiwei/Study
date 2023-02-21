@@ -7,32 +7,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Jedis" />
         <module name="2023_02_13" />
+        <module name="2020_05_20_jvm" />
+        <module name="maven-test" />
+        <module name="TencentMusicDownload" />
+        <module name="Jedis" />
         <module name="yswblog" />
         <module name="FileDownload" />
         <module name="2020_04_25_maven" />
         <module name="BookSys" />
-        <module name="2020_05_20_jvm" />
         <module name="IPlantTest" />
+        <module name="blogdemo" />
         <module name="mavenTest" />
-        <module name="TencentMusicDownload" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="2020_11_20" target="1.8" />
-      <module name="blog" target="1.8" />
-      <module name="blogdemo" target="1.8" />
-      <module name="ChatRoom" target="1.8" />
-      <module name="DataSourceTest" target="1.8" />
-      <module name="MusicDownloadUtil" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="FileDownload" options="-parameters" />
       <module name="IPlantTest" options="-parameters" />
-      <module name="MusicDownloadUtil" options="-parameters" />
       <module name="TencentMusicDownload" options="-parameters" />
     </option>
   </component>

@@ -3,22 +3,38 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!--数据源信息-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/localhost_test"/>
+        <property name="username" value="root"/>
+        <property name="password" value="root"/>
+    </bean>
 
-    <bean id="userService" class="org.service.impl.UserServiceImpl"/>
+    <bean id="sqlSessionFactoryBean" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" value="dataSource"/>
+    </bean>
+
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="org.mapper"/>
+    </bean>
+
+    <bean id="userService" class="org.service.impl.UserServiceImpl">
+        <property name="userMapper" ref="userMapper"/>
+    </bean>
 
     <bean id="userDao" class="org.utils.BeanFactory" factory-method="userDao"/>
 
-    <bean id="userService1" class="org.utils.MyFactoryBean"/>
-
+    <bean id="myBeanFactoryProcessor" class="org.processor.MyBeanFactoryProcessor"/>
 
     <!--静态工厂方式-->
-    <bean id="inputStream" class="org.apache.ibatis.io.Resources" factory-method="getResourceAsStream">
-        <constructor-arg name="resource" value="mybatis-config.xml"/>
-    </bean>
-    <!--无参构造-->
-    <bean id="builder" class="org.apache.ibatis.session.SqlSessionFactoryBuilder"/>
-    <!--实例工厂-->
-    <bean id="factory" factory-bean="builder" factory-method="build" >
-        <constructor-arg name="inputStream" ref="inputStream"/>
-    </bean>
+<!--    <bean id="inputStream" class="org.apache.ibatis.io.Resources" factory-method="getResourceAsStream">-->
+<!--        <constructor-arg name="resource" value="mybatis-config.xml"/>-->
+<!--    </bean>-->
+<!--    &lt;!&ndash;无参构造&ndash;&gt;-->
+<!--    <bean id="builder" class="org.apache.ibatis.session.SqlSessionFactoryBuilder"/>-->
+<!--    &lt;!&ndash;实例工厂&ndash;&gt;-->
+<!--    <bean id="factory" factory-bean="builder" factory-method="build" >-->
+<!--        <constructor-arg name="inputStream" ref="inputStream"/>-->
+<!--    </bean>-->
 </beans>

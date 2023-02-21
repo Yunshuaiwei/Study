@@ -1,11 +1,9 @@
 package org.example;
 
-import org.apache.ibatis.io.Resources;
-import org.apache.ibatis.session.SqlSessionFactory;
-import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import org.service.UserService;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.io.IOException;
-import java.io.InputStream;
 
 /**
  * @author yunshuaiwei
@@ -13,13 +11,9 @@ import java.io.InputStream;
  */
 public class Main {
     public static void main(String[] args) throws IOException {
-        //静态工厂
-        InputStream inputStream = Resources.getResourceAsStream("mybatis-config.xml");
-        //构造函数实例化
-        SqlSessionFactoryBuilder builder = new SqlSessionFactoryBuilder();
-        //实例工厂
-        SqlSessionFactory factory = builder.build(inputStream);
-        System.out.println(factory.openSession());
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        UserService userService = (UserService) context.getBean("userService");
+        userService.show();
 
     }
 }

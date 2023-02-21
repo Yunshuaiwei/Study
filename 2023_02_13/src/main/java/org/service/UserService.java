@@ -6,4 +6,6 @@ package org.service;
  * @date 2023/2/13 6:41
  */
 public interface UserService {
+
+    void show();
 }
