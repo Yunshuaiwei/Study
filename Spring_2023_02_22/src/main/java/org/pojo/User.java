@@ -3,7 +3,7 @@ package org.pojo;
 /**
  * @author yunshuaiwei
  * @version 1.0
- * @date 2023/2/21 10:56
+ * @date 2023/2/22 10:49
  */
 public class User {
     private String id;
@@ -63,17 +63,5 @@ public class User {
 
     public void setAddress(String address) {
         this.address = address;
-    }
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "id='" + id + '\'' +
-                ", name='" + name + '\'' +
-                ", age=" + age +
-                ", sex=" + sex +
-                ", phoneNum='" + phoneNum + '\'' +
-                ", address='" + address + '\'' +
-                '}';
     }
 }

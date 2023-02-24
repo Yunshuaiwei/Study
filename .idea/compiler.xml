@@ -17,6 +17,7 @@
         <module name="2020_04_25_maven" />
         <module name="BookSys" />
         <module name="IPlantTest" />
+        <module name="Spring_2023_02_22" />
         <module name="blogdemo" />
         <module name="mavenTest" />
       </profile>

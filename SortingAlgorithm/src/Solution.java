@@ -600,7 +600,166 @@ public class Solution {
         return cur2;
     }
 
+    /**
+     * 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面
+     *
+     * @author yunshuaiwei
+     * @date 2023/2/22 15:06
+     **/
+    public int[] exchange(int[] nums) {
+        int i = 0, j = nums.length - 1;
+        while (i < j) {
+            while (nums[j] % 2 == 0 && i < j) {
+                j--;
+            }
+            while (nums[i] % 2 != 0 && i < j) {
+                i++;
+            }
+            int tmp = nums[i];
+            nums[i] = nums[j];
+            nums[j] = tmp;
+        }
+        return nums;
+    }
+
+    /**
+     * 剑指 Offer 57. 和为s的两个数字
+     *
+     * @author yunshuaiwei
+     * @date 2023/2/22 15:11
+     **/
+    public int[] twoSum(int[] nums, int target) {
+        int i = 0, j = nums.length - 1;
+        while (i < j) {
+            int sum = nums[i] + nums[j];
+            if (sum == target) {
+                return new int[]{nums[i], nums[j]};
+            }
+            if (sum > target) {
+                j--;
+            } else {
+                i++;
+            }
+        }
+        return new int[]{};
+    }
+
+    /**
+     * 剑指 Offer 58 - I. 翻转单词顺序
+     *
+     * @author yunshuaiwei
+     * @date 2023/2/22 15:15
+     **/
+    public String reverseWords(String s) {
+        s = s.trim();
+        Stack<String> stack = new Stack<>();
+        StringBuilder builder = new StringBuilder();
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (c == ' ') {
+                if (!"".equals(builder.toString())) stack.push(builder.toString());
+                builder = new StringBuilder();
+            } else {
+                builder.append(c);
+            }
+        }
+        stack.push(builder.toString());
+        builder = new StringBuilder();
+        while (!stack.empty()) {
+            builder.append(stack.pop()).append(" ");
+        }
+        return builder.toString().trim();
+    }
+
+
+    /**
+     * 面试题45. 把数组排成最小的数
+     *
+     * @author yunshuaiwei
+     * @date 2023/2/22 15:27
+     **/
+    public String minNumber(int[] nums) {
+        String[] strs = new String[nums.length];
+        for (int i = 0; i < nums.length; i++) {
+            strs[i] = String.valueOf(nums[i]);
+        }
+        fastSort(strs, 0, strs.length - 1);
+        StringBuilder stringBuilder = new StringBuilder();
+        for (String str : strs) {
+            stringBuilder.append(str);
+        }
+        return stringBuilder.toString();
+    }
+
+    public void fastSort(String[] strs, int l, int r) {
+        if (l >= r) {
+            return;
+        }
+        int i = l;
+        int j = r;
+        String tmp = "";
+        while (i < j) {
+            while ((strs[j] + strs[l]).compareTo(strs[l] + strs[j]) >= 0 && i < j) {
+                j--;
+            }
+            while ((strs[i] + strs[l]).compareTo(strs[l] + strs[i]) <= 0 && i < j) {
+                i++;
+            }
+            tmp = strs[i];
+            strs[i] = strs[j];
+            strs[j] = tmp;
+        }
+        strs[i] = strs[l];
+        strs[l] = tmp;
+        fastSort(strs, l, i - 1);
+        fastSort(strs, i + 1, r);
+    }
+
+    /**
+     * 面试题61. 扑克牌中的顺子
+     *
+     * @author yunshuaiwei
+     * @date 2023/2/22 15:38
+     **/
+    public static boolean isStraight(int[] nums) {
+        HashSet<Integer> set = new HashSet<>();
+        int max = 0;
+        int min = 14;
+        for (int num : nums) {
+            if (set.contains(num)) {
+                return false;
+            }
+            if (num == 0) {
+                continue;
+            }
+            max = Math.max(max, num);
+            min = Math.min(min, num);
+            set.add(num);
+        }
+        return max - min < 5;
+    }
+
+    /**
+     * 剑指 Offer 40. 最小的k个数
+     *
+     * @author yunshuaiwei
+     * @date 2023/2/22 15:48
+     **/
+    public static int[] getLeastNumbers(int[] arr, int k) {
+        PriorityQueue<Integer> queue = new PriorityQueue<>();
+        for (int i : arr) {
+            queue.add(i);
+        }
+        int[] ints = new int[k];
+        for (int i = 0; i < k; i++) {
+            ints[i] = queue.poll();
+        }
+        return ints;
+    }
+
+
     public static void main(String[] args) {
-        System.out.println(firstUniqChar("abaccdeff"));
+        int[] ints = {0, 0, 2, 2, 5};
+        System.out.println(Arrays.toString(getLeastNumbers(ints, 3)));
     }
 }

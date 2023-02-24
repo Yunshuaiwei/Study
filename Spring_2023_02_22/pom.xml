@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>2023_02_13</artifactId>
+    <artifactId>Spring_2023_02_22</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -60,11 +60,8 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
-            <version>5.3.25</version>
+            <version>6.0.5</version>
         </dependency>
-
     </dependencies>
-
-
 
 </project>
