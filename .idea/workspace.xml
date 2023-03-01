@@ -16,13 +16,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="add:复习">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/blogdemo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/blogdemo_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="add:LeetCode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SortingAlgorithm/src/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SortingAlgorithm/src/BinaryTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SortingAlgorithm/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/SortingAlgorithm/src/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yswblog/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yswblog/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -754,14 +750,7 @@
       <workItem from="1677035501653" duration="86000" />
       <workItem from="1677035803670" duration="7530000" />
       <workItem from="1677216057673" duration="2830000" />
-      <workItem from="1677505334796" duration="7161000" />
-    </task>
-    <task id="LOCAL-00148" summary="update:修改写文件的代码">
-      <created>1636272049169</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1636272049170</updated>
+      <workItem from="1677505334796" duration="9127000" />
     </task>
     <task id="LOCAL-00149" summary="update:修改写文件的代码">
       <created>1636671533227</created>
@@ -1099,7 +1088,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677216067668</updated>
     </task>
-    <option name="localTasksCounter" value="197" />
+    <task id="LOCAL-00197" summary="add:LeetCode">
+      <created>1677659965303</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1677659965303</updated>
+    </task>
+    <option name="localTasksCounter" value="198" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1148,7 +1144,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="图" />
     <MESSAGE value="常用算法" />
     <MESSAGE value="算法" />
     <MESSAGE value="学习" />
@@ -1173,7 +1168,8 @@
     <MESSAGE value="add:算法练习" />
     <MESSAGE value="add:剑指offer" />
     <MESSAGE value="add:复习" />
-    <option name="LAST_COMMIT_MESSAGE" value="add:复习" />
+    <MESSAGE value="add:LeetCode" />
+    <option name="LAST_COMMIT_MESSAGE" value="add:LeetCode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

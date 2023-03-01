@@ -855,7 +855,7 @@ public class Solution {
      * @author yunshuaiwei
      * @date 2023/3/1 15:30
      **/
-    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+    public TreeNode lowestCommonAncestor1(TreeNode root, TreeNode p, TreeNode q) {
         while (root != null) {
             if (root.val < p.val && root.val < q.val) {
                 root = root.right;
@@ -866,6 +866,66 @@ public class Solution {
             }
         }
         return root;
+    }
+
+    /**
+     * 剑指 Offer 68 - II. 二叉树的最近公共祖先
+     *
+     * @author yunshuaiwei
+     * @date 2023/3/1 16:40
+     **/
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == null || root == p || root == q) {
+            return root;
+        }
+        TreeNode left = lowestCommonAncestor(root.left, p, q);
+        TreeNode right = lowestCommonAncestor(root.right, p, q);
+        if (left == null) {
+            return right;
+        }
+        if (right == null) {
+            return left;
+        }
+        return root;
+    }
+
+    /**
+     * 剑指 Offer 15. 二进制中1的个数
+     *
+     * @author yunshuaiwei
+     * @date 2023/3/1 16:50
+     **/
+    public int hammingWeight(int n) {
+        int num = 0;
+        for (int i = 0; i < 32; i++) {
+            if ((n & 1) == 1) {
+                num++;
+            }
+            n = n >> 1;
+        }
+        return num;
+    }
+
+    public int add(int a, int b) {
+        while (b != 0) { // 当进位为 0 时跳出
+            int c = (a & b) << 1;  // c = 进位
+            a ^= b; // a = 非进位和
+            b = c; // b = 进位
+        }
+        return a;
+    }
+
+    /**
+     *
+     * 剑指 Offer 56 - I. 数组中数字出现的次数
+     * @author yunshuaiwei
+     * @date 2023/3/1 17:03
+     **/
+    public int[] singleNumbers(int[] nums) {
+        ArrayList<Integer> list = new ArrayList<>();
+
+
+        return new int[]{};
     }
 
     public static void main(String[] args) throws InstantiationException, IllegalAccessException {
@@ -880,6 +940,6 @@ public class Solution {
         node4.next = node5;
         Solution instance = Solution.class.newInstance();
 //        instance.reverseBetween(node1, 2, 4);
-        instance.sumNums(3);
+        System.out.println(instance.hammingWeight(3));
     }
 }
