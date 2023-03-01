@@ -1,8 +1,6 @@
 import utils.TreeNode;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 /**
  * @author yunshuaiwei
@@ -90,5 +88,82 @@ public class BinaryTreeTest {
             ints[i] = list.get(i);
         }
         return ints;
+    }
+
+    /**
+     * 二叉树的前序遍历
+     *
+     * @author yunshuaiwei
+     * @date 2023/3/1 16:06
+     **/
+    public void preorderTraversal(TreeNode root) {
+        Stack<TreeNode> stack = new Stack<>();
+        if (root == null) {
+            return;
+        }
+        stack.push(root);
+        while (!stack.isEmpty()) {
+            TreeNode node = stack.pop();
+            System.out.println(node.val);
+            if (node.right != null) {
+                stack.push(node.right);
+            }
+            if (node.left != null) {
+                stack.push(node.left);
+            }
+        }
+    }
+
+    /**
+     * 中序遍历
+     *
+     * @author yunshuaiwei
+     * @date 2023/3/1 16:22
+     **/
+    public void inorderTraversal(TreeNode root) {
+        Stack<TreeNode> stack = new Stack<>();
+        if (root == null) {
+            return;
+        }
+        TreeNode cur = root;
+        while (cur != null || !stack.isEmpty()) {
+            if (cur != null) {
+                stack.push(cur);
+                cur = cur.left;
+            } else {
+                TreeNode node = stack.pop();
+                System.out.println(node.val);
+                cur = node.right;
+            }
+        }
+    }
+
+    /**
+     * 后续遍历
+     *
+     * @author yunshuaiwei
+     * @date 2023/3/1 16:26
+     **/
+    public void postorderTraversal(TreeNode root) {
+        ArrayList<Integer> integers = new ArrayList<>();
+        Stack<TreeNode> treeNodes = new Stack<>();
+        if (root == null) {
+            return;
+        }
+        treeNodes.push(root);
+        while (!treeNodes.isEmpty()) {
+            TreeNode pop = treeNodes.pop();
+            integers.add(pop.val);
+            if (pop.left != null) {
+                treeNodes.push(pop.left);
+            }
+            if (pop.right != null) {
+                treeNodes.push(pop.right);
+            }
+        }
+        Collections.reverse(integers);
+        for (Integer integer : integers) {
+            System.out.println(integer);
+        }
     }
 }

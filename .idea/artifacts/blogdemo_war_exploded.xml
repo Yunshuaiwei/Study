@@ -11,7 +11,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="blogdemo" />
+          <element id="module-output" name="yswblog" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.38" />
@@ -28,7 +28,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/yswblog/target/yswblog/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="blogdemo/web/Web" />
+      <element id="javaee-facet-resources" facet="yswblog/web/Web" />
     </root>
   </artifact>
 </component>

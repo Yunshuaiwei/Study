@@ -757,9 +757,129 @@ public class Solution {
         return ints;
     }
 
+    /**
+     * 链表内指定区间反转
+     *
+     * @author yunshuaiwei
+     * @date 2023/2/24 16:09
+     **/
+    public ListNode reverseBetween(ListNode head, int m, int n) {
+        // write code here
+        if (m == n) {
+            return head;
+        }
+        ListNode left = head;
+        ListNode right = head;
+        ListNode preL = null;
+        ListNode postR = null;
+        while (m > 1) {
+            preL = left;
+            left = left.next;
+            m--;
+        }
+        while (n > 1) {
+            right = right.next;
+            postR = right.next;
+            n--;
+        }
+        right.next = null;
+        reverseList(left);
+        if (preL != null) {
+            preL.next = right;
+        } else {
+            head = right;
+        }
+        left.next = postR;
+        return head;
+    }
 
-    public static void main(String[] args) {
-        int[] ints = {0, 0, 2, 2, 5};
-        System.out.println(Arrays.toString(getLeastNumbers(ints, 3)));
+    /**
+     * 链表中的节点每k个一组翻转
+     *
+     * @author yunshuaiwei
+     * @date 2023/2/24 16:50
+     **/
+    public ListNode reverseKGroup(ListNode head, int k) {
+        // write code here
+
+        return null;
+    }
+
+    /**
+     * 二叉树的深度
+     *
+     * @author yunshuaiwei
+     * @date 2023/2/28 21:33
+     **/
+    public int maxDepth(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
+    }
+
+    /**
+     * 剑指 Offer 55 - II. 平衡二叉树
+     *
+     * @author yunshuaiwei
+     * @date 2023/2/28 21:35
+     **/
+    public boolean isBalanced(TreeNode root) {
+        if (root == null) {
+            return true;
+        }
+        return Math.abs(depth(root.left) - depth(root.right)) <= 1 && isBalanced(root.left) && isBalanced(root.right);
+    }
+
+    private int depth(TreeNode node) {
+        if (node == null) {
+            return 0;
+        }
+        return Math.max(depth(node.left), depth(node.right)) + 1;
+    }
+
+    /**
+     * 剑指 Offer 64. 求1+2+…+n
+     *
+     * @author yunshuaiwei
+     * @date 2023/3/1 14:39
+     **/
+    public int sumNums(int n) {
+        boolean a = n > 1 && (n += sumNums(n - 1)) > 0;
+        return n;
+    }
+
+    /**
+     * 剑指 Offer 68 - I. 二叉搜索树的最近公共祖先
+     *
+     * @author yunshuaiwei
+     * @date 2023/3/1 15:30
+     **/
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        while (root != null) {
+            if (root.val < p.val && root.val < q.val) {
+                root = root.right;
+            } else if (root.val > p.val && root.val > q.val) {
+                root = root.left;
+            } else {
+                break;
+            }
+        }
+        return root;
+    }
+
+    public static void main(String[] args) throws InstantiationException, IllegalAccessException {
+        ListNode node1 = new ListNode(1);
+        ListNode node2 = new ListNode(2);
+        ListNode node3 = new ListNode(3);
+        ListNode node4 = new ListNode(4);
+        ListNode node5 = new ListNode(5);
+        node1.next = node2;
+        node2.next = node3;
+        node3.next = node4;
+        node4.next = node5;
+        Solution instance = Solution.class.newInstance();
+//        instance.reverseBetween(node1, 2, 4);
+        instance.sumNums(3);
     }
 }
