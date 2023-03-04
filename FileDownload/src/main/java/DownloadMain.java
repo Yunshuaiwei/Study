@@ -12,11 +12,11 @@ public class DownloadMain {
 
     public static void main(String[] args) {
         //文件下载的URL
-        String url = "https://img.wanjita.com/ueditor/php/upload/image/20210917/1631894141810962.jpg";
+        String url = "http://img.wanjita.com/ueditor/php/upload/image/20200619/1592580538278552.png";
         //下载公众号音频
 //        downloadMusic(url);
         //下载文件
-        downloadFile(url);
+        downloadFile(url,"小幸运04");
     }
 
     /**
@@ -39,10 +39,10 @@ public class DownloadMain {
      * @Param []
      * @Return void
      */
-    private static void downloadFile(String url) {
+    private static void downloadFile(String url,String fileName) {
         //文件的存储位置
         String path = "F:\\test";
-        long size = FileDownload.downLoadFromUrl(url, path);
+        long size = FileDownload.downLoadFromUrl(url, path,fileName);
         System.out.println("文件大小为：" + DataSizeUtil.format(size));
     }
 }

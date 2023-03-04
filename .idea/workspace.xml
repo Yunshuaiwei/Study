@@ -18,7 +18,8 @@
   <component name="ChangeListManager">
     <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="add:LeetCode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SortingAlgorithm/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/SortingAlgorithm/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileDownload/src/main/java/DownloadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/FileDownload/src/main/java/DownloadMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileDownload/src/main/java/file/FileDownload.java" beforeDir="false" afterPath="$PROJECT_DIR$/FileDownload/src/main/java/file/FileDownload.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,17 +158,11 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="应用程序.Solution (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="Spring_2023_02_22" />
+  <component name="RunManager" selected="应用程序.DownloadMain">
+    <configuration name="DownloadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DownloadMain" />
+      <module name="FileDownload" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -333,19 +328,19 @@
     </configuration>
     <list>
       <item itemvalue="JAR 应用程序.junit-4.10.jar" />
+      <item itemvalue="应用程序.DownloadMain" />
       <item itemvalue="应用程序.Solution (1)" />
       <item itemvalue="应用程序.Solution (2)" />
-      <item itemvalue="应用程序.Main (1)" />
       <item itemvalue="应用程序.Main" />
       <item itemvalue="应用程序.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.DownloadMain" />
         <item itemvalue="应用程序.Solution (1)" />
         <item itemvalue="应用程序.Solution (2)" />
         <item itemvalue="应用程序.Solution" />
         <item itemvalue="应用程序.Main" />
-        <item itemvalue="应用程序.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -750,14 +745,7 @@
       <workItem from="1677035501653" duration="86000" />
       <workItem from="1677035803670" duration="7530000" />
       <workItem from="1677216057673" duration="2830000" />
-      <workItem from="1677505334796" duration="9127000" />
-    </task>
-    <task id="LOCAL-00149" summary="update:修改写文件的代码">
-      <created>1636671533227</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
-      <option name="project" value="LOCAL" />
-      <updated>1636671533227</updated>
+      <workItem from="1677505334796" duration="12790000" />
     </task>
     <task id="LOCAL-00150" summary="update:修改写文件的代码">
       <created>1636676369293</created>
@@ -1095,7 +1083,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677659965303</updated>
     </task>
-    <option name="localTasksCounter" value="198" />
+    <task id="LOCAL-00198" summary="add:LeetCode">
+      <created>1677661962151</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1677661962151</updated>
+    </task>
+    <option name="localTasksCounter" value="199" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

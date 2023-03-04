@@ -8,6 +8,7 @@ import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.io.StreamProgress;
 import cn.hutool.core.lang.Console;
 import cn.hutool.http.HttpUtil;
+import org.apache.logging.log4j.util.Strings;
 
 import java.io.File;
 import java.util.UUID;
@@ -29,14 +30,16 @@ public class FileDownload {
      * @date 15:33 2021/11/2
      * @params [fileUrl, staticAndMksDir]
      */
-    public static Long downLoadFromUrl(String fileUrl, String diskPath) {
+    public static Long downLoadFromUrl(String fileUrl, String diskPath, String fileName) {
         String path;
         long size = 0;
         if (fileUrl != null) {
             //文件后缀
-            String fileName = fileUrl.substring(fileUrl.lastIndexOf("."));
+            String fileSuffix = fileUrl.substring(fileUrl.lastIndexOf("."));
             try {
-                String uuidName = UUID.randomUUID().toString();
+                if (Strings.isBlank(fileName)) {
+                    fileName = UUID.randomUUID().toString();
+                }
                 File file = new File(diskPath);
                 if (!file.exists()) {
                     //创建文件夹
@@ -45,7 +48,12 @@ public class FileDownload {
                         throw new RuntimeException("创建文件夹失败，路径为：" + diskPath);
                     }
                 }
-                path = diskPath + File.separator + uuidName + fileName;
+                path = diskPath + File.separator + fileName + fileSuffix;
+                File tmp = new File(path);
+                if (tmp.exists()) {
+                    fileName = UUID.randomUUID().toString();
+                }
+                path = diskPath + File.separator + fileName + fileSuffix;
                 String begin = DateUtil.now();
                 DateTime beginTime = DateUtil.parse(begin);
                 //带进度显示的文件下载
