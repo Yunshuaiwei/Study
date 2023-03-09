@@ -801,8 +801,24 @@ public class Solution {
      **/
     public ListNode reverseKGroup(ListNode head, int k) {
         // write code here
-
-        return null;
+        ListNode tail = head;
+        for (int i = 0; i < k; i++) {
+            if (tail == null) {
+                return head;
+            }
+            tail = tail.next;
+        }
+        //翻转链表
+        ListNode pre = null;
+        ListNode cur = head;
+        while (cur != tail) {
+            ListNode tmp = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = tmp;
+        }
+        head.next = reverseKGroup(tail, k);
+        return pre;
     }
 
     /**
@@ -916,8 +932,8 @@ public class Solution {
     }
 
     /**
-     *
      * 剑指 Offer 56 - I. 数组中数字出现的次数
+     *
      * @author yunshuaiwei
      * @date 2023/3/1 17:03
      **/
@@ -926,6 +942,96 @@ public class Solution {
 
 
         return new int[]{};
+    }
+
+    /**
+     * 合并两个排序的链表
+     *
+     * @author yunshuaiwei
+     * @date 2023/3/6 15:39
+     **/
+    public ListNode Merge(ListNode list1, ListNode list2) {
+        ListNode cur1 = list1;
+        ListNode cur2 = list2;
+        ListNode cur = null;
+        ListNode newHead = null;
+        if (cur1 == null || cur2 == null) {
+            return cur1 == null ? cur2 : cur1;
+        }
+        while (cur1 != null && cur2 != null) {
+            if (cur1.val < cur2.val) {
+                if (newHead == null) {
+                    newHead = new ListNode(cur1.val);
+                    cur = newHead;
+                } else {
+                    cur.next = new ListNode(cur1.val);
+                    cur = cur.next;
+                }
+                cur1 = cur1.next;
+            } else {
+                if (newHead == null) {
+                    newHead = new ListNode(cur2.val);
+                    cur = newHead;
+                } else {
+                    cur.next = new ListNode(cur2.val);
+                    cur = cur.next;
+                }
+                cur2 = cur2.next;
+            }
+        }
+        cur.next = cur1 == null ? cur2 : cur1;
+        return newHead;
+    }
+
+
+    /**
+     * 合并k个已排序的链表
+     *
+     * @author yunshuaiwei
+     * @date 2023/3/7 21:35
+     **/
+    public ListNode mergeKLists(ArrayList<ListNode> lists) {
+        if (lists == null || lists.isEmpty()) {
+            return null;
+        }
+        ListNode listNode = lists.get(0);
+        lists.remove(0);
+        if (lists.isEmpty()) {
+            return listNode;
+        }
+        for (ListNode list : lists) {
+            listNode = Merge(listNode, list);
+        }
+        return listNode;
+    }
+
+    /**
+     * 判断给定的链表中是否有环。如果有环则返回true，否则返回false。
+     *
+     * @author yunshuaiwei
+     * @date 2023/3/7 21:46
+     **/
+    public boolean hasCycle(ListNode head) {
+        ListNode fast = head;
+        ListNode slow = head;
+        while (slow != null) {
+            fast = fast.next;
+            if (fast == null) {
+                return false;
+            }
+            if (fast == slow) {
+                return true;
+            }
+            fast = fast.next;
+            if (fast == null) {
+                return false;
+            }
+            if (fast == slow) {
+                return true;
+            }
+            slow = slow.next;
+        }
+        return false;
     }
 
     public static void main(String[] args) throws InstantiationException, IllegalAccessException {
