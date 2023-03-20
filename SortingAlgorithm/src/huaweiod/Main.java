@@ -192,6 +192,71 @@ public class Main {
         System.out.println(builder.toString());
     }
 
+    /**
+     * 找出字符串中第一个只出现一次的字符
+     *
+     * @author yunshuaiwei
+     * @date 2023/3/20 22:17
+     **/
+    public static void main9(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String str = scanner.next();
+        HashMap<Character, Integer> hashMap = new HashMap<>();
+        for (int i = 0; i < str.length(); i++) {
+            Integer orDefault = hashMap.getOrDefault(str.charAt(i), 0);
+            hashMap.put(str.charAt(i), ++orDefault);
+        }
+        for (int i = 0; i < str.length(); i++) {
+            char c = str.charAt(i);
+            if (hashMap.get(c) == 1) {
+                System.out.println(c);
+                return;
+            }
+        }
+        System.out.println(-1);
+    }
+
+    /**
+     * DNA序列
+     *
+     * @author yunshuaiwei
+     * @date 2023/3/20 22:40
+     **/
+    public static void main10(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String dna = scanner.next();
+        int sequenceSize = scanner.nextInt();
+
+        String res = "";
+        float gcRatio = Integer.MIN_VALUE;
+
+        StringBuilder builder = new StringBuilder(dna);
+        for (int i = 0; i < dna.length(); i++) {
+            if (i + sequenceSize <= dna.length()) {
+                String s = builder.substring(i, i + sequenceSize);
+                float ratio = getGCRatio(s, dna.length());
+                if (ratio > gcRatio) {
+                    gcRatio = ratio;
+                    res = s;
+                }
+            } else {
+                break;
+            }
+        }
+        System.out.println(res);
+    }
+
+    private static float getGCRatio(String s, int size) {
+        int num = 0;
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (c == 'C' || c == 'G') {
+                num++;
+            }
+        }
+        return (float) num / (float) size;
+    }
+
     public static void main(String[] args) {
 
     }
