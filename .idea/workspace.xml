@@ -17,12 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="add:LeetCode">
-      <change afterPath="$PROJECT_DIR$/SortingAlgorithm/src/codeTop/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SortingAlgorithm/src/dynamic/DynamicProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SortingAlgorithm/src/huaweiod/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileDownload/src/main/java/DownloadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/FileDownload/src/main/java/DownloadMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SortingAlgorithm/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/SortingAlgorithm/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SortingAlgorithm/src/huaweiod/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/SortingAlgorithm/src/huaweiod/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +157,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="应用程序.DynamicProgram">
+  <component name="RunManager" selected="应用程序.Main">
     <configuration name="DownloadMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DownloadMain" />
       <module name="FileDownload" />
@@ -184,18 +180,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="huaweiod.Main" />
       <module name="SortingAlgorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="huaweiod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="huaweiod.Main" />
       <module name="SortingAlgorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="huaweiod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -337,19 +345,19 @@
     </configuration>
     <list>
       <item itemvalue="JAR 应用程序.junit-4.10.jar" />
+      <item itemvalue="应用程序.Main" />
+      <item itemvalue="应用程序.Main (1)" />
       <item itemvalue="应用程序.DynamicProgram" />
       <item itemvalue="应用程序.huaweiod.Main" />
       <item itemvalue="应用程序.DownloadMain" />
-      <item itemvalue="应用程序.Solution (1)" />
-      <item itemvalue="应用程序.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.DynamicProgram" />
+        <item itemvalue="应用程序.Main" />
+        <item itemvalue="应用程序.Main (1)" />
         <item itemvalue="应用程序.huaweiod.Main" />
+        <item itemvalue="应用程序.DynamicProgram" />
         <item itemvalue="应用程序.DownloadMain" />
-        <item itemvalue="应用程序.Solution (1)" />
-        <item itemvalue="应用程序.Solution (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -757,14 +765,10 @@
       <workItem from="1677505334796" duration="12790000" />
       <workItem from="1678068065145" duration="13268000" />
       <workItem from="1678288730313" duration="2168000" />
-      <workItem from="1678371596318" duration="5522000" />
-    </task>
-    <task id="LOCAL-00150" summary="update:修改写文件的代码">
-      <created>1636676369293</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1636676369293</updated>
+      <workItem from="1678371596318" duration="6202000" />
+      <workItem from="1678713002661" duration="814000" />
+      <workItem from="1678956525665" duration="4360000" />
+      <workItem from="1679300531038" duration="4409000" />
     </task>
     <task id="LOCAL-00151" summary="add:算法练习">
       <created>1644573278488</created>
@@ -1102,7 +1106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677661962151</updated>
     </task>
-    <option name="localTasksCounter" value="199" />
+    <task id="LOCAL-00199" summary="add:LeetCode">
+      <created>1678377352811</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1678377352811</updated>
+    </task>
+    <option name="localTasksCounter" value="200" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1268,18 +1279,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/SortingAlgorithm/src/huaweiod/Main.java</url>
-          <line>16</line>
+          <line>14</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/SortingAlgorithm/src/huaweiod/Main.java</url>
-          <line>63</line>
+          <line>61</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/SortingAlgorithm/src/dynamic/DynamicProgram.java</url>
           <line>95</line>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SortingAlgorithm/src/huaweiod/Main.java</url>
+          <line>161</line>
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
