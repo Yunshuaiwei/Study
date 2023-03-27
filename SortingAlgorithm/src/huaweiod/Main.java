@@ -258,6 +258,45 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int size = scanner.nextInt();
+        String operation = scanner.next();
+        int[] ints = new int[size];
+        for (int i = 0; i < size; i++) {
+            ints[i] = i + 1;
+        }
+        int index = 0;
 
+        for (int i = 0; i < operation.length(); i++) {
+            char c = operation.charAt(i);
+            if (c == 'U') {
+                if (index - 1 < 0) {
+                    index = ints.length - 1;
+                } else {
+                    index--;
+                }
+
+            } else {
+                if (index + 1 == ints.length) {
+                    index = 0;
+                } else {
+                    index++;
+                }
+            }
+        }
+        int i = 0;
+        for (; i < ints.length; i++) {
+            int j = i + 3;
+            if (index <= i && index <= j) {
+                break;
+            }
+        }
+        for (int j = 0; j < 4; j++) {
+            if (i < ints.length) {
+                System.out.print(ints[i++] + " ");
+            }
+        }
+        System.out.println();
+        System.out.println(ints[index]);
     }
 }

@@ -91,9 +91,32 @@ public class DynamicProgram {
         return max;
     }
 
+    /**
+     * 45. 跳跃游戏 II
+     *
+     * @author yunshuaiwei
+     * @date 2023/3/22 17:28
+     **/
+    public int jump(int[] nums) {
+        int length = nums.length;
+        int end = 0;
+        int max = 0;
+        int step = 0;
+        for (int i = 0; i < length - 1; i++) {
+            max = Math.max(max, i + nums[i]);
+            if (i == end) {
+                end = max;
+                step++;
+            }
+        }
+        return step;
+    }
+
     public static void main(String[] args) {
         DynamicProgram program = new DynamicProgram();
-        System.out.println(program.longestPalindrome("babad"));
+
+        int[] nums = new int[]{2, 3, 1, 2, 4, 2, 3};
+        System.out.println(program.jump(nums));
     }
 
 }
