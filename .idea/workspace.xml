@@ -16,17 +16,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="add:LeetCode">
-      <change afterPath="$PROJECT_DIR$/DesignPattern/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SortingAlgorithm/src/Main.java" afterDir="false" />
+    <list default="true" id="99d8df06-d95c-424d-9c03-d343570183b9" name="Default" comment="add:练习">
+      <change afterPath="$PROJECT_DIR$/FileSortUtil/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileSortUtil/src/main/java/org/example/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SortingAlgorithm/src/ShowMeBug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/BookSys_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/BookSys_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/yswblog_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/yswblog_war_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8dff2f53-a20b-4f5d-ac63-afe0d15d2be3/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SortingAlgorithm/src/dynamic/DynamicProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/SortingAlgorithm/src/dynamic/DynamicProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SortingAlgorithm/src/huaweiod/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/SortingAlgorithm/src/huaweiod/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yswblog/yswblog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/yswblog/yswblog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileDownload/src/main/java/DownloadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/FileDownload/src/main/java/DownloadMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SortingAlgorithm/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/SortingAlgorithm/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +88,6 @@
       <MavenGeneralSettings>
         <option name="localRepository" value="F:\Java\Repository" />
         <option name="mavenHome" value="D:/Maven/apache-maven-3.8.6" />
-        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="D:\maven\apache-maven-3.8.6\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -92,10 +95,12 @@
       <MavenImportingSettings>
         <option name="jdkForImporter" value="1.8" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
-        <option name="workspaceImportEnabled" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
   <component name="ProjectId" id="1UXopGh4fJOllUTh5ZmVUT0zPCe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -104,31 +109,32 @@
     <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/JavaCodeIDEA/Study&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.gitee.ui.GiteeSettingsConfigurable&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;42f9624c5abf26bb2fde02599e123893&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "E:/JavaCodeIDEA/Study",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "54c1d446be768f90a4b10b0ab4d73f3f",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\JavaCodeIDEA\Study\FileDownload\src\main\java\file" />
@@ -165,14 +171,14 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="应用程序.Main (2)">
-    <configuration name="DynamicProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamic.DynamicProgram" />
-      <module name="SortingAlgorithm" />
+  <component name="RunManager" selected="Application.FileUtil">
+    <configuration name="FileUtil (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.FileUtil" />
+      <module name="FileSortUtil" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dynamic.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,13 +186,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="huaweiod.Main" />
-      <module name="SortingAlgorithm" />
+    <configuration name="FileUtil (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.FileUtil" />
+      <module name="FileSortUtil" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="huaweiod.*" />
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileUtil (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.FileUtil" />
+      <module name="FileSortUtil" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.FileUtil" />
+      <module name="FileSortUtil" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,36 +236,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="huaweiod.Main" />
-      <module name="SortingAlgorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="huaweiod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="huaweiod.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="huaweiod.Main" />
-      <module name="SortingAlgorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="huaweiod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -352,20 +358,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JAR 应用程序.junit-4.10.jar" />
-      <item itemvalue="应用程序.Main (2)" />
-      <item itemvalue="应用程序.Main" />
-      <item itemvalue="应用程序.Main (1)" />
-      <item itemvalue="应用程序.DynamicProgram" />
-      <item itemvalue="应用程序.huaweiod.Main" />
+      <item itemvalue="Application.FileUtil" />
+      <item itemvalue="Application.FileUtil (1)" />
+      <item itemvalue="Application.FileUtil (2)" />
+      <item itemvalue="Application.FileUtil (3)" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="JAR Application.junit-4.10.jar" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Main (2)" />
-        <item itemvalue="应用程序.Main" />
-        <item itemvalue="应用程序.DynamicProgram" />
-        <item itemvalue="应用程序.Main (1)" />
-        <item itemvalue="应用程序.huaweiod.Main" />
+        <item itemvalue="Application.FileUtil" />
+        <item itemvalue="Application.FileUtil (3)" />
+        <item itemvalue="Application.FileUtil (2)" />
+        <item itemvalue="Application.FileUtil (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -777,14 +782,10 @@
       <workItem from="1678713002661" duration="814000" />
       <workItem from="1678956525665" duration="4360000" />
       <workItem from="1679300531038" duration="16506000" />
-      <workItem from="1679912341280" duration="8284000" />
-    </task>
-    <task id="LOCAL-00153" summary="add:算法练习">
-      <created>1644937856119</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1644937856120</updated>
+      <workItem from="1679912341280" duration="10825000" />
+      <workItem from="1680932684575" duration="196000" />
+      <workItem from="1684807893549" duration="67000" />
+      <workItem from="1698063153443" duration="2384000" />
     </task>
     <task id="LOCAL-00154" summary="add:算法练习">
       <created>1645502396616</created>
@@ -1122,19 +1123,30 @@
       <option name="project" value="LOCAL" />
       <updated>1679327000587</updated>
     </task>
-    <option name="localTasksCounter" value="202" />
+    <task id="LOCAL-00202" summary="add:练习">
+      <created>1679932167296</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1679932167296</updated>
+    </task>
+    <option name="localTasksCounter" value="203" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="1">
           <value>
             <State>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -1153,6 +1165,7 @@
                   </entry>
                 </map>
               </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
             </State>
           </value>
         </entry>
@@ -1163,15 +1176,9 @@
         </entry>
       </map>
     </option>
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="1" value="TOOL_WINDOW" />
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="常用算法" />
     <MESSAGE value="算法" />
     <MESSAGE value="学习" />
     <MESSAGE value="修改文件名称" />
@@ -1196,7 +1203,8 @@
     <MESSAGE value="add:剑指offer" />
     <MESSAGE value="add:复习" />
     <MESSAGE value="add:LeetCode" />
-    <option name="LAST_COMMIT_MESSAGE" value="add:LeetCode" />
+    <MESSAGE value="add:练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="add:练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1329,11 +1337,11 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Study$TestLambda_test5.ic" NAME="TestLambda.test5 Coverage Results" MODIFIED="1627395874290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Study$ReflectionTest_test2.ic" NAME="ReflectionTest.test2 Coverage Results" MODIFIED="1591875045068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Study$ClassTest_test.ic" NAME="ClassTest.test Coverage Results" MODIFIED="1596244386912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ysw.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/Study$TestLambda_test5.ic" NAME="TestLambda.test5 Coverage Results" MODIFIED="1627395874290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Study$ReflectionTest_test2.ic" NAME="ReflectionTest.test2 Coverage Results" MODIFIED="1591875045068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Study$TestPolice.ic" NAME="TestPolice Coverage Results" MODIFIED="1593524837280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

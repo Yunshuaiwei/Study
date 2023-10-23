@@ -12,7 +12,7 @@ public class DownloadMain {
 
     public static void main(String[] args) {
         //文件下载的URL
-        String url = "https://mp.weixin.qq.com/s/CewX024YNnO-7ompAs8lkQ";
+        String url = "https://mp.weixin.qq.com/s/pofOqq_moBdT7FgdkjprGg";
         //下载公众号音频
         downloadMusic(url);
         //下载文件

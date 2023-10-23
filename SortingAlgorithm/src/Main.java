@@ -23,7 +23,7 @@ public class Main {
                 new BigDecimal("136.40"),
                 new BigDecimal("290.10")
         };
-        //去税金额    870.35
+        //去税金额
         BigDecimal totalWithoutTax = new BigDecimal("870.25");
         //税金
         BigDecimal totalTax = new BigDecimal("274.95");
@@ -39,9 +39,46 @@ public class Main {
      * totalTax：发票上的税金
      *
      * @author yunshuaiwei
-     * @date 2023/3/27 23:46
+     * @date 2023/3/28 10:24
      **/
     public static List<BigDecimal[]> method(BigDecimal[] nums, BigDecimal totalWithoutTax, BigDecimal totalTax) {
+        List<BigDecimal[]> list = new ArrayList<>();
+        BigDecimal totalAmount = totalTax.add(totalWithoutTax);
+        //去税金额与税金的比例
+        BigDecimal proportion = totalWithoutTax.divide(totalTax, RoundingMode.CEILING);
+
+        //报销金额总和
+        BigDecimal totalNums = new BigDecimal("0");
+        //去税金额总和
+        BigDecimal sumWithoutTax = new BigDecimal("0");
+        //税金总和
+        BigDecimal sumTax = new BigDecimal("0");
+        for (BigDecimal num : nums) {
+            //税金
+            BigDecimal tax = num.divide(proportion.add(new BigDecimal("1")), RoundingMode.CEILING);
+            //去税金额
+            BigDecimal withoutTax = num.subtract(tax);
+            totalNums = totalNums.add(num);
+            sumWithoutTax = sumWithoutTax.add(withoutTax);
+            sumTax = sumTax.add(tax);
+            list.add(new BigDecimal[]{num, withoutTax, tax});
+        }
+        //补充值
+        if (totalNums.compareTo(totalAmount) < 0) {
+            list.add(new BigDecimal[]{totalAmount.subtract(totalNums), totalWithoutTax.subtract(sumWithoutTax), totalTax.subtract(sumTax)});
+        }
+        return list;
+    }
+
+    /**
+     * nums：报销金额数组
+     * totalWithoutTax：发票上的去税金额
+     * totalTax：发票上的税金
+     *
+     * @author yunshuaiwei
+     * @date 2023/3/27 23:46
+     **/
+    public static List<BigDecimal[]> method1(BigDecimal[] nums, BigDecimal totalWithoutTax, BigDecimal totalTax) {
         List<BigDecimal[]> list = new ArrayList<>(nums.length);
         BigDecimal total = totalWithoutTax.add(totalTax).setScale(2, RoundingMode.HALF_UP);
         //去税金额所占比例
